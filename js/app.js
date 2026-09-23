@@ -1,5 +1,5 @@
 // Entry point: load the public dataset, route between views, show study details.
-import { indexData, split, label, stepLabel, fmt } from '../script/summaries.js';
+import { indexData, split, label, short, stepLabel, fmt } from '../script/summaries.js';
 import { esc } from './ui.js';
 import finder from './views/finder.js';
 import overview from './views/overview.js';
@@ -83,7 +83,7 @@ function openStudy(id) {
       <dt>Physical</dt><dd>${steps(s.physical_steps, 'physical')}</dd>
       <dt>Matrix removal</dt><dd>${steps(s.removal_steps, 'removal')}</dd>
       <dt>Separation</dt><dd>${steps(s.separation_steps, 'separation')}</dd>
-      <dt>Analysis</dt><dd>${codes(s.techniques, 'method_step')}</dd>
+      <dt>Analysis</dt><dd>${split(s.techniques).map(c => `<span class="chip" title="${esc(label(D, 'method_step', c))}">${esc(short(D, 'method_step', c))}</span>`).join(' ') || '<span class="muted">–</span>'}</dd>
       <dt>Digestion</dt><dd>${esc(temp)}, ${esc(time)}</dd>
       <dt>Filter pore</dt><dd>${s.filter_pore_um_lo === '' ? '–' : esc(fmt(+s.filter_pore_um_lo)) + ' µm'}</dd>
       <dt>Reporting basis</dt><dd>${esc(s.metric_basis || '–')}</dd>

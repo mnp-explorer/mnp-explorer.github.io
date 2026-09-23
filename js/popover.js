@@ -12,7 +12,7 @@ export function closePopover() {
   current = null;
 }
 
-// spec: { title, summary, note, col4?, rows: [{ id, study, matrix, value, attribution }] }
+// spec: { title, summary, note, valueHead?, col4?, rows: [{ id, study, matrix, value, attribution }] }
 // col4 renames the last column (default 'Attribution'); its values are shown as tags.
 export function showPopover(anchor, spec, onStudy) {
   closePopover();
@@ -26,7 +26,7 @@ export function showPopover(anchor, spec, onStudy) {
     <h4>${esc(spec.title)}</h4>
     ${spec.summary ? `<p class="pop-sum">${spec.summary}</p>` : ''}
     <div class="pop-body"><table>
-      <thead><tr><th>Study</th><th>Matrix</th><th>Value</th>${hasAttr ? `<th>${esc(spec.col4 || 'Attribution')}</th>` : ''}</tr></thead>
+      <thead><tr><th>Study</th><th>Matrix</th><th>${esc(spec.valueHead || 'Value')}</th>${hasAttr ? `<th>${esc(spec.col4 || 'Attribution')}</th>` : ''}</tr></thead>
       <tbody>${spec.rows.map(r => `<tr>
         <td><a href="#" data-study="${esc(r.id)}">${esc(r.study)}</a></td>
         <td>${esc(r.matrix)}</td><td>${esc(r.value)}</td>
