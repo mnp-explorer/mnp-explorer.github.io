@@ -18,21 +18,20 @@
    "FECAL": 10,
    "AQUEOUS": 5,
    "SECTION": 4,
-   "BLOOD": 3,
    "MINERAL": 3,
+   "BLOOD": 3,
    "FOOD": 2,
-   "LIPID": 1,
+   "CELLS": 1,
    "LIPID_FLUID": 1,
-   "CELLS": 1
+   "LIPID": 1
   },
   "parameters": {
    "ftir_modality": {
-    "n_studies": 58,
+    "n_studies": 51,
     "counts": {
      "µ-FTIR transmission": 22,
      "µ-FTIR reflectance": 20,
-     "FTIR imaging": 9,
-     "ATR-FTIR": 7
+     "FTIR imaging": 9
     }
    },
    "ftir_detector": {
@@ -339,9 +338,9 @@
    "field_survey": 61,
    "method_development": 11,
    "spiked_validation": 5,
+   "biomonitoring": 1,
    "validation": 1,
-   "other": 1,
-   "biomonitoring": 1
+   "other": 1
   },
   "matrix_characters": {
    "GUT": 45,
@@ -357,12 +356,9 @@
   },
   "parameters": {
    "ftir_modality": {
-    "n_studies": 70,
+    "n_studies": 59,
     "counts": {
-     "ATR-FTIR": 59,
-     "µ-FTIR reflectance": 5,
-     "µ-FTIR transmission": 3,
-     "FTIR imaging": 3
+     "ATR-FTIR": 59
     }
    },
    "ftir_detector": {
@@ -653,13 +649,13 @@
   },
   "matrix_characters": {
    "PROTEIN": 7,
-   "GUT": 3,
    "CELLS": 3,
+   "GUT": 3,
    "FECAL": 2,
    "BLOOD": 2,
-   "FOOD": 1,
    "WHOLE_ORGANISM": 1,
-   "PLANT": 1
+   "PLANT": 1,
+   "FOOD": 1
   },
   "parameters": {
    "ftir_detector": {
@@ -861,8 +857,8 @@
   "n_studies": 4,
   "study_design": {
    "biomonitoring": 2,
-   "spiked_validation": 1,
-   "method_development": 1
+   "method_development": 1,
+   "spiked_validation": 1
   },
   "matrix_characters": {
    "PROTEIN": 3,
@@ -872,12 +868,6 @@
    "FECAL": 1
   },
   "parameters": {
-   "ftir_modality": {
-    "n_studies": 2,
-    "counts": {
-     "FTIR imaging": 2
-    }
-   },
    "ftir_spectral_range": {
     "unit": "cm-1",
     "lo": {
@@ -1039,8 +1029,8 @@
    "LIPID_FLUID": 3,
    "FOOD": 3,
    "MINERAL": 3,
-   "LIPID": 2,
-   "CELLS": 2
+   "CELLS": 2,
+   "LIPID": 2
   },
   "parameters": {
    "raman_laser": {
@@ -1409,9 +1399,9 @@
    "WHOLE_ORGANISM": 3,
    "MINERAL": 2,
    "AQUEOUS": 2,
-   "FOOD": 1,
    "SECTION": 1,
-   "LIPID": 1
+   "LIPID": 1,
+   "FOOD": 1
   },
   "parameters": {
    "pyro_temp": {
@@ -1880,16 +1870,16 @@
   "matrix_characters": {
    "PROTEIN": 7,
    "PLANT": 6,
-   "GUT": 5,
    "WHOLE_ORGANISM": 5,
+   "GUT": 5,
    "FECAL": 3,
    "CELLS": 2,
    "BLOOD": 2,
    "LIPID_FLUID": 1,
    "FOOD": 1,
-   "SECTION": 1,
    "MINERAL": 1,
-   "AQUEOUS": 1
+   "AQUEOUS": 1,
+   "SECTION": 1
   },
   "parameters": {
    "id_threshold": {
@@ -2008,17 +1998,17 @@
   "matrix_characters": {
    "PROTEIN": 22,
    "GUT": 18,
-   "CELLS": 10,
    "WHOLE_ORGANISM": 10,
+   "CELLS": 10,
    "FECAL": 4,
-   "SECTION": 4,
    "BLOOD": 4,
+   "SECTION": 4,
    "PLANT": 4,
    "LIPID_FLUID": 2,
-   "MINERAL": 1,
-   "FOOD": 1,
+   "LIPID": 1,
    "AQUEOUS": 1,
-   "LIPID": 1
+   "MINERAL": 1,
+   "FOOD": 1
   },
   "parameters": {
    "fluor_dye": {
@@ -2147,14 +2137,14 @@
    "PROTEIN": 42,
    "WHOLE_ORGANISM": 12,
    "FECAL": 5,
-   "AQUEOUS": 4,
    "MINERAL": 4,
+   "AQUEOUS": 4,
    "FOOD": 3,
-   "BLOOD": 2,
    "PLANT": 2,
+   "BLOOD": 2,
    "SECTION": 2,
-   "LIPID": 1,
-   "LIPID_FLUID": 1
+   "LIPID_FLUID": 1,
+   "LIPID": 1
   },
   "parameters": {
    "id_threshold": {
@@ -2257,15 +2247,15 @@
    "PROTEIN": 25,
    "GUT": 21,
    "WHOLE_ORGANISM": 11,
-   "CELLS": 7,
    "FECAL": 7,
+   "CELLS": 7,
    "PLANT": 6,
    "AQUEOUS": 6,
-   "SECTION": 4,
    "BLOOD": 4,
-   "MINERAL": 2,
+   "SECTION": 4,
    "LIPID_FLUID": 2,
    "FOOD": 2,
+   "MINERAL": 2,
    "LIPID": 1
   },
   "parameters": {
@@ -2383,10 +2373,10 @@
   },
   "matrix_characters": {
    "CELLS": 2,
+   "FECAL": 1,
    "GUT": 1,
    "WHOLE_ORGANISM": 1,
-   "AQUEOUS": 1,
-   "FECAL": 1
+   "AQUEOUS": 1
   },
   "parameters": {
    "id_threshold": {
