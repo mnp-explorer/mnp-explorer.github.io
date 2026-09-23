@@ -1,6 +1,6 @@
 // Workflows: pipeline families (matrix removal → separation → analysis) and the studies behind them.
 // The filters are cross-filtered: each dropdown counts only studies matching the other selections.
-import { countBy, split, label, stepLabel } from '../../script/summaries.js';
+import { countBy, split, label, short, stepLabel } from '../../script/summaries.js';
 import { studyFacts, facetOptions, crossFilter } from '../../script/facets.js';
 import { removalKey, separationKey } from '../../script/finder.js';
 import { esc, h } from '../ui.js';
@@ -37,7 +37,7 @@ export default function workflows(root, D, params) {
     const F = filters();
     fill('group', facetOptions(FACTS, F, 'group', f => f.groups, q.group), v => v, 'Any matrix group');
     fill('character', facetOptions(FACTS, F, 'character', f => f.chars, q.character), v => label(D, 'matrix_character', v), 'Any matrix character');
-    fill('tech', facetOptions(FACTS, F, 'tech', f => f.techs, q.tech), v => label(D, 'method_step', v), 'Any analysis method');
+    fill('tech', facetOptions(FACTS, F, 'tech', f => f.techs, q.tech), v => short(D, 'method_step', v), 'Any analysis method');
     history.replaceState(null, '', `#workflows?${new URLSearchParams(q)}`);
 
     const S = crossFilter(FACTS, F).map(f => f.s);
@@ -57,7 +57,7 @@ export default function workflows(root, D, params) {
       ${removal.length ? ` · most common matrix removal: ${esc(lab(removal[0][0], 'removal'))}` : ''}</p>
       ${rows.length ? `<table><thead><tr><th>Matrix removal</th><th>Separation</th><th>Analysis</th><th class="num">Studies</th><th class="num">With recovery</th></tr></thead>
       <tbody>${rows.map((r, i) => `<tr class="clickable" data-i="${i}"><td>${esc(lab(r.rem, 'removal'))}</td><td>${esc(lab(r.sep, 'separation'))}</td>
-        <td>${esc(label(D, 'method_step', r.tech))}</td><td class="num">${r.ids.length}</td>
+        <td title="${esc(label(D, 'method_step', r.tech))}">${esc(short(D, 'method_step', r.tech))}</td><td class="num">${r.ids.length}</td>
         <td class="num">${r.ids.filter(id => (D.recoveryBy.get(id) || []).length).length}</td></tr>
         <tr hidden data-list="${i}"><td colspan="5">${r.ids.map(id => `<a href="#" data-study="${esc(id)}">${esc(D.study[id].label)}</a>`).join(', ')}</td></tr>`).join('')}</tbody></table>`
         : '<p class="muted">No workflows match these filters.</p>'}`;

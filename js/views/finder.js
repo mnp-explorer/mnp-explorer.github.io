@@ -164,7 +164,7 @@ function render(out, D, q) {
   out.replaceChildren(h(`<div>
     <p class="small muted" style="margin-top:14px">${pipelines.length} pipeline families ·
       ${tiers.map(([t, n]) => `<span class="tier ${t}">${t}</span> ${n}`).join(' · ')}
-      ${excluded.length ? ` · excluded techniques: ${excluded.map(([c, why]) => `${esc(label(D, 'method_step', c))} (${esc(why)})`).join('; ')}` : ''}</p>
+      ${excluded.length ? ` · excluded techniques: ${excluded.map(([c, why]) => `${esc(short(D, 'method_step', c))} (${esc(why)})`).join('; ')}` : ''}</p>
     ${!q.group && !q.character ? '<p class="note">No matrix selected: every study counts as relevant. Choose a matrix group or character for a meaningful ranking.</p>' : ''}
     <div class="pipes">${top.map((p, i) => card(D, p, i)).join('') || '<p class="muted">No pipeline fits these requirements.</p>'}</div>
     ${pipelines.length > top.length ? `<p class="muted small">Showing the top ${top.length} of ${pipelines.length}.</p>` : ''}
@@ -191,7 +191,7 @@ function card(D, p, i) {
   return `<article class="pipe ${p.tier}">
     <h3><span class="tier ${p.tier}" title="${esc(TIER_TEXT[p.tier])}">Tier ${p.tier}</span>
       <span class="steps">${step(p.removal, 'digestion')} <span class="arrow">→</span> ${step(p.separation, 'separation')}
-      <span class="arrow">→</span> <span class="chip"><b>${esc(label(D, 'method_step', p.technique))}</b></span></span></h3>
+      <span class="arrow">→</span> <span class="chip"><b title="${esc(label(D, 'method_step', p.technique))}">${esc(short(D, 'method_step', p.technique))}</b></span></span></h3>
     <p class="small muted">${esc(TIER_TEXT[p.tier])}. Evidence: ${bucketText}.</p>
     <div class="facts">
       <div><span>Digestion temperature:</span> ${fmtRange(st.digestionTempC)} °C</div>

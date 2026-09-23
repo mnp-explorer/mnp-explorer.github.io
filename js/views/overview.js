@@ -1,13 +1,15 @@
-// Overview: what the evidence base covers.
-import { countBy, split, label, short, stepLabel } from '../../script/summaries.js';
+// Overview: what the evidence base covers. Click any bar to see the studies behind it.
+import { split, label, short, stepLabel, fmt } from '../../script/summaries.js';
 import { h, bars, kpis } from '../ui.js';
+import { showPopover, closePopover, smallScreen } from '../popover.js';
 
 export default function overview(root, D) {
   const S = D.studies;
   const field = D.findings.filter(f => f.role === 'field_detection' || f.role === 'reported');
-  const go = (k, v) => (location.hash = `finder?${k}=${encodeURIComponent(v)}`);
+  const finderLink = (k, v) => `#finder?${k}=${encodeURIComponent(v)}`;
   root.append(h(`<section><h2>Overview</h2>
-    <p class="muted">Coverage of the evidence base. Click a matrix group, character or polymer to open the method finder with it.</p></section>`));
+    <p class="muted">Coverage of the evidence base. <span class="ref-hint">Click any bar to see the studies behind it.</span></p>
+    <p class="note phone-note">On small screens the charts show general trends. Open the site on a computer to see the studies.</p></section>`));
   root.append(kpis([
     [S.length, 'studies'],
     [new Set(D.runs.map(r => r.technique)).size, 'analysis techniques'],
@@ -15,23 +17,76 @@ export default function overview(root, D) {
     [new Set(D.recovery.map(r => r.study_id)).size, 'studies with recovery values'],
     [S.filter(s => s.nanoplastic_claimed === 'yes').length, 'studies claiming nanoplastics'],
   ]));
-  const grid = h('<div class="stack"></div>');   // one card per row: long labels stay readable
-  const card = (title, el, note = '') => {
+
+  // short descriptions used in the popover rows
+  const list = (v, fn) => split(v).map(fn).join(', ') || '–';
+  const techs = s => list(s.techniques, c => short(D, 'method_step', c));
+  const samples = s => list(s.sample_types, c => label(D, 'matrix_sample_type', c));
+  const matrixOf = s => [split(s.finder_groups).join(', '), list(s.matrix_characters, c => label(D, 'matrix_character', c))].join(' · ');
+  const range = (lo, hi, unit) => (lo === '' ? '' : `${fmt(+lo)}${hi !== '' && hi !== lo ? '–' + fmt(+hi) : ''} ${unit}`);
+  const digestion = s => [range(s.digestion_temp_c_lo, s.digestion_temp_c_hi, '°C'), range(s.digestion_time_h_lo, s.digestion_time_h_hi, 'h')]
+    .filter(Boolean).join(', ') || 'not reported';
+
+  // popover registry: bar key → spec builder
+  const REFS = new Map();
+  const GO = new Map();   // bars that also open the method finder (used on small screens)
+  const spec = (title, ids, valueHead, valueOf, link) => {
+    const rows = [...new Set(ids)].map(id => D.study[id])
+      .sort((a, b) => (b.year || 0) - (a.year || 0) || a.label.localeCompare(b.label))
+      .map(s => ({ id: s.study_id, study: s.label, matrix: matrixOf(s), value: valueOf(s), attribution: '' }));
+    const years = rows.map(r => D.study[r.id].year).filter(Boolean);
+    return { title, rows, valueHead,
+      summary: `<b>${rows.length} studies</b>${years.length ? ` · ${[...new Set([Math.min(...years), Math.max(...years)])].join('–')}` : ''}`,
+      note: link ? `<a href="${link}">Open the method finder with this selection →</a>` : '' };
+  };
+  // card: counts studies per key; `keysOf(item)` gives the keys of an item (a study, run or finding)
+  const card = (id, title, items, keysOf, labelOf, valueHead, valueOf, { note = '', limit = 12, sort, finder } = {}) => {
+    const groups = new Map();
+    for (const it of items) for (const k of [].concat(keysOf(it)).filter(x => x != null && x !== '')) {
+      (groups.get(k) || groups.set(k, new Set()).get(k)).add(it.study_id);
+    }
+    let rows = [...groups.entries()].map(([k, ids]) => [labelOf(k), ids.size, k]);
+    rows = sort ? rows.sort(sort) : rows.sort((a, b) => b[1] - a[1]);
+    const el = bars(rows, { limit, ref: k => {
+      const key = `${id}|${k}`;
+      const link = finder ? finderLink(finder, k) : '';
+      REFS.set(key, () => spec(`${title}: ${labelOf(k)}`, groups.get(k), valueHead, valueOf, link));
+      if (link) GO.set(key, link);
+      return key;
+    } });
     const c = h(`<div class="card"><h3>${title}</h3>${note ? `<p class="muted small">${note}</p>` : ''}</div>`);
     c.append(el);
     grid.append(c);
   };
-  card('Matrix group', bars(countBy(S, s => split(s.finder_groups)), { onClick: v => go('group', v) }));
-  card('Matrix character', bars(countBy(S, s => split(s.matrix_characters)).map(([c, n]) => [label(D, 'matrix_character', c), n, c]),
-    { onClick: v => go('character', v) }), 'Used by the finder to carry evidence between similar matrices.');
-  card('Study design', bars(countBy(S, s => s.study_design.replace(/_/g, ' '))));
-  card('Polymers detected in samples', bars(countBy(field, f => f.polymer_code).map(([c, n]) => [`${c} – ${label(D, 'polymer', c)}`, n, c]),
-    { limit: 14, onClick: v => go('polymer', v) }), 'Field detections and extraction-level reports; excludes spikes, exposure materials and blanks.');
-  card('Analysis techniques', bars(countBy(D.runs, r => short(D, 'method_step', r.technique)), { limit: 14 }));
-  card('Matrix removal', bars(countBy(S, s => split(s.removal_steps)).map(([c, n]) => [stepLabel(D, 'removal', c), n])));
-  card('Separation', bars(countBy(S, s => split(s.separation_steps)).map(([c, n]) => [stepLabel(D, 'separation', c), n])));
-  card('Reporting basis', bars(countBy(S, s => s.metric_basis || 'not reported')));
-  card('Polymer identification outcome', bars(countBy(S, s => label(D, 'polymer_outcome', s.polymer_id_outcome))));
-  card('Publication year', bars(countBy(S, s => s.year).sort((a, b) => b[0] - a[0]).map(([y, n]) => [String(y), n]), { limit: 20 }));
+
+  const grid = h('<div class="stack"></div>');   // one card per row: long labels stay readable
+  card('grp', 'Matrix group', S, s => split(s.finder_groups), v => v, 'Sample types', samples, { finder: 'group' });
+  card('chr', 'Matrix character', S, s => split(s.matrix_characters), v => label(D, 'matrix_character', v), 'Sample types', samples,
+    { note: 'Used by the finder to carry evidence between similar matrices.', finder: 'character' });
+  card('des', 'Study design', S, s => s.study_design, v => v.replace(/_/g, ' '), 'Analysis', techs);
+  card('pol', 'Polymers detected in samples', field, f => f.polymer_code, c => `${c} – ${label(D, 'polymer', c)}`, 'Analysis', techs,
+    { note: 'Field detections and extraction-level reports; excludes spikes, exposure materials and blanks.', limit: 14, finder: 'polymer' });
+  card('tec', 'Analysis techniques', D.runs, r => r.technique, c => short(D, 'method_step', c), 'Matrix removal',
+    s => list(s.removal_steps, c => stepLabel(D, 'removal', c)), { limit: 14 });
+  card('rem', 'Matrix removal', S, s => split(s.removal_steps), c => stepLabel(D, 'removal', c), 'Digestion conditions', digestion);
+  card('sep', 'Separation', S, s => split(s.separation_steps), c => stepLabel(D, 'separation', c), 'Filter pore',
+    s => range(s.filter_pore_um_lo, s.filter_pore_um_hi, 'µm') || 'not reported');
+  card('bas', 'Reporting basis', S, s => s.metric_basis || 'not reported', v => v, 'Analysis', techs);
+  card('out', 'Polymer identification outcome', S, s => s.polymer_id_outcome, c => label(D, 'polymer_outcome', c), 'Polymers in samples',
+    s => split(s.polymers_in_samples).join(', ') || '–');
+  card('yr', 'Publication year', S, s => (s.year ? String(s.year) : ''), v => v, 'Study design', s => s.study_design.replace(/_/g, ' '),
+    { limit: 20, sort: (a, b) => b[2] - a[2] });
   root.append(grid);
+
+  grid.addEventListener('click', e => {
+    const el = e.target.closest('[data-ref]');
+    if (!el || !REFS.has(el.dataset.ref)) return;
+    if (smallScreen()) {   // no popovers on phones: bars that map to a finder filter still open it
+      if (GO.has(el.dataset.ref)) location.hash = GO.get(el.dataset.ref).slice(1);
+      return;
+    }
+    e.stopPropagation();
+    closePopover();
+    showPopover(el, REFS.get(el.dataset.ref)(), D.openStudy);
+  });
 }

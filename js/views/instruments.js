@@ -13,6 +13,8 @@ import { showPopover, closePopover, smallScreen } from '../popover.js';
 let FACTS = null;
 const FIELD_ROLES = new Set(['field_detection', 'reported']);
 const MASS_KINDS = new Set(['observed', 'summary']);
+// FTIR modality is reported per study; each value belongs to one technique
+const MODALITY_TECH = { 'ATR-FTIR': 'ATR_FTIR', 'µ-FTIR transmission': 'UFTIR', 'µ-FTIR reflectance': 'UFTIR', 'FTIR imaging': 'UFTIR' };
 const ATTR_NOTE = 'Direct: only this instrument in the study could have produced the value. '
   + 'Shared: the study used several instruments able to produce it.';
 
@@ -113,7 +115,7 @@ export default function instruments(root, D, params) {
     closePopover();
     REFS.clear();
     const F = filters();
-    fill('tech', facetOptions(FACTS, F, 'tech', f => f.techs, q.tech), v => label(D, 'method_step', v), 'All instruments');
+    fill('tech', facetOptions(FACTS, F, 'tech', f => f.techs, q.tech), v => short(D, 'method_step', v), 'All instruments');
     fill('group', facetOptions(FACTS, F, 'group', f => f.groups, q.group), v => v, 'Any matrix group');
     fill('character', facetOptions(FACTS, F, 'character', f => f.chars, q.character), v => label(D, 'matrix_character', v), 'Any matrix character');
     sel('direct').checked = q.direct;
@@ -210,8 +212,9 @@ export default function instruments(root, D, params) {
 
     // 1. settings; spectral-library settings (match threshold, library) belong to FTIR and Raman only
     const spectral = prop.family === 'FTIR' || prop.family === 'RAMAN';
-    const P = D.params.filter(p => studyIds.has(p.study_id) && (p.family === prop.family || (spectral && p.family === 'SPECTRAL')));
-    const famNote = prop.family === 'FTIR' ? ' FTIR settings are reported per study; in studies that used both ATR- and µ-FTIR they apply to both.' : '';
+    const P = D.params.filter(p => studyIds.has(p.study_id) && (p.family === prop.family || (spectral && p.family === 'SPECTRAL'))
+      && (p.parameter !== 'ftir_modality' || MODALITY_TECH[p.value_code] === t));
+    const famNote = prop.family === 'FTIR' ? ' FTIR modality is shown under the matching technique; other FTIR settings are reported per study and, in studies that used both ATR- and µ-FTIR, apply to both.' : '';
     const paramSpec = (code, rows) => {
       const lab = label(D, 'instrument_parameter', code);
       const valueOf = r => (r.value_code ? label(D, 'spectral_library', r.value_code) : range(num(r.value_lo), num(r.value_hi), r.unit));
