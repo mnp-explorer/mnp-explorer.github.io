@@ -1,0 +1,873 @@
+study_id,facet,code,character,finder_group,review_status
+cov3,organism,HUMAN,,Human,draft
+cov3,sample_type,CARDIOVASCULAR,PROTEIN,,draft
+cov5,organism,HUMAN,,Human,draft
+cov5,sample_type,REPRODUCTIVE,PROTEIN,,draft
+cov8,organism,HUMAN,,Human,draft
+cov8,sample_type,CARDIOVASCULAR,PROTEIN,,draft
+cov11,organism,HUMAN,,Human,draft
+cov11,sample_type,ORGAN,PROTEIN,,draft
+cov11,sample_type,BODY_FLUID,AQUEOUS,,draft
+cov11,environment_sample,AIR,,,draft
+cov32,organism,HUMAN,,Human,draft
+cov32,sample_type,BODY_FLUID,AQUEOUS,,draft
+cov42,organism,MAMMAL,,Mammal (non-human),draft
+cov42,sample_type,GI_CONTENTS,GUT,,draft
+cov42,sample_type,GI_TRACT,GUT,,draft
+cov42,sample_type,ORGAN,PROTEIN,,draft
+cov42,sample_type,BLOOD,BLOOD,,draft
+cov42,sample_type,BODY_FLUID,AQUEOUS,,draft
+cov42,sample_type,FECES,FECAL,,draft
+cov46,organism,CRUSTACEAN,,Crustacean,reviewed
+cov46,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,reviewed
+cov57,organism,FISH,,Fish,draft
+cov57,sample_type,GI_TRACT,GUT,,draft
+cov57,sample_type,GILL,PROTEIN,,draft
+cov74,organism,HUMAN,,Human,draft
+cov74,sample_type,REPRODUCTIVE,PROTEIN,,draft
+cov81,organism,HUMAN,,Human,draft
+cov81,sample_type,REPRODUCTIVE,PROTEIN,,draft
+cov82,organism,MAMMAL,,Mammal (non-human),draft
+cov82,sample_type,REPRODUCTIVE,PROTEIN,,draft
+cov98,organism,PLANT,,Plant or alga,draft
+cov98,sample_type,PLANT_TISSUE,PLANT,,draft
+cov111,organism,HUMAN,,Human,draft
+cov111,sample_type,BODY_FLUID,AQUEOUS,,draft
+cov139,organism,MAMMAL,,Mammal (non-human),draft
+cov139,sample_type,GI_CONTENTS,GUT,,draft
+cov146,organism,BIRD,,Bird,draft
+cov146,sample_type,GI_TRACT,GUT,,draft
+cov146,sample_type,ORGAN,PROTEIN,,draft
+cov175,organism,CNIDARIAN,,Other invertebrate,draft
+cov175,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov175,sample_type,SECTION,SECTION,,draft
+cov181,organism,CRUSTACEAN,,Crustacean,draft
+cov181,sample_type,GI_TRACT,GUT,,draft
+cov181,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov181,sample_type,REPRODUCTIVE,PROTEIN,,draft
+cov181,sample_type,SECTION,SECTION,,draft
+cov195,organism,HUMAN,,Human,draft
+cov195,sample_type,BLOOD,BLOOD,,draft
+cov213,organism,SPONGE,,Other invertebrate,reviewed
+cov213,sample_type,TISSUE,PROTEIN,,reviewed
+cov223,organism,BIVALVE,,Bivalve,draft
+cov223,sample_type,SOFT_TISSUE,PROTEIN,,draft
+cov242,organism,FISH,,Fish,draft
+cov242,sample_type,GI_CONTENTS,GUT,,draft
+cov242,sample_type,GI_TRACT,GUT,,draft
+cov261,organism,BIVALVE,,Bivalve,reviewed
+cov261,organism,ANNELID,,Other invertebrate,reviewed
+cov261,organism,ECHINODERM,,Other invertebrate,reviewed
+cov261,organism,INVERT_MIXED,,Other invertebrate,reviewed
+cov261,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,reviewed
+cov270,organism,CRUSTACEAN,,Crustacean,reviewed
+cov270,organism,FISH,,Fish,reviewed
+cov270,sample_type,GI_TRACT,GUT,,reviewed
+cov270,sample_type,ORGAN,PROTEIN,,reviewed
+cov270,sample_type,FECES,FECAL,,reviewed
+cov284,organism,CNIDARIAN,,Other invertebrate,reviewed
+cov284,sample_type,SKELETAL,MINERAL,,reviewed
+cov284,sample_type,TISSUE,PROTEIN,,reviewed
+cov292,organism,MAMMAL,,Mammal (non-human),draft
+cov292,sample_type,GI_TRACT,GUT,,draft
+cov292,sample_type,ORGAN,PROTEIN,,draft
+cov292,sample_type,BLOOD,BLOOD,,draft
+cov292,environment_sample,SEDIMENT,,,draft
+cov302,organism,CRUSTACEAN,,Crustacean,draft
+cov302,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov308,organism,REPTILE,,Other vertebrate,draft
+cov308,sample_type,FECES,FECAL,,draft
+cov355,organism,BIRD,,Bird,draft
+cov355,sample_type,GI_CONTENTS,GUT,,draft
+cov365,organism,HUMAN,,Human,draft
+cov365,sample_type,BODY_FLUID,AQUEOUS,,draft
+cov404,organism,HUMAN,,Human,draft
+cov404,sample_type,BODY_FLUID,AQUEOUS,,draft
+cov412,organism,GASTROPOD,,Other invertebrate,draft
+cov412,sample_type,SOFT_TISSUE,PROTEIN,,draft
+cov412,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov429,organism,BIVALVE,,Bivalve,draft
+cov429,organism,FISH,,Fish,draft
+cov429,sample_type,MUSCLE,PROTEIN,,draft
+cov429,environment_sample,SEDIMENT,,,draft
+cov440,organism,PLANT,,Plant or alga,draft
+cov440,sample_type,PLANT_TISSUE,PLANT,,draft
+cov454,organism,FISH,,Fish,draft
+cov454,sample_type,MUSCLE,PROTEIN,,draft
+cov457,organism,MAMMAL,,Mammal (non-human),draft
+cov457,sample_type,GI_CONTENTS,GUT,,draft
+cov457,sample_type,GI_TRACT,GUT,,draft
+cov457,sample_type,SECTION,SECTION,,draft
+cov461,organism,FISH,,Fish,draft
+cov461,sample_type,GI_TRACT,GUT,,draft
+cov461,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov461,sample_type,SECTION,SECTION,,draft
+cov471,organism,HUMAN,,Human,draft
+cov471,sample_type,GI_TRACT,GUT,,draft
+cov471,sample_type,ORGAN,PROTEIN,,draft
+cov471,sample_type,SECTION,SECTION,,draft
+cov534,organism,BIRD,,Bird,draft
+cov534,sample_type,GI_CONTENTS,GUT,,draft
+cov536,organism,BIVALVE,,Bivalve,draft
+cov536,sample_type,SOFT_TISSUE,PROTEIN,,draft
+cov547,organism,FISH,,Fish,draft
+cov547,sample_type,GI_TRACT,GUT,,draft
+cov547,sample_type,GILL,PROTEIN,,draft
+cov602,organism,HUMAN,,Human,draft
+cov602,sample_type,REPRODUCTIVE,PROTEIN,,draft
+cov608,organism,ELASMO,,Fish,reviewed
+cov608,sample_type,GI_CONTENTS,GUT,,reviewed
+cov608,sample_type,GI_TRACT,GUT,,reviewed
+cov612,organism,BIVALVE,,Bivalve,reviewed
+cov612,sample_type,SOFT_TISSUE,PROTEIN,,reviewed
+cov615,organism,BIVALVE,,Bivalve,reviewed
+cov615,organism,FISH,,Fish,reviewed
+cov615,organism,CEPHALOPOD,,Other invertebrate,reviewed
+cov615,organism,FOOD_PRODUCT,,Food product,reviewed
+cov615,sample_type,BODY_FLUID,AQUEOUS,,reviewed
+cov615,sample_type,FOOD,FOOD,,reviewed
+cov617,organism,HUMAN,,Human,draft
+cov617,sample_type,MUSCLE,PROTEIN,,draft
+cov617,sample_type,ORGAN,PROTEIN,,draft
+cov617,sample_type,REPRODUCTIVE,PROTEIN,,draft
+cov617,sample_type,ADIPOSE,LIPID,,draft
+cov622,organism,HUMAN,,Human,draft
+cov622,sample_type,BLOOD,BLOOD,,draft
+cov622,sample_type,MILK,LIPID_FLUID,,draft
+cov629,organism,CRUSTACEAN,,Crustacean,reviewed
+cov629,organism,ELASMO,,Fish,reviewed
+cov629,organism,FISH,,Fish,reviewed
+cov629,sample_type,GI_CONTENTS,GUT,,reviewed
+cov629,sample_type,GI_TRACT,GUT,,reviewed
+cov643,organism,FISH,,Fish,draft
+cov643,sample_type,GI_CONTENTS,GUT,,draft
+cov643,sample_type,GI_TRACT,GUT,,draft
+cov657,organism,CRUSTACEAN,,Crustacean,reviewed
+cov657,organism,FISH,,Fish,reviewed
+cov657,sample_type,GI_TRACT,GUT,,reviewed
+cov666,organism,FISH,,Fish,draft
+cov666,sample_type,GI_TRACT,GUT,,draft
+cov666,sample_type,GILL,PROTEIN,,draft
+cov693,organism,FISH,,Fish,draft
+cov693,organism,ALGA,,Plant or alga,draft
+cov693,sample_type,SKELETAL,MINERAL,,draft
+cov693,sample_type,PLANT_TISSUE,PLANT,,draft
+cov696,organism,FISH,,Fish,draft
+cov696,sample_type,GI_CONTENTS,GUT,,draft
+cov696,sample_type,GI_TRACT,GUT,,draft
+cov696,sample_type,MUSCLE,PROTEIN,,draft
+cov696,sample_type,ORGAN,PROTEIN,,draft
+cov704,organism,BIVALVE,,Bivalve,draft
+cov704,sample_type,GI_TRACT,GUT,,draft
+cov704,sample_type,SECTION,SECTION,,draft
+cov716,organism,HUMAN,,Human,draft
+cov716,sample_type,CARDIOVASCULAR,PROTEIN,,draft
+cov747,organism,HUMAN,,Human,draft
+cov747,sample_type,CARDIOVASCULAR,PROTEIN,,draft
+cov749,organism,BIVALVE,,Bivalve,draft
+cov749,sample_type,SOFT_TISSUE,PROTEIN,,draft
+cov749,sample_type,SKELETAL,MINERAL,,draft
+cov789,organism,HUMAN,,Human,draft
+cov789,sample_type,FECES,FECAL,,draft
+cov791,organism,CRUSTACEAN,,Crustacean,reviewed
+cov791,organism,ZOOPLANKTON,,Other invertebrate,reviewed
+cov791,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,reviewed
+cov794,organism,BIVALVE,,Bivalve,reviewed
+cov794,organism,FISH,,Fish,reviewed
+cov794,sample_type,GI_TRACT,GUT,,reviewed
+cov794,sample_type,GILL,PROTEIN,,reviewed
+cov794,sample_type,SOFT_TISSUE,PROTEIN,,reviewed
+cov794,environment_sample,SEAWATER,,,reviewed
+cov794,environment_sample,SEDIMENT,,,reviewed
+cov823,organism,FISH,,Fish,draft
+cov823,sample_type,GI_TRACT,GUT,,draft
+cov823,environment_sample,FRESHWATER,,,draft
+cov823,environment_sample,SEDIMENT,,,draft
+cov827,organism,FISH,,Fish,draft
+cov827,sample_type,GI_TRACT,GUT,,draft
+cov827,sample_type,SOFT_TISSUE,PROTEIN,,draft
+cov864,organism,CRUSTACEAN,,Crustacean,draft
+cov864,sample_type,GI_TRACT,GUT,,draft
+cov896,organism,CRUSTACEAN,,Crustacean,reviewed
+cov896,sample_type,GI_CONTENTS,GUT,,reviewed
+cov948,organism,PLANT,,Plant or alga,draft
+cov948,sample_type,PLANT_TISSUE,PLANT,,draft
+cov987,organism,FISH,,Fish,draft
+cov987,organism,MAMMAL,,Mammal (non-human),draft
+cov987,sample_type,BLOOD,BLOOD,,draft
+cov987,sample_type,FECES,FECAL,,draft
+cov989,organism,BIVALVE,,Bivalve,reviewed
+cov989,sample_type,SOFT_TISSUE,PROTEIN,,reviewed
+cov994,organism,INSECT,,Other invertebrate,draft
+cov994,sample_type,FECES,FECAL,,draft
+cov1000,organism,MAMMAL,,Mammal (non-human),reviewed
+cov1000,sample_type,MUSCLE,PROTEIN,,reviewed
+cov1020,organism,CRUSTACEAN,,Crustacean,reviewed
+cov1020,organism,FISH,,Fish,reviewed
+cov1020,organism,GASTROPOD,,Other invertebrate,reviewed
+cov1020,organism,ZOOPLANKTON,,Other invertebrate,reviewed
+cov1020,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,reviewed
+cov1020,environment_sample,SEAWATER,,,reviewed
+cov1022,organism,BIRD,,Bird,draft
+cov1022,sample_type,ORGAN,PROTEIN,,draft
+cov1055,organism,FISH,,Fish,draft
+cov1055,sample_type,GI_TRACT,GUT,,draft
+cov1055,sample_type,GILL,PROTEIN,,draft
+cov1055,sample_type,MUSCLE,PROTEIN,,draft
+cov1055,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov1082,organism,CRUSTACEAN,,Crustacean,draft
+cov1082,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov1108,organism,FISH,,Fish,draft
+cov1108,sample_type,GI_TRACT,GUT,,draft
+cov1118,organism,HUMAN,,Human,draft
+cov1118,sample_type,FECES,FECAL,,draft
+cov1121,organism,HUMAN,,Human,draft
+cov1121,sample_type,REPRODUCTIVE,PROTEIN,,draft
+cov1129,organism,FISH,,Fish,draft
+cov1129,sample_type,GI_TRACT,GUT,,draft
+cov1129,sample_type,GILL,PROTEIN,,draft
+cov1133,organism,BIVALVE,,Bivalve,draft
+cov1133,sample_type,SOFT_TISSUE,PROTEIN,,draft
+cov1133,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov1133,environment_sample,SEAWATER,,,draft
+cov1133,environment_sample,SEDIMENT,,,draft
+cov1140,organism,CRUSTACEAN,,Crustacean,reviewed
+cov1140,sample_type,GI_TRACT,GUT,,reviewed
+cov1140,environment_sample,SEAWATER,,,reviewed
+cov1140,environment_sample,SEDIMENT,,,reviewed
+cov1142,organism,FISH,,Fish,draft
+cov1142,sample_type,GI_TRACT,GUT,,draft
+cov1142,sample_type,GILL,PROTEIN,,draft
+cov1142,sample_type,MUSCLE,PROTEIN,,draft
+cov1151,organism,HUMAN,,Human,draft
+cov1151,sample_type,ORGAN,PROTEIN,,draft
+cov1151,sample_type,SECTION,SECTION,,draft
+cov1185,organism,FISH,,Fish,draft
+cov1185,sample_type,GI_TRACT,GUT,,draft
+cov1186,organism,FISH,,Fish,draft
+cov1186,sample_type,GI_CONTENTS,GUT,,draft
+cov1237,organism,BIVALVE,,Bivalve,draft
+cov1237,sample_type,SOFT_TISSUE,PROTEIN,,draft
+cov1263,organism,ANNELID,,Other invertebrate,reviewed
+cov1263,organism,ECHINODERM,,Other invertebrate,reviewed
+cov1263,organism,INVERT_MIXED,,Other invertebrate,reviewed
+cov1263,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,reviewed
+cov1273,organism,ALGA,,Plant or alga,reviewed
+cov1273,sample_type,PLANT_TISSUE,PLANT,,reviewed
+cov1273,environment_sample,SEAWATER,,,reviewed
+cov1298,organism,MAMMAL,,Mammal (non-human),draft
+cov1298,sample_type,GI_TRACT,GUT,,draft
+cov1298,sample_type,MUSCLE,PROTEIN,,draft
+cov1298,sample_type,ADIPOSE,LIPID,,draft
+cov1298,sample_type,FECES,FECAL,,draft
+cov1314,organism,INSECT,,Other invertebrate,draft
+cov1314,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov1315,organism,FISH,,Fish,draft
+cov1315,sample_type,GI_TRACT,GUT,,draft
+cov1315,sample_type,GILL,PROTEIN,,draft
+cov1315,sample_type,MUSCLE,PROTEIN,,draft
+cov1330,organism,ALGA,,Plant or alga,reviewed
+cov1330,organism,FOOD_PRODUCT,,Food product,reviewed
+cov1330,sample_type,PLANT_TISSUE,PLANT,,reviewed
+cov1330,sample_type,FOOD,FOOD,,reviewed
+cov1346,organism,ELASMO,,Fish,reviewed
+cov1346,sample_type,GI_CONTENTS,GUT,,reviewed
+cov1346,sample_type,GI_TRACT,GUT,,reviewed
+cov1359,organism,HUMAN,,Human,draft
+cov1359,sample_type,BODY_FLUID,AQUEOUS,,draft
+cov1376,organism,CRUSTACEAN,,Crustacean,reviewed
+cov1376,organism,FISH,,Fish,reviewed
+cov1376,organism,CEPHALOPOD,,Other invertebrate,reviewed
+cov1376,sample_type,GI_TRACT,GUT,,reviewed
+cov1376,sample_type,GILL,PROTEIN,,reviewed
+cov1376,sample_type,MUSCLE,PROTEIN,,reviewed
+cov1384,organism,FISH,,Fish,draft
+cov1384,sample_type,GI_TRACT,GUT,,draft
+cov1384,sample_type,GILL,PROTEIN,,draft
+cov1384,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov1384,sample_type,ORGAN,PROTEIN,,draft
+cov1387,organism,FISH,,Fish,draft
+cov1387,sample_type,GI_CONTENTS,GUT,,draft
+cov1387,sample_type,GI_TRACT,GUT,,draft
+cov1395,organism,FISH,,Fish,draft
+cov1395,sample_type,GI_TRACT,GUT,,draft
+cov1395,sample_type,GILL,PROTEIN,,draft
+cov1395,sample_type,MUSCLE,PROTEIN,,draft
+cov1410,organism,CRUSTACEAN,,Crustacean,reviewed
+cov1410,sample_type,GI_TRACT,GUT,,reviewed
+cov1429,organism,CRUSTACEAN,,Crustacean,draft
+cov1429,sample_type,GI_TRACT,GUT,,draft
+cov1484,organism,MAMMAL,,Mammal (non-human),draft
+cov1484,sample_type,BLOOD,BLOOD,,draft
+cov1484,sample_type,BODY_FLUID,AQUEOUS,,draft
+cov1484,sample_type,FECES,FECAL,,draft
+cov1497,organism,GASTROPOD,,Other invertebrate,reviewed
+cov1497,sample_type,FECES,FECAL,,reviewed
+cov1514,organism,HUMAN,,Human,reviewed
+cov1514,organism,CELL_CULTURE,,Cell culture,reviewed
+cov1514,sample_type,CELLS,CELLS,,reviewed
+cov1515,organism,BIVALVE,,Bivalve,reviewed
+cov1515,organism,CRUSTACEAN,,Crustacean,reviewed
+cov1515,organism,FISH,,Fish,reviewed
+cov1515,sample_type,MUSCLE,PROTEIN,,reviewed
+cov1515,sample_type,SOFT_TISSUE,PROTEIN,,reviewed
+cov1525,organism,HUMAN,,Human,draft
+cov1525,sample_type,BODY_FLUID,AQUEOUS,,draft
+cov1588,organism,CRUSTACEAN,,Crustacean,reviewed
+cov1588,organism,INSECT,,Other invertebrate,reviewed
+cov1588,organism,ANNELID,,Other invertebrate,reviewed
+cov1588,organism,GASTROPOD,,Other invertebrate,reviewed
+cov1588,sample_type,GI_TRACT,GUT,,reviewed
+cov1588,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,reviewed
+cov1588,environment_sample,SOIL,,,reviewed
+cov1610,organism,FISH,,Fish,draft
+cov1610,sample_type,GI_TRACT,GUT,,draft
+cov1654,organism,MODEL_PARTICLES,,Other,reviewed
+cov1666,organism,ZOOPLANKTON,,Other invertebrate,draft
+cov1666,sample_type,GI_CONTENTS,GUT,,draft
+cov1666,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov1700,organism,HUMAN,,Human,reviewed
+cov1700,organism,CELL_CULTURE,,Cell culture,reviewed
+cov1700,sample_type,CELLS,CELLS,,reviewed
+cov1702,organism,FISH,,Fish,reviewed
+cov1702,organism,INVERT_MIXED,,Other invertebrate,reviewed
+cov1702,sample_type,GI_CONTENTS,GUT,,reviewed
+cov1702,sample_type,GI_TRACT,GUT,,reviewed
+cov1702,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,reviewed
+cov1729,organism,FISH,,Fish,draft
+cov1729,sample_type,ORGAN,PROTEIN,,draft
+cov1760,organism,MAMMAL,,Mammal (non-human),draft
+cov1760,sample_type,GI_TRACT,GUT,,draft
+cov1760,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov1760,sample_type,ORGAN,PROTEIN,,draft
+cov1760,sample_type,REPRODUCTIVE,PROTEIN,,draft
+cov1760,sample_type,BLOOD,BLOOD,,draft
+cov1834,organism,MAMMAL,,Mammal (non-human),draft
+cov1834,sample_type,GI_TRACT,GUT,,draft
+cov1834,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov1834,sample_type,ORGAN,PROTEIN,,draft
+cov1834,sample_type,SECTION,SECTION,,draft
+cov1849,organism,HUMAN,,Human,draft
+cov1849,sample_type,BLOOD,BLOOD,,draft
+cov1851,organism,MAMMAL,,Mammal (non-human),draft
+cov1851,sample_type,FECES,FECAL,,draft
+cov1851,sample_type,PLANT_TISSUE,PLANT,,draft
+cov1877,organism,PLANT,,Plant or alga,reviewed
+cov1877,organism,FOOD_PRODUCT,,Food product,reviewed
+cov1877,sample_type,FOOD,FOOD,,reviewed
+cov1978,organism,MAMMAL,,Mammal (non-human),draft
+cov1978,sample_type,FECES,FECAL,,draft
+cov2016,organism,FISH,,Fish,draft
+cov2016,sample_type,MUSCLE,PROTEIN,,draft
+cov1854,organism,HUMAN,,Human,reviewed
+cov1854,organism,CELL_CULTURE,,Cell culture,reviewed
+cov1854,sample_type,CELLS,CELLS,,reviewed
+cov2029,organism,MAMMAL,,Mammal (non-human),draft
+cov2029,sample_type,GI_TRACT,GUT,,draft
+cov2029,sample_type,MUSCLE,PROTEIN,,draft
+cov2029,sample_type,ORGAN,PROTEIN,,draft
+cov2046,organism,MAMMAL,,Mammal (non-human),draft
+cov2046,sample_type,GI_TRACT,GUT,,draft
+cov2046,sample_type,ORGAN,PROTEIN,,draft
+cov2046,sample_type,BLOOD,BLOOD,,draft
+cov2072,organism,ANNELID,,Other invertebrate,draft
+cov2072,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov2081,organism,HUMAN,,Human,draft
+cov2081,sample_type,SOFT_TISSUE,PROTEIN,,draft
+cov2081,sample_type,ORGAN,PROTEIN,,draft
+cov2097,organism,MAMMAL,,Mammal (non-human),draft
+cov2097,sample_type,ORGAN,PROTEIN,,draft
+cov2097,sample_type,BLOOD,BLOOD,,draft
+cov2135,organism,HUMAN,,Human,draft
+cov2135,sample_type,MILK,LIPID_FLUID,,draft
+cov2139,organism,CRUSTACEAN,,Crustacean,reviewed
+cov2139,organism,FISH,,Fish,reviewed
+cov2139,organism,ZOOPLANKTON,,Other invertebrate,reviewed
+cov2139,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,reviewed
+cov2158,organism,CNIDARIAN,,Other invertebrate,draft
+cov2158,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov2162,organism,FISH,,Fish,draft
+cov2162,sample_type,GI_CONTENTS,GUT,,draft
+cov2162,sample_type,GI_TRACT,GUT,,draft
+cov2162,sample_type,MUSCLE,PROTEIN,,draft
+cov2162,sample_type,SECTION,SECTION,,draft
+cov2166,organism,ANNELID,,Other invertebrate,draft
+cov2166,organism,SPONGE,,Other invertebrate,draft
+cov2166,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov2170,organism,BIVALVE,,Bivalve,draft
+cov2170,organism,FISH,,Fish,draft
+cov2170,sample_type,GI_TRACT,GUT,,draft
+cov2170,sample_type,GILL,PROTEIN,,draft
+cov2170,sample_type,ORGAN,PROTEIN,,draft
+cov2170,sample_type,REPRODUCTIVE,PROTEIN,,draft
+cov2173,organism,FISH,,Fish,draft
+cov2173,sample_type,GI_CONTENTS,GUT,,draft
+cov2173,sample_type,GI_TRACT,GUT,,draft
+cov2176,organism,FISH,,Fish,draft
+cov2176,sample_type,GI_CONTENTS,GUT,,draft
+cov2176,sample_type,GI_TRACT,GUT,,draft
+cov2176,sample_type,GILL,PROTEIN,,draft
+cov2200,organism,HUMAN,,Human,draft
+cov2200,sample_type,BODY_FLUID,AQUEOUS,,draft
+cov2208,organism,BIVALVE,,Bivalve,reviewed
+cov2208,organism,FISH,,Fish,reviewed
+cov2208,organism,CEPHALOPOD,,Other invertebrate,reviewed
+cov2208,organism,FOOD_PRODUCT,,Food product,reviewed
+cov2208,sample_type,GI_TRACT,GUT,,reviewed
+cov2208,sample_type,GILL,PROTEIN,,reviewed
+cov2208,sample_type,MUSCLE,PROTEIN,,reviewed
+cov2208,sample_type,FOOD,FOOD,,reviewed
+cov2233,organism,FISH,,Fish,draft
+cov2233,sample_type,GI_TRACT,GUT,,draft
+cov2233,sample_type,GILL,PROTEIN,,draft
+cov2233,sample_type,MUSCLE,PROTEIN,,draft
+cov2233,sample_type,ORGAN,PROTEIN,,draft
+cov2243,organism,HUMAN,,Human,draft
+cov2243,sample_type,REPRODUCTIVE,PROTEIN,,draft
+cov2243,sample_type,BLOOD,BLOOD,,draft
+cov2243,sample_type,FECES,FECAL,,draft
+cov2247,organism,FISH,,Fish,draft
+cov2247,sample_type,GI_TRACT,GUT,,draft
+cov2247,sample_type,GILL,PROTEIN,,draft
+cov2247,sample_type,MUSCLE,PROTEIN,,draft
+cov2247,sample_type,ORGAN,PROTEIN,,draft
+cov2247,sample_type,REPRODUCTIVE,PROTEIN,,draft
+cov2265,organism,BIVALVE,,Bivalve,reviewed
+cov2265,organism,CRUSTACEAN,,Crustacean,reviewed
+cov2265,organism,FISH,,Fish,reviewed
+cov2265,sample_type,GI_TRACT,GUT,,reviewed
+cov2265,sample_type,MUSCLE,PROTEIN,,reviewed
+cov2265,sample_type,SOFT_TISSUE,PROTEIN,,reviewed
+cov2265,environment_sample,SEDIMENT,,,reviewed
+cov2290,organism,HUMAN,,Human,reviewed
+cov2290,sample_type,MILK,LIPID_FLUID,,reviewed
+cov2295,organism,BIVALVE,,Bivalve,reviewed
+cov2295,sample_type,SOFT_TISSUE,PROTEIN,,reviewed
+cov2313,organism,FISH,,Fish,draft
+cov2313,sample_type,GI_TRACT,GUT,,draft
+cov2313,sample_type,GILL,PROTEIN,,draft
+cov2313,sample_type,MUSCLE,PROTEIN,,draft
+cov2315,organism,HUMAN,,Human,reviewed
+cov2315,sample_type,BLOOD,BLOOD,,reviewed
+cov2333,organism,CRUSTACEAN,,Crustacean,reviewed
+cov2333,organism,FISH,,Fish,reviewed
+cov2333,organism,CEPHALOPOD,,Other invertebrate,reviewed
+cov2333,sample_type,GI_TRACT,GUT,,reviewed
+cov2333,sample_type,GILL,PROTEIN,,reviewed
+cov2333,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,reviewed
+cov2337,organism,INSECT,,Other invertebrate,draft
+cov2337,sample_type,GI_TRACT,GUT,,draft
+cov2337,sample_type,FECES,FECAL,,draft
+cov2338,organism,HUMAN,,Human,draft
+cov2338,sample_type,FECES,FECAL,,draft
+cov2339,organism,ANNELID,,Other invertebrate,draft
+cov2339,sample_type,GI_CONTENTS,GUT,,draft
+cov2339,sample_type,GI_TRACT,GUT,,draft
+cov2339,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov2341,organism,MAMMAL,,Mammal (non-human),reviewed
+cov2341,sample_type,MILK,LIPID_FLUID,,reviewed
+cov2341,sample_type,FOOD,FOOD,,reviewed
+cov2344,organism,HUMAN,,Human,draft
+cov2344,sample_type,BODY_FLUID,AQUEOUS,,draft
+cov2363,organism,FISH,,Fish,draft
+cov2363,sample_type,GI_TRACT,GUT,,draft
+cov2363,sample_type,GILL,PROTEIN,,draft
+cov2363,sample_type,MUSCLE,PROTEIN,,draft
+cov2368,organism,BIVALVE,,Bivalve,reviewed
+cov2368,sample_type,SOFT_TISSUE,PROTEIN,,reviewed
+cov2375,organism,FISH,,Fish,reviewed
+cov2375,organism,MAMMAL,,Mammal (non-human),reviewed
+cov2375,sample_type,GI_CONTENTS,GUT,,reviewed
+cov2375,sample_type,GI_TRACT,GUT,,reviewed
+cov2375,sample_type,MUSCLE,PROTEIN,,reviewed
+cov2375,sample_type,FECES,FECAL,,reviewed
+cov2396,organism,HUMAN,,Human,draft
+cov2396,sample_type,BODY_FLUID,AQUEOUS,,draft
+cov2416,organism,FISH,,Fish,draft
+cov2416,sample_type,GI_TRACT,GUT,,draft
+cov2416,sample_type,GILL,PROTEIN,,draft
+cov2416,sample_type,MUSCLE,PROTEIN,,draft
+cov2418,organism,FISH,,Fish,draft
+cov2418,sample_type,MUSCLE,PROTEIN,,draft
+cov2418,sample_type,ORGAN,PROTEIN,,draft
+cov2418,sample_type,SKELETAL,MINERAL,,draft
+cov2428,organism,MAMMAL,,Mammal (non-human),draft
+cov2428,sample_type,GI_CONTENTS,GUT,,draft
+cov2439,organism,FISH,,Fish,draft
+cov2439,sample_type,GI_TRACT,GUT,,draft
+cov2439,sample_type,MUSCLE,PROTEIN,,draft
+cov2439,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov2439,sample_type,ORGAN,PROTEIN,,draft
+cov2443,organism,NEMATODE,,Other invertebrate,reviewed
+cov2443,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,reviewed
+cov2443,environment_sample,SEDIMENT,,,reviewed
+cov2451,organism,FISH,,Fish,draft
+cov2451,sample_type,GI_TRACT,GUT,,draft
+cov2451,sample_type,GILL,PROTEIN,,draft
+cov2451,sample_type,ORGAN,PROTEIN,,draft
+cov2470,organism,MAMMAL,,Mammal (non-human),draft
+cov2470,sample_type,GI_CONTENTS,GUT,,draft
+cov2470,sample_type,GI_TRACT,GUT,,draft
+cov2470,sample_type,ORGAN,PROTEIN,,draft
+cov2487,organism,BIVALVE,,Bivalve,reviewed
+cov2487,organism,INSECT,,Other invertebrate,reviewed
+cov2487,organism,ANNELID,,Other invertebrate,reviewed
+cov2487,organism,INVERT_MIXED,,Other invertebrate,reviewed
+cov2487,sample_type,SOFT_TISSUE,PROTEIN,,reviewed
+cov2487,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,reviewed
+cov2522,organism,HUMAN,,Human,draft
+cov2522,sample_type,BODY_FLUID,AQUEOUS,,draft
+cov2522,sample_type,FECES,FECAL,,draft
+cov2543,organism,FISH,,Fish,draft
+cov2543,sample_type,GI_TRACT,GUT,,draft
+cov2543,sample_type,GILL,PROTEIN,,draft
+cov2543,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov2555,organism,FISH,,Fish,draft
+cov2555,sample_type,GI_TRACT,GUT,,draft
+cov2568,organism,CRUSTACEAN,,Crustacean,reviewed
+cov2568,organism,FISH,,Fish,reviewed
+cov2568,sample_type,MUSCLE,PROTEIN,,reviewed
+cov2587,organism,HUMAN,,Human,reviewed
+cov2587,organism,CELL_CULTURE,,Cell culture,reviewed
+cov2587,sample_type,CELLS,CELLS,,reviewed
+cov2609,organism,HUMAN,,Human,reviewed
+cov2609,organism,CELL_CULTURE,,Cell culture,reviewed
+cov2609,sample_type,CELLS,CELLS,,reviewed
+cov2630,organism,INSECT,,Other invertebrate,draft
+cov2630,organism,PLANT,,Plant or alga,draft
+cov2630,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov2630,sample_type,PLANT_TISSUE,PLANT,,draft
+cov2659,organism,CRUSTACEAN,,Crustacean,reviewed
+cov2659,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,reviewed
+cov2670,organism,HUMAN,,Human,draft
+cov2670,sample_type,FECES,FECAL,,draft
+cov2671,organism,AMPHIBIAN,,Other vertebrate,draft
+cov2671,sample_type,GI_CONTENTS,GUT,,draft
+cov2671,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov2673,organism,MAMMAL,,Mammal (non-human),reviewed
+cov2673,sample_type,PRIMARY_CELLS,CELLS,,reviewed
+cov2704,organism,HUMAN,,Human,reviewed
+cov2704,organism,CELL_CULTURE,,Cell culture,reviewed
+cov2704,sample_type,GI_TRACT,GUT,,reviewed
+cov2704,sample_type,ORGAN,PROTEIN,,reviewed
+cov2704,sample_type,CELLS,CELLS,,reviewed
+cov2706,organism,BIVALVE,,Bivalve,draft
+cov2706,sample_type,GI_TRACT,GUT,,draft
+cov2706,sample_type,GILL,PROTEIN,,draft
+cov2780,organism,FISH,,Fish,draft
+cov2780,sample_type,GI_TRACT,GUT,,draft
+cov2780,sample_type,GILL,PROTEIN,,draft
+cov2790,organism,CNIDARIAN,,Other invertebrate,reviewed
+cov2790,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,reviewed
+cov1648,organism,MAMMAL,,Mammal (non-human),draft
+cov1648,sample_type,GI_CONTENTS,GUT,,draft
+cov1648,sample_type,GI_TRACT,GUT,,draft
+cov2803,organism,FISH,,Fish,draft
+cov2803,sample_type,MUSCLE,PROTEIN,,draft
+cov2803,environment_sample,FRESHWATER,,,draft
+cov2806,organism,FISH,,Fish,reviewed
+cov2806,sample_type,GI_TRACT,GUT,,reviewed
+cov2806,sample_type,MUSCLE,PROTEIN,,reviewed
+cov1208,organism,ANNELID,,Other invertebrate,reviewed
+cov1208,organism,NEMATODE,,Other invertebrate,reviewed
+cov1208,organism,ALGA,,Plant or alga,reviewed
+cov1208,organism,MICROBE,,Other,reviewed
+cov1208,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,reviewed
+cov1208,sample_type,PLANT_TISSUE,PLANT,,reviewed
+cov2816,organism,PLANT,,Plant or alga,reviewed
+cov2816,organism,FISH,,Fish,reviewed
+cov2816,organism,FOOD_PRODUCT,,Food product,reviewed
+cov2816,sample_type,FOOD,FOOD,,reviewed
+cov2823,organism,BIVALVE,,Bivalve,reviewed
+cov2823,organism,CRUSTACEAN,,Crustacean,reviewed
+cov2823,organism,ZOOPLANKTON,,Other invertebrate,reviewed
+cov2823,organism,ALGA,,Plant or alga,reviewed
+cov2823,sample_type,SOFT_TISSUE,PROTEIN,,reviewed
+cov2823,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,reviewed
+cov2823,sample_type,PLANT_TISSUE,PLANT,,reviewed
+cov2823,sample_type,FECES,FECAL,,reviewed
+cov2823,environment_sample,FRESHWATER,,,reviewed
+cov2846,organism,CNIDARIAN,,Other invertebrate,draft
+cov2846,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov2846,sample_type,FECES,FECAL,,draft
+cov2846,environment_sample,SEAWATER,,,draft
+cov2881,organism,FISH,,Fish,draft
+cov2881,sample_type,GI_TRACT,GUT,,draft
+cov2900,organism,BIRD,,Bird,draft
+cov2900,sample_type,FECES,FECAL,,draft
+cov2939,organism,BIVALVE,,Bivalve,draft
+cov2939,sample_type,SOFT_TISSUE,PROTEIN,,draft
+cov2939,sample_type,BODY_FLUID,AQUEOUS,,draft
+cov2969,organism,BIVALVE,,Bivalve,reviewed
+cov2969,sample_type,SOFT_TISSUE,PROTEIN,,reviewed
+cov2969,sample_type,ORGAN,PROTEIN,,reviewed
+cov3019,organism,BIVALVE,,Bivalve,draft
+cov3019,sample_type,SOFT_TISSUE,PROTEIN,,draft
+cov3111,organism,HUMAN,,Human,reviewed
+cov3111,organism,MAMMAL,,Mammal (non-human),reviewed
+cov3111,organism,CELL_CULTURE,,Cell culture,reviewed
+cov3111,sample_type,CELLS,CELLS,,reviewed
+cov3238,organism,FISH,,Fish,draft
+cov3238,sample_type,MUSCLE,PROTEIN,,draft
+cov3269,organism,FISH,,Fish,draft
+cov3269,sample_type,GI_TRACT,GUT,,draft
+cov3382,organism,BIVALVE,,Bivalve,draft
+cov3382,sample_type,GILL,PROTEIN,,draft
+cov3382,sample_type,SOFT_TISSUE,PROTEIN,,draft
+cov3382,sample_type,ORGAN,PROTEIN,,draft
+cov3396,organism,BIVALVE,,Bivalve,reviewed
+cov3396,organism,CRUSTACEAN,,Crustacean,reviewed
+cov3396,organism,FISH,,Fish,reviewed
+cov3396,organism,MAMMAL,,Mammal (non-human),reviewed
+cov3396,organism,BIRD,,Bird,reviewed
+cov3396,sample_type,MUSCLE,PROTEIN,,reviewed
+cov3396,sample_type,REPRODUCTIVE,PROTEIN,,reviewed
+cov3396,sample_type,MILK,LIPID_FLUID,,reviewed
+cov3396,sample_type,FOOD,FOOD,,reviewed
+cov3402,organism,BIRD,,Bird,draft
+cov3402,sample_type,GI_CONTENTS,GUT,,draft
+cov3402,sample_type,GI_TRACT,GUT,,draft
+cov3443,organism,CNIDARIAN,,Other invertebrate,reviewed
+cov3443,sample_type,TISSUE,PROTEIN,,reviewed
+cov3443,environment_sample,SEAWATER,,,reviewed
+cov3499,organism,BIVALVE,,Bivalve,draft
+cov3499,sample_type,SOFT_TISSUE,PROTEIN,,draft
+cov3499,environment_sample,SEAWATER,,,draft
+cov3499,environment_sample,SEDIMENT,,,draft
+cov3508,organism,BIVALVE,,Bivalve,reviewed
+cov3508,organism,CRUSTACEAN,,Crustacean,reviewed
+cov3508,organism,FISH,,Fish,reviewed
+cov3508,sample_type,GI_TRACT,GUT,,reviewed
+cov3508,sample_type,GILL,PROTEIN,,reviewed
+cov3508,environment_sample,FRESHWATER,,,reviewed
+cov3508,environment_sample,SEDIMENT,,,reviewed
+cov3514,organism,CRUSTACEAN,,Crustacean,reviewed
+cov3514,organism,FISH,,Fish,reviewed
+cov3514,sample_type,GI_TRACT,GUT,,reviewed
+cov3517,organism,CRUSTACEAN,,Crustacean,draft
+cov3517,sample_type,GI_TRACT,GUT,,draft
+cov3517,sample_type,GILL,PROTEIN,,draft
+cov3599,organism,CRUSTACEAN,,Crustacean,reviewed
+cov3599,organism,FISH,,Fish,reviewed
+cov3599,organism,ZOOPLANKTON,,Other invertebrate,reviewed
+cov3599,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,reviewed
+cov3599,environment_sample,SEAWATER,,,reviewed
+cov3661,organism,MAMMAL,,Mammal (non-human),reviewed
+cov3661,sample_type,GI_CONTENTS,GUT,,reviewed
+cov3714,organism,BIVALVE,,Bivalve,reviewed
+cov3714,organism,CRUSTACEAN,,Crustacean,reviewed
+cov3714,organism,FISH,,Fish,reviewed
+cov3714,sample_type,GI_TRACT,GUT,,reviewed
+cov3714,sample_type,GILL,PROTEIN,,reviewed
+cov3714,sample_type,MUSCLE,PROTEIN,,reviewed
+cov3714,sample_type,SOFT_TISSUE,PROTEIN,,reviewed
+cov3714,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,reviewed
+cov3727,organism,BIVALVE,,Bivalve,draft
+cov3727,sample_type,SOFT_TISSUE,PROTEIN,,draft
+cov3730,organism,HUMAN,,Human,draft
+cov3730,organism,CELL_CULTURE,,Cell culture,draft
+cov3730,sample_type,CELLS,CELLS,,draft
+cov3741,organism,CRUSTACEAN,,Crustacean,draft
+cov3741,sample_type,GI_TRACT,GUT,,draft
+cov3741,sample_type,GILL,PROTEIN,,draft
+cov3793,organism,MAMMAL,,Mammal (non-human),draft
+cov3793,sample_type,GI_TRACT,GUT,,draft
+cov3793,sample_type,ORGAN,PROTEIN,,draft
+cov3810,organism,CRUSTACEAN,,Crustacean,draft
+cov3810,sample_type,GI_CONTENTS,GUT,,draft
+cov3810,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov3820,organism,CRUSTACEAN,,Crustacean,draft
+cov3820,sample_type,GI_TRACT,GUT,,draft
+cov3831,organism,CNIDARIAN,,Other invertebrate,draft
+cov3831,sample_type,SKELETAL,MINERAL,,draft
+cov3831,environment_sample,SEAWATER,,,draft
+cov3831,environment_sample,SEDIMENT,,,draft
+cov3853,organism,BIVALVE,,Bivalve,draft
+cov3853,sample_type,GI_TRACT,GUT,,draft
+cov3853,sample_type,GILL,PROTEIN,,draft
+cov3853,sample_type,FECES,FECAL,,draft
+cov3863,organism,BIVALVE,,Bivalve,draft
+cov3863,sample_type,SOFT_TISSUE,PROTEIN,,draft
+cov3863,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov3863,sample_type,SKELETAL,MINERAL,,draft
+cov3863,environment_sample,SEAWATER,,,draft
+cov3863,environment_sample,SEDIMENT,,,draft
+cov3867,organism,HUMAN,,Human,reviewed
+cov3867,sample_type,REPRODUCTIVE,PROTEIN,,reviewed
+cov3867,sample_type,PRIMARY_CELLS,CELLS,,reviewed
+cov3868,organism,CRUSTACEAN,,Crustacean,reviewed
+cov3868,organism,INSECT,,Other invertebrate,reviewed
+cov3868,organism,ANNELID,,Other invertebrate,reviewed
+cov3868,organism,NEMATODE,,Other invertebrate,reviewed
+cov3868,organism,INVERT_MIXED,,Other invertebrate,reviewed
+cov3868,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,reviewed
+cov3985,organism,HUMAN,,Human,draft
+cov3985,sample_type,BODY_FLUID,AQUEOUS,,draft
+cov4078,organism,SPONGE,,Other invertebrate,reviewed
+cov4078,sample_type,TISSUE,PROTEIN,,reviewed
+cov4348,organism,AMPHIBIAN,,Other vertebrate,reviewed
+cov4348,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,reviewed
+cov4364,organism,BIVALVE,,Bivalve,draft
+cov4364,sample_type,GI_TRACT,GUT,,draft
+cov4364,sample_type,SOFT_TISSUE,PROTEIN,,draft
+cov4596,organism,FISH,,Fish,reviewed
+cov4596,organism,INSECT,,Other invertebrate,reviewed
+cov4596,organism,PLANT,,Plant or alga,reviewed
+cov4596,sample_type,GI_TRACT,GUT,,reviewed
+cov4596,sample_type,GILL,PROTEIN,,reviewed
+cov4596,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,reviewed
+cov4596,sample_type,ORGAN,PROTEIN,,reviewed
+cov4596,sample_type,FECES,FECAL,,reviewed
+cov4596,sample_type,PLANT_TISSUE,PLANT,,reviewed
+cov4596,environment_sample,SOIL,,,reviewed
+cov4597,organism,BIVALVE,,Bivalve,draft
+cov4597,sample_type,GI_TRACT,GUT,,draft
+cov4597,sample_type,GILL,PROTEIN,,draft
+cov4598,organism,HUMAN,,Human,reviewed
+cov4598,organism,CELL_CULTURE,,Cell culture,reviewed
+cov4598,sample_type,CELLS,CELLS,,reviewed
+cov4599,organism,HUMAN,,Human,draft
+cov4599,sample_type,ORGAN,PROTEIN,,draft
+cov4600,organism,CRUSTACEAN,,Crustacean,reviewed
+cov4600,organism,FISH,,Fish,reviewed
+cov4600,sample_type,GI_TRACT,GUT,,reviewed
+cov4600,sample_type,GILL,PROTEIN,,reviewed
+cov4600,sample_type,MUSCLE,PROTEIN,,reviewed
+cov4600,sample_type,ORGAN,PROTEIN,,reviewed
+cov4602,organism,HUMAN,,Human,draft
+cov4602,sample_type,BODY_FLUID,AQUEOUS,,draft
+cov4604,organism,FISH,,Fish,draft
+cov4604,sample_type,ORGAN,PROTEIN,,draft
+cov4605,organism,BIRD,,Bird,draft
+cov4605,sample_type,GI_CONTENTS,GUT,,draft
+cov4606,organism,FISH,,Fish,draft
+cov4606,sample_type,GI_TRACT,GUT,,draft
+cov4606,sample_type,GILL,PROTEIN,,draft
+cov4606,sample_type,MUSCLE,PROTEIN,,draft
+cov4607,organism,CEPHALOPOD,,Other invertebrate,reviewed
+cov4607,sample_type,GI_TRACT,GUT,,reviewed
+cov4607,sample_type,GILL,PROTEIN,,reviewed
+cov4607,sample_type,MUSCLE,PROTEIN,,reviewed
+cov4608,organism,MAMMAL,,Mammal (non-human),draft
+cov4608,sample_type,FECES,FECAL,,draft
+cov4608,environment_sample,SOIL,,,draft
+cov4610,organism,BIVALVE,,Bivalve,reviewed
+cov4610,organism,CRUSTACEAN,,Crustacean,reviewed
+cov4610,organism,FISH,,Fish,reviewed
+cov4610,sample_type,GI_TRACT,GUT,,reviewed
+cov4610,sample_type,MUSCLE,PROTEIN,,reviewed
+cov4610,sample_type,SOFT_TISSUE,PROTEIN,,reviewed
+cov4610,sample_type,SKELETAL,MINERAL,,reviewed
+cov4611,organism,FISH,,Fish,draft
+cov4611,sample_type,GI_CONTENTS,GUT,,draft
+cov4611,sample_type,GI_TRACT,GUT,,draft
+cov4612,organism,FISH,,Fish,draft
+cov4612,sample_type,GI_TRACT,GUT,,draft
+cov4614,organism,FISH,,Fish,draft
+cov4614,sample_type,MUSCLE,PROTEIN,,draft
+cov4614,sample_type,SECTION,SECTION,,draft
+cov4615,organism,CRUSTACEAN,,Crustacean,draft
+cov4615,sample_type,SOFT_TISSUE,PROTEIN,,draft
+cov4615,environment_sample,FRESHWATER,,,draft
+cov4615,environment_sample,SEDIMENT,,,draft
+cov4618,organism,CNIDARIAN,,Other invertebrate,reviewed
+cov4618,sample_type,SKELETAL,MINERAL,,reviewed
+cov4618,sample_type,SECTION,SECTION,,reviewed
+cov4619,organism,BIVALVE,,Bivalve,draft
+cov4619,organism,FISH,,Fish,draft
+cov4619,sample_type,GI_TRACT,GUT,,draft
+cov4619,sample_type,MUSCLE,PROTEIN,,draft
+cov4619,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov4619,sample_type,ORGAN,PROTEIN,,draft
+cov4619,sample_type,FOOD,FOOD,,draft
+cov4620,organism,INSECT,,Other invertebrate,draft
+cov4620,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov4620,environment_sample,WASTEWATER,,,draft
+cov4623,organism,BIVALVE,,Bivalve,draft
+cov4623,sample_type,MUSCLE,PROTEIN,,draft
+cov4623,sample_type,SOFT_TISSUE,PROTEIN,,draft
+cov4627,organism,BIVALVE,,Bivalve,draft
+cov4627,sample_type,SOFT_TISSUE,PROTEIN,,draft
+cov4628,organism,FISH,,Fish,draft
+cov4628,sample_type,GILL,PROTEIN,,draft
+cov4628,sample_type,MUSCLE,PROTEIN,,draft
+cov4628,sample_type,ORGAN,PROTEIN,,draft
+cov4629,organism,FISH,,Fish,draft
+cov4629,sample_type,GI_CONTENTS,GUT,,draft
+cov4629,sample_type,GI_TRACT,GUT,,draft
+cov4630,organism,BIRD,,Bird,draft
+cov4630,sample_type,GI_CONTENTS,GUT,,draft
+cov4630,sample_type,GI_TRACT,GUT,,draft
+cov4631,organism,FISH,,Fish,draft
+cov4631,sample_type,GI_TRACT,GUT,,draft
+cov4632,organism,BIRD,,Bird,draft
+cov4632,sample_type,FECES,FECAL,,draft
+cov4633,organism,FISH,,Fish,draft
+cov4633,sample_type,GI_TRACT,GUT,,draft
+cov4634,organism,FISH,,Fish,reviewed
+cov4634,organism,INVERT_MIXED,,Other invertebrate,reviewed
+cov4634,sample_type,GI_TRACT,GUT,,reviewed
+cov4634,sample_type,GILL,PROTEIN,,reviewed
+cov4634,sample_type,MUSCLE,PROTEIN,,reviewed
+cov4634,sample_type,ORGAN,PROTEIN,,reviewed
+cov4634,sample_type,SKELETAL,MINERAL,,reviewed
+cov4634,environment_sample,FRESHWATER,,,reviewed
+cov4634,environment_sample,SEDIMENT,,,reviewed
+cov4636,organism,BIVALVE,,Bivalve,reviewed
+cov4636,organism,CRUSTACEAN,,Crustacean,reviewed
+cov4636,organism,ANNELID,,Other invertebrate,reviewed
+cov4636,sample_type,GI_TRACT,GUT,,reviewed
+cov4636,sample_type,GILL,PROTEIN,,reviewed
+cov4636,sample_type,FECES,FECAL,,reviewed
+cov4636,sample_type,SECTION,SECTION,,reviewed
+cov4636,sample_type,REPRODUCTIVE,PROTEIN,,reviewed
+cov4638,organism,FISH,,Fish,draft
+cov4638,sample_type,GI_CONTENTS,GUT,,draft
+cov4639,organism,FISH,,Fish,draft
+cov4639,sample_type,GI_TRACT,GUT,,draft
+cov4639,sample_type,MUSCLE,PROTEIN,,draft
+cov4639,sample_type,ORGAN,PROTEIN,,draft
+cov4645,organism,BIVALVE,,Bivalve,draft
+cov4645,sample_type,SOFT_TISSUE,PROTEIN,,draft
+cov4646,organism,BIVALVE,,Bivalve,draft
+cov4646,sample_type,SOFT_TISSUE,PROTEIN,,draft
+cov4648,organism,MAMMAL,,Mammal (non-human),draft
+cov4648,sample_type,GI_TRACT,GUT,,draft
+cov4648,sample_type,FECES,FECAL,,draft
+cov4649,organism,HUMAN,,Human,draft
+cov4649,sample_type,BLOOD,BLOOD,,draft
+cov4650,organism,CRUSTACEAN,,Crustacean,reviewed
+cov4650,sample_type,GI_TRACT,GUT,,reviewed
+cov4652,organism,FISH,,Fish,draft
+cov4652,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov4652,sample_type,FOOD,FOOD,,draft
+cov2826,organism,CRUSTACEAN,,Crustacean,draft
+cov2826,sample_type,SOFT_TISSUE,PROTEIN,,draft
+cov2826,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,draft
+cov2826,sample_type,SKELETAL,MINERAL,,draft
+cov2826,environment_sample,FRESHWATER,,,draft
+cov2826,environment_sample,SEDIMENT,,,draft
+cov3533,organism,HUMAN,,Human,reviewed
+cov3533,organism,CELL_CULTURE,,Cell culture,reviewed
+cov3533,sample_type,ORGAN,PROTEIN,,reviewed
+cov3533,sample_type,CELLS,CELLS,,reviewed
+cov4341,organism,HUMAN,,Human,reviewed
+cov4341,organism,MAMMAL,,Mammal (non-human),reviewed
+cov4341,sample_type,ORGAN,PROTEIN,,reviewed
+cov4341,sample_type,BLOOD,BLOOD,,reviewed
+cov4341,sample_type,PRIMARY_CELLS,CELLS,,reviewed
+cov4625,organism,MAMMAL,,Mammal (non-human),draft
+cov4625,sample_type,ORGAN,PROTEIN,,draft
+cov4625,sample_type,ADIPOSE,LIPID,,draft
+cov4641,organism,CRUSTACEAN,,Crustacean,reviewed
+cov4641,organism,CNIDARIAN,,Other invertebrate,reviewed
+cov4641,organism,ZOOPLANKTON,,Other invertebrate,reviewed
+cov4641,sample_type,WHOLE_BODY,WHOLE_ORGANISM,,reviewed
+cov4641,environment_sample,SEAWATER,,,reviewed
+cov4647,organism,FISH,,Fish,draft
+cov4647,sample_type,MUSCLE,PROTEIN,,draft
+cov4647,environment_sample,FRESHWATER,,,draft
+cov4647,environment_sample,SEDIMENT,,,draft
+cov1388,organism,ELASMO,,Fish,reviewed
+cov1388,sample_type,GI_TRACT,GUT,,reviewed
+cov1388,environment_sample,SEDIMENT,,,reviewed

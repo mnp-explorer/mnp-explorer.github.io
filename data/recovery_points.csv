@@ -1,0 +1,177 @@
+point_id,study_id,value_pct,endpoint,polymer_code,polymer_raw,matrix,size_lo_um,size_hi_um,shape,spike_mass,spike_count,sd,n,variability_metric,scope,physical,removal,separation,analysis,assignment_known
+cov8-R01,cov8,93.9,mass,PA66,PA66,human-thrombus,,,unknown,,,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+cov8-R02,cov8,102.3,mass,PE,PE,human-thrombus,,,unknown,,,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+cov8-R03,cov8,109.4,mass,PVC,PVC,human-thrombus,,,unknown,,,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+cov8-R04,cov8,82.9,mass,PS,PS,human-thrombus,,,unknown,,,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+cov8-R05,cov8,107.8,mass,PET,PET,human-thrombus,,,unknown,,,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+cov8-R06,cov8,80.8,mass,PMMA,PMMA,human-thrombus,,,unknown,,,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+cov8-R07,cov8,91.5,mass,PC,PC,human-thrombus,,,unknown,,,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+cov8-R08,cov8,91.1,mass,PA6,PA6,human-thrombus,,,unknown,,,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+cov8-R09,cov8,90.4,mass,PP,PP,human-thrombus,,,unknown,,,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+cov98-R01,cov98,90.08,mass,PS,PS,lettuce-shoot,0.05,0.05,unknown,,,,5,SD,digestion_to_end,unreported,TMAH,solvent_extraction,pygcms,True
+cov98-R02,cov98,91.23,mass,PS,PS,lettuce-shoot,0.08,0.08,unknown,,,,5,SD,digestion_to_end,unreported,TMAH,solvent_extraction,pygcms,True
+cov98-R03,cov98,91.98,mass,PS,PS,lettuce-root,0.05,0.05,unknown,,,,5,SD,digestion_to_end,unreported,TMAH,solvent_extraction,pygcms,True
+cov98-R04,cov98,91.68,mass,PS,PS,lettuce-root,0.08,0.08,unknown,,,,5,SD,digestion_to_end,unreported,TMAH,solvent_extraction,pygcms,True
+cov139-R01,cov139,77,count,,pooled,mixed-tissue-and-blank,100,300,unknown,,,,11,SD,digestion_to_end,none,trypsin,density_filtration,counting,True
+cov139-R02,cov139,85,count,,pooled,mixed-tissue-and-blank,300,500,unknown,,,,11,SD,digestion_to_end,none,trypsin,density_filtration,counting,True
+cov139-R03,cov139,92,count,,pooled,mixed-tissue-and-blank,500,1000,unknown,,,,11,SD,digestion_to_end,none,trypsin,density_filtration,counting,True
+cov146-R01,cov146,62,mass,PMMA,PMMA,reagent-control,,,unknown,,,9,,SD,digestion_to_end,filter_grinding,KOH,filtration,pygcmsms,True
+cov146-R02,cov146,65,mass,PP,PP,reagent-control,,,unknown,,,10,,SD,digestion_to_end,filter_grinding,KOH,filtration,pygcmsms,True
+cov146-R03,cov146,110,mass,PE,PE,reagent-control,,,unknown,,,16,,SD,digestion_to_end,filter_grinding,KOH,filtration,pygcmsms,True
+cov146-R04,cov146,76,mass,PS,PS,reagent-control,,,unknown,,,11,,SD,digestion_to_end,filter_grinding,KOH,filtration,pygcmsms,True
+cov146-R05,cov146,76,mass,PET,PET,reagent-control,,,unknown,,,11,,SD,digestion_to_end,filter_grinding,KOH,filtration,pygcmsms,True
+cov195-R01,cov195,57,mass,PE,PE,human-blood,,,unknown,"[10, 30]",,,4,SD,physical_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+cov195-R02,cov195,81,mass,PP,PP,human-blood,,,unknown,"[10, 30]",,,4,SD,physical_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+cov195-R03,cov195,14,mass,PMMA,PMMA,human-blood,,,unknown,"[10, 30]",,,4,SD,physical_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+cov195-R04,cov195,7,mass,PC,PC,human-blood,,,unknown,"[10, 30]",,,4,SD,physical_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+cov195-R05,cov195,109,mass,PA6,PA6,human-blood,,,unknown,"[10, 30]",,,4,SD,physical_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+cov195-R06,cov195,32,mass,PA66,PA66,human-blood,,,unknown,"[10, 30]",,,4,SD,physical_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+cov195-R07,cov195,52,mass,PS,PS,human-blood,0.75,0.75,sphere,"[5, 5]",,,,SD,physical_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+cov213-R01,cov213,99,mass,PS,PS,pure-polymer,,,unknown,,,1,5,SD,partial,none,not_covered,solvent_extraction,pygcms,True
+cov213-R02,cov213,94,mass,PP,PP,pure-polymer,,,unknown,,,3,5,SD,partial,none,not_covered,solvent_extraction,pygcms,True
+cov213-R03,cov213,93,mass,PE,PE,pure-polymer,,,unknown,,,4,5,SD,partial,none,not_covered,solvent_extraction,pygcms,True
+cov213-R04,cov213,93,mass,PVC,PVC,pure-polymer,,,unknown,,,1,5,SD,partial,none,not_covered,solvent_extraction,pygcms,True
+cov213-R05,cov213,94.7,mass,,pooled,sponge-digestate,50,250,unknown,"[25000, 25000]",,5.4,6,SD,partial,none,not_covered,solvent_extraction,pygcms,True
+cov213-R06,cov213,94.1,mass,,pooled,sponge-digestate,,,unknown,"[25000, 25000]",,9.5,6,SD,partial,none,not_covered,solvent_extraction,pygcms,True
+cov261-R01,cov261,107,mass,PMMA,PMMA,reagent-control,,,unknown,,,,,SD,digestion_to_end,unreported,KOH,filtration,pygcms,False
+cov261-R02,cov261,82,mass,PP,PP,reagent-control,,,unknown,,,,,SD,digestion_to_end,unreported,KOH,filtration,pygcms,False
+cov261-R03,cov261,111,mass,PE,PE,reagent-control,,,unknown,,,,,SD,digestion_to_end,unreported,KOH,filtration,pygcms,False
+cov261-R04,cov261,129,mass,PET,PET,reagent-control,,,unknown,,,,,SD,digestion_to_end,unreported,KOH,filtration,pygcms,False
+cov261-R05,cov261,122,mass,PS,PS,reagent-control,,,unknown,,,,,SD,digestion_to_end,unreported,KOH,filtration,pygcms,False
+cov261-R06,cov261,116,mass,PC,PC,reagent-control,,,unknown,,,,,SD,digestion_to_end,unreported,KOH,filtration,pygcms,False
+cov302-R01,cov302,54,count,PS,PS,water-control,15,15,sphere,,"[50, 50]",,2,SD,digestion_to_end,none,HNO3,filtration,counting,True
+cov429-R01,cov429,95,mass,PA66,PA66,mixed-muscle,,,unknown,,,17,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+cov429-R02,cov429,111,mass,PE,PE,mixed-muscle,,,unknown,,,11,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+cov429-R03,cov429,102,mass,PP,PP,mixed-muscle,,,unknown,,,5,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+cov429-R04,cov429,94,mass,PVC,PVC,mixed-muscle,,,unknown,,,7,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+cov429-R05,cov429,143,mass,ABS,ABS,mixed-muscle,,,unknown,,,8,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+cov429-R06,cov429,98,mass,PA6,PA6,mixed-muscle,,,unknown,,,8,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+cov429-R07,cov429,174,mass,PC,PC,mixed-muscle,,,unknown,,,13,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+cov429-R08,cov429,213,mass,PET,PET,mixed-muscle,,,unknown,,,43,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+cov429-R09,cov429,104,mass,PMMA,PMMA,mixed-muscle,,,unknown,,,7,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+cov429-R10,cov429,122,mass,PS,PS,mixed-muscle,,,unknown,,,26,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+cov429-R11,cov429,20,mass,PU,PUR,mixed-muscle,,,unknown,,,16,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+cov429-R12,cov429,274,mass,SBR,SBR,mixed-muscle,,,unknown,,,60,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+cov693-R01,cov693,100.2,mass,PE,PE,pure-polymer,2000,2000,unknown,,,0.4,3,SEM,stability,none,acid_oxidation,filtration,gravimetry,True
+cov693-R02,cov693,99,mass,PP,PP,pure-polymer,2000,2000,unknown,,,0.5,3,SEM,stability,none,acid_oxidation,filtration,gravimetry,True
+cov693-R03,cov693,99.3,mass,PS,PS,pure-polymer,3500,3500,unknown,,,0.7,3,SEM,stability,none,acid_oxidation,filtration,gravimetry,True
+cov693-R04,cov693,96.8,mass,PET,PET,pure-polymer,3000,5000,unknown,,,2.8,,SEM,stability,none,acid_oxidation,filtration,gravimetry,True
+cov1082-R01,cov1082,90,count,PS,PS,ethanol-control,45,53,sphere,,"[30, 30]",,2,SD,partial,none,not_covered,filtration,counting,True
+cov1118-R01,cov1118,102.8,mass,PC,PC,human-feces,,,unknown,"[30, 50]",,10.6,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+cov1118-R02,cov1118,97.7,mass,PE,PE,human-feces,,,unknown,"[50, 500]",,0.6,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+cov1118-R03,cov1118,80.8,mass,PP,PP,human-feces,,,unknown,"[10, 200]",,22.2,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+cov1118-R04,cov1118,76.5,mass,PS,PS,human-feces,,,unknown,"[3, 100]",,3.4,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+cov1118-R05,cov1118,86.3,mass,PA6,PA6,human-feces,,,unknown,"[25, 300]",,2.9,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+cov1118-R06,cov1118,99.7,mass,PET,PET,human-feces,,,unknown,"[30, 350]",,2.4,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+cov1118-R07,cov1118,100.5,mass,PLA,PLA,human-feces,,,unknown,"[25, 250]",,9.4,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+cov1118-R08,cov1118,113.5,mass,PVC,PVC,human-feces,,,unknown,"[20, 160]",,12.3,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+cov1118-R09,cov1118,105.8,mass,PA66,PA66,human-feces,,,unknown,"[15, 350]",,6.3,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+cov1118-R10,cov1118,106.6,mass,PBAT,PBAT,human-feces,,,unknown,"[4, 30]",,2.8,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+cov1118-R11,cov1118,88.7,mass,PMMA,PMMA,human-feces,,,unknown,"[6, 200]",,5.2,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+cov1133-R01,cov1133,100,count,PE,PE,mussel,1000,5000,unknown,,"[8, 8]",,3,SD,digestion_to_end,none,KOH_oxidation,filtration,counting,True
+cov1133-R02,cov1133,100,count,PP,PP,mussel,1000,5000,unknown,,"[8, 8]",,3,SD,digestion_to_end,none,KOH_oxidation,filtration,counting,True
+cov1133-R03,cov1133,100,count,PA,PA-unspecified,mussel,1000,5000,unknown,,"[8, 8]",,3,SD,digestion_to_end,none,KOH_oxidation,filtration,counting,True
+cov1133-R04,cov1133,100,count,PS,PS,mussel,1000,5000,unknown,,"[8, 8]",,3,SD,digestion_to_end,none,KOH_oxidation,filtration,counting,True
+cov1273-R01,cov1273,89,count,PE,PE,water-control,2,110,fragment,,"[25, 134]",12,4,SD,digestion_to_end,none,H2O2,filtration,raman,True
+cov1273-R02,cov1273,86,count,PE,PE,water-control,2,110,fragment,,"[25, 593]",12,5,SD,digestion_to_end,none,H2O2,filtration,fluorescence,True
+cov1376-R01,cov1376,95.56,count,PE,PE,water-control,100,500,unknown,,"[20, 20]",2.42,3,SE,digestion_to_end,none,KOH,filtration,counting,True
+cov1376-R02,cov1376,91.67,count,PE,PE,water-control,100,500,unknown,,"[20, 20]",1.67,3,SE,digestion_to_end,none,KOH,filtration,counting,True
+cov1376-R03,cov1376,93.33,count,PE,PE,water-control,100,500,unknown,,"[20, 20]",3.33,3,SE,digestion_to_end,none,KOH,filtration,counting,True
+cov1376-R04,cov1376,91.67,count,PP,PP,water-control,100,500,unknown,,"[20, 20]",3.33,3,SE,digestion_to_end,none,KOH,filtration,counting,True
+cov1376-R05,cov1376,98.33,count,PP,PP,water-control,100,500,unknown,,"[20, 20]",1.67,3,SE,digestion_to_end,none,KOH,filtration,counting,True
+cov1376-R06,cov1376,91.67,count,PP,PP,water-control,100,500,unknown,,"[20, 20]",1.67,3,SE,digestion_to_end,none,KOH,filtration,counting,True
+cov1484-R01,cov1484,92.6,mass,PA66,PA66,rat-feces,,,unknown,,,3.1,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
+cov1484-R02,cov1484,104.8,mass,PA66,PA66,rat-feces,,,unknown,,,5.7,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
+cov1484-R03,cov1484,89.7,mass,PA66,PA66,rat-feces,,,unknown,,,4.8,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
+cov1484-R04,cov1484,81.5,mass,PA66,PA66,rat-feces,,,unknown,,,6.7,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
+cov1484-R05,cov1484,86.1,mass,PA66,PA66,rat-feces,,,unknown,,,3.5,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
+cov1484-R06,cov1484,85.6,mass,PA66,PA66,rat-feces,,,unknown,,,7.2,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
+cov1484-R07,cov1484,103.5,mass,PA66,PA66,rat-serum,,,unknown,,,10.5,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
+cov1484-R08,cov1484,95.2,mass,PA66,PA66,rat-serum,,,unknown,,,2.6,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
+cov1484-R09,cov1484,96.8,mass,PA66,PA66,rat-serum,,,unknown,,,3.7,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
+cov1849-R01,cov1849,73,mass,PMMA,PMMA,human-blood,,,unknown,,,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+cov1849-R02,cov1849,27,mass,PMMA,PMMA,human-blood,,,unknown,,,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+cov1849-R03,cov1849,100,mass,PP,PP,human-blood,,,unknown,,,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+cov1849-R04,cov1849,60,mass,PP,PP,human-blood,,,unknown,,,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+cov1849-R05,cov1849,79,mass,PS,PS,human-blood,,,unknown,,,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+cov1849-R06,cov1849,41,mass,PS,PS,human-blood,,,unknown,,,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+cov1849-R07,cov1849,79,mass,PET,PET,human-blood,,,unknown,,,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+cov1849-R08,cov1849,40,mass,PET,PET,human-blood,,,unknown,,,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+cov1849-R09,cov1849,108,mass,PE,PE,human-blood,,,unknown,,,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+cov1849-R10,cov1849,164,mass,PE,PE,human-blood,,,unknown,,,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+cov1851-R01,cov1851,88,mass,PE,PE,marsupial-feces,500,500,unknown,"[2000, 2000]",,8,3,SD,digestion_to_end,none,enzyme_cleanup,solvent_extraction,pygcms,True
+cov1851-R02,cov1851,78,mass,PP,PP,marsupial-feces,20,120,unknown,"[2000, 2000]",,7,3,SD,digestion_to_end,none,none,solvent_extraction,pygcms,True
+cov1851-R03,cov1851,82,mass,PET,PET,marsupial-feces,,,unknown,"[2000, 2000]",,4,3,SD,digestion_to_end,none,none,solvent_extraction,pygcms,True
+cov1851-R04,cov1851,84,mass,PS,PS,marsupial-feces,,,unknown,"[2000, 2000]",,6,3,SD,digestion_to_end,none,none,solvent_extraction,pygcms,True
+cov1851-R05,cov1851,83,mass,PVC,PVC,marsupial-feces,,,unknown,"[2000, 2000]",,10,3,SD,digestion_to_end,none,none,solvent_extraction,pygcms,True
+cov1851-R06,cov1851,103,mass,PC,PC,marsupial-feces,,,unknown,"[2000, 2000]",,9,3,SD,digestion_to_end,none,none,solvent_extraction,pygcms,True
+cov2016-R01,cov2016,56.5,mass,PMMA,PMMA,tilapia-fillet,4,4,unknown,"[0.4, 4]",,,3,SD,physical_to_end,sonication,KOH_oxidation,solvent_filtration,pygcms,True
+cov2016-R02,cov2016,71.6,mass,PS,PS,tilapia-fillet,1,1,unknown,"[0.4, 4]",,,3,SD,physical_to_end,sonication,KOH_oxidation,solvent_filtration,pygcms,True
+cov2016-R03,cov2016,89,mass,PP,PP,tilapia-fillet,5,5,unknown,"[0.4, 4]",,,3,SD,physical_to_end,sonication,KOH_oxidation,solvent_filtration,pygcms,True
+cov2016-R04,cov2016,87.2,mass,PE,PE,tilapia-fillet,5,6,unknown,"[0.4, 4]",,,3,SD,physical_to_end,sonication,KOH_oxidation,solvent_filtration,pygcms,True
+cov2016-R05,cov2016,76.9,mass,PVC,PVC,tilapia-fillet,5,5.5,unknown,"[0.4, 4]",,,3,SD,physical_to_end,sonication,KOH_oxidation,solvent_filtration,pygcms,True
+cov2016-R06,cov2016,10.9,mass,PET,PET,tilapia-fillet,,,unknown,"[0.4, 4]",,,3,SD,physical_to_end,sonication,KOH_oxidation,solvent_filtration,pygcms,True
+cov2029-R01,cov2029,47,mass,PS,PS,rodent-spleen,0.05,0.05,unknown,"[70.2, 70.2]",,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
+cov2029-R02,cov2029,51.2,mass,PS,PS,rodent-spleen,0.5,0.5,unknown,"[54, 54]",,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
+cov2029-R03,cov2029,24.3,mass,PS,PS,rodent-kidney,0.05,0.05,unknown,"[70.2, 70.2]",,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
+cov2029-R04,cov2029,40.9,mass,PS,PS,rodent-kidney,0.5,0.5,unknown,"[54, 54]",,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
+cov2029-R05,cov2029,34.9,mass,PS,PS,rodent-intestine,0.05,0.05,unknown,"[70.2, 70.2]",,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
+cov2029-R06,cov2029,69.6,mass,PS,PS,rodent-intestine,0.5,0.5,unknown,"[54, 54]",,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
+cov2029-R07,cov2029,30.2,mass,PS,PS,rodent-liver,0.05,0.05,unknown,"[70.2, 70.2]",,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
+cov2029-R08,cov2029,55.1,mass,PS,PS,rodent-liver,0.5,0.5,unknown,"[54, 54]",,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
+cov2081-R01,cov2081,100,mass,PE,PE,pure-polymer,,,unknown,"[50000, 50000]",,,10,SD,stability,none,KOH,filtration,gravimetry,True
+cov2139-R01,cov2139,93.57,count,,unspecified,fish-larvae,38,38,sphere,,,3.09,3,SD,digestion_to_end,none,KOH,filtration,counting,True
+cov2139-R02,cov2139,92.17,count,,unspecified,chaetognath-euphausiid,38,38,sphere,,,7.13,3,SD,digestion_to_end,none,enzyme_KOH,filtration,counting,True
+cov2139-R03,cov2139,91.82,count,,unspecified,copepod,38,38,sphere,,,8.98,3,SD,digestion_to_end,none,enzyme_KOH,filtration,counting,True
+cov2162-R01,cov2162,80,count,,pooled,mussel,250,300,unknown,,,,,SD,digestion_to_end,none,KOH,filtration,fluorescence,True
+cov2166-R01,cov2166,96.8,count,PS,PS,mixed-invertebrate,6,6,sphere,,,0.5,,SD,digestion_to_end,none,alkali_oxidation_acid,filtration,counting,True
+cov2208-R01,cov2208,98.2,mass,PE-LD,PE-LD,reagent-control,,,unknown,"[2000, 2000]",,,,SD,stability,none,H2O2,filtration,gravimetry,True
+cov2208-R02,cov2208,96.9,mass,PET,PET,reagent-control,,,unknown,"[2000, 2000]",,,,SD,stability,none,H2O2,filtration,gravimetry,True
+cov2208-R03,cov2208,97.5,mass,PE,PE,reagent-control,,,unknown,"[2000, 2000]",,,,SD,stability,none,H2O2,filtration,gravimetry,True
+cov2208-R04,cov2208,102,mass,ACR,acrylic-unspecified,reagent-control,,,unknown,"[2000, 2000]",,,,SD,stability,none,H2O2,filtration,gravimetry,True
+cov2208-R05,cov2208,95.9,mass,PS,PS,reagent-control,,,unknown,"[2000, 2000]",,,,SD,stability,none,H2O2,filtration,gravimetry,True
+cov2208-R06,cov2208,89,mass,OTHER,lycra-unspecified,reagent-control,,,unknown,"[2000, 2000]",,,,SD,stability,none,H2O2,filtration,gravimetry,True
+cov2265-R01,cov2265,99,count,PE,PE,sediment,,,unknown,,,,,SD,digestion_to_end,none,unresolved,ZnCl2_filtration,counting,False
+cov2265-R02,cov2265,100,count,PP,PP,sediment,,,unknown,,,,,SD,digestion_to_end,none,unresolved,ZnCl2_filtration,counting,False
+cov2265-R03,cov2265,96,count,PS,PS,sediment,,,unknown,,,,,SD,digestion_to_end,none,unresolved,ZnCl2_filtration,counting,False
+cov2338-R01,cov2338,84.69,count,PS,PS,reagent-control,50,50,sphere,,"[255, 726]",12.38,3,SD,partial,none,acid_oxidation,filtration,counting,True
+cov2338-R02,cov2338,66.8,count,PS,PS,reagent-control,200,200,sphere,,"[34, 87]",15.26,3,SD,partial,none,acid_oxidation,filtration,counting,True
+cov2368-R01,cov2368,100,count,PE,PE,mussel,32,38,sphere,,"[25, 25]",0,5,SD,digestion_to_end,none,enzyme_oxidation,NaI_filtration,fluorescence,True
+cov2368-R02,cov2368,98.4,count,PE,PE,mussel,53,63,sphere,,"[25, 25]",2.2,5,SD,digestion_to_end,none,enzyme_oxidation,NaI_filtration,fluorescence,True
+cov2368-R03,cov2368,99.2,count,PE,PE,mussel,106,125,sphere,,"[25, 25]",1.8,5,SD,digestion_to_end,none,enzyme_oxidation,NaI_filtration,fluorescence,True
+cov2375-R01,cov2375,73,count,,unspecified,fish-batch-control,,,foam,,,,,SD,digestion_to_end,none,KOH,filtration,counting,True
+cov2375-R02,cov2375,90,count,,unspecified,fish-batch-control,,,film,,,,,SD,digestion_to_end,none,KOH,filtration,counting,True
+cov2375-R03,cov2375,97,count,,unspecified,fish-batch-control,,,fiber,,,,,SD,digestion_to_end,none,KOH,filtration,counting,True
+cov2375-R04,cov2375,87,count,,unspecified,dolphin-batch-control,,,foam,,,,,SD,digestion_to_end,none,KOH,filtration,counting,True
+cov2375-R05,cov2375,90,count,,unspecified,dolphin-batch-control,,,film,,,,,SD,digestion_to_end,none,KOH,filtration,counting,True
+cov2375-R06,cov2375,90,count,,unspecified,dolphin-batch-control,,,fiber,,,,,SD,digestion_to_end,none,KOH,filtration,counting,True
+cov2706-R01,cov2706,90,count,PE,PE,oyster,,,fragment,,,,,SD,digestion_to_end,none,enzyme_perchlorate,filtration,counting,True
+cov2706-R02,cov2706,85,count,PVC,PVC,oyster,,,fragment,,,,,SD,digestion_to_end,none,enzyme_perchlorate,filtration,counting,True
+cov2706-R03,cov2706,80,count,PET,PET,oyster,,,fragment,,,,,SD,digestion_to_end,none,enzyme_perchlorate,filtration,counting,True
+cov2706-R04,cov2706,100,count,PS,PS,oyster,,,fragment,,,,,SD,digestion_to_end,none,enzyme_perchlorate,filtration,counting,True
+cov2806-R01,cov2806,60,count,PE,PE,reagent-control,,,film,,,,,SD,digestion_to_end,none,KOH,filtration,counting,True
+cov2806-R02,cov2806,83,count,PS,PS,reagent-control,,,foam,,,,,SD,digestion_to_end,none,KOH,filtration,counting,True
+cov2806-R03,cov2806,85,count,PEST,polyester-unspecified,reagent-control,,,fiber,,,,,SD,digestion_to_end,none,KOH,filtration,counting,True
+cov2939-R01,cov2939,95,count,PS,PS,donax-clam,106,500,fragment,,"[20, 20]",,3,SD,digestion_to_end,none,KOH,NaCl_filtration,counting,True
+cov3867-R01,cov3867,79.4,mass,PS,PS,culture-medium,,,unknown,"[530, 530]",,7.5,3,SD,digestion_to_end,none,none,centrifugation,gravimetry,True
+cov4610-R01,cov4610,100,count,PA6,PA6,cod-fillet,500,500,fiber,,"[10, 10]",,3,SD,digestion_to_end,none,KOH,filtration,counting,True
+cov4610-R02,cov4610,100,count,PA6,PA6,saithe-gut,500,500,fiber,,"[10, 10]",,3,SD,digestion_to_end,none,KOH,filtration,counting,True
+cov4610-R03,cov4610,100,count,PA6,PA6,mussel,500,500,fiber,,"[10, 10]",,3,SD,digestion_to_end,none,KOH,filtration,counting,True
+cov4623-R01,cov4623,103.8,mass,PE,PE,mussel,30,80,unknown,"[200000, 200000]",,0.7,6,SD,stability,none,KOH,filtration,gravimetry,True
+cov4623-R02,cov4623,102,mass,PP,PP,mussel,30,80,unknown,"[200000, 200000]",,0.2,6,SD,stability,none,KOH,filtration,gravimetry,True
+cov4623-R03,cov4623,97.3,mass,PVC,PVC,mussel,30,80,unknown,"[200000, 200000]",,0.4,6,SD,stability,none,KOH,filtration,gravimetry,True
+cov4623-R04,cov4623,101.3,mass,PS,PS,mussel,30,80,unknown,"[200000, 200000]",,0.1,6,SD,stability,none,KOH,filtration,gravimetry,True
+cov4646-R01,cov4646,86.2,count,,pooled,oyster,,,unknown,,,7.9,4,SD,digestion_to_end,none,KOH_neutralized,filtration,counting,True
+cov4648-R01,cov4648,88,mass,PA6,PA6,rat-feces,5,50,unknown,,,14,3,SEM,digestion_to_end,none,acid_alkali_enzyme,filtration,pygcms,True
+cov4648-R02,cov4648,82,mass,PE,PE,rat-feces,40,48,unknown,,,28,3,SEM,digestion_to_end,none,acid_alkali_enzyme,filtration,pygcms,True
+cov4648-R03,cov4648,105,mass,PA6,PA6,rat-feed,5,50,unknown,,,31,3,SEM,digestion_to_end,none,acid_alkali_enzyme,filtration,pygcms,True
+cov4648-R04,cov4648,121,mass,PE,PE,rat-feed,40,48,unknown,,,66,3,SEM,digestion_to_end,none,acid_alkali_enzyme,filtration,pygcms,True
+cov4649-R01,cov4649,76.67,count,PP,PP,water-control,200,200,fiber,,"[30, 30]",14.533333333333335,3,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,counting,True
+cov4649-R02,cov4649,51.67,count,PP,PP,water-control,200,200,fiber,,"[60, 60]",7.633333333333334,3,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,counting,True
+cov4649-R03,cov4649,84.44,count,PVC,PVC,water-control,200,200,fragment,,"[30, 30]",16.76666666666667,3,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,counting,True
+cov4649-R04,cov4649,64.44,count,PVC,PVC,water-control,200,200,fragment,,"[60, 60]",5.1000000000000005,3,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,counting,True
+cov4652-R01,cov4652,92.8,count,PE,PE,icefish,63,90,unknown,,"[20, 20]",,9,SD,digestion_to_end,none,KOH,filtration,counting,True
+cov4647-R01,cov4647,8,count,,pooled,salmon,3,20,unknown,,,3,3,SE,physical_to_end,freeze_drying,KOH_detergent,filtration,counting,True
+cov4647-R02,cov4647,45,count,,pooled,salmon,20,212,unknown,,,11,6,SE,physical_to_end,freeze_drying,KOH_detergent,filtration,counting,True
+cov4647-R03,cov4647,75,count,,pooled,salmon,212,500,unknown,,,18,6,SE,physical_to_end,freeze_drying,KOH_detergent,filtration,counting,True
+cov4647-R04,cov4647,79,count,,pooled,salmon,500,2000,unknown,,,17,6,SE,physical_to_end,freeze_drying,KOH_detergent,filtration,counting,True

@@ -1,0 +1,2495 @@
+{
+ "UFTIR": {
+  "label": "Micro-FTIR spectroscopy",
+  "family": "FTIR",
+  "n_studies": 77,
+  "study_design": {
+   "field_survey": 53,
+   "method_development": 11,
+   "biomonitoring": 6,
+   "spiked_validation": 3,
+   "validation": 2,
+   "other": 2
+  },
+  "matrix_characters": {
+   "GUT": 41,
+   "PROTEIN": 38,
+   "WHOLE_ORGANISM": 15,
+   "FECAL": 10,
+   "AQUEOUS": 5,
+   "SECTION": 4,
+   "BLOOD": 3,
+   "MINERAL": 3,
+   "FOOD": 2,
+   "LIPID": 1,
+   "LIPID_FLUID": 1,
+   "CELLS": 1
+  },
+  "parameters": {
+   "ftir_modality": {
+    "n_studies": 58,
+    "counts": {
+     "µ-FTIR transmission": 22,
+     "µ-FTIR reflectance": 20,
+     "FTIR imaging": 9,
+     "ATR-FTIR": 7
+    }
+   },
+   "ftir_detector": {
+    "n_studies": 20,
+    "counts": {
+     "MCT": 19,
+     "DTGS": 1
+    }
+   },
+   "ftir_spectral_range": {
+    "unit": "cm-1",
+    "lo": {
+     "n": 65,
+     "min": 400.0,
+     "q1": 400.0,
+     "median": 500.0,
+     "q3": 650.0,
+     "max": 1250.0
+    },
+    "hi": {
+     "n": 65,
+     "min": 675.0,
+     "q1": 4000.0,
+     "median": 4000.0,
+     "q3": 4000.0,
+     "max": 7800.0
+    }
+   },
+   "ftir_resolution": {
+    "unit": "cm-1",
+    "lo": {
+     "n": 46,
+     "min": 0.2,
+     "q1": 4.0,
+     "median": 4.0,
+     "q3": 8.0,
+     "max": 16.0
+    },
+    "hi": {
+     "n": 46,
+     "min": 0.2,
+     "q1": 4.0,
+     "median": 4.0,
+     "q3": 8.0,
+     "max": 16.0
+    }
+   },
+   "ftir_scans": {
+    "unit": "count",
+    "lo": {
+     "n": 43,
+     "min": 1.0,
+     "q1": 16.0,
+     "median": 32.0,
+     "q3": 64.0,
+     "max": 256.0
+    },
+    "hi": {
+     "n": 43,
+     "min": 1.0,
+     "q1": 30.0,
+     "median": 32.0,
+     "q3": 64.0,
+     "max": 256.0
+    }
+   },
+   "ftir_aperture": {
+    "unit": "µm",
+    "lo": {
+     "n": 11,
+     "min": 10.0,
+     "q1": 20.0,
+     "median": 50.0,
+     "q3": 100.0,
+     "max": 150.0
+    },
+    "hi": {
+     "n": 11,
+     "min": 20.0,
+     "q1": 25.0,
+     "median": 100.0,
+     "q3": 150.0,
+     "max": 420.0
+    }
+   },
+   "ftir_step": {
+    "unit": "µm",
+    "lo": {
+     "n": 11,
+     "min": 1.0,
+     "q1": 1.56,
+     "median": 5.5,
+     "q3": 20.0,
+     "max": 100.0
+    },
+    "hi": {
+     "n": 11,
+     "min": 1.0,
+     "q1": 1.56,
+     "median": 10.0,
+     "q3": 25.0,
+     "max": 420.0
+    }
+   },
+   "id_threshold": {
+    "unit": "%",
+    "lo": {
+     "n": 36,
+     "min": 60.0,
+     "q1": 70.0,
+     "median": 70.0,
+     "q3": 70.0,
+     "max": 80.0
+    },
+    "hi": {
+     "n": 36,
+     "min": 60.0,
+     "q1": 70.0,
+     "median": 70.0,
+     "q3": 70.0,
+     "max": 90.0
+    }
+   },
+   "spectral_library": {
+    "n_studies": 54,
+    "counts": {
+     "OMNIC": 15,
+     "PERKINELMER": 12,
+     "IN_HOUSE": 8,
+     "OPENSPECY": 7,
+     "BRUKER": 7,
+     "KNOWITALL": 6,
+     "HUMMEL": 5,
+     "AGILENT": 5,
+     "SIMPLE": 4,
+     "SLOPP": 2,
+     "STANDARDS": 1
+    }
+   }
+  },
+  "polymers_field_direct": {
+   "PE": 32,
+   "PP": 29,
+   "PA": 23,
+   "PET": 22,
+   "PS": 21,
+   "PVC": 15,
+   "PU": 12,
+   "PEST": 12,
+   "RAYON": 11,
+   "CELL": 9,
+   "EVA": 7,
+   "ACR": 6,
+   "ABS": 5,
+   "PMMA": 5,
+   "PC": 5,
+   "EPDM": 4,
+   "PLA": 4,
+   "PTFE": 3,
+   "PE-HD": 3,
+   "EPM": 3,
+   "PAN": 3,
+   "POM": 3,
+   "PVOH": 3,
+   "EP": 3,
+   "CA": 2,
+   "OTHER": 2,
+   "PE-LD": 2,
+   "PBT": 2,
+   "PVDF": 2,
+   "PCL": 2,
+   "PIB": 2,
+   "EAA": 2,
+   "ALK": 2,
+   "PDMS": 2,
+   "PVAC": 1,
+   "PA6": 1,
+   "PAA": 1,
+   "PB": 1,
+   "MBS": 1,
+   "PBAT": 1,
+   "PE-CL": 1,
+   "SBR": 1,
+   "FKM": 1,
+   "PF": 1,
+   "PSU": 1,
+   "PHB": 1
+  },
+  "polymers_field_all": {
+   "PE": 59,
+   "PP": 55,
+   "PA": 41,
+   "PET": 40,
+   "PS": 38,
+   "PVC": 32,
+   "PEST": 24,
+   "PU": 23,
+   "RAYON": 18,
+   "CELL": 15,
+   "PMMA": 14,
+   "EVA": 14,
+   "ACR": 11,
+   "PC": 11,
+   "ABS": 8,
+   "PE-HD": 8,
+   "PTFE": 6,
+   "PE-LD": 6,
+   "PAN": 6,
+   "EP": 5,
+   "POM": 5,
+   "EPDM": 5,
+   "EPM": 4,
+   "PLA": 4,
+   "PVOH": 4,
+   "PDMS": 3,
+   "CA": 3,
+   "PB": 3,
+   "PCL": 3,
+   "PIB": 3,
+   "PA66": 3,
+   "SBR": 3,
+   "OTHER": 2,
+   "NBR": 2,
+   "PBT": 2,
+   "PVAC": 2,
+   "PVDF": 2,
+   "PAA": 2,
+   "EAA": 2,
+   "ALK": 2,
+   "SEBS": 1,
+   "PPS": 1,
+   "PPTA": 1,
+   "PA6": 1,
+   "MBS": 1,
+   "PBAT": 1,
+   "PE-CL": 1,
+   "FKM": 1,
+   "PF": 1,
+   "PSU": 1,
+   "PHB": 1
+  },
+  "polymers_exposure": {
+   "PE": 3,
+   "PS": 3,
+   "PE-LD": 2,
+   "PE-HD": 2,
+   "PVC": 1,
+   "PA66": 1,
+   "PP": 1,
+   "PA": 1,
+   "PTFE": 1
+  },
+  "size_observed": {
+   "lo": {
+    "n": 65,
+    "min": 0.477,
+    "q1": 16.9,
+    "median": 30.0,
+    "q3": 163.59,
+    "max": 14810.0
+   },
+   "hi": {
+    "n": 65,
+    "min": 1.0,
+    "q1": 279.5,
+    "median": 3969.0,
+    "q3": 5000.0,
+    "max": 44990.0
+   },
+   "n_direct": 16
+  },
+  "size_operational_lo": {
+   "n": 33,
+   "min": 0.1,
+   "q1": 75.0,
+   "median": 200.0,
+   "q3": 500.0,
+   "max": 5000.0
+  },
+  "min_size_reported": {
+   "n": 50,
+   "min": 0.1,
+   "q1": 9.395,
+   "median": 25.0,
+   "q3": 71.2918,
+   "max": 800.0
+  },
+  "shapes": {
+   "fragment": 64,
+   "fiber": 61,
+   "film": 29,
+   "sphere": 19,
+   "pellet": 16,
+   "foam": 9,
+   "aggregate": 3
+  },
+  "mass": {}
+ },
+ "ATR_FTIR": {
+  "label": "ATR-FTIR spectroscopy",
+  "family": "FTIR",
+  "n_studies": 80,
+  "study_design": {
+   "field_survey": 61,
+   "method_development": 11,
+   "spiked_validation": 5,
+   "validation": 1,
+   "other": 1,
+   "biomonitoring": 1
+  },
+  "matrix_characters": {
+   "GUT": 45,
+   "PROTEIN": 39,
+   "WHOLE_ORGANISM": 17,
+   "FECAL": 5,
+   "FOOD": 4,
+   "MINERAL": 3,
+   "CELLS": 3,
+   "SECTION": 2,
+   "AQUEOUS": 2,
+   "PLANT": 1
+  },
+  "parameters": {
+   "ftir_modality": {
+    "n_studies": 70,
+    "counts": {
+     "ATR-FTIR": 59,
+     "µ-FTIR reflectance": 5,
+     "µ-FTIR transmission": 3,
+     "FTIR imaging": 3
+    }
+   },
+   "ftir_detector": {
+    "n_studies": 7,
+    "counts": {
+     "MCT": 7
+    }
+   },
+   "ftir_spectral_range": {
+    "unit": "cm-1",
+    "lo": {
+     "n": 68,
+     "min": 380.0,
+     "q1": 400.0,
+     "median": 400.0,
+     "q3": 600.0,
+     "max": 750.0
+    },
+    "hi": {
+     "n": 68,
+     "min": 675.0,
+     "q1": 4000.0,
+     "median": 4000.0,
+     "q3": 4000.0,
+     "max": 4500.0
+    }
+   },
+   "ftir_resolution": {
+    "unit": "cm-1",
+    "lo": {
+     "n": 55,
+     "min": 1.0,
+     "q1": 4.0,
+     "median": 4.0,
+     "q3": 4.0,
+     "max": 8.0
+    },
+    "hi": {
+     "n": 55,
+     "min": 1.0,
+     "q1": 4.0,
+     "median": 4.0,
+     "q3": 4.0,
+     "max": 8.0
+    }
+   },
+   "ftir_scans": {
+    "unit": "count",
+    "lo": {
+     "n": 44,
+     "min": 1.0,
+     "q1": 16.0,
+     "median": 32.0,
+     "q3": 45.0,
+     "max": 256.0
+    },
+    "hi": {
+     "n": 44,
+     "min": 1.0,
+     "q1": 24.0,
+     "median": 32.0,
+     "q3": 48.75,
+     "max": 560.0
+    }
+   },
+   "ftir_aperture": {
+    "unit": "µm",
+    "lo": {
+     "n": 3,
+     "min": 20.0,
+     "q1": 20.0,
+     "median": 100.0,
+     "q3": 150.0,
+     "max": 150.0
+    },
+    "hi": {
+     "n": 3,
+     "min": 20.0,
+     "q1": 20.0,
+     "median": 100.0,
+     "q3": 150.0,
+     "max": 150.0
+    }
+   },
+   "ftir_step": {
+    "unit": "µm",
+    "lo": {
+     "n": 3,
+     "min": 1.1,
+     "q1": 1.1,
+     "median": 1.56,
+     "q3": 10.0,
+     "max": 10.0
+    },
+    "hi": {
+     "n": 3,
+     "min": 1.1,
+     "q1": 1.1,
+     "median": 1.56,
+     "q3": 10.0,
+     "max": 10.0
+    }
+   },
+   "id_threshold": {
+    "unit": "%",
+    "lo": {
+     "n": 41,
+     "min": 30.0,
+     "q1": 70.0,
+     "median": 70.0,
+     "q3": 75.0,
+     "max": 90.0
+    },
+    "hi": {
+     "n": 41,
+     "min": 30.0,
+     "q1": 70.0,
+     "median": 70.0,
+     "q3": 75.0,
+     "max": 94.0
+    }
+   },
+   "spectral_library": {
+    "n_studies": 44,
+    "counts": {
+     "PERKINELMER": 9,
+     "IN_HOUSE": 8,
+     "OMNIC": 8,
+     "OPENSPECY": 7,
+     "HUMMEL": 6,
+     "SLOPP": 5,
+     "BRUKER": 4,
+     "AGILENT": 4,
+     "KNOWITALL": 3,
+     "FRONTIER": 1,
+     "STANDARDS": 1,
+     "SIMPLE": 1
+    }
+   }
+  },
+  "polymers_field_direct": {
+   "PE": 30,
+   "PP": 28,
+   "PA": 23,
+   "PET": 21,
+   "PS": 16,
+   "PEST": 11,
+   "PVC": 11,
+   "RAYON": 10,
+   "CELL": 9,
+   "PU": 8,
+   "ACR": 6,
+   "PE-HD": 5,
+   "PAN": 5,
+   "EVA": 5,
+   "PE-LD": 4,
+   "PVOH": 4,
+   "PMMA": 3,
+   "CA": 3,
+   "ABS": 3,
+   "EPDM": 2,
+   "PAA": 2,
+   "PDMS": 2,
+   "PVAC": 2,
+   "PA6": 2,
+   "PC": 2,
+   "PTFE": 2,
+   "EPM": 1,
+   "PB": 1,
+   "MF": 1,
+   "PPS": 1,
+   "PIB": 1,
+   "PE-CL": 1,
+   "PEEK": 1,
+   "EAA": 1
+  },
+  "polymers_field_all": {
+   "PE": 58,
+   "PP": 51,
+   "PET": 40,
+   "PA": 38,
+   "PS": 32,
+   "PVC": 26,
+   "RAYON": 19,
+   "PEST": 18,
+   "PU": 17,
+   "CELL": 14,
+   "PE-HD": 13,
+   "EVA": 11,
+   "PE-LD": 11,
+   "PMMA": 10,
+   "ACR": 10,
+   "PC": 8,
+   "PAN": 8,
+   "ABS": 7,
+   "PVOH": 5,
+   "CA": 5,
+   "PVAC": 4,
+   "PB": 4,
+   "PTFE": 4,
+   "PA66": 3,
+   "PA6": 3,
+   "EPM": 3,
+   "PAA": 3,
+   "PS-E": 3,
+   "EPDM": 2,
+   "PDMS": 2,
+   "PE-CL": 2,
+   "PIB": 2,
+   "SBR": 1,
+   "POM": 1,
+   "MF": 1,
+   "PCL": 1,
+   "SEBS": 1,
+   "EP": 1,
+   "NBR": 1,
+   "PPTA": 1,
+   "PPS": 1,
+   "PEEK": 1,
+   "EAA": 1
+  },
+  "polymers_exposure": {
+   "PS": 4,
+   "PE": 3,
+   "PE-HD": 2,
+   "PVC": 1,
+   "PE-LD": 1,
+   "PET": 1,
+   "PMMA": 1,
+   "PEST": 1,
+   "PA": 1
+  },
+  "size_observed": {
+   "lo": {
+    "n": 47,
+    "min": 0.477,
+    "q1": 10.0,
+    "median": 40.0,
+    "q3": 100.0,
+    "max": 6240.0
+   },
+   "hi": {
+    "n": 47,
+    "min": 26.0,
+    "q1": 1757.5,
+    "median": 5000.0,
+    "q3": 6000.0,
+    "max": 158000.0
+   },
+   "n_direct": 11
+  },
+  "size_operational_lo": {
+   "n": 41,
+   "min": 1.0,
+   "q1": 100.0,
+   "median": 500.0,
+   "q3": 1000.0,
+   "max": 5000.0
+  },
+  "min_size_reported": {
+   "n": 55,
+   "min": 0.16,
+   "q1": 12.0,
+   "median": 50.0,
+   "q3": 110.0,
+   "max": 2000.0
+  },
+  "shapes": {
+   "fragment": 66,
+   "fiber": 63,
+   "film": 31,
+   "pellet": 27,
+   "sphere": 23,
+   "foam": 12,
+   "aggregate": 5
+  },
+  "mass": {}
+ },
+ "FTIR": {
+  "label": "FTIR spectroscopy (mode unspecified)",
+  "family": "FTIR",
+  "n_studies": 10,
+  "study_design": {
+   "method_development": 6,
+   "biomonitoring": 2,
+   "spiked_validation": 1,
+   "field_survey": 1
+  },
+  "matrix_characters": {
+   "PROTEIN": 7,
+   "GUT": 3,
+   "CELLS": 3,
+   "FECAL": 2,
+   "BLOOD": 2,
+   "FOOD": 1,
+   "WHOLE_ORGANISM": 1,
+   "PLANT": 1
+  },
+  "parameters": {
+   "ftir_detector": {
+    "n_studies": 1,
+    "counts": {
+     "DTGS": 1
+    }
+   },
+   "ftir_spectral_range": {
+    "unit": "cm-1",
+    "lo": {
+     "n": 6,
+     "min": 400.0,
+     "q1": 400.0,
+     "median": 475.0,
+     "q3": 687.5,
+     "max": 950.0
+    },
+    "hi": {
+     "n": 6,
+     "min": 1798.0,
+     "q1": 3449.5,
+     "median": 4000.0,
+     "q3": 4000.0,
+     "max": 4000.0
+    }
+   },
+   "ftir_resolution": {
+    "unit": "cm-1",
+    "lo": {
+     "n": 2,
+     "min": 1.0,
+     "q1": 1.0,
+     "median": 2.5,
+     "q3": 4.0,
+     "max": 4.0
+    },
+    "hi": {
+     "n": 2,
+     "min": 1.0,
+     "q1": 1.0,
+     "median": 4.5,
+     "q3": 8.0,
+     "max": 8.0
+    }
+   },
+   "ftir_scans": {
+    "unit": "count",
+    "lo": {
+     "n": 1,
+     "min": 10.0,
+     "q1": 10.0,
+     "median": 10.0,
+     "q3": 10.0,
+     "max": 10.0
+    },
+    "hi": {
+     "n": 1,
+     "min": 10.0,
+     "q1": 10.0,
+     "median": 10.0,
+     "q3": 10.0,
+     "max": 10.0
+    }
+   },
+   "ftir_step": {
+    "unit": "µm",
+    "lo": {
+     "n": 1,
+     "min": 0.1,
+     "q1": 0.1,
+     "median": 0.1,
+     "q3": 0.1,
+     "max": 0.1
+    },
+    "hi": {
+     "n": 1,
+     "min": 0.2,
+     "q1": 0.2,
+     "median": 0.2,
+     "q3": 0.2,
+     "max": 0.2
+    }
+   },
+   "id_threshold": {
+    "unit": "%",
+    "lo": {
+     "n": 2,
+     "min": 1.0,
+     "q1": 1.0,
+     "median": 33.0,
+     "q3": 65.0,
+     "max": 65.0
+    },
+    "hi": {
+     "n": 2,
+     "min": 1.0,
+     "q1": 1.0,
+     "median": 33.0,
+     "q3": 65.0,
+     "max": 65.0
+    }
+   },
+   "spectral_library": {
+    "n_studies": 5,
+    "counts": {
+     "IN_HOUSE": 2,
+     "NIST": 2,
+     "OPENSPECY": 1,
+     "AGILENT": 1
+    }
+   }
+  },
+  "polymers_field_direct": {
+   "PA": 1,
+   "PET": 1,
+   "PE-HD": 1,
+   "PE-CL": 1,
+   "EPM": 1,
+   "PE": 1
+  },
+  "polymers_field_all": {
+   "PE": 3,
+   "PS": 3,
+   "PA": 1,
+   "PET": 1,
+   "PE-HD": 1,
+   "PE-CL": 1,
+   "EPM": 1,
+   "PP": 1,
+   "PVC": 1
+  },
+  "polymers_exposure": {
+   "PE": 3,
+   "PET": 2,
+   "PS": 2,
+   "PMMA": 2,
+   "PU": 2,
+   "ACR": 2,
+   "PE-LD": 1,
+   "PS-MMA": 1,
+   "PVC": 1,
+   "EVA": 1,
+   "PP": 1,
+   "PA": 1,
+   "PTFE": 1,
+   "ABS": 1,
+   "POM": 1,
+   "PC": 1
+  },
+  "size_observed": {
+   "lo": {
+    "n": 4,
+    "min": 4.1,
+    "q1": 4.675,
+    "median": 103.2,
+    "q3": 425.0,
+    "max": 500.0
+   },
+   "hi": {
+    "n": 4,
+    "min": 41.0,
+    "q1": 155.75,
+    "median": 530.0,
+    "q3": 3815.0,
+    "max": 4900.0
+   },
+   "n_direct": 3
+  },
+  "size_operational_lo": {
+   "n": 1,
+   "min": 20.0,
+   "q1": 20.0,
+   "median": 20.0,
+   "q3": 20.0,
+   "max": 20.0
+  },
+  "min_size_reported": {
+   "n": 6,
+   "min": 0.5,
+   "q1": 0.65,
+   "median": 10.95,
+   "q3": 110.0,
+   "max": 200.0
+  },
+  "shapes": {
+   "fragment": 7,
+   "sphere": 4,
+   "fiber": 4,
+   "film": 3,
+   "aggregate": 2,
+   "foam": 1
+  },
+  "mass": {}
+ },
+ "LDIR": {
+  "label": "Laser direct infrared imaging",
+  "family": "FTIR",
+  "n_studies": 4,
+  "study_design": {
+   "biomonitoring": 2,
+   "spiked_validation": 1,
+   "method_development": 1
+  },
+  "matrix_characters": {
+   "PROTEIN": 3,
+   "CELLS": 1,
+   "BLOOD": 1,
+   "AQUEOUS": 1,
+   "FECAL": 1
+  },
+  "parameters": {
+   "ftir_modality": {
+    "n_studies": 2,
+    "counts": {
+     "FTIR imaging": 2
+    }
+   },
+   "ftir_spectral_range": {
+    "unit": "cm-1",
+    "lo": {
+     "n": 4,
+     "min": 900.0,
+     "q1": 900.0,
+     "median": 937.5,
+     "q3": 975.0,
+     "max": 975.0
+    },
+    "hi": {
+     "n": 4,
+     "min": 1800.0,
+     "q1": 1800.0,
+     "median": 1800.0,
+     "q3": 1800.0,
+     "max": 1800.0
+    }
+   },
+   "ftir_resolution": {
+    "unit": "cm-1",
+    "lo": {
+     "n": 1,
+     "min": 1.0,
+     "q1": 1.0,
+     "median": 1.0,
+     "q3": 1.0,
+     "max": 1.0
+    },
+    "hi": {
+     "n": 1,
+     "min": 1.0,
+     "q1": 1.0,
+     "median": 1.0,
+     "q3": 1.0,
+     "max": 1.0
+    }
+   },
+   "id_threshold": {
+    "unit": "%",
+    "lo": {
+     "n": 3,
+     "min": 65.0,
+     "q1": 65.0,
+     "median": 65.0,
+     "q3": 75.0,
+     "max": 75.0
+    },
+    "hi": {
+     "n": 3,
+     "min": 65.0,
+     "q1": 65.0,
+     "median": 65.0,
+     "q3": 90.0,
+     "max": 90.0
+    }
+   },
+   "spectral_library": {
+    "n_studies": 3,
+    "counts": {
+     "AGILENT": 3,
+     "NIST": 1
+    }
+   }
+  },
+  "polymers_field_direct": {},
+  "polymers_field_all": {
+   "PE": 2,
+   "PP": 2,
+   "PET": 2,
+   "PVC": 2,
+   "PU": 2,
+   "PMMA": 2,
+   "EVA": 2,
+   "POM": 2,
+   "PA": 1,
+   "ACR": 1,
+   "PE-CL": 1,
+   "PB": 1,
+   "EAA": 1,
+   "FKM": 1,
+   "MBS": 1,
+   "PIB": 1,
+   "PA66": 1,
+   "PTFE": 1,
+   "PPS": 1,
+   "SBR": 1,
+   "PS": 1
+  },
+  "polymers_exposure": {
+   "PA66": 1,
+   "PP": 1,
+   "CELL": 1
+  },
+  "size_observed": {
+   "lo": {
+    "n": 2,
+    "min": 20.0,
+    "q1": 20.0,
+    "median": 20.0,
+    "q3": 20.0,
+    "max": 20.0
+   },
+   "hi": {
+    "n": 2,
+    "min": 186.0,
+    "q1": 186.0,
+    "median": 343.0,
+    "q3": 500.0,
+    "max": 500.0
+   },
+   "n_direct": 1
+  },
+  "size_operational_lo": {
+   "n": 2,
+   "min": 0.1,
+   "q1": 0.1,
+   "median": 10.05,
+   "q3": 20.0,
+   "max": 20.0
+  },
+  "min_size_reported": {
+   "n": 2,
+   "min": 20.0,
+   "q1": 20.0,
+   "median": 20.0,
+   "q3": 20.0,
+   "max": 20.0
+  },
+  "shapes": {
+   "fragment": 2,
+   "fiber": 2,
+   "pellet": 2,
+   "sphere": 1,
+   "film": 1
+  },
+  "mass": {}
+ },
+ "RAMAN": {
+  "label": "Raman spectroscopy",
+  "family": "RAMAN",
+  "n_studies": 79,
+  "study_design": {
+   "field_survey": 41,
+   "method_development": 19,
+   "biomonitoring": 14,
+   "spiked_validation": 4,
+   "validation": 1
+  },
+  "matrix_characters": {
+   "PROTEIN": 42,
+   "GUT": 25,
+   "WHOLE_ORGANISM": 13,
+   "AQUEOUS": 9,
+   "FECAL": 8,
+   "SECTION": 6,
+   "PLANT": 4,
+   "BLOOD": 4,
+   "LIPID_FLUID": 3,
+   "FOOD": 3,
+   "MINERAL": 3,
+   "LIPID": 2,
+   "CELLS": 2
+  },
+  "parameters": {
+   "raman_laser": {
+    "unit": "nm",
+    "lo": {
+     "n": 68,
+     "min": 442.0,
+     "q1": 532.0,
+     "median": 635.5,
+     "q3": 785.0,
+     "max": 1064.0
+    },
+    "hi": {
+     "n": 68,
+     "min": 442.0,
+     "q1": 633.0,
+     "median": 785.0,
+     "q3": 785.0,
+     "max": 1064.0
+    }
+   },
+   "raman_power": {
+    "unit": "mW",
+    "lo": {
+     "n": 28,
+     "min": 0.5,
+     "q1": 1.0,
+     "median": 7.5,
+     "q3": 28.0,
+     "max": 500.0
+    },
+    "hi": {
+     "n": 28,
+     "min": 0.7,
+     "q1": 5.0,
+     "median": 10.0,
+     "q3": 100.0,
+     "max": 500.0
+    }
+   },
+   "raman_objective": {
+    "unit": "x",
+    "lo": {
+     "n": 40,
+     "min": 10.0,
+     "q1": 50.0,
+     "median": 50.0,
+     "q3": 100.0,
+     "max": 200.0
+    },
+    "hi": {
+     "n": 40,
+     "min": 10.0,
+     "q1": 50.0,
+     "median": 50.0,
+     "q3": 100.0,
+     "max": 200.0
+    }
+   },
+   "raman_spectral_range": {
+    "unit": "cm-1",
+    "lo": {
+     "n": 50,
+     "min": 50.0,
+     "q1": 171.2223,
+     "median": 300.0,
+     "q3": 500.0,
+     "max": 4000.0
+    },
+    "hi": {
+     "n": 50,
+     "min": 640.0,
+     "q1": 1800.0,
+     "median": 3200.0,
+     "q3": 3500.0,
+     "max": 4000.0
+    }
+   },
+   "raman_resolution": {
+    "unit": "cm-1",
+    "lo": {
+     "n": 10,
+     "min": 1.0,
+     "q1": 1.2437,
+     "median": 3.0,
+     "q3": 5.805,
+     "max": 10.0
+    },
+    "hi": {
+     "n": 10,
+     "min": 1.0,
+     "q1": 2.5,
+     "median": 3.626,
+     "q3": 5.805,
+     "max": 10.0
+    }
+   },
+   "raman_acq_time": {
+    "unit": "s",
+    "lo": {
+     "n": 44,
+     "min": 0.05,
+     "q1": 0.625,
+     "median": 3.5,
+     "q3": 10.0,
+     "max": 60.0
+    },
+    "hi": {
+     "n": 44,
+     "min": 0.05,
+     "q1": 1.125,
+     "median": 10.0,
+     "q3": 17.5,
+     "max": 3000.0
+    }
+   },
+   "raman_accumulations": {
+    "unit": "count",
+    "lo": {
+     "n": 24,
+     "min": 1.0,
+     "q1": 3.0,
+     "median": 5.0,
+     "q3": 13.75,
+     "max": 300.0
+    },
+    "hi": {
+     "n": 24,
+     "min": 1.0,
+     "q1": 3.25,
+     "median": 5.0,
+     "q3": 31.25,
+     "max": 1000.0
+    }
+   },
+   "raman_step": {
+    "unit": "µm",
+    "lo": {
+     "n": 26,
+     "min": 0.2,
+     "q1": 1.0,
+     "median": 1.2,
+     "q3": 4.25,
+     "max": 63.59
+    },
+    "hi": {
+     "n": 26,
+     "min": 0.25,
+     "q1": 1.0,
+     "median": 2.0,
+     "q3": 5.25,
+     "max": 63.59
+    }
+   },
+   "id_threshold": {
+    "unit": "%",
+    "lo": {
+     "n": 36,
+     "min": 1.0,
+     "q1": 62.5,
+     "median": 70.0,
+     "q3": 80.0,
+     "max": 85.0
+    },
+    "hi": {
+     "n": 36,
+     "min": 1.0,
+     "q1": 62.5,
+     "median": 70.0,
+     "q3": 80.0,
+     "max": 85.0
+    }
+   },
+   "spectral_library": {
+    "n_studies": 51,
+    "counts": {
+     "KNOWITALL": 21,
+     "IN_HOUSE": 13,
+     "SLOPP": 13,
+     "OPENSPECY": 9,
+     "OMNIC": 5,
+     "RENISHAW": 3,
+     "PERKINELMER": 2,
+     "HORIBA": 2,
+     "SIMPLE": 1,
+     "BRUKER": 1,
+     "NIST": 1,
+     "STANDARDS": 1,
+     "FRONTIER": 1
+    }
+   }
+  },
+  "polymers_field_direct": {
+   "PE": 37,
+   "PP": 33,
+   "PET": 27,
+   "PS": 24,
+   "PA": 20,
+   "PVC": 17,
+   "PEST": 13,
+   "PC": 10,
+   "CELL": 10,
+   "PU": 8,
+   "PMMA": 7,
+   "ABS": 7,
+   "PE-LD": 7,
+   "EVA": 6,
+   "ACR": 4,
+   "PE-HD": 4,
+   "PVOH": 3,
+   "PAN": 3,
+   "POM": 2,
+   "PSU": 2,
+   "PVP": 2,
+   "EPM": 2,
+   "PDMS": 2,
+   "PVS": 2,
+   "PLA": 2,
+   "CA": 2,
+   "SAN": 2,
+   "PTFE": 2,
+   "PA66": 2,
+   "PVME": 1,
+   "PESU": 1,
+   "SBR": 1,
+   "PAA": 1,
+   "OTHER": 1,
+   "PCL": 1,
+   "PE-CL": 1,
+   "PPTA": 1,
+   "SEBS": 1,
+   "PVDF": 1,
+   "NBR": 1,
+   "PA6": 1
+  },
+  "polymers_field_all": {
+   "PE": 56,
+   "PP": 46,
+   "PET": 39,
+   "PS": 36,
+   "PA": 27,
+   "PVC": 26,
+   "PEST": 20,
+   "CELL": 16,
+   "PMMA": 12,
+   "PC": 12,
+   "PU": 11,
+   "PE-LD": 11,
+   "ACR": 9,
+   "ABS": 9,
+   "PE-HD": 7,
+   "EVA": 6,
+   "RAYON": 5,
+   "PTFE": 4,
+   "PAN": 4,
+   "PDMS": 3,
+   "PA66": 3,
+   "PVOH": 3,
+   "POM": 2,
+   "PSU": 2,
+   "PVP": 2,
+   "EPM": 2,
+   "PA6": 2,
+   "PVS": 2,
+   "PE-CL": 2,
+   "PLA": 2,
+   "CA": 2,
+   "SAN": 2,
+   "PCL": 2,
+   "SEBS": 2,
+   "PVME": 1,
+   "EP": 1,
+   "PVAC": 1,
+   "PESU": 1,
+   "SBR": 1,
+   "PAA": 1,
+   "PB": 1,
+   "OTHER": 1,
+   "ALK": 1,
+   "PPTA": 1,
+   "PS-E": 1,
+   "PVDF": 1,
+   "NBR": 1
+  },
+  "polymers_exposure": {
+   "PS": 5,
+   "PE": 4,
+   "PET": 3,
+   "PVC": 3,
+   "PE-HD": 2,
+   "PC": 2,
+   "PP": 2,
+   "PTFE": 2,
+   "ACR": 2,
+   "PMMA": 2,
+   "PU": 2,
+   "PE-LD": 2,
+   "PAN": 1,
+   "PS-E": 1,
+   "PA6": 1,
+   "PA": 1,
+   "CA": 1
+  },
+  "size_observed": {
+   "lo": {
+    "n": 69,
+    "min": 0.32,
+    "q1": 2.41,
+    "median": 22.0,
+    "q3": 83.5835,
+    "max": 7346.4
+   },
+   "hi": {
+    "n": 69,
+    "min": 1.0,
+    "q1": 30.16,
+    "median": 800.0,
+    "q3": 4657.24,
+    "max": 72000.0
+   },
+   "n_direct": 33
+  },
+  "size_operational_lo": {
+   "n": 20,
+   "min": 0.45,
+   "q1": 3.5,
+   "median": 75.0,
+   "q3": 500.0,
+   "max": 25000.0
+  },
+  "min_size_reported": {
+   "n": 59,
+   "min": 0.054,
+   "q1": 1.3,
+   "median": 11.66,
+   "q3": 50.0,
+   "max": 500.0
+  },
+  "shapes": {
+   "fragment": 59,
+   "fiber": 50,
+   "sphere": 28,
+   "film": 24,
+   "pellet": 10,
+   "foam": 9,
+   "aggregate": 7
+  },
+  "mass": {}
+ },
+ "PYGCMS": {
+  "label": "Pyrolysis GC-MS",
+  "family": "THERMAL",
+  "n_studies": 34,
+  "study_design": {
+   "method_development": 14,
+   "biomonitoring": 10,
+   "field_survey": 7,
+   "spiked_validation": 3
+  },
+  "matrix_characters": {
+   "PROTEIN": 17,
+   "GUT": 7,
+   "FECAL": 6,
+   "PLANT": 3,
+   "BLOOD": 3,
+   "WHOLE_ORGANISM": 3,
+   "MINERAL": 2,
+   "AQUEOUS": 2,
+   "FOOD": 1,
+   "SECTION": 1,
+   "LIPID": 1
+  },
+  "parameters": {
+   "pyro_temp": {
+    "unit": "°C",
+    "lo": {
+     "n": 30,
+     "min": 300.0,
+     "q1": 522.5,
+     "median": 590.0,
+     "q3": 600.0,
+     "max": 800.0
+    },
+    "hi": {
+     "n": 30,
+     "min": 400.0,
+     "q1": 580.0,
+     "median": 600.0,
+     "q3": 600.0,
+     "max": 800.0
+    }
+   },
+   "pyro_ms_range": {
+    "unit": "m/z",
+    "lo": {
+     "n": 25,
+     "min": 10.0,
+     "q1": 29.0,
+     "median": 40.0,
+     "q3": 43.0,
+     "max": 60.0
+    },
+    "hi": {
+     "n": 25,
+     "min": 126.0,
+     "q1": 475.0,
+     "median": 600.0,
+     "q3": 600.0,
+     "max": 650.0
+    }
+   },
+   "id_threshold": {
+    "unit": "%",
+    "lo": {
+     "n": 7,
+     "min": 10.0,
+     "q1": 60.0,
+     "median": 65.0,
+     "q3": 80.0,
+     "max": 80.0
+    },
+    "hi": {
+     "n": 7,
+     "min": 10.0,
+     "q1": 60.0,
+     "median": 65.0,
+     "q3": 80.0,
+     "max": 80.0
+    }
+   },
+   "spectral_library": {
+    "n_studies": 10,
+    "counts": {
+     "IN_HOUSE": 4,
+     "FRONTIER": 2,
+     "NIST": 2,
+     "PERKINELMER": 2,
+     "STANDARDS": 2,
+     "KNOWITALL": 2,
+     "HUMMEL": 1,
+     "AGILENT": 1,
+     "OMNIC": 1,
+     "SLOPP": 1
+    }
+   }
+  },
+  "polymers_field_direct": {
+   "PE": 13,
+   "PET": 11,
+   "PP": 11,
+   "PS": 11,
+   "PVC": 10,
+   "PMMA": 7,
+   "PA": 5,
+   "PA66": 4,
+   "PC": 4,
+   "PA6": 3,
+   "ABS": 2,
+   "PS-E": 1,
+   "PDMS": 1,
+   "EP": 1
+  },
+  "polymers_field_all": {
+   "PE": 27,
+   "PP": 21,
+   "PVC": 20,
+   "PS": 20,
+   "PET": 18,
+   "PA": 12,
+   "PMMA": 12,
+   "PC": 10,
+   "PA66": 8,
+   "ABS": 5,
+   "PA6": 4,
+   "PU": 3,
+   "RAYON": 3,
+   "PEST": 3,
+   "SBR": 2,
+   "ACR": 2,
+   "PVOH": 2,
+   "PE-CL": 1,
+   "EVA": 1,
+   "PB": 1,
+   "EAA": 1,
+   "FKM": 1,
+   "MBS": 1,
+   "PIB": 1,
+   "POM": 1,
+   "PTFE": 1,
+   "PE-LD": 1,
+   "PS-E": 1,
+   "PDMS": 1,
+   "EP": 1
+  },
+  "polymers_exposure": {
+   "PS": 4,
+   "PE": 1,
+   "PE-LD": 1,
+   "PE-HD": 1,
+   "PP": 1,
+   "PS-E": 1,
+   "PA6": 1,
+   "PTFE": 1,
+   "PMMA": 1,
+   "PET": 1,
+   "PC": 1,
+   "PA": 1,
+   "PU": 1,
+   "PVC": 1,
+   "CA": 1
+  },
+  "size_observed": {
+   "lo": null,
+   "hi": null,
+   "n_direct": 0
+  },
+  "size_operational_lo": {
+   "n": 1,
+   "min": 0.2,
+   "q1": 0.2,
+   "median": 0.2,
+   "q3": 0.2,
+   "max": 0.2
+  },
+  "min_size_reported": null,
+  "shapes": {},
+  "mass": {
+   "µg/g": {
+    "lo": {
+     "n": 31,
+     "min": 0.129,
+     "q1": 6.5,
+     "median": 105.0,
+     "q3": 600.0,
+     "max": 21700.0
+    },
+    "hi": {
+     "n": 31,
+     "min": 1.48,
+     "q1": 22.5,
+     "median": 350.13,
+     "q3": 760.0,
+     "max": 22600.0
+    },
+    "n_direct": 21,
+    "by_matrix_character": {
+     "PROTEIN": 16,
+     "PLANT": 9,
+     "GUT": 5,
+     "FECAL": 4,
+     "WHOLE_ORGANISM": 1,
+     "FOOD": 1
+    }
+   },
+   "µg/individual": {
+    "lo": {
+     "n": 3,
+     "min": 0.0996,
+     "q1": 0.0996,
+     "median": 2.3,
+     "q3": 2.3,
+     "max": 2.3
+    },
+    "hi": {
+     "n": 3,
+     "min": 0.216,
+     "q1": 0.216,
+     "median": 3.68,
+     "q3": 7.91,
+     "max": 7.91
+    },
+    "n_direct": 3,
+    "by_matrix_character": {
+     "WHOLE_ORGANISM": 3
+    }
+   },
+   "µg/mL": {
+    "lo": {
+     "n": 4,
+     "min": 0.2014,
+     "q1": 0.5511,
+     "median": 2.73,
+     "q3": 4.2275,
+     "max": 4.35
+    },
+    "hi": {
+     "n": 4,
+     "min": 0.8797,
+     "q1": 1.0598,
+     "median": 2.73,
+     "q3": 4.2275,
+     "max": 4.35
+    },
+    "n_direct": 4,
+    "by_matrix_character": {
+     "BLOOD": 2,
+     "AQUEOUS": 2
+    }
+   }
+  }
+ },
+ "TEDGCMS": {
+  "label": "Thermal extraction-desorption GC-MS or TGA-FTIR-GC/MS",
+  "family": "THERMAL",
+  "n_studies": 2,
+  "study_design": {
+   "method_development": 1,
+   "field_survey": 1
+  },
+  "matrix_characters": {
+   "PROTEIN": 1,
+   "GUT": 1
+  },
+  "parameters": {
+   "pyro_temp": {
+    "unit": "°C",
+    "lo": {
+     "n": 1,
+     "min": 440.0,
+     "q1": 440.0,
+     "median": 440.0,
+     "q3": 440.0,
+     "max": 440.0
+    },
+    "hi": {
+     "n": 1,
+     "min": 650.0,
+     "q1": 650.0,
+     "median": 650.0,
+     "q3": 650.0,
+     "max": 650.0
+    }
+   },
+   "pyro_ms_range": {
+    "unit": "m/z",
+    "lo": {
+     "n": 1,
+     "min": 45.0,
+     "q1": 45.0,
+     "median": 45.0,
+     "q3": 45.0,
+     "max": 45.0
+    },
+    "hi": {
+     "n": 1,
+     "min": 450.0,
+     "q1": 450.0,
+     "median": 450.0,
+     "q3": 450.0,
+     "max": 450.0
+    }
+   },
+   "spectral_library": {
+    "n_studies": 1,
+    "counts": {
+     "IN_HOUSE": 1,
+     "NIST": 1
+    }
+   }
+  },
+  "polymers_field_direct": {
+   "PE": 1,
+   "EVA": 1,
+   "PE-LD": 1,
+   "PE-HD": 1,
+   "PA": 1,
+   "PTFE": 1
+  },
+  "polymers_field_all": {
+   "PE": 2,
+   "EVA": 1,
+   "PE-LD": 1,
+   "PE-HD": 1,
+   "PA": 1,
+   "PTFE": 1,
+   "PP": 1,
+   "PS": 1,
+   "PVC": 1
+  },
+  "polymers_exposure": {},
+  "size_observed": {
+   "lo": null,
+   "hi": null,
+   "n_direct": 0
+  },
+  "size_operational_lo": null,
+  "min_size_reported": null,
+  "shapes": {},
+  "mass": {
+   "µg/g": {
+    "lo": {
+     "n": 1,
+     "min": 0.16,
+     "q1": 0.16,
+     "median": 0.16,
+     "q3": 0.16,
+     "max": 0.16
+    },
+    "hi": {
+     "n": 1,
+     "min": 1.71,
+     "q1": 1.71,
+     "median": 1.71,
+     "q3": 1.71,
+     "max": 1.71
+    },
+    "n_direct": 0,
+    "by_matrix_character": {
+     "PROTEIN": 1
+    }
+   }
+  }
+ },
+ "LCMS": {
+  "label": "Liquid chromatography-mass spectrometry",
+  "family": "LCMS",
+  "n_studies": 2,
+  "study_design": {
+   "method_development": 1,
+   "spiked_validation": 1
+  },
+  "matrix_characters": {
+   "LIPID_FLUID": 1,
+   "FOOD": 1,
+   "BLOOD": 1,
+   "AQUEOUS": 1,
+   "FECAL": 1
+  },
+  "parameters": {
+   "id_threshold": {
+    "unit": "%",
+    "lo": {
+     "n": 1,
+     "min": 70.0,
+     "q1": 70.0,
+     "median": 70.0,
+     "q3": 70.0,
+     "max": 70.0
+    },
+    "hi": {
+     "n": 1,
+     "min": 70.0,
+     "q1": 70.0,
+     "median": 70.0,
+     "q3": 70.0,
+     "max": 70.0
+    }
+   },
+   "spectral_library": {
+    "n_studies": 1,
+    "counts": {
+     "BRUKER": 1
+    }
+   }
+  },
+  "polymers_field_direct": {},
+  "polymers_field_all": {
+   "PE": 1,
+   "PA": 1,
+   "PMMA": 1,
+   "PU": 1,
+   "PEST": 1,
+   "CELL": 1,
+   "ACR": 1
+  },
+  "polymers_exposure": {
+   "PA66": 1
+  },
+  "size_observed": {
+   "lo": null,
+   "hi": null,
+   "n_direct": 0
+  },
+  "size_operational_lo": null,
+  "min_size_reported": null,
+  "shapes": {},
+  "mass": {
+   "µg/sample": {
+    "lo": {
+     "n": 3,
+     "min": 2080.0,
+     "q1": 2080.0,
+     "median": 188000.0,
+     "q3": 221000.0,
+     "max": 221000.0
+    },
+    "hi": {
+     "n": 3,
+     "min": 2080.0,
+     "q1": 2080.0,
+     "median": 188000.0,
+     "q3": 221000.0,
+     "max": 221000.0
+    },
+    "n_direct": 3,
+    "by_matrix_character": {
+     "BLOOD": 3,
+     "AQUEOUS": 3,
+     "FECAL": 3
+    }
+   },
+   "µg/mL": {
+    "lo": {
+     "n": 1,
+     "min": 0.896,
+     "q1": 0.896,
+     "median": 0.896,
+     "q3": 0.896,
+     "max": 0.896
+    },
+    "hi": {
+     "n": 1,
+     "min": 0.896,
+     "q1": 0.896,
+     "median": 0.896,
+     "q3": 0.896,
+     "max": 0.896
+    },
+    "n_direct": 1,
+    "by_matrix_character": {
+     "BLOOD": 1,
+     "AQUEOUS": 1,
+     "FECAL": 1
+    }
+   }
+  }
+ },
+ "ICPMS": {
+  "label": "ICP-MS or single-particle ICP-MS",
+  "family": "ICPMS",
+  "n_studies": 16,
+  "study_design": {
+   "method_development": 9,
+   "field_survey": 4,
+   "spiked_validation": 3
+  },
+  "matrix_characters": {
+   "PROTEIN": 7,
+   "PLANT": 6,
+   "GUT": 5,
+   "WHOLE_ORGANISM": 5,
+   "FECAL": 3,
+   "CELLS": 2,
+   "BLOOD": 2,
+   "LIPID_FLUID": 1,
+   "FOOD": 1,
+   "SECTION": 1,
+   "MINERAL": 1,
+   "AQUEOUS": 1
+  },
+  "parameters": {
+   "id_threshold": {
+    "unit": "%",
+    "lo": {
+     "n": 3,
+     "min": 60.0,
+     "q1": 60.0,
+     "median": 70.0,
+     "q3": 80.0,
+     "max": 80.0
+    },
+    "hi": {
+     "n": 3,
+     "min": 60.0,
+     "q1": 60.0,
+     "median": 70.0,
+     "q3": 80.0,
+     "max": 80.0
+    }
+   },
+   "spectral_library": {
+    "n_studies": 3,
+    "counts": {
+     "BRUKER": 1,
+     "SLOPP": 1,
+     "PERKINELMER": 1
+    }
+   }
+  },
+  "polymers_field_direct": {},
+  "polymers_field_all": {},
+  "polymers_exposure": {},
+  "size_observed": {
+   "lo": {
+    "n": 3,
+    "min": 2.0,
+    "q1": 2.0,
+    "median": 500.0,
+    "q3": 500.0,
+    "max": 500.0
+   },
+   "hi": {
+    "n": 3,
+    "min": 36.0,
+    "q1": 36.0,
+    "median": 4000.0,
+    "q3": 6000.0,
+    "max": 6000.0
+   },
+   "n_direct": 0
+  },
+  "size_operational_lo": {
+   "n": 3,
+   "min": 20.0,
+   "q1": 20.0,
+   "median": 50.0,
+   "q3": 5000.0,
+   "max": 5000.0
+  },
+  "min_size_reported": {
+   "n": 8,
+   "min": 0.05,
+   "q1": 0.0905,
+   "median": 2.465,
+   "q3": 41.0,
+   "max": 500.0
+  },
+  "shapes": {
+   "sphere": 7,
+   "fragment": 7,
+   "fiber": 5,
+   "aggregate": 3,
+   "film": 3,
+   "pellet": 2
+  },
+  "mass": {
+   "µg/g": {
+    "lo": {
+     "n": 11,
+     "min": 1.53,
+     "q1": 13.8,
+     "median": 60.64,
+     "q3": 401.0,
+     "max": 3406.3
+    },
+    "hi": {
+     "n": 11,
+     "min": 1.53,
+     "q1": 13.8,
+     "median": 60.64,
+     "q3": 401.0,
+     "max": 3406.3
+    },
+    "n_direct": 2,
+    "by_matrix_character": {
+     "PLANT": 9,
+     "GUT": 2,
+     "PROTEIN": 2,
+     "BLOOD": 2
+    }
+   }
+  }
+ },
+ "FLUOR": {
+  "label": "Fluorescence microscopy or flow cytometry",
+  "family": "FLUOR",
+  "n_studies": 44,
+  "study_design": {
+   "method_development": 19,
+   "spiked_validation": 11,
+   "field_survey": 9,
+   "biomonitoring": 3,
+   "other": 2
+  },
+  "matrix_characters": {
+   "PROTEIN": 22,
+   "GUT": 18,
+   "CELLS": 10,
+   "WHOLE_ORGANISM": 10,
+   "FECAL": 4,
+   "SECTION": 4,
+   "BLOOD": 4,
+   "PLANT": 4,
+   "LIPID_FLUID": 2,
+   "MINERAL": 1,
+   "FOOD": 1,
+   "AQUEOUS": 1,
+   "LIPID": 1
+  },
+  "parameters": {
+   "fluor_dye": {
+    "n_studies": 40,
+    "counts": {
+     "OTHER": 24,
+     "NILE_RED": 16
+    }
+   },
+   "fluor_excitation": {
+    "unit": "nm",
+    "lo": {
+     "n": 32,
+     "min": 350.0,
+     "q1": 440.0,
+     "median": 465.0,
+     "q3": 523.25,
+     "max": 700.0
+    },
+    "hi": {
+     "n": 32,
+     "min": 360.0,
+     "q1": 481.25,
+     "median": 505.0,
+     "q3": 565.0,
+     "max": 700.0
+    }
+   },
+   "id_threshold": {
+    "unit": "%",
+    "lo": {
+     "n": 10,
+     "min": 50.0,
+     "q1": 63.75,
+     "median": 70.0,
+     "q3": 80.0,
+     "max": 80.0
+    },
+    "hi": {
+     "n": 10,
+     "min": 50.0,
+     "q1": 63.75,
+     "median": 70.0,
+     "q3": 80.0,
+     "max": 90.0
+    }
+   },
+   "spectral_library": {
+    "n_studies": 18,
+    "counts": {
+     "IN_HOUSE": 7,
+     "AGILENT": 4,
+     "OMNIC": 2,
+     "KNOWITALL": 2,
+     "NIST": 2,
+     "FRONTIER": 1,
+     "HUMMEL": 1,
+     "PERKINELMER": 1,
+     "SIMPLE": 1,
+     "SLOPP": 1,
+     "OPENSPECY": 1
+    }
+   }
+  },
+  "polymers_field_direct": {},
+  "polymers_field_all": {},
+  "polymers_exposure": {},
+  "size_observed": {
+   "lo": {
+    "n": 19,
+    "min": 0.32,
+    "q1": 1.3,
+    "median": 25.0,
+    "q3": 100.0,
+    "max": 1000.0
+   },
+   "hi": {
+    "n": 19,
+    "min": 1.0,
+    "q1": 40.0,
+    "median": 261.7,
+    "q3": 4000.0,
+    "max": 42000.0
+   },
+   "n_direct": 2
+  },
+  "size_operational_lo": {
+   "n": 4,
+   "min": 1.0,
+   "q1": 1.25,
+   "median": 11.0,
+   "q3": 80.0,
+   "max": 100.0
+  },
+  "min_size_reported": {
+   "n": 21,
+   "min": 0.054,
+   "q1": 0.6,
+   "median": 1.3,
+   "q3": 22.5,
+   "max": 100.0
+  },
+  "shapes": {
+   "sphere": 26,
+   "fragment": 24,
+   "fiber": 17,
+   "aggregate": 11,
+   "pellet": 6,
+   "film": 5,
+   "foam": 1
+  },
+  "mass": {}
+ },
+ "OPTICAL": {
+  "label": "Visual or stereo microscopy",
+  "family": "OPTICAL",
+  "n_studies": 83,
+  "study_design": {
+   "field_survey": 68,
+   "method_development": 7,
+   "biomonitoring": 5,
+   "spiked_validation": 3
+  },
+  "matrix_characters": {
+   "GUT": 51,
+   "PROTEIN": 42,
+   "WHOLE_ORGANISM": 12,
+   "FECAL": 5,
+   "AQUEOUS": 4,
+   "MINERAL": 4,
+   "FOOD": 3,
+   "BLOOD": 2,
+   "PLANT": 2,
+   "SECTION": 2,
+   "LIPID": 1,
+   "LIPID_FLUID": 1
+  },
+  "parameters": {
+   "id_threshold": {
+    "unit": "%",
+    "lo": {
+     "n": 37,
+     "min": 50.0,
+     "q1": 70.0,
+     "median": 70.0,
+     "q3": 75.0,
+     "max": 90.0
+    },
+    "hi": {
+     "n": 37,
+     "min": 50.0,
+     "q1": 70.0,
+     "median": 70.0,
+     "q3": 75.0,
+     "max": 94.0
+    }
+   },
+   "spectral_library": {
+    "n_studies": 41,
+    "counts": {
+     "OMNIC": 10,
+     "HUMMEL": 7,
+     "OPENSPECY": 6,
+     "PERKINELMER": 5,
+     "IN_HOUSE": 5,
+     "BRUKER": 5,
+     "KNOWITALL": 4,
+     "SLOPP": 3,
+     "AGILENT": 2,
+     "SIMPLE": 2,
+     "HORIBA": 1,
+     "NIST": 1
+    }
+   }
+  },
+  "polymers_field_direct": {},
+  "polymers_field_all": {},
+  "polymers_exposure": {},
+  "size_observed": {
+   "lo": {
+    "n": 70,
+    "min": 0.32,
+    "q1": 20.75,
+    "median": 62.0,
+    "q3": 192.0,
+    "max": 14810.0
+   },
+   "hi": {
+    "n": 70,
+    "min": 6.0,
+    "q1": 1230.0,
+    "median": 4655.0,
+    "q3": 5720.97,
+    "max": 158000.0
+   },
+   "n_direct": 3
+  },
+  "size_operational_lo": {
+   "n": 56,
+   "min": 0.1,
+   "q1": 100.0,
+   "median": 375.0,
+   "q3": 1000.0,
+   "max": 25000.0
+  },
+  "min_size_reported": {
+   "n": 50,
+   "min": 1.2,
+   "q1": 25.75,
+   "median": 55.0,
+   "q3": 102.5,
+   "max": 2000.0
+  },
+  "shapes": {
+   "fiber": 77,
+   "fragment": 70,
+   "film": 38,
+   "pellet": 22,
+   "sphere": 19,
+   "foam": 13,
+   "aggregate": 5
+  },
+  "mass": {}
+ },
+ "SEM": {
+  "label": "SEM or SEM-EDX",
+  "family": "SEM",
+  "n_studies": 56,
+  "study_design": {
+   "field_survey": 19,
+   "method_development": 17,
+   "spiked_validation": 12,
+   "biomonitoring": 8
+  },
+  "matrix_characters": {
+   "PROTEIN": 25,
+   "GUT": 21,
+   "WHOLE_ORGANISM": 11,
+   "CELLS": 7,
+   "FECAL": 7,
+   "PLANT": 6,
+   "AQUEOUS": 6,
+   "SECTION": 4,
+   "BLOOD": 4,
+   "MINERAL": 2,
+   "LIPID_FLUID": 2,
+   "FOOD": 2,
+   "LIPID": 1
+  },
+  "parameters": {
+   "sem_voltage": {
+    "unit": "kV",
+    "lo": {
+     "n": 31,
+     "min": 1.0,
+     "q1": 4.0,
+     "median": 10.0,
+     "q3": 16.0,
+     "max": 30.0
+    },
+    "hi": {
+     "n": 31,
+     "min": 2.0,
+     "q1": 8.0,
+     "median": 15.0,
+     "q3": 20.0,
+     "max": 30.0
+    }
+   },
+   "id_threshold": {
+    "unit": "%",
+    "lo": {
+     "n": 19,
+     "min": 30.0,
+     "q1": 65.0,
+     "median": 70.0,
+     "q3": 80.0,
+     "max": 80.0
+    },
+    "hi": {
+     "n": 19,
+     "min": 30.0,
+     "q1": 65.0,
+     "median": 70.0,
+     "q3": 80.0,
+     "max": 80.0
+    }
+   },
+   "spectral_library": {
+    "n_studies": 25,
+    "counts": {
+     "OMNIC": 6,
+     "IN_HOUSE": 5,
+     "KNOWITALL": 5,
+     "AGILENT": 4,
+     "NIST": 3,
+     "OPENSPECY": 2,
+     "HORIBA": 2,
+     "BRUKER": 2,
+     "PERKINELMER": 1,
+     "STANDARDS": 1,
+     "HUMMEL": 1
+    }
+   }
+  },
+  "polymers_field_direct": {},
+  "polymers_field_all": {},
+  "polymers_exposure": {},
+  "size_observed": {
+   "lo": {
+    "n": 26,
+    "min": 1.0,
+    "q1": 20.0,
+    "median": 53.0,
+    "q3": 267.675,
+    "max": 5080.0
+   },
+   "hi": {
+    "n": 26,
+    "min": 1.0,
+    "q1": 276.475,
+    "median": 3680.5,
+    "q3": 5000.0,
+    "max": 72000.0
+   },
+   "n_direct": 1
+  },
+  "size_operational_lo": {
+   "n": 16,
+   "min": 0.1,
+   "q1": 20.0,
+   "median": 100.0,
+   "q3": 875.0,
+   "max": 3000.0
+  },
+  "min_size_reported": {
+   "n": 29,
+   "min": 0.05,
+   "q1": 1.545,
+   "median": 20.0,
+   "q3": 67.5,
+   "max": 300.0
+  },
+  "shapes": {
+   "fragment": 36,
+   "fiber": 26,
+   "sphere": 23,
+   "film": 14,
+   "pellet": 9,
+   "aggregate": 8,
+   "foam": 6
+  },
+  "mass": {}
+ },
+ "AFM": {
+  "label": "Atomic force microscopy",
+  "family": "AFM",
+  "n_studies": 5,
+  "study_design": {
+   "method_development": 3,
+   "spiked_validation": 2
+  },
+  "matrix_characters": {
+   "CELLS": 2,
+   "GUT": 1,
+   "WHOLE_ORGANISM": 1,
+   "AQUEOUS": 1,
+   "FECAL": 1
+  },
+  "parameters": {
+   "id_threshold": {
+    "unit": "%",
+    "lo": {
+     "n": 1,
+     "min": 30.0,
+     "q1": 30.0,
+     "median": 30.0,
+     "q3": 30.0,
+     "max": 30.0
+    },
+    "hi": {
+     "n": 1,
+     "min": 30.0,
+     "q1": 30.0,
+     "median": 30.0,
+     "q3": 30.0,
+     "max": 30.0
+    }
+   },
+   "spectral_library": {
+    "n_studies": 1,
+    "counts": {
+     "OMNIC": 1
+    }
+   }
+  },
+  "polymers_field_direct": {},
+  "polymers_field_all": {},
+  "polymers_exposure": {},
+  "size_observed": {
+   "lo": {
+    "n": 1,
+    "min": 0.02,
+    "q1": 0.02,
+    "median": 0.02,
+    "q3": 0.02,
+    "max": 0.02
+   },
+   "hi": {
+    "n": 1,
+    "min": 0.15,
+    "q1": 0.15,
+    "median": 0.15,
+    "q3": 0.15,
+    "max": 0.15
+   },
+   "n_direct": 1
+  },
+  "size_operational_lo": null,
+  "min_size_reported": {
+   "n": 3,
+   "min": 0.05,
+   "q1": 0.05,
+   "median": 0.1,
+   "q3": 0.16,
+   "max": 0.16
+  },
+  "shapes": {
+   "sphere": 3,
+   "aggregate": 2,
+   "fiber": 1,
+   "film": 1
+  },
+  "mass": {}
+ },
+ "OTHER_MS": {
+  "label": "Other mass spectrometry imaging",
+  "family": "OTHER_MS",
+  "n_studies": 1,
+  "study_design": {
+   "method_development": 1
+  },
+  "matrix_characters": {
+   "GUT": 1,
+   "WHOLE_ORGANISM": 1,
+   "PROTEIN": 1,
+   "SECTION": 1
+  },
+  "parameters": {},
+  "polymers_field_direct": {},
+  "polymers_field_all": {},
+  "polymers_exposure": {
+   "PE": 1
+  },
+  "size_observed": {
+   "lo": null,
+   "hi": null,
+   "n_direct": 0
+  },
+  "size_operational_lo": null,
+  "min_size_reported": {
+   "n": 1,
+   "min": 20.0,
+   "q1": 20.0,
+   "median": 20.0,
+   "q3": 20.0,
+   "max": 20.0
+  },
+  "shapes": {
+   "sphere": 1
+  },
+  "mass": {}
+ }
+}
