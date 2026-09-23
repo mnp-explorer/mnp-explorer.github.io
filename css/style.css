@@ -43,6 +43,8 @@ main { max-width: 1280px; margin: 0 auto; padding: 20px 24px 40px; outline: none
 .kpi { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; }
 .kpi b { display: block; font-size: 1.5rem; }
 .kpi span { color: var(--muted); font-size: .85rem; }
+.kpi.clickable { cursor: pointer; }
+.kpi.clickable:hover { border-color: var(--accent); }
 .muted { color: var(--muted); } .small { font-size: .85rem; }
 .note { background: var(--warn-soft); color: var(--ink); border-left: 3px solid var(--warn); padding: 8px 12px; border-radius: 6px; font-size: .88rem; }
 
