@@ -66,8 +66,10 @@ export function select(name, options, { value = '', blank = 'Any', multiple = fa
   return `<select name="${name}"${multiple ? ' multiple' : ''}>${multiple ? '' : `<option value="">${esc(blank)}</option>`}${opts.join('')}</select>`;
 }
 
+// items: [value, caption, ref?]; a ref makes the tile clickable (reference popover)
 export function kpis(items) {
-  return h(`<div class="kpis">${items.map(([v, t]) => `<div class="kpi"><b>${esc(v)}</b><span>${esc(t)}</span></div>`).join('')}</div>`);
+  return h(`<div class="kpis">${items.map(([v, t, ref]) => `<div class="kpi${ref ? ' clickable' : ''}"${ref ? ` data-ref="${esc(ref)}"` : ''}>
+    <b>${esc(v)}</b><span>${esc(t)}</span></div>`).join('')}</div>`);
 }
 
 // Measured-range rows on a log scale. rows: [{label, lo: quantiles of lower ends, hi: quantiles of upper ends, n}]
