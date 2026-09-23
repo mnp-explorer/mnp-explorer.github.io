@@ -1,6 +1,6 @@
 // Overview: what the evidence base covers. Click any bar to see the studies behind it.
-import { split, label, short, stepLabel, fmt } from '../../script/summaries.js';
-import { h, bars, kpis } from '../ui.js';
+import { countBy, split, label, short, stepLabel, fmt } from '../../script/summaries.js';
+import { esc, h, bars, kpis } from '../ui.js';
 import { showPopover, closePopover, smallScreen } from '../popover.js';
 
 export default function overview(root, D) {
@@ -10,13 +10,6 @@ export default function overview(root, D) {
   root.append(h(`<section><h2>Overview</h2>
     <p class="muted">Coverage of the evidence base. <span class="ref-hint">Click any bar to see the studies behind it.</span></p>
     <p class="note phone-note">On small screens the charts show general trends. Open the site on a computer to see the studies.</p></section>`));
-  root.append(kpis([
-    [S.length, 'studies'],
-    [new Set(D.runs.map(r => r.technique)).size, 'analysis techniques'],
-    [new Set(field.map(f => f.polymer_code)).size, 'polymers detected'],
-    [new Set(D.recovery.map(r => r.study_id)).size, 'studies with recovery values'],
-    [S.filter(s => s.nanoplastic_claimed === 'yes').length, 'studies claiming nanoplastics'],
-  ]));
 
   // short descriptions used in the popover rows
   const list = (v, fn) => split(v).map(fn).join(', ') || '–';
@@ -59,6 +52,37 @@ export default function overview(root, D) {
     grid.append(c);
   };
 
+  // summary tiles: each opens the studies behind the number
+  const tally = (items, keyOf, labelOf, n = 8) => countBy(items, keyOf).slice(0, n).map(([k, c]) => `${esc(labelOf(k))} ${c}`).join(' · ');
+  const tile = (key, title, ids, valueHead, valueOf, extra) => {
+    REFS.set(`kpi|${key}`, () => {
+      const sp = spec(title, ids, valueHead, valueOf);
+      if (extra) sp.summary += `<br>${extra}`;
+      return sp;
+    });
+    return `kpi|${key}`;
+  };
+  const studyTechs = [...new Set(D.runs.map(r => `${r.study_id}|${r.technique}`))].map(k => k.split('|')[1]);
+  const fieldPolys = [...new Set(field.map(f => `${f.study_id}|${f.polymer_code}`))].map(k => k.split('|')[1]);
+  const recN = D.recoveryBy;
+  const nano = S.filter(s => s.nanoplastic_claimed === 'yes');
+  const tiles = kpis([
+    [S.length, 'studies', tile('all', 'All studies', S.map(s => s.study_id), 'Study design', s => s.study_design.replace(/_/g, ' '),
+      `Design: ${tally(S, s => s.study_design, v => v.replace(/_/g, ' '))}`)],
+    [new Set(D.runs.map(r => r.technique)).size, 'analysis techniques', tile('tec', 'Analysis techniques', D.runs.map(r => r.study_id), 'Analysis', techs,
+      `Studies per technique: ${tally(studyTechs, t => t, t => short(D, 'method_step', t), 14)}`)],
+    [new Set(field.map(f => f.polymer_code)).size, 'polymers detected', tile('pol', 'Polymers detected in samples', field.map(f => f.study_id), 'Polymers in samples',
+      s => [...new Set((D.findingsBy.get(s.study_id) || []).filter(f => f.role === 'field_detection' || f.role === 'reported').map(f => f.polymer_code))].join(', '),
+      `Studies per polymer: ${tally(fieldPolys, c => c, c => c, 12)}`)],
+    [recN.size, 'studies with recovery values', tile('rec', 'Studies with recovery values', [...recN.keys()], 'Recovery values', s => {
+      const v = recN.get(s.study_id).map(r => +r.value_pct).filter(isFinite).sort((a, b) => a - b);
+      return v.length ? `${v.length} values · ${fmt(v[0])}${v.length > 1 ? '–' + fmt(v[v.length - 1]) : ''}%` : '–';
+    }, '<a href="#validation">Open Validation</a> for recovery by digestion, analysis, polymer and matrix.')],
+    [nano.length, 'studies claiming nanoplastics', tile('nano', 'Studies claiming nanoplastics', nano.map(s => s.study_id), 'Smallest size · analysis',
+      s => `${s.min_particle_size_um === '' ? 'size not reported' : fmt(+s.min_particle_size_um) + ' µm'} · ${techs(s)}`)],
+  ]);
+  root.append(tiles);
+
   const grid = h('<div class="stack"></div>');   // one card per row: long labels stay readable
   card('grp', 'Matrix group', S, s => split(s.finder_groups), v => v, 'Sample types', samples, { finder: 'group' });
   card('chr', 'Matrix character', S, s => split(s.matrix_characters), v => label(D, 'matrix_character', v), 'Sample types', samples,
@@ -78,7 +102,7 @@ export default function overview(root, D) {
     { limit: 20, sort: (a, b) => b[2] - a[2] });
   root.append(grid);
 
-  grid.addEventListener('click', e => {
+  const onClick = e => {
     const el = e.target.closest('[data-ref]');
     if (!el || !REFS.has(el.dataset.ref)) return;
     if (smallScreen()) {   // no popovers on phones: bars that map to a finder filter still open it
@@ -88,5 +112,7 @@ export default function overview(root, D) {
     e.stopPropagation();
     closePopover();
     showPopover(el, REFS.get(el.dataset.ref)(), D.openStudy);
-  });
+  };
+  tiles.addEventListener('click', onClick);
+  grid.addEventListener('click', onClick);
 }
