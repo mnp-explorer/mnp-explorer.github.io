@@ -7,14 +7,16 @@
   <meta name="description" content="MNP Methods Explorer: Sample preparation, analysis, and validation of micro- and nanoplastics in biological samples. Evidence map and method finder built from a systematic review.">
   <link rel="stylesheet" href="css/style.css">
   <script>
-    // apply a saved theme before first paint (falls back to the system setting)
-    try { const t = localStorage.getItem('mnp-theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (e) {}
+    // apply the saved theme before first paint; light is the default
+    let t = 'light';
+    try { const saved = localStorage.getItem('mnp-theme'); if (saved === 'dark') t = saved; } catch (e) {}
+    document.documentElement.dataset.theme = t;
   </script>
 </head>
 <body>
   <header class="top">
     <div class="brand">
-      <h1>MNP Methods Explorer</h1>
+      <h1><a href="#overview" class="home" title="Back to overview">MNP Methods Explorer</a></h1>
       <p class="tagline">Sample preparation, analysis, and validation of micro- and nanoplastics in biological samples</p>
       <p class="sub" id="meta">Loading evidence…</p>
     </div>
