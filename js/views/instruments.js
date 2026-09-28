@@ -89,7 +89,7 @@ export default function instruments(root, D, params) {
     const rows = perStudy(rs, r => `${r.code} · ${label(D, 'evidence_status', r.status).toLowerCase()}`);
     const direct = rows.filter(r => r.attribution === 'direct').length;
     return { title: `${code} (${label(D, 'polymer', code)}) identified by ${short(D, 'method_step', tech)}`, rows, note: ATTR_NOTE,
-      summary: `Identified in samples in <b>${rows.length} studies</b> (${direct} direct). Status: confirmed = checked against the paper; extraction only = from the extraction sheets.` };
+      summary: `Identified in samples in <b>${rows.length} studies</b> (${direct} direct). Tags show qualifiers reported by the paper (e.g. tentative, contamination-qualified).` };
   };
   // value = every shape the study reported, so the list shows what else co-occurred
   const shapeSpec = (tech, code, rs, allShapes) => {

@@ -1,51 +1,40 @@
-# MNP Methods Explorer: public data
+# MNP Bio-Method Explorer: public data
 
-Processed results from a systematic extraction of 258 studies on micro- and nanoplastic
-analysis in biological matrices. These files hold coded, parsed results only. The
-extraction sheets and curator notes are not published.
+Processed results from a systematic review of micro- and nanoplastic (MNP) studies in biological samples.
+Extraction text, quotes and curator notes are not included. Full descriptions of every table, column and
+code list are on the site's **Data** page.
 
-Built by `scripts/04_build_public.py` from the private curated dataset. Version is in
-`mnp_public.json → meta.dataset_version`.
+| File | Grain |
+|---|---|
+| `studies.csv` | One row per study (432): bibliography, country, matrix, pipeline, digestion, reporting basis, polymer summary, `evidence_scope` |
+| `groups.csv` | One row per sample group (occurrence studies only) |
+| `results.csv` | Group × analyte × measure: concentrations, detection frequencies, particle statistics |
+| `instrument_runs.csv` | Study × analysis technique |
+| `instrument_parameters.csv` | Study × technique family × parameter (parsed numbers or codes) |
+| `instrument_results.csv` | Instrument use × result (polymer, size range, shape, mass range, smallest size) with attribution |
+| `polymer_findings.csv` | Study × polymer × role × evidence status |
+| `matrix.csv` | Study × organism / sample type / environmental sample |
+| `recovery_points.csv` | Spike-recovery values |
+| `spans.csv` | Reported size and mass ranges |
+| `qaqc.csv` | Study × QA/QC item (coded answers) |
+| `performance.csv` | Study × method-performance measure reported |
+| `mnp_public.json` | Everything above plus code lists and per-technique summaries (tables stored as `{cols, rows}`) |
+| `instrument_summary.json` | Per-technique summaries |
 
-## Tables (all join on `study_id`; instrument tables also on `run_id`)
+## Citation
 
-| File | One row per | Key columns |
-|---|---|---|
-| `studies.csv` | study | label, year, DOI, title; `study_design`; matrix codes (`organisms`, `sample_types`, `matrix_characters`); pipeline codes (`physical_steps`, `removal_steps`, `separation_steps`, `techniques`); digestion temperature / time and filter pore (lo–hi); `metric_basis`; `min_particle_size_um` + basis; polymer summary |
-| `instrument_runs.csv` | study × analysis technique | `run_id`, `technique`, `family`, what the technique can report |
-| `instrument_parameters.csv` | study × technique family × parameter | `parameter` (see `vocab.instrument_parameter`), `value_lo`–`value_hi` + `unit` for numbers, `value_code` for categories, `n_values` when several settings were reported |
-| `instrument_results.csv` | run × result | `result_type` = `polymer` / `size_span` / `shape` / `mass_span` / `min_size`; `code` or `lo`–`hi` + `unit`; `kind`; polymer `role` and `status`; **`attribution`** |
-| `polymer_findings.csv` | study × polymer × role | `role` (why the polymer is in the study) and `id_status` (how well it is supported) |
-| `matrix.csv` | study × facet × code | organism, sample type (+ matrix character), environmental comparator |
-| `recovery_points.csv` | recovery value | value %, endpoint (mass / count), polymer, size, scope, pipeline steps |
-| `spans.csv` | reported range | size / mass / mass-recovery ranges with `kind` (observed / operational / reference / summary …) |
-| `instrument_summary.json` | technique | parameter distributions (n, min, quartiles, max), polymers, observed size ranges, reported minimum sizes, shapes, mass concentrations by unit and matrix character |
-| `mnp_public.json` | — | all of the above plus the vocabularies, for the web app |
+Any use of these data or summary results must cite:
 
-## How instruments are linked to results
-
-Many studies used several instruments but report polymers, sizes or concentrations once.
-Every link therefore has an `attribution`:
-
-- `direct`: the only instrument in the study that could have produced the result, or the
-  result is labelled with that instrument.
-- `shared`: several instruments in the study could have produced it. Count it for each,
-  but don't treat it as specific to one.
-- `derived`: a mass value linked to a particle instrument because the mass was estimated from
-  particle counts or sizes.
-
-Only instruments able to produce the result type are linked: polymer identity →
-spectroscopic or thermal methods; size and shape → particle methods; mass → mass methods.
+Son Y, Arienzo M, Li Y. MNP Bio-Method Explorer: sample preparation, analysis, validation, and occurrence of micro- and nanoplastics in biological samples. Version 2026-09-27-merged-v2. 2026. https://mnp-explorer.github.io/
 
 ## Reading the values
 
-- Polymer `role` values: `field_detection` counts as occurrence in study samples. Exposure
-  materials, spikes, method materials and blanks do not.
-- `min_size` `kind`: `reported` (particles detected in samples), `model_particle` (nominal
-  size of added particles) or `not_demonstrated` (size tested but detection not achieved).
-- Size `kind`: `observed` (particles found), `operational` (method limits and cut-offs) or
-  `reference` (standards / model material).
-- Parameters are **reported practice**, not optimised settings. Several values in one
-  study (e.g. two instruments) become a lo–hi range.
-- FTIR parameters are reported per study for the FTIR family. In studies that used both
-  ATR and µ-FTIR, they apply to both.
+- Join tables on `study_id`; join `results` to `groups` on `group_id`.
+- Compare occurrence values only with the same `metric_basis` and `unit`. Do not sum or average across
+  `summary_level`, or across a `study_aggregate` group and its subgroups.
+- A blank is missing, not zero. Non-detects are coded in `evidence_status`. `reported_value` is not a mean;
+  `se` is not an SD. Values from figures (`source_type = paper_figure`) are approximate.
+- `evidence_scope = methods_only`: spiked, exposed or model-particle studies; method evidence only, no occurrence data.
+- Instrument settings are reported practice, not optimised values.
+
+Do not edit these files by hand: they are generated by the private build.

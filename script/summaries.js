@@ -53,6 +53,9 @@ export function indexData(db) {
     findings: db.polymer_findings, matrix: db.matrix, recovery: db.recovery_points, spans: db.spans,
     runsBy: byStudy('instrument_runs'), findingsBy: byStudy('polymer_findings'), recoveryBy: byStudy('recovery_points'),
     spansBy: byStudy('spans'), matrixBy: byStudy('matrix'),
+    groups: db.groups, occ: db.results, qaqc: db.qaqc, performance: db.performance,
+    group: Object.fromEntries(db.groups.map(g => [g.group_id, g])),
+    groupsBy: byStudy('groups'), resultsBy: byStudy('results'), qaqcBy: byStudy('qaqc'),
   };
 }
 
@@ -92,4 +95,45 @@ export function polymerMatches(D, code, wanted) {
     c = D.vocab.polymer[c] && D.vocab.polymer[c].parent;
   }
   return false;
+}
+
+// ---------------------------------------------------------------- occurrence results
+// Non-detects and below-limit results never contribute a value (a blank or non-detect is not zero).
+export const NON_DETECT = new Set(['not_detected', 'below_detection', 'below_quantification']);
+
+// Central value of a result and which statistic it is: median > mean > geometric mean > reported value.
+// Detection frequency (% of samples) uses pct_positive when no central value is given.
+export function centralValue(r) {
+  if (NON_DETECT.has(r.evidence_status)) return null;
+  for (const [k, stat] of [['median', 'median'], ['mean', 'mean'], ['geometric_mean', 'geometric mean'], ['reported_value', 'reported value']]) {
+    const v = num(r[k]);
+    if (v != null) return { v, stat };
+  }
+  if (r.unit === 'pct_of_samples' && num(r.pct_positive) != null) return { v: num(r.pct_positive), stat: '% positive' };
+  return null;
+}
+
+// Short text of a result as reported: "12.3 ± 4.1 (mean ± SD)", "5.2 (1.1–9.8, median, IQR)", "3/10 positive" …
+export function resultText(r) {
+  const n = k => num(r[k]);
+  const parts = [];
+  if (NON_DETECT.has(r.evidence_status)) parts.push(r.evidence_status === 'not_detected' ? 'not detected' : r.evidence_status.replace(/_/g, ' '));
+  if (n('mean') != null) parts.push(`${fmt(n('mean'))}${n('sd') != null ? ' ± ' + fmt(n('sd')) + ' SD' : n('se') != null ? ' ± ' + fmt(n('se')) + ' SE' : ''} (mean)`);
+  if (n('median') != null) parts.push(`${fmt(n('median'))}${n('q1') != null && n('q3') != null ? ` (IQR ${fmt(n('q1'))}–${fmt(n('q3'))})` : ''} (median)`);
+  if (n('geometric_mean') != null) parts.push(`${fmt(n('geometric_mean'))} (geometric mean)`);
+  if (n('reported_value') != null && !parts.length) parts.push(`${fmt(n('reported_value'))} (reported)`);
+  if (n('min') != null || n('max') != null) parts.push(`range ${fmt(n('min'))}–${fmt(n('max'))}`);
+  if (n('n_positive') != null && n('n_analysed') != null) parts.push(`${n('n_positive')}/${n('n_analysed')} positive`);
+  else if (n('pct_positive') != null) parts.push(`${fmt(n('pct_positive'))}% positive`);
+  return parts.join(' · ') || '–';
+}
+
+// Qualifier tags shown next to a value (paper-reported qualifiers and how the value was obtained).
+export function resultTags(r) {
+  const t = [];
+  if (r.evidence_status && !['confirmed', ...NON_DETECT].includes(r.evidence_status)) t.push(r.evidence_status.replace(/_/g, ' '));
+  if (r.source_type === 'paper_figure' || /approximate/.test(r.summary_level)) t.push('from figure');
+  if (r.source_type === 'computed') t.push('computed');
+  if (r.blank_corrected === 'yes') t.push('blank-corrected');
+  return t;
 }

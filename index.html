@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MNP Methods Explorer</title>
-  <meta name="description" content="MNP Methods Explorer: Sample preparation, analysis, and validation of micro- and nanoplastics in biological samples. Evidence map and method finder built from a systematic review.">
+  <title>MNP Bio-Method Explorer</title>
+  <meta name="description" content="MNP Bio-Method Explorer: Sample preparation, analysis, validation, and occurrence of micro- and nanoplastics in biological samples. Evidence map, method finder and occurrence data built from a systematic review.">
   <link rel="stylesheet" href="css/style.css">
   <script>
     // apply the saved theme before first paint; light is the default
@@ -16,17 +16,22 @@
 <body>
   <header class="top">
     <div class="brand">
-      <h1><a href="#overview" class="home" title="Back to overview">MNP Methods Explorer</a></h1>
-      <p class="tagline">Sample preparation, analysis, and validation of micro- and nanoplastics in biological samples</p>
+      <h1><a href="#home" class="home" title="Home">MNP Bio-Method Explorer</a></h1>
+      <p class="tagline">Sample preparation, analysis, validation, and occurrence of micro- and nanoplastics in biological samples</p>
       <p class="sub" id="meta">Loading evidence…</p>
     </div>
     <button type="button" class="theme-toggle ghost" id="themeToggle" aria-label="Switch colour theme"></button>
     <nav id="tabs" aria-label="Views">
+      <a href="#home">Home</a>
       <a href="#overview">Overview</a>
       <a href="#finder">Method finder</a>
       <a href="#workflows">Workflows</a>
       <a href="#instruments">Instruments</a>
       <a href="#validation">Validation</a>
+      <a href="#occurrence">Occurrence</a>
+      <a href="#qaqc">QA/QC</a>
+      <a href="#geography">Geography</a>
+      <a href="#data">Data</a>
     </nav>
   </header>
   <main id="view" tabindex="-1"></main>
@@ -35,8 +40,8 @@
     <div id="detailBody"></div>
   </aside>
   <footer class="foot">
-    <p>Processed results from a systematic extraction of studies on micro- and nanoplastic (MNP) analysis in
-      biological matrices. Parameters are reported practice, not optimised settings.
+    <p>Processed results from a systematic review of micro- and nanoplastic (MNP) studies in biological samples.
+      Values and settings are as reported by the studies; they are not validated protocols or recommendations.
       <a href="#data">Data dictionary and downloads</a></p>
   </footer>
   <script type="module" src="js/app.js"></script>

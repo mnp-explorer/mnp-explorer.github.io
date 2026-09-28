@@ -3,7 +3,9 @@
 // alone show the general trends.
 import { esc } from './ui.js';
 
-export const smallScreen = () => matchMedia('(max-width: 760px)').matches;
+// Phone mode = a narrow touch screen. A narrow desktop window (mouse) keeps the popovers.
+export const PHONE = '(max-width: 760px) and (pointer: coarse)';
+export const smallScreen = () => matchMedia(PHONE).matches;
 
 let current = null;
 

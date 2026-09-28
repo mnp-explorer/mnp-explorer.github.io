@@ -1,9 +1,11 @@
-# MNP Methods Explorer
+# MNP Bio-Method Explorer
 
-**Sample preparation, analysis, and validation of micro- and nanoplastics in biological samples.**
+**Sample preparation, analysis, validation, and occurrence of micro- and nanoplastics in biological samples.**
 
-An evidence map and method finder built from a systematic extraction of 258 studies.
+An evidence map, method finder and occurrence browser built from a systematic review of 432 studies
+(378 with untreated biological samples; 54 methods-only studies with spiked, exposed or model-particle samples).
 
+- **Home:** what the platform is, the evidence at a glance, how to cite, team, acknowledgements and contact.
 - **Overview:** what the evidence covers: matrices, polymers, techniques and designs.
 - **Method finder:** describe your sample (matrix) and target (polymer, particle size,
   count or mass). Every field narrows the others to what the evidence covers. It returns ranked sample-prep and analysis pipelines. Each has an
@@ -13,8 +15,23 @@ An evidence map and method finder built from a systematic extraction of 258 stud
 - **Instruments:** reported instrument settings, and the polymers, particle sizes, shapes
   and mass concentrations each technique delivered.
 - **Validation:** spike-recovery values by reagent, analysis, polymer and matrix.
+- **Occurrence:** reported concentrations and detection frequencies by sample type, polymer, organism and region,
+  compared only within one unit.
+- **QA/QC:** blanks, contamination control, recovery and limits, identification checks and data availability,
+  and how reporting has changed over time.
+- **Geography:** studies by region and country, by matrix and by publication year.
+- **Data:** tables, columns, code lists and downloads.
 
-Parameters are **reported practice**, not optimised or validated settings.
+Values and parameters are **as reported** by the studies; they are not validated protocols or recommendations.
+
+## Citation and licence
+
+Son Y, Arienzo M, Li Y. MNP Bio-Method Explorer: sample preparation, analysis, validation, and occurrence of micro- and nanoplastics in biological samples. Version 2026-09-27-merged-v2. 2026. https://mnp-explorer.github.io/
+
+Code: MIT Licence (see `LICENSE`). Any use of the data or summary results must include the citation above.
+
+Team: Yeongkwon Son (School of Public Health, University of Nevada, Reno), Monica Arienzo (Desert Research Institute),
+Yongcheng Li (School of Public Health, University of Nevada, Reno).
 
 ## Run locally
 
@@ -31,10 +48,10 @@ Then open http://localhost:8000.
 ```
 index.html            page shell
 css/style.css         styles (light / dark)
-js/app.js             loads data, routes between views, study detail panel
+js/app.js             loads data, routes between views, study detail panel (groups and results)
 js/ui.js              small DOM helpers (bars, range plots, selects)
 js/views/*.js         one file per view
-script/summaries.js   data indexing and statistics shared by views and models
+script/summaries.js   data indexing, statistics and result formatting shared by views and models
 script/finder.js      method-finder model: feasibility, relevance weights, evidence tiers
 script/facets.js      cross-filtering: each finder field counts only studies matching the other selections
 script/models/        further models (see README there)

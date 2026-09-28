@@ -1,0 +1,1078 @@
+group_id,study_id,group_label,organism_code,sample_type_code,cohort_role,n_samples,n_subjects,technique_codes,group_scope
+SID0001-G01,SID0001,All arterial tissue specimens,HUMAN,CARDIOVASCULAR,all,17,,,study_aggregate
+SID0001-G02,SID0001,Coronary artery,HUMAN,CARDIOVASCULAR,all,,,,group
+SID0001-G03,SID0001,Carotid artery,HUMAN,CARDIOVASCULAR,all,,,,group
+SID0001-G04,SID0001,Aorta,HUMAN,CARDIOVASCULAR,all,,,,group
+SID0002-G01,SID0002,"Placental tissue, Py-GC-MS",HUMAN,REPRODUCTIVE,all,62,,PYGCMS,group
+SID0002-G02,SID0002,"Placental tissue, fluorescence counting",HUMAN,REPRODUCTIVE,all,10,,,group
+SID0003-G01,SID0003,Ischaemic-stroke thrombi,HUMAN,CARDIOVASCULAR,all,16,,PYGCMS,group
+SID0003-G02,SID0003,Myocardial-infarction thrombi,HUMAN,CARDIOVASCULAR,all,5,,PYGCMS,group
+SID0003-G03,SID0003,Deep-vein-thrombosis thrombi,HUMAN,CARDIOVASCULAR,all,9,,PYGCMS,group
+SID0004-G01,SID0004,Bronchoalveolar lavage fluid,HUMAN,BODY_FLUID,all,30,,,group
+SID0004-G02,SID0004,Peripheral lung tissue,HUMAN,ORGAN,all,3,,,group
+SID0005-G01,SID0005,"Semen, all samples",HUMAN,BODY_FLUID,all,10,,,group
+SID0005-G02,SID0005,"Semen, positive samples",HUMAN,BODY_FLUID,stratum,6,,,group
+SID0007-G01,SID0007,Untreated Daphnia controls,CRUSTACEAN,WHOLE_BODY,control,,,,group
+SID0008-G01,SID0008,"Fish gill and intestinal samples, combined qualitative report",FISH,GILL;GI_TRACT,all,,,,study_aggregate
+SID0009-G01,SID0009,All chorionic-villus specimens,HUMAN,REPRODUCTIVE,all,31,,,study_aggregate
+SID0009-G02,SID0009,Normal carriage,HUMAN,REPRODUCTIVE,control,13,,,group
+SID0009-G03,SID0009,Spontaneous miscarriage,HUMAN,REPRODUCTIVE,case,18,,,group
+SID0010-G01,SID0010,Placenta,HUMAN,REPRODUCTIVE,all,10,,,group
+SID0010-G02,SID0010,Umbilical cord,HUMAN,REPRODUCTIVE,all,10,,,group
+SID0011-G01,SID0011,Unexposed mouse placenta,MAMMAL,REPRODUCTIVE,control,1,,,group
+SID0013-G01,SID0013,Amniotic fluid,HUMAN,BODY_FLUID,all,48,,,group
+SID0014-G01,SID0014,Common-dolphin stomach contents,MAMMAL,GI_CONTENTS,all,15,,,group
+SID0015-G01,SID0015,"Gull digestive-organ samples, all organs",BIRD,GI_TRACT,all,20,5,,study_aggregate
+SID0016-G01,SID0016,Unexposed medusae,CNIDARIAN,WHOLE_BODY,control,4,,,group
+SID0018-G01,SID0018,Fasting participant sample with indicative PS,HUMAN,BLOOD,all,1,,,group
+SID0018-G02,SID0018,Pilot blood measurements with sporadic PP,HUMAN,BLOOD,all,,,,study_aggregate
+SID0019-G01,SID0019,Maldivian sponge tissue,SPONGE,TISSUE,all,7,,,group
+SID0020-G01,SID0020,North Sea before 1998,BIVALVE,SOFT_TISSUE,all,,,,group
+SID0020-G02,SID0020,North Sea from 1998,BIVALVE,SOFT_TISSUE,all,,,,group
+SID0020-G03,SID0020,Baltic Sea,BIVALVE,SOFT_TISSUE,all,,,,group
+SID0021-G01,SID0021,Otolithes ruber digestive tract,FISH,GI_TRACT,all,25,,,group
+SID0021-G02,SID0021,Acanthopagrus latus digestive tract,FISH,GI_TRACT,all,20,,,group
+SID0022-G01,SID0022,Glandiceps talaboti,INVERT_MIXED,WHOLE_BODY,all,1,,,group
+SID0022-G02,SID0022,Amphiura chiajei,ECHINODERM,WHOLE_BODY,all,1,,,group
+SID0022-G03,SID0022,Amphiura filiformis,ECHINODERM,WHOLE_BODY,all,1,,,group
+SID0022-G04,SID0022,Notomastus sp.,ANNELID,WHOLE_BODY,all,1,,,group
+SID0022-G05,SID0022,Fustiaria rubescens,INVERT_MIXED,WHOLE_BODY,all,1,,,group
+SID0022-G06,SID0022,Acanthocardia sp.,BIVALVE,WHOLE_BODY,all,1,,,group
+SID0022-G07,SID0022,Lanice conchilega,ANNELID,WHOLE_BODY,all,1,,,group
+SID0024-G01,SID0024,Unexposed coral skeleton controls,CNIDARIAN,SKELETAL,control,6,,,group
+SID0026-G01,SID0026,Copepod pools across species and sites,CRUSTACEAN,WHOLE_BODY,all,20,,,study_aggregate
+SID0027-G01,SID0027,Green-sea-turtle feces,REPTILE,FECES,all,,22,,group
+SID0028-G01,SID0028,Red-phalarope stomach contents,BIRD,GI_CONTENTS,all,6,,,group
+SID0030-G01,SID0030,Semen,HUMAN,BODY_FLUID,all,115,,,group
+SID0031-G01,SID0031,Pooled mud-snail soft tissue across lagoons,GASTROPOD,SOFT_TISSUE,all,,,,study_aggregate
+SID0032-G01,SID0032,Spotted seatrout tissue,FISH,TISSUE,all,,,,group
+SID0032-G02,SID0032,Eastern oyster tissue,BIVALVE,TISSUE,all,,,,group
+SID0032-G03,SID0032,Blackfin tuna tissue,FISH,TISSUE,all,,,,group
+SID0034-G01,SID0034,Atlantic-cod fillets,FISH,MUSCLE,all,20,,,group
+SID0035-G01,SID0035,"Dolphin intestinal samples, overall",MAMMAL,GI_TRACT;GI_CONTENTS,all,,10,,study_aggregate
+SID0035-G02,SID0035,Proximal contents,MAMMAL,GI_CONTENTS,all,,,,group
+SID0035-G03,SID0035,Distal contents,MAMMAL,GI_CONTENTS,all,,,,group
+SID0035-G04,SID0035,Proximal intestinal wall,MAMMAL,GI_TRACT,all,,,,group
+SID0037-G01,SID0037,Ileal mucosal sections,HUMAN,SECTION,all,101,,,group
+SID0037-G02,SID0037,Separate colon tissue specimen,HUMAN,GI_TRACT,all,1,,,group
+SID0038-G01,SID0038,All scoters gizzard contents,BIRD,GI_CONTENTS,all,10,,,study_aggregate
+SID0038-G02,SID0038,Black scoters gizzard contents,BIRD,GI_CONTENTS,all,6,,,group
+SID0038-G03,SID0038,Stejneger’s scoters gizzard contents,BIRD,GI_CONTENTS,all,4,,,group
+SID0039-G01,SID0039,Sanrobengi Perna viridis,BIVALVE,SOFT_TISSUE,all,35,,,group
+SID0039-G02,SID0039,Sanrobengi Mactra chinensis,BIVALVE,SOFT_TISSUE,all,35,,,group
+SID0039-G03,SID0039,Mandalle Perna viridis,BIVALVE,SOFT_TISSUE,all,50,,,group
+SID0039-G04,SID0039,Mandalle Meretrix meretrix,BIVALVE,SOFT_TISSUE,all,50,,,group
+SID0040-G01,SID0040,Gills,FISH,GILL,all,,120,,group
+SID0040-G02,SID0040,Gastrointestinal tract,FISH,GI_TRACT,all,,120,,group
+SID0041-G01,SID0041,Prostate tissue,HUMAN,REPRODUCTIVE,all,12,,,group
+SID0042-G01,SID0042,Female catshark gastrointestinal tract,ELASMO,GI_TRACT,all,200,,,group
+SID0043-G01,SID0043,Asian-clam pooled soft tissue,BIVALVE,SOFT_TISSUE,all,4,40,,group
+SID0044-G01,SID0044,"Canned seafood tissues, all products",BIVALVE;FISH;CEPHALOPOD;FOOD_PRODUCT,FOOD,all,60,,,study_aggregate
+SID0044-G02,SID0044,Canned seafood preparations including immersion liquids,BIVALVE;FISH;CEPHALOPOD;FOOD_PRODUCT,FOOD,all,60,,,study_aggregate
+SID0046-G01,SID0046,Neonatal blood,HUMAN,BLOOD,all,12,,,group
+SID0046-G02,SID0046,Bottle-fed formula milk,HUMAN,MILK,all,12,,,group
+SID0046-G03,SID0046,Breast milk,HUMAN,MILK,all,12,,,group
+SID0047-G01,SID0047,Scyliorhinus canicula gastrointestinal tract,ELASMO,GI_TRACT,all,30,,,group
+SID0047-G02,SID0047,Polybius henslowii gastrointestinal tract,CRUSTACEAN,GI_TRACT,all,30,,,group
+SID0047-G03,SID0047,Trisopterus luscus gastrointestinal tract,FISH,GI_TRACT,all,30,,,group
+SID0048-G01,SID0048,"Reef-fish gastrointestinal tracts, all species",FISH,GI_TRACT,all,97,,,study_aggregate
+SID0049-G01,SID0049,"Fish and prawn gastrointestinal tracts, all species",CRUSTACEAN;FISH,GI_TRACT,all,18,,,study_aggregate
+SID0050-G01,SID0050,Lutjanus campechanus gills and GIT,FISH,GILL;GI_TRACT,all,8,,,group
+SID0050-G02,SID0050,Bramidae gills and GIT,FISH,GILL;GI_TRACT,all,8,,,group
+SID0050-G03,SID0050,Rastrelliger kanagurta gills and GIT,FISH,GILL;GI_TRACT,all,8,,,group
+SID0050-G04,SID0050,Oreochromis niloticus gills and GIT,FISH,GILL;GI_TRACT,all,8,,,group
+SID0052-G01,SID0052,"Anchovy and sardine digestive samples, all fish",FISH,GI_TRACT,all,176,,,study_aggregate
+SID0052-G02,SID0052,European anchovy digestive samples,FISH,GI_TRACT,all,,,,group
+SID0052-G03,SID0052,European pilchard digestive samples,FISH,GI_TRACT,all,,,,group
+SID0054-G01,SID0054,Human thrombi,HUMAN,CARDIOVASCULAR,all,26,,,group
+SID0055-G01,SID0055,PE-positive carotid plaques,HUMAN,CARDIOVASCULAR,stratum,150,,,group
+SID0055-G02,SID0055,PVC-positive carotid plaques,HUMAN,CARDIOVASCULAR,stratum,31,,,group
+SID0056-G01,SID0056,Individual intertidal mussels,BIVALVE,SOFT_TISSUE,all,50,,,group
+SID0057-G01,SID0057,Human stool,HUMAN,FECES,all,78,,,group
+SID0059-G01,SID0059,"Fish gastrointestinal tracts, species summaries",FISH,GI_TRACT,all,,,,study_aggregate
+SID0059-G02,SID0059,"Fish gills, species summaries",FISH,GILL,all,,,,study_aggregate
+SID0059-G03,SID0059,Sinonovacula constricta soft tissue,BIVALVE,SOFT_TISSUE,all,,,,group
+SID0060-G01,SID0060,"Fish gastrointestinal tracts, five species",FISH,GI_TRACT,all,25,,,study_aggregate
+SID0061-G01,SID0061,"Freshwater-fish GIT, all species",FISH,GI_TRACT,all,48,,,study_aggregate
+SID0062-G01,SID0062,Female stomach,CRUSTACEAN,GI_CONTENTS,all,30,,,group
+SID0062-G02,SID0062,Female intestine,CRUSTACEAN,GI_TRACT,all,30,,,group
+SID0062-G03,SID0062,Male stomach,CRUSTACEAN,GI_CONTENTS,all,30,,,group
+SID0062-G04,SID0062,Male intestine,CRUSTACEAN,GI_TRACT,all,30,,,group
+SID0063-G01,SID0063,Elephant Island North individual krill stomachs,CRUSTACEAN,GI_CONTENTS,all,5,,,group
+SID0063-G02,SID0063,Bransfield Strait West individual krill stomachs,CRUSTACEAN,GI_CONTENTS,all,5,,,group
+SID0063-G03,SID0063,Northwestern Weddell Sea individual krill stomachs,CRUSTACEAN,GI_CONTENTS,all,5,,,group
+SID0066-G01,SID0066,"Blood cockles, market",BIVALVE,SOFT_TISSUE,all,3,15,,group
+SID0066-G02,SID0066,"Blood cockles, farm",BIVALVE,SOFT_TISSUE,all,3,15,,group
+SID0066-G03,SID0066,"Green mussels, market",BIVALVE,SOFT_TISSUE,all,3,15,,group
+SID0066-G04,SID0066,"Green mussels, farm",BIVALVE,SOFT_TISSUE,all,3,15,,group
+SID0070-G01,SID0070,All wild-bird lung lobes,BIRD,ORGAN,all,22,,,study_aggregate
+SID0070-G02,SID0070,Rock dove lungs,BIRD,ORGAN,all,8,,,group
+SID0070-G03,SID0070,Barn swallow lungs,BIRD,ORGAN,all,8,,,group
+SID0070-G04,SID0070,Black-kite lungs,BIRD,ORGAN,all,6,,,group
+SID0071-G01,SID0071,Channa punctatus all analyzed matrices,FISH,GI_TRACT;GILL;MUSCLE,all,35,,,group
+SID0071-G02,SID0071,Channa punctatus dorsal muscle,FISH,MUSCLE,all,35,,,group
+SID0071-G03,SID0071,Labeo rohita all analyzed matrices,FISH,GI_TRACT;GILL;MUSCLE,all,35,,,group
+SID0071-G04,SID0071,Labeo rohita dorsal muscle,FISH,MUSCLE,all,35,,,group
+SID0071-G05,SID0071,Labeo bata all analyzed matrices,FISH,GI_TRACT;GILL;MUSCLE,all,35,,,group
+SID0071-G06,SID0071,Labeo bata dorsal muscle,FISH,MUSCLE,all,35,,,group
+SID0071-G07,SID0071,Salmostoma bacaila all analyzed matrices,FISH,WHOLE_BODY,all,35,,,group
+SID0071-G08,SID0071,Puntius amphibius all analyzed matrices,FISH,WHOLE_BODY,all,35,,,group
+SID0072-G01,SID0072,Centropages furcatus copepod pools,CRUSTACEAN,WHOLE_BODY,all,15,750,,group
+SID0073-G01,SID0073,Mystus gulio GIT,FISH,GI_TRACT,all,10,,,group
+SID0073-G02,SID0073,Otolithoides pama GIT,FISH,GI_TRACT,all,10,,,group
+SID0073-G03,SID0073,Polynemus paradiseus GIT,FISH,GI_TRACT,all,10,,,group
+SID0074-G01,SID0074,Preschool-child feces,HUMAN,FECES,all,335,,,group
+SID0075-G01,SID0075,Normal pregnancy placenta,HUMAN,REPRODUCTIVE,control,30,,,group
+SID0075-G02,SID0075,IUGR pregnancy placenta,HUMAN,REPRODUCTIVE,case,13,,,group
+SID0076-G01,SID0076,"Gastrointestinal tract, all fish species",FISH,GI_TRACT,all,62,,,study_aggregate
+SID0076-G02,SID0076,"Gills, all fish species",FISH,GILL,all,62,,,study_aggregate
+SID0077-G01,SID0077,Mussel site/species/size summaries,BIVALVE,SOFT_TISSUE,all,,540,,study_aggregate
+SID0078-G01,SID0078,"Crab gastrointestinal tracts, all sites",CRUSTACEAN,GI_TRACT,all,,90,,study_aggregate
+SID0078-G02,SID0078,Zaje crab GIT,CRUSTACEAN,GI_TRACT,all,,,,group
+SID0078-G03,SID0078,Merxhani crab GIT,CRUSTACEAN,GI_TRACT,all,,,,group
+SID0078-G04,SID0078,Drini river mouth crab GIT,CRUSTACEAN,GI_TRACT,all,,,,group
+SID0079-G01,SID0079,"Muscle, 30-species summaries",FISH,MUSCLE,all,,600,,study_aggregate
+SID0079-G02,SID0079,"Gills, 30-species summaries",FISH,GILL,all,,600,,study_aggregate
+SID0079-G03,SID0079,"Gut, 30-species summaries",FISH,GI_TRACT,all,,600,,study_aggregate
+SID0080-G01,SID0080,"Olfactory bulbs, paired-method study",HUMAN,ORGAN,all,,15,,study_aggregate
+SID0080-G02,SID0080,Positive olfactory-bulb cases,HUMAN,ORGAN,stratum,,8,,group
+SID0080-G03,SID0080,Direct left-bulb cryosections,HUMAN,SECTION,all,,15,,group
+SID0080-G04,SID0080,Digested right olfactory bulbs,HUMAN,ORGAN,all,,10,,group
+SID0081-G01,SID0081,Amazonian fish gastrointestinal tracts,FISH,GI_TRACT,all,88,,,study_aggregate
+SID0082-G01,SID0082,"Swordfish stomachs, all periods",FISH,GI_CONTENTS,all,49,,,study_aggregate
+SID0082-G02,SID0082,Swordfish stomachs 2011–2012,FISH,GI_CONTENTS,all,26,,,group
+SID0082-G03,SID0082,Swordfish stomachs 2017–2019,FISH,GI_CONTENTS,all,23,,,group
+SID0083-G01,SID0083,Green mussels across five markets,BIVALVE,SOFT_TISSUE,all,250,,,study_aggregate
+SID0084-G01,SID0084,"Benthic infauna, all taxa",ANNELID;ECHINODERM;INVERT_MIXED,WHOLE_BODY,all,282,,,study_aggregate
+SID0084-G02,SID0084,Positive benthic infauna,ANNELID;ECHINODERM;INVERT_MIXED,WHOLE_BODY,stratum,137,,,group
+SID0085-G01,SID0085,Melosira arctica algal aggregates,ALGA,PLANT_TISSUE,all,12,,,group
+SID0086-G01,SID0086,Cetacean fecal and intestinal samples,MAMMAL,FECES;GI_TRACT,all,,18,,study_aggregate
+SID0086-G02,SID0086,Cetacean feces,MAMMAL,FECES,all,,,,group
+SID0088-G01,SID0088,"Dorsal muscle, six-species summaries",FISH,MUSCLE,all,,60,,study_aggregate
+SID0088-G02,SID0088,"Gut, six-species summaries",FISH,GI_TRACT,all,,60,,study_aggregate
+SID0088-G03,SID0088,"Gills, six-species summaries",FISH,GILL,all,,60,,study_aggregate
+SID0089-G01,SID0089,All spirulina products,ALGA;FOOD_PRODUCT,FOOD,all,29,,,study_aggregate
+SID0089-G02,SID0089,Powder spirulina,ALGA;FOOD_PRODUCT,FOOD,all,14,,,group
+SID0089-G03,SID0089,Capsule/tablet spirulina,ALGA;FOOD_PRODUCT,FOOD,all,15,,,group
+SID0090-G01,SID0090,River-stingray gastrointestinal tracts,ELASMO,GI_TRACT,all,24,,,group
+SID0090-G02,SID0090,Positive stingrays,ELASMO,GI_TRACT,stratum,16,,,group
+SID0091-G01,SID0091,Paired semen-or-urine detection,HUMAN,BODY_FLUID,all,,100,,study_aggregate
+SID0091-G02,SID0091,Seminal plasma,HUMAN,BODY_FLUID,all,,100,,group
+SID0091-G03,SID0091,Urine,HUMAN,BODY_FLUID,all,,100,,group
+SID0092-G01,SID0092,"Seafood specimens, all analyzed species/matrices",CRUSTACEAN;FISH;CEPHALOPOD,MUSCLE;GI_TRACT;GILL,all,290,105,,study_aggregate
+SID0093-G01,SID0093,All fish analyzed matrices,FISH,GI_TRACT;GILL;ORGAN;WHOLE_BODY,all,,500,,study_aggregate
+SID0093-G02,SID0093,Marine fish analyzed matrices,FISH,GI_TRACT;GILL;ORGAN;WHOLE_BODY,all,,362,,study_aggregate
+SID0093-G03,SID0093,Freshwater fish analyzed matrices,FISH,GI_TRACT;GILL;ORGAN;WHOLE_BODY,all,,138,,study_aggregate
+SID0094-G01,SID0094,Subadult black rockfish GIT,FISH,GI_TRACT,all,58,,,group
+SID0094-G02,SID0094,Juvenile black rockfish GIT,FISH,GI_TRACT,all,66,,,group
+SID0095-G01,SID0095,"Dolphinfish, all analyzed tissues",FISH,GILL;GI_TRACT;MUSCLE,all,,15,,study_aggregate
+SID0095-G02,SID0095,Dolphinfish Gill,FISH,GILL,all,,15,,group
+SID0095-G03,SID0095,Dolphinfish Esophagus,FISH,GI_TRACT,all,,15,,group
+SID0095-G04,SID0095,Dolphinfish Stomach,FISH,GI_TRACT,all,,15,,group
+SID0095-G05,SID0095,Dolphinfish Intestine,FISH,GI_TRACT,all,,15,,group
+SID0095-G06,SID0095,Dolphinfish Muscle,FISH,MUSCLE,all,,15,,group
+SID0096-G01,SID0096,Female Macrobrachium rosenbergii pooled GIT,CRUSTACEAN,GI_TRACT,all,16,160,,group
+SID0096-G02,SID0096,Male Macrobrachium rosenbergii pooled GIT,CRUSTACEAN,GI_TRACT,all,14,140,,group
+SID0096-G03,SID0096,Litopenaeus vannamei pooled GIT,CRUSTACEAN,GI_TRACT,all,15,150,,group
+SID0097-G01,SID0097,Green-tiger-prawn pooled GIT,CRUSTACEAN,GI_TRACT,all,101,505,,group
+SID0101-G01,SID0101,Metapenaeus dobsoni edible tissue,CRUSTACEAN,MUSCLE,all,50,,,group
+SID0101-G02,SID0101,Marcia opima edible tissue,BIVALVE,SOFT_TISSUE,all,50,,,group
+SID0101-G03,SID0101,Stolephorus indicus edible tissue,FISH,MUSCLE,all,50,,,group
+SID0102-G01,SID0102,Nasal lavage after routine work-week mask use,HUMAN,BODY_FLUID,all,14,,,group
+SID0103-G01,SID0103,"Terrestrial invertebrates, all sampled taxa",CRUSTACEAN;INSECT;ANNELID;GASTROPOD,WHOLE_BODY;GI_TRACT,all,581,2645,,study_aggregate
+SID0103-G02,SID0103,Positive invertebrate samples,CRUSTACEAN;INSECT;ANNELID;GASTROPOD,WHOLE_BODY;GI_TRACT,stratum,69,,,group
+SID0103-G03,SID0103,Opisthopora,ANNELID,WHOLE_BODY,all,,,,group
+SID0103-G04,SID0103,Stylommatophora,GASTROPOD,GI_TRACT,all,,,,group
+SID0104-G01,SID0104,"Rabbitfish GIT, all species",FISH,GI_TRACT,all,96,,,study_aggregate
+SID0104-G02,SID0104,Siganus canaliculatus GIT,FISH,GI_TRACT,all,65,,,group
+SID0104-G03,SID0104,Siganus guttatus GIT,FISH,GI_TRACT,all,5,,,group
+SID0104-G04,SID0104,Siganus virgatus GIT,FISH,GI_TRACT,all,8,,,group
+SID0104-G05,SID0104,Siganus spinus GIT,FISH,GI_TRACT,all,17,,,group
+SID0104-G06,SID0104,Siganus punctatus GIT,FISH,GI_TRACT,all,1,,,group
+SID0106-G01,SID0106,Zooplankton samples across stations,ZOOPLANKTON,WHOLE_BODY,all,21,8320,,study_aggregate
+SID0108-G01,SID0108,Pooled freshwater macroinvertebrates,INVERT_MIXED,WHOLE_BODY,all,85,257,,study_aggregate
+SID0108-G02,SID0108,"Freshwater fish GIT, all species",FISH,GI_TRACT,all,418,,,study_aggregate
+SID0109-G01,SID0109,"Painted-comber pooled liver samples, all sites",FISH,ORGAN,all,30,60,,study_aggregate
+SID0109-G02,SID0109,Bizerte Channel pooled liver,FISH,ORGAN,all,10,20,,group
+SID0109-G03,SID0109,Chott-Mariem pooled liver,FISH,ORGAN,all,10,20,,group
+SID0112-G01,SID0112,Adult whole blood,HUMAN,BLOOD,all,22,,,group
+SID0113-G01,SID0113,Koala feces,MAMMAL,FECES,all,6,,,group
+SID0113-G02,SID0113,Mixed kangaroo/wallaby feces,MAMMAL,FECES,all,9,,,group
+SID0113-G03,SID0113,Kangaroo/wallaby food pellets,FOOD_PRODUCT,FOOD,all,8,,,group
+SID0114-G01,SID0114,"Unshaken, unwashed uncooked rice",PLANT;FOOD_PRODUCT,FOOD,all,11,,,group
+SID0114-G02,SID0114,"Unshaken, unwashed instant rice",PLANT;FOOD_PRODUCT,FOOD,all,2,,,group
+SID0115-G01,SID0115,"Small-mammal feces, all species",MAMMAL,FECES,all,261,,,study_aggregate
+SID0115-G02,SID0115,Positive small-mammal fecal samples,MAMMAL,FECES,stratum,43,,,group
+SID0116-G01,SID0116,Nile-tilapia muscle fillets,FISH,MUSCLE,all,24,,,group
+SID0118-G01,SID0118,Untreated-control mouse tissues,MAMMAL,ORGAN;GI_TRACT,control,,4,,study_aggregate
+SID0119-G01,SID0119,Cat/dog Kidney,MAMMAL,ORGAN,all,49,,,group
+SID0119-G02,SID0119,Cat/dog Lung,MAMMAL,ORGAN,all,49,,,group
+SID0119-G03,SID0119,Cat/dog Ileum,MAMMAL,GI_TRACT,all,49,,,group
+SID0119-G04,SID0119,Cat/dog Liver,MAMMAL,ORGAN,all,49,,,group
+SID0119-G05,SID0119,Cat/dog Blood clot,MAMMAL,BLOOD,all,46,,,group
+SID0119-G06,SID0119,All cat/dog tissues,MAMMAL,ORGAN;GI_TRACT;BLOOD,all,242,49,,study_aggregate
+SID0120-G01,SID0120,Pooled Namalycastis worms,ANNELID,WHOLE_BODY,all,16,160,,group
+SID0121-G01,SID0121,Native-control tonsil halves,HUMAN,TISSUE,control,,4,,group
+SID0123-G01,SID0123,Postpartum breast milk,HUMAN,MILK,all,59,,,group
+SID0123-G02,SID0123,Positive postpartum milk samples,HUMAN,MILK,stratum,23,,,group
+SID0125-G01,SID0125,Pooled jellyfish material,CNIDARIAN,WHOLE_BODY,all,,,,study_aggregate
+SID0125-G02,SID0125,Selected partial jellyfish tentacle,CNIDARIAN,TISSUE,all,,,,group
+SID0126-G01,SID0126,Falmouth GI,FISH,GI_TRACT,all,8,,,group
+SID0126-G02,SID0126,Falmouth muscle,FISH,MUSCLE,all,8,,,group
+SID0126-G03,SID0126,Bourne GI,FISH,GI_TRACT,all,10,,,group
+SID0126-G04,SID0126,Bourne muscle,FISH,MUSCLE,all,10,,,group
+SID0127-G01,SID0127,Paraleucilla magna,SPONGE,WHOLE_BODY,all,8,,,group
+SID0127-G02,SID0127,Sabella spallanzanii,ANNELID,WHOLE_BODY,all,8,,,group
+SID0129-G01,SID0129,"Market fish GIT, all species",FISH,GI_TRACT,all,90,,,study_aggregate
+SID0129-G02,SID0129,Whiting GIT,FISH,GI_TRACT,all,15,,,group
+SID0129-G03,SID0129,Rainbow trout GIT,FISH,GI_TRACT,all,15,,,group
+SID0130-G01,SID0130,"Gills, all estuarine fish taxa",FISH,GILL,all,,98,,study_aggregate
+SID0130-G02,SID0130,"GIT, all estuarine fish taxa",FISH,GI_TRACT,all,,98,,study_aggregate
+SID0131-G01,SID0131,Child BALF,HUMAN,BODY_FLUID,all,207,,,group
+SID0133-G01,SID0133,"Baltic fish organs, all species",FISH,ORGAN;GILL;GI_TRACT,all,,87,,study_aggregate
+SID0133-G02,SID0133,Positive Baltic fish,FISH,ORGAN;GILL;GI_TRACT,stratum,,65,,group
+SID0133-G03,SID0133,"Liver, all species",FISH,ORGAN,all,,,,study_aggregate
+SID0133-G04,SID0133,"Gills, all species",FISH,GILL,all,,,,study_aggregate
+SID0133-G05,SID0133,"Digestive tract, all species",FISH,GI_TRACT,all,,,,study_aggregate
+SID0134-G01,SID0134,Placenta,HUMAN,REPRODUCTIVE,all,9,,,group
+SID0134-G02,SID0134,Cord blood,HUMAN,BLOOD,all,9,,,group
+SID0134-G03,SID0134,Meconium,HUMAN,FECES,all,9,,,group
+SID0135-G01,SID0135,Soldier-catfish Gills,FISH,GILL,all,40,,,group
+SID0135-G02,SID0135,Soldier-catfish Stomach,FISH,GI_TRACT,all,40,,,group
+SID0135-G03,SID0135,Soldier-catfish Unspecified flesh,FISH,TISSUE,all,40,,,group
+SID0135-G04,SID0135,Soldier-catfish eggs,FISH,REPRODUCTIVE,all,349,10,,group
+SID0136-G01,SID0136,African river prawn,CRUSTACEAN,MUSCLE;GI_TRACT,all,50,,,group
+SID0136-G02,SID0136,Volta clam,BIVALVE,SOFT_TISSUE,all,50,,,group
+SID0136-G03,SID0136,Nile tilapia,FISH,GI_TRACT,all,30,,,group
+SID0137-G01,SID0137,Postpartum breastmilk,HUMAN,MILK,all,34,,,group
+SID0138-G01,SID0138,Cultured green-mussel soft tissue,BIVALVE,SOFT_TISSUE,all,120,,,group
+SID0139-G01,SID0139,"Marine-fish tissues, all species",FISH,GILL;GI_TRACT;MUSCLE,all,,84,,study_aggregate
+SID0139-G02,SID0139,Marine-fish muscle,FISH,MUSCLE,all,84,,,group
+SID0140-G01,SID0140,Young-adult whole blood,HUMAN,BLOOD,all,100,,,group
+SID0141-G01,SID0141,Finfish gills,FISH,GILL,all,,,,group
+SID0141-G02,SID0141,Finfish GIT,FISH,GI_TRACT,all,,,,group
+SID0141-G03,SID0141,Squid whole body,CEPHALOPOD,WHOLE_BODY,all,,,,group
+SID0141-G04,SID0141,Crab whole body,CRUSTACEAN,WHOLE_BODY,all,,,,group
+SID0141-G05,SID0141,Brown-shrimp whole body,CRUSTACEAN,WHOLE_BODY,all,,,,group
+SID0143-G01,SID0143,Final-screening neonatal meconium,HUMAN,FECES,all,16,,,group
+SID0144-G01,SID0144,Lampito mauritii intestinal samples,ANNELID,GI_TRACT,all,40,,,group
+SID0145-G01,SID0145,Conventional cow milk,MAMMAL,MILK,all,10,,,group
+SID0145-G02,SID0145,Organic cow milk,MAMMAL,MILK,all,6,,,group
+SID0145-G03,SID0145,Raw cow milk,MAMMAL,MILK,all,4,,,group
+SID0145-G04,SID0145,All milk products/sources,MAMMAL,MILK,all,20,,,study_aggregate
+SID0146-G01,SID0146,Young-volunteer urine,HUMAN,BODY_FLUID,all,6,,,group
+SID0147-G01,SID0147,Silonia silondia Digestive tract,FISH,GI_TRACT,all,10,,,group
+SID0147-G02,SID0147,Silonia silondia Gills,FISH,GILL,all,10,,,group
+SID0147-G03,SID0147,Silonia silondia Muscle,FISH,MUSCLE,all,10,,,group
+SID0148-G01,SID0148,Pooled Mytilus galloprovincialis soft tissue,BIVALVE,SOFT_TISSUE,all,,25,,group
+SID0149-G01,SID0149,Bottlenose-dolphin gastric fluid,MAMMAL,BODY_FLUID,all,23,,,group
+SID0149-G02,SID0149,Bottlenose-dolphin feces,MAMMAL,FECES,all,15,,,group
+SID0149-G03,SID0149,Pinfish GI,FISH,GI_TRACT,all,35,,,group
+SID0149-G04,SID0149,Pinfish muscle,FISH,MUSCLE,all,35,,,group
+SID0149-G05,SID0149,Gulf-toadfish GI,FISH,GI_TRACT,all,30,,,group
+SID0149-G06,SID0149,Gulf-toadfish muscle,FISH,MUSCLE,all,30,,,group
+SID0149-G07,SID0149,Pinfish combined GI and muscle,FISH,GI_TRACT;MUSCLE,all,,35,,study_aggregate
+SID0149-G08,SID0149,Gulf toadfish combined GI and muscle,FISH,GI_TRACT;MUSCLE,all,,30,,study_aggregate
+SID0150-G01,SID0150,Cervicovaginal lavage,HUMAN,BODY_FLUID,all,10,,,group
+SID0150-G02,SID0150,Cervicovaginal lavage excluding participant 4,HUMAN,BODY_FLUID,stratum,9,,,group
+SID0151-G01,SID0151,King-mackerel Digestive tract,FISH,GI_TRACT,all,10,,,group
+SID0151-G02,SID0151,King-mackerel Gills,FISH,GILL,all,10,,,group
+SID0151-G03,SID0151,King-mackerel Muscle,FISH,MUSCLE,all,10,,,group
+SID0152-G01,SID0152,"Fish edible muscle, both regions",FISH,MUSCLE,all,80,,,study_aggregate
+SID0152-G02,SID0152,South China Sea fish muscle,FISH,MUSCLE,all,40,,,study_aggregate
+SID0152-G03,SID0152,Straits of Malacca fish muscle,FISH,MUSCLE,all,40,,,study_aggregate
+SID0153-G01,SID0153,"Cetacean intestinal contents, all species",MAMMAL,GI_CONTENTS,all,38,,,study_aggregate
+SID0153-G02,SID0153,Common dolphin intestinal contents,MAMMAL,GI_CONTENTS,all,24,,,group
+SID0153-G03,SID0153,Harbour porpoise intestinal contents,MAMMAL,GI_CONTENTS,all,8,,,group
+SID0153-G04,SID0153,Striped dolphin intestinal contents,MAMMAL,GI_CONTENTS,all,6,,,group
+SID0155-G01,SID0155,Pooled field marine nematodes,NEMATODE,WHOLE_BODY,all,1,2000,,group
+SID0156-G01,SID0156,Suspected-particle image set from fish organs,FISH,GILL;GI_TRACT;ORGAN,all,,,,selected_particle_set
+SID0157-G01,SID0157,Finless-porpoise Lung,MAMMAL,ORGAN,all,11,,,group
+SID0157-G02,SID0157,Finless-porpoise Intestinal contents,MAMMAL,GI_CONTENTS,all,11,,,group
+SID0158-G01,SID0158,Corbicula spp. pools,BIVALVE,SOFT_TISSUE,all,,216,,group
+SID0158-G02,SID0158,Limnodrilus hoffmeisteri pools,ANNELID,WHOLE_BODY,all,,130,,group
+SID0158-G03,SID0158,Polypedilum nubeculosum pools,INSECT,WHOLE_BODY,all,,79,,group
+SID0159-G01,SID0159,Repeated male-student fecal samples,HUMAN,FECES,all,48,16,,group
+SID0160-G01,SID0160,Johnius dussumieri GI tract,FISH,GI_TRACT,all,188,,,group
+SID0160-G02,SID0160,Johnius dussumieri Gills,FISH,GILL,all,188,,,group
+SID0161-G01,SID0161,Nile-tilapia GIT,FISH,GI_TRACT,all,30,,,group
+SID0162-G01,SID0162,Finfish and pink-shrimp edible muscle,CRUSTACEAN;FISH,MUSCLE,all,182,,,study_aggregate
+SID0167-G01,SID0167,Pregnant-woman stool,HUMAN,FECES,all,30,,,group
+SID0170-G01,SID0170,Colorectal tumor,HUMAN,GI_TRACT,all,10,10,,group
+SID0170-G02,SID0170,Adjacent peritumoral colorectal tissue,HUMAN,GI_TRACT,all,10,10,,group
+SID0171-G01,SID0171,European-flat-oyster gill and digestive tissues,BIVALVE,GILL;GI_TRACT,all,,27,,study_aggregate
+SID0172-G01,SID0172,Mugil cephalus gills and GIT,FISH,GILL;GI_TRACT,all,,10,,group
+SID0172-G02,SID0172,Pseudapocryptes paradiseus gills and GIT,FISH,GILL;GI_TRACT,all,,10,,group
+SID0172-G03,SID0172,"Gills, both fish species",FISH,GILL,all,20,,,study_aggregate
+SID0172-G04,SID0172,"GIT, both fish species",FISH,GI_TRACT,all,20,,,study_aggregate
+SID0173-G01,SID0173,Pooled wild jellyfish,CNIDARIAN,WHOLE_BODY,all,,,,group
+SID0174-G01,SID0174,"Indus-dolphin gastrointestinal contents, all compartments",MAMMAL,GI_CONTENTS,all,,5,,study_aggregate
+SID0174-G02,SID0174,Esophagus/fundic stomach contents,MAMMAL,GI_CONTENTS,all,,5,,group
+SID0174-G03,SID0174,Main stomach/pyloric chamber contents,MAMMAL,GI_CONTENTS,all,,5,,group
+SID0174-G04,SID0174,Small intestine contents,MAMMAL,GI_CONTENTS,all,,5,,group
+SID0174-G05,SID0174,Large intestine contents,MAMMAL,GI_CONTENTS,all,,5,,group
+SID0175-G01,SID0175,Six-species edible fish-muscle summaries,FISH,MUSCLE,all,,,,study_aggregate
+SID0176-G01,SID0176,"Muscle, 11 fish species",FISH,MUSCLE,all,89,,,study_aggregate
+SID0176-G02,SID0176,"Gastrointestinal tissue, 11 fish species",FISH,GI_TRACT,all,86,,,study_aggregate
+SID0178-G01,SID0178,White sugar,PLANT;FOOD_PRODUCT,FOOD,all,,,,group
+SID0178-G02,SID0178,Brown sugar,PLANT;FOOD_PRODUCT,FOOD,all,,,,group
+SID0178-G03,SID0178,Fish sauce,FISH;FOOD_PRODUCT,FOOD,all,,,,group
+SID0180-G01,SID0180,Actinia equina,CNIDARIAN,WHOLE_BODY,all,20,,,group
+SID0180-G02,SID0180,Anemonia viridis,CNIDARIAN,WHOLE_BODY,all,20,,,group
+SID0181-G01,SID0181,"Bombay-duck GIT, all sites",FISH,GI_TRACT,all,213,,,study_aggregate
+SID0181-G02,SID0181,Jaffrabad Bombay-duck GIT,FISH,GI_TRACT,all,38,,,group
+SID0181-G03,SID0181,Jakhau Bombay-duck GIT,FISH,GI_TRACT,all,75,,,group
+SID0181-G04,SID0181,Mumbai Bombay-duck GIT,FISH,GI_TRACT,all,50,,,group
+SID0181-G05,SID0181,Okha Bombay-duck GIT,FISH,GI_TRACT,all,50,,,group
+SID0182-G01,SID0182,Benthivorous waterbirds feces,BIRD,FECES,all,35,,,group
+SID0182-G02,SID0182,Piscivorous waterbirds feces,BIRD,FECES,all,35,,,group
+SID0182-G03,SID0182,Oystercatcher spatial fecal dataset,BIRD,FECES,all,57,,,study_aggregate
+SID0183-G01,SID0183,Pooled Donax soft tissue and intervalval liquid,BIVALVE,SOFT_TISSUE,all,39,,,group
+SID0184-G01,SID0184,Farmed mollusk species summaries,BIVALVE,SOFT_TISSUE,all,,,,study_aggregate
+SID0185-G01,SID0185,Commercial mussel soft-tissue pools,BIVALVE,SOFT_TISSUE,all,,,,study_aggregate
+SID0188-G01,SID0188,Danube-shad half-stomach and half-intestine,FISH,GI_TRACT,all,30,,,group
+SID0189-G01,SID0189,"Field-clam soft tissue, before experimental depuration",BIVALVE,SOFT_TISSUE,all,276,,,study_aggregate
+SID0189-G02,SID0189,Lianyungang field clams,BIVALVE,SOFT_TISSUE,all,,,,group
+SID0190-G01,SID0190,Salmon food preparations,FISH,FOOD,all,9,,,group
+SID0190-G02,SID0190,Shrimp food preparations,CRUSTACEAN,FOOD,all,4,,,group
+SID0190-G03,SID0190,Mussels food preparations,BIVALVE,FOOD,all,3,,,group
+SID0190-G04,SID0190,Meat food preparations,MAMMAL;BIRD,FOOD,all,6,,,group
+SID0190-G05,SID0190,Milk food preparations,MAMMAL,FOOD,all,6,,,group
+SID0190-G06,SID0190,Eggs food preparations,BIRD,FOOD,all,4,,,group
+SID0190-G07,SID0190,Honey food preparations,FOOD_PRODUCT,FOOD,all,2,,,group
+SID0190-G08,SID0190,Pollock food preparations,FISH,FOOD,all,3,,,group
+SID0191-G01,SID0191,Broiler Crop,BIRD,GI_TRACT,all,24,,,group
+SID0191-G02,SID0191,Broiler Gizzard,BIRD,GI_TRACT,all,24,,,group
+SID0192-G01,SID0192,USVI coral tissue,CNIDARIAN,TISSUE,all,40,,,group
+SID0192-G02,SID0192,Florida coral tissue,CNIDARIAN,TISSUE,all,22,,,group
+SID0193-G01,SID0193,Filter feeders rocky-shore invertebrates,INVERT_MIXED,SOFT_TISSUE,all,,,,study_aggregate
+SID0193-G02,SID0193,Grazers rocky-shore invertebrates,INVERT_MIXED,SOFT_TISSUE,all,,,,study_aggregate
+SID0193-G03,SID0193,Scavengers/predators rocky-shore invertebrates,INVERT_MIXED,SOFT_TISSUE,all,,,,study_aggregate
+SID0194-G01,SID0194,Marine-animal species/site summaries,BIVALVE;CRUSTACEAN;FISH,GILL;GI_TRACT,all,,,,study_aggregate
+SID0195-G01,SID0195,Liza subviridis GI samples,FISH,GI_TRACT,all,15,,,group
+SID0195-G02,SID0195,Thryssa dussumieri GI samples,FISH,GI_TRACT,all,3,,,group
+SID0195-G03,SID0195,Rastrelliger kanagurta GI samples,FISH,GI_TRACT,all,2,,,group
+SID0195-G04,SID0195,Portunus sanguinolentus GI samples,CRUSTACEAN,GI_TRACT,all,6,,,group
+SID0196-G01,SID0196,Penaeid-shrimp pooled tissues,CRUSTACEAN,GI_TRACT;GILL,all,,103,,group
+SID0196-G02,SID0196,Portunus pelagicus pooled tissues,CRUSTACEAN,GI_TRACT;GILL,all,,34,,group
+SID0197-G01,SID0197,Fish larvae pools,FISH,WHOLE_BODY,all,,,,group
+SID0197-G02,SID0197,Brachyuran larvae pools,CRUSTACEAN,WHOLE_BODY,all,,,,group
+SID0197-G03,SID0197,Shrimp larvae pools,CRUSTACEAN,WHOLE_BODY,all,,,,group
+SID0197-G04,SID0197,Salps pools,ZOOPLANKTON,WHOLE_BODY,all,,,,group
+SID0197-G05,SID0197,Chaetognaths pools,ZOOPLANKTON,WHOLE_BODY,all,,,,group
+SID0197-G06,SID0197,Paracalanus sp. pools,CRUSTACEAN,WHOLE_BODY,all,,,,group
+SID0197-G07,SID0197,Acrocalanus sp. pools,CRUSTACEAN,WHOLE_BODY,all,,,,group
+SID0197-G08,SID0197,Canthocalanus sp. pools,CRUSTACEAN,WHOLE_BODY,all,,,,group
+SID0198-G01,SID0198,Stranded-cetacean intestinal contents,MAMMAL,GI_CONTENTS,all,9,,,study_aggregate
+SID0199-G01,SID0199,"Field seafood specimens, all taxa",BIVALVE;CRUSTACEAN;FISH,GI_TRACT;GILL;SOFT_TISSUE,all,160,,,study_aggregate
+SID0200-G01,SID0200,Unio crassus soft-tissue site summaries,BIVALVE,SOFT_TISSUE,all,,40,,study_aggregate
+SID0200-G02,SID0200,Unio tumidus soft-tissue site summaries,BIVALVE,SOFT_TISSUE,all,,40,,study_aggregate
+SID0202-G01,SID0202,Mangrove-crab Gills,CRUSTACEAN,GILL,all,30,,,group
+SID0202-G02,SID0202,Mangrove-crab Digestive tract,CRUSTACEAN,GI_TRACT,all,30,,,group
+SID0203-G01,SID0203,Vampire-bat Stomach,MAMMAL,GI_TRACT,all,12,,,group
+SID0203-G02,SID0203,Vampire-bat Intestine,MAMMAL,GI_TRACT,all,12,,,group
+SID0203-G03,SID0203,Vampire-bat Lung,MAMMAL,ORGAN,all,12,,,group
+SID0204-G01,SID0204,"Field Caridina nilotica, all sites",CRUSTACEAN,WHOLE_BODY,all,7,35,,study_aggregate
+SID0204-G02,SID0204,Site 1 field shrimp pools,CRUSTACEAN,WHOLE_BODY,all,2,10,,group
+SID0204-G03,SID0204,Site 2 field shrimp pools,CRUSTACEAN,WHOLE_BODY,all,2,10,,group
+SID0204-G04,SID0204,Site 3 field shrimp pools,CRUSTACEAN,WHOLE_BODY,all,1,5,,group
+SID0204-G05,SID0204,Site 4 field shrimp pools,CRUSTACEAN,WHOLE_BODY,all,2,10,,group
+SID0205-G01,SID0205,Faxonius limosus pooled intestines,CRUSTACEAN,GI_TRACT,all,3,30,,group
+SID0205-G02,SID0205,Pacifastacus leniusculus pooled intestines,CRUSTACEAN,GI_TRACT,all,3,30,,group
+SID0205-G03,SID0205,Procambarus clarkii pooled intestines,CRUSTACEAN,GI_TRACT,all,3,30,,group
+SID0206-G01,SID0206,"Coral Surface/mucus, all species",CNIDARIAN,TISSUE,all,,,,study_aggregate
+SID0206-G02,SID0206,"Coral Tissue, all species",CNIDARIAN,TISSUE,all,,,,study_aggregate
+SID0206-G03,SID0206,"Coral Skeleton, all species",CNIDARIAN,SKELETAL,all,,,,study_aggregate
+SID0208-G01,SID0208,"Cultivated green mussels, both seasons",BIVALVE,SOFT_TISSUE,all,1000,,,study_aggregate
+SID0208-G02,SID0208,Dry season green mussels,BIVALVE,SOFT_TISSUE,all,500,,,group
+SID0208-G03,SID0208,Wet season green mussels,BIVALVE,SOFT_TISSUE,all,500,,,group
+SID0210-G01,SID0210,Protected site copepod pool,CRUSTACEAN,WHOLE_BODY,all,1,50,,group
+SID0210-G02,SID0210,Harbor site copepod pool,CRUSTACEAN,WHOLE_BODY,all,1,25,,group
+SID0211-G01,SID0211,BALF,HUMAN,BODY_FLUID,all,10,,,group
+SID0212-G01,SID0212,"Affected sponges, August",SPONGE,TISSUE,case,10,,,group
+SID0212-G02,SID0212,"Healthy sponges, August",SPONGE,TISSUE,control,10,,,group
+SID0213-G01,SID0213,"Amphibian larvae, all taxa",AMPHIBIAN,WHOLE_BODY,all,934,,,study_aggregate
+SID0214-G01,SID0214,"Orbetello oysters, T0 baseline",BIVALVE,SOFT_TISSUE,control,6,,,group
+SID0214-G02,SID0214,"Varano oysters, T0 baseline",BIVALVE,SOFT_TISSUE,control,6,,,group
+SID0216-G01,SID0216,"Morocco mussels, both tissues",BIVALVE,GILL;GI_TRACT,all,,80,,study_aggregate
+SID0216-G02,SID0216,Morocco mussel gills,BIVALVE,GILL,all,80,,,group
+SID0216-G03,SID0216,Morocco digestive glands,BIVALVE,GI_TRACT,all,80,,,group
+SID0216-G04,SID0216,"Tunisia mussels, both tissues",BIVALVE,GILL;GI_TRACT,all,,80,,study_aggregate
+SID0216-G05,SID0216,Tunisia mussel gills,BIVALVE,GILL,all,80,,,group
+SID0216-G06,SID0216,Tunisia digestive glands,BIVALVE,GI_TRACT,all,80,,,group
+SID0218-G01,SID0218,Adult autopsy lung tissue,HUMAN,ORGAN,all,,20,,group
+SID0219-G01,SID0219,All analyzed fish and prawns,CRUSTACEAN;FISH,GI_TRACT;GILL;MUSCLE;TISSUE,all,,55,,study_aggregate
+SID0219-G02,SID0219,Cobitis saniae analyzed tissues,FISH,GI_TRACT;GILL;MUSCLE;TISSUE,all,,10,,group
+SID0219-G03,SID0219,Abramis brama analyzed tissues,FISH,GI_TRACT;GILL;MUSCLE;TISSUE,all,,4,,group
+SID0219-G04,SID0219,GI across sampled organisms,CRUSTACEAN;FISH,GI_TRACT,all,,,,study_aggregate
+SID0219-G05,SID0219,Gills across sampled organisms,CRUSTACEAN;FISH,GILL,all,,,,study_aggregate
+SID0219-G06,SID0219,Fish muscle,FISH,MUSCLE,all,,40,,group
+SID0220-G01,SID0220,Adult BALF,HUMAN,BODY_FLUID,all,44,,,group
+SID0221-G01,SID0221,"Fish hearts, all species",FISH,CARDIOVASCULAR,all,154,,,study_aggregate
+SID0221-G02,SID0221,Merluccius merluccius heart,FISH,CARDIOVASCULAR,all,50,,,group
+SID0221-G03,SID0221,Sardina pilchardus heart,FISH,CARDIOVASCULAR,all,51,,,group
+SID0221-G04,SID0221,Trisopterus luscus heart,FISH,CARDIOVASCULAR,all,53,,,group
+SID0222-G01,SID0222,Atlantic puffin stomach contents,BIRD,GI_CONTENTS,all,17,,,group
+SID0222-G02,SID0222,Oslofjord common guillemot stomach contents,BIRD,GI_CONTENTS,all,31,,,group
+SID0222-G03,SID0222,Great cormorant stomach contents,BIRD,GI_CONTENTS,all,8,,,group
+SID0222-G04,SID0222,European shag stomach contents,BIRD,GI_CONTENTS,all,9,,,group
+SID0222-G05,SID0222,Razorbill stomach contents,BIRD,GI_CONTENTS,all,10,,,group
+SID0222-G06,SID0222,Jæren common guillemot stomach contents,BIRD,GI_CONTENTS,all,4,,,group
+SID0223-G01,SID0223,Baltic-herring digestive tract,FISH,GI_TRACT,all,102,,,group
+SID0223-G02,SID0223,Atlantic-cod digestive tract,FISH,GI_TRACT,all,81,,,group
+SID0223-G03,SID0223,Atlantic-cod gills,FISH,GILL,all,81,,,group
+SID0223-G04,SID0223,Baltic-herring gills,FISH,GILL,all,102,,,group
+SID0224-G01,SID0224,South Atlantic squid Mantle,CEPHALOPOD,MUSCLE,all,28,,,group
+SID0224-G02,SID0224,South Atlantic squid Digestive gland,CEPHALOPOD,GI_TRACT,all,28,,,group
+SID0224-G03,SID0224,South Atlantic squid Gills,CEPHALOPOD,GILL,all,28,,,group
+SID0224-G04,SID0224,Indian Ocean squid Mantle,CEPHALOPOD,MUSCLE,all,38,,,group
+SID0224-G05,SID0224,Indian Ocean squid Digestive gland,CEPHALOPOD,GI_TRACT,all,38,,,group
+SID0224-G06,SID0224,Indian Ocean squid Gills,CEPHALOPOD,GILL,all,38,,,group
+SID0225-G01,SID0225,Wild blue-sheep feces,MAMMAL,FECES,all,36,,,group
+SID0227-G01,SID0227,Clarias gariepinus GIT contents,FISH,GI_CONTENTS,all,30,,,group
+SID0227-G02,SID0227,Oreochromis niloticus GIT contents,FISH,GI_CONTENTS,all,30,,,group
+SID0227-G03,SID0227,All fish GIT contents,FISH,GI_CONTENTS,all,60,,,study_aggregate
+SID0228-G01,SID0228,"Marine-fish GIT, species-level summary",FISH,GI_TRACT,all,,114,,study_aggregate
+SID0228-G02,SID0228,Scomberomorus commerson GIT,FISH,GI_TRACT,all,5,,,group
+SID0228-G03,SID0228,Sparus aurata GIT,FISH,GI_TRACT,all,15,,,group
+SID0230-G01,SID0230,"Crayfish soft tissue, both species",CRUSTACEAN,SOFT_TISSUE,all,170,,,study_aggregate
+SID0231-G01,SID0231,Unexposed coral skeletal sections,CNIDARIAN,SECTION;SKELETAL,control,13,,,group
+SID0233-G01,SID0233,Pooled Chironomus larvae,INSECT,WHOLE_BODY,all,15,300,,group
+SID0234-G01,SID0234,"Coastal blue-mussel tissue, all cities",BIVALVE,SOFT_TISSUE,all,,600,,study_aggregate
+SID0235-G01,SID0235,"Oyster soft tissue, both taxa",BIVALVE,SOFT_TISSUE,all,88,,,study_aggregate
+SID0236-G01,SID0236,"Eurasian-perch gills, all seasons",FISH,GILL,all,40,,,study_aggregate
+SID0236-G02,SID0236,Spring perch gills,FISH,GILL,all,,,,group
+SID0236-G03,SID0236,Autumn perch gills,FISH,GILL,all,,,,group
+SID0236-G04,SID0236,Winter perch gills,FISH,GILL,all,,,,group
+SID0236-G05,SID0236,Summer perch gills,FISH,GILL,all,,,,group
+SID0236-G06,SID0236,Perch Muscle,FISH,MUSCLE,all,,40,,group
+SID0236-G07,SID0236,Perch Liver,FISH,ORGAN,all,,40,,group
+SID0237-G01,SID0237,Selected fish stomach-content particles,FISH,GI_CONTENTS,all,,,,selected_particle_set
+SID0238-G01,SID0238,2019 Magellanic-penguin GI contents,BIRD,GI_CONTENTS,all,9,,,group
+SID0238-G02,SID0238,2020 Magellanic-penguin GI contents,BIRD,GI_CONTENTS,all,10,,,group
+SID0238-G03,SID0238,2021 Magellanic-penguin GI contents,BIRD,GI_CONTENTS,all,2,,,group
+SID0239-G01,SID0239,Wild dolphinfish GIT,FISH,GI_TRACT,all,29,,,group
+SID0239-G02,SID0239,Positive wild dolphinfish GIT,FISH,GI_TRACT,stratum,19,,,group
+SID0240-G01,SID0240,Gull feces pools,BIRD,FECES,all,8,,,group
+SID0240-G02,SID0240,Gull regurgitated pellets pools,BIRD,GI_CONTENTS,all,8,,,group
+SID0241-G01,SID0241,Atherina boyeri GIT,FISH,GI_TRACT,all,7,,,group
+SID0241-G02,SID0241,Siganus rivulatus GIT,FISH,GI_TRACT,all,40,,,group
+SID0241-G03,SID0241,Terapon puta pooled GIT combustion,FISH,GI_TRACT,all,,11,,group
+SID0241-G04,SID0241,Siganus rivulatus pooled GIT combustion,FISH,GI_TRACT,all,,40,,group
+SID0242-G01,SID0242,"Freshwater animals, all taxa and positions",FISH;INVERT_MIXED,GI_TRACT;GILL;TISSUE;MUSCLE,all,,357,,study_aggregate
+SID0242-G02,SID0242,Reservoir animals,FISH;INVERT_MIXED,GI_TRACT;GILL;TISSUE;MUSCLE,all,,,,study_aggregate
+SID0242-G03,SID0242,Upstream animals,FISH;INVERT_MIXED,GI_TRACT;GILL;TISSUE;MUSCLE,all,,,,study_aggregate
+SID0242-G04,SID0242,Downstream animals,FISH;INVERT_MIXED,GI_TRACT;GILL;TISSUE;MUSCLE,all,,,,study_aggregate
+SID0244-G01,SID0244,Alepocephalus bairdii stomach contents,FISH,GI_CONTENTS,all,25,,,group
+SID0244-G02,SID0244,Coryphaenoides rupestris stomach contents,FISH,GI_CONTENTS,all,25,,,group
+SID0245-G01,SID0245,"Marine-fish GI tracts, all species",FISH,GI_TRACT,all,239,,,study_aggregate
+SID0245-G02,SID0245,"Dorsal muscle, all fish species",FISH,MUSCLE,all,,,,study_aggregate
+SID0245-G03,SID0245,"Liver, all fish species",FISH,ORGAN,all,,,,study_aggregate
+SID0245-G04,SID0245,"Kidney, all fish species",FISH,ORGAN,all,,,,study_aggregate
+SID0245-G05,SID0245,"Reproductive organ, all fish species",FISH,REPRODUCTIVE,all,,,,study_aggregate
+SID0246-G01,SID0246,27 m depth Hiatella arctica,BIVALVE,SOFT_TISSUE,all,8,,,group
+SID0246-G02,SID0246,40 m depth Hiatella arctica,BIVALVE,SOFT_TISSUE,all,4,,,group
+SID0248-G01,SID0248,Untreated-control rat fecal pool,MAMMAL,FECES,control,,,,group
+SID0249-G01,SID0249,Adult whole blood,HUMAN,BLOOD,all,20,,,group
+SID0250-G01,SID0250,Mud-crab GIT,CRUSTACEAN,GI_TRACT,all,9,,,group
+SID0251-G01,SID0251,Retail whole-icefish composite portions,FISH,FOOD,all,40,,,group
+SID0252-G01,SID0252,Intertidal hermit-crab whole-body pools,CRUSTACEAN,WHOLE_BODY,all,,,,group
+SID0252-G02,SID0252,Subtidal hermit-crab whole-body pools,CRUSTACEAN,WHOLE_BODY,all,,,,group
+SID0253-G01,SID0253,Breast-cancer tissue,HUMAN,REPRODUCTIVE,case,3,,,group
+SID0253-G02,SID0253,Adjacent breast tissue,HUMAN,REPRODUCTIVE,control,3,,,group
+SID0255-G01,SID0255,"Marine mammals, both analytical methods",MAMMAL,ADIPOSE;ORGAN,all,,22,,study_aggregate
+SID0255-G02,SID0255,Marine-mammal Raman-analyzed tissues,MAMMAL,ADIPOSE;ORGAN,all,,18,,group
+SID0255-G03,SID0255,"Marine-mammal usable blubber samples, Py-GC-MS",MAMMAL,ADIPOSE,all,5,,,group
+SID0256-G01,SID0256,Zooplankton community summaries,CRUSTACEAN;CNIDARIAN;ZOOPLANKTON,WHOLE_BODY,all,,,,study_aggregate
+SID0258-G01,SID0258,Round-ray GIT,ELASMO,GI_TRACT,all,142,,,group
+SID0258-G02,SID0258,Positive round-ray GIT,ELASMO,GI_TRACT,stratum,46,,,group
+SID0187-G01,SID0187,"Raw trout, vacuum-packaged control (PC)",FISH,MUSCLE,control,,,,group
+SID0187-G02,SID0187,"Raw trout, glass-container control (NC)",FISH,MUSCLE,control,,,,group
+SID0209-G01,SID0209,Clinical mechanically retrieved sperm specimens,HUMAN,BODY_FLUID,all,,,,group
+SID0029-G01,SID0029,Reference saliva before chewing,HUMAN,BODY_FLUID,control,1,1,,group
+SID0044-G03,SID0044,Canned seafood immersion oils and sauces,FOOD_PRODUCT,FOOD,all,60,,,study_aggregate
+SID0049-G02,SID0049,Thunnus albacares GIT; Bay of Bengal; Pelagic,FISH,GI_TRACT,all,3,3,,group
+SID0049-G03,SID0049,Eutropiichthys vacha GIT; Buriganga River; Pelagic,FISH,GI_TRACT,all,3,3,,group
+SID0049-G04,SID0049,Exocoetus Linnaeus GIT; Bay of Bengal; Demersal,FISH,GI_TRACT,all,3,3,,group
+SID0049-G05,SID0049,Ompok bimaculatus GIT; Buriganga River; Demersal,FISH,GI_TRACT,all,3,3,,group
+SID0049-G06,SID0049,Penaeus monodon GIT; Bay of Bengal; Benthopelagic,CRUSTACEAN,GI_TRACT,all,3,3,,group
+SID0049-G07,SID0049,Labeo rohita GIT; Buriganga River; Benthopelagic,FISH,GI_TRACT,all,3,3,,group
+SID0061-G02,SID0061,Oreochromis mossambiscus gastrointestinal tract,FISH,GI_TRACT,all,3,3,,group
+SID0061-G03,SID0061,Eutropiichthys vacha gastrointestinal tract,FISH,GI_TRACT,all,2,2,,group
+SID0061-G04,SID0061,Ompok bimaculatus gastrointestinal tract,FISH,GI_TRACT,all,3,3,,group
+SID0061-G05,SID0061,Labeo rohita gastrointestinal tract,FISH,GI_TRACT,all,3,3,,group
+SID0061-G06,SID0061,Cyprinus carpio gastrointestinal tract,FISH,GI_TRACT,all,2,2,,group
+SID0061-G07,SID0061,Puntius sophore gastrointestinal tract,FISH,GI_TRACT,all,2,2,,group
+SID0061-G08,SID0061,Labeo bata gastrointestinal tract,FISH,GI_TRACT,all,3,3,,group
+SID0061-G09,SID0061,Nandus meni gastrointestinal tract,FISH,GI_TRACT,all,3,3,,group
+SID0061-G10,SID0061,Mastacembelus armatus gastrointestinal tract,FISH,GI_TRACT,all,4,4,,group
+SID0061-G11,SID0061,Anabas testudineus gastrointestinal tract,FISH,GI_TRACT,all,6,6,,group
+SID0061-G12,SID0061,Mystus cavasius gastrointestinal tract,FISH,GI_TRACT,all,2,2,,group
+SID0061-G13,SID0061,Silonia silondia gastrointestinal tract,FISH,GI_TRACT,all,3,3,,group
+SID0061-G14,SID0061,Notopterus notopterus gastrointestinal tract,FISH,GI_TRACT,all,2,2,,group
+SID0061-G15,SID0061,Heteropneustes fossilis gastrointestinal tract,FISH,GI_TRACT,all,2,2,,group
+SID0061-G16,SID0061,Mystus vittatus gastrointestinal tract,FISH,GI_TRACT,all,3,3,,group
+SID0061-G17,SID0061,Awaous grammepomus gastrointestinal tract,FISH,GI_TRACT,all,2,2,,group
+SID0061-G18,SID0061,Cirrhinus reba gastrointestinal tract,FISH,GI_TRACT,all,3,3,,group
+SID0061-G19,SID0061,Labeo calbasu gastrointestinal tract,FISH,GI_TRACT,all,3,3,,group
+SID0118-G02,SID0118,"Untreated-control mouse liver, direct Py-GC-MS",MAMMAL,ORGAN,control,,4,PYGCMS,group
+SID0118-G03,SID0118,"Untreated-control mouse kidney, direct Py-GC-MS",MAMMAL,ORGAN,control,,4,PYGCMS,group
+SID0118-G04,SID0118,"Untreated-control mouse intestine, direct Py-GC-MS",MAMMAL,GI_TRACT,control,,4,PYGCMS,group
+SID0259-G01,SID0259,"Placental blood, Newfoundland cohort",HUMAN,BLOOD,all,46,46,,
+SID0260-G01,SID0260,"Lung, all regions",HUMAN,ORGAN,all,13,11,,
+SID0260-G02,SID0260,"Lung, upper region",HUMAN,ORGAN,stratum,6,,,
+SID0260-G03,SID0260,"Lung, middle/lingular region",HUMAN,ORGAN,stratum,3,,,
+SID0260-G04,SID0260,"Lung, lower region",HUMAN,ORGAN,stratum,4,,,
+SID0260-G05,SID0260,"Lung, male donors",HUMAN,ORGAN,stratum,,6,,
+SID0260-G06,SID0260,"Lung, female donors",HUMAN,ORGAN,stratum,,5,,
+SID0261-G01,SID0261,"Human whole blood (PeriBank, pregnant mothers)",HUMAN,BLOOD,all,20,20,,
+SID0261-G02,SID0261,Tiger shark whole blood,ELASMO,BLOOD,all,20,20,,
+SID0261-G03,SID0261,Bottlenose dolphin serum (HERA cohort),MAMMAL,BLOOD,all,2,2,,
+SID0261-G04,SID0261,Bottlenose dolphin plasma (HERA cohort),MAMMAL,BLOOD,all,2,2,,
+SID0261-G05,SID0261,Bottlenose dolphin urine (HERA cohort),MAMMAL,BODY_FLUID,all,2,2,,
+SID0263-G01,SID0263,"Infant meconium, PLOTS cohort Shanghai",HUMAN,FECES,all,60,60,,
+SID0262-G01,SID0262,"Semen, premarital health-check cohort, Jinan",HUMAN,BODY_FLUID,all,36,36,,
+SID0264-G01,SID0264,"Brain (frontal cortex), NM OMI 2016 cohort",HUMAN,ORGAN,stratum,28,28,,
+SID0264-G02,SID0264,"Brain (frontal cortex), NM OMI 2024 cohort",HUMAN,ORGAN,stratum,24,24,,
+SID0264-G03,SID0264,"Liver, NM OMI 2016 cohort",HUMAN,ORGAN,stratum,27,27,,
+SID0264-G04,SID0264,"Liver, NM OMI 2024 cohort",HUMAN,ORGAN,stratum,23,23,,
+SID0264-G05,SID0264,"Kidney, NM OMI 2016 cohort",HUMAN,ORGAN,stratum,23,23,,
+SID0264-G06,SID0264,"Kidney, NM OMI 2024 cohort",HUMAN,ORGAN,stratum,20,20,,
+SID0264-G07,SID0264,"Brain, East Coast US repositories (NC/MD/MA banks)",HUMAN,ORGAN,stratum,27,27,,
+SID0264-G08,SID0264,"Brain, NM OMI dementia cases",HUMAN,ORGAN,case,12,12,,
+SID0264-G09,SID0264,Brain 2016 subset B1-B5 (Nile Red / ATR-FTIR / OSU Py-GC/MS),HUMAN,ORGAN,other,5,5,FLUOR;ATR_FTIR;PYGCMS,
+SID0265-G01,SID0265,Human stool,HUMAN,FECES,all,3,,,
+SID0265-G02,SID0265,Pig jejunum (small intestine),MAMMAL,GI_TRACT,all,3,,,
+SID0266-G01,SID0266,"Stool, 8 healthy volunteers (Europe/Asia)",HUMAN,FECES,all,8,8,UFTIR,
+SID0267-G01,SID0267,"Endometrium, Shanghai women",HUMAN,REPRODUCTIVE,all,20,20,,
+SID0268-G01,SID0268,"Placenta, 50 women, Jinan",HUMAN,REPRODUCTIVE,all,50,50,,
+SID0269-G01,SID0269,"Plasma, Py-GC/MS cohort",HUMAN,BLOOD,all,16,16,PYGCMS,
+SID0269-G02,SID0269,"CSF, Py-GC/MS cohort",HUMAN,BODY_FLUID,all,16,16,PYGCMS,
+SID0269-G03,SID0269,"Brain (dorsolateral prefrontal cortex), Py-GC/MS",HUMAN,ORGAN,all,12,12,PYGCMS,
+SID0269-G04,SID0269,"Plasma, LDIR subset",HUMAN,BLOOD,all,4,4,LDIR,
+SID0269-G05,SID0269,"CSF, LDIR subset",HUMAN,BODY_FLUID,all,4,4,LDIR,
+SID0269-G06,SID0269,"Brain, LDIR subset",HUMAN,ORGAN,all,4,4,LDIR,
+SID0270-G01,SID0270,"Blood, carotid endarterectomy patients",HUMAN,BLOOD,all,20,20,PYGCMS,
+SID0270-G02,SID0270,"Carotid plaque, carotid endarterectomy patients",HUMAN,CARDIOVASCULAR,all,20,20,PYGCMS,
+SID0272-G01,SID0272,"Semen, ART patients Shanghai",HUMAN,BODY_FLUID,all,45,45,LDIR,
+SID0274-G01,SID0274,"Urine, healthy volunteers",HUMAN,BODY_FLUID,all,18,18,,
+SID0275-G01,SID0275,"Whole blood, healthy adults",HUMAN,BLOOD,all,36,36,,
+SID0276-G01,SID0276,"Sputum, CAP patients (all)",HUMAN,BODY_FLUID,all,50,50,,
+SID0276-G02,SID0276,"BALF, CAP patients (all)",HUMAN,BODY_FLUID,all,50,50,,
+SID0276-G03,SID0276,"Sputum, NSCAP",HUMAN,BODY_FLUID,stratum,26,26,,
+SID0276-G04,SID0276,"Sputum, SCAP",HUMAN,BODY_FLUID,stratum,24,24,,
+SID0276-G05,SID0276,"BALF, NSCAP",HUMAN,BODY_FLUID,stratum,26,26,,
+SID0276-G06,SID0276,"BALF, SCAP",HUMAN,BODY_FLUID,stratum,24,24,,
+SID0277-G01,SID0277,"Stool, healthy adults Barcelona",HUMAN,FECES,all,50,50,,
+SID0277-G02,SID0277,"Urine, healthy adults Barcelona",HUMAN,BODY_FLUID,all,50,50,,
+SID0278-G01,SID0278,"Whole blood, CRC patients",HUMAN,BLOOD,all,31,31,,
+SID0278-G02,SID0278,"Tumor tissue, CRC patients",HUMAN,TISSUE,all,31,31,,
+SID0278-G03,SID0278,"Peri-tumor tissue, CRC patients",HUMAN,TISSUE,all,31,31,,
+SID0279-G01,SID0279,"Semen, healthy and asthenozoospermic men",HUMAN,BODY_FLUID,all,6,6,,
+SID0280-G01,SID0280,Pooled pasteurized donor human milk,HUMAN,MILK,all,3,,,
+SID0281-G01,SID0281,"Human faeces, 5 volunteers",HUMAN,FECES,all,5,5,,
+SID0282-G01,SID0282,"Kidney, kidney transplant donors",HUMAN,ORGAN,all,28,28,,
+SID0282-G02,SID0282,"Adrenal gland, kidney transplant donors",HUMAN,ORGAN,all,28,28,,
+SID0282-G03,SID0282,"Renal artery, kidney transplant donors",HUMAN,CARDIOVASCULAR,all,28,28,,
+SID0282-G04,SID0282,"Renal vein, kidney transplant donors",HUMAN,CARDIOVASCULAR,all,28,28,,
+SID0282-G05,SID0282,"Ureter, kidney transplant donors",HUMAN,TISSUE,all,28,28,,
+SID0283-G01,SID0283,"Placenta, 2006 (archived frozen)",HUMAN,REPRODUCTIVE,stratum,10,10,,
+SID0283-G02,SID0283,"Placenta, 2013 (archived frozen)",HUMAN,REPRODUCTIVE,stratum,10,10,,
+SID0283-G03,SID0283,"Placenta, 2021 (fresh, plastic-free protocol)",HUMAN,REPRODUCTIVE,stratum,10,10,,
+SID0284-G01,SID0284,"Blood, healthy controls",HUMAN,BLOOD,control,12,12,,
+SID0284-G02,SID0284,"Blood, Parkinson's disease patients",HUMAN,BLOOD,case,21,21,,
+SID0285-G01,SID0285,"Blood, control patients (normal angiography)",HUMAN,BLOOD,control,19,19,,
+SID0285-G02,SID0285,"Blood, ACS patients",HUMAN,BLOOD,case,82,82,,
+SID0285-G03,SID0285,"Blood, Patient #22 (method comparison, single sample)",HUMAN,BLOOD,other,1,1,,
+SID0286-G01,SID0286,"Kidney stones, all patients",HUMAN,TISSUE,all,10,10,,
+SID0286-G02,SID0286,"Kidney stones, male",HUMAN,TISSUE,stratum,6,6,,
+SID0286-G03,SID0286,"Kidney stones, female",HUMAN,TISSUE,stratum,4,4,,
+SID0286-G04,SID0286,"Kidney stones, age <60",HUMAN,TISSUE,stratum,,,,
+SID0286-G05,SID0286,"Kidney stones, age >=60",HUMAN,TISSUE,stratum,,,,
+SID0286-G06,SID0286,"Kidney stones, rural residents",HUMAN,TISSUE,stratum,4,4,,
+SID0286-G07,SID0286,"Kidney stones, urban residents",HUMAN,TISSUE,stratum,6,6,,
+SID0287-G01,SID0287,ccRCC tumor tissue (py-GC/MS),HUMAN,ORGAN,case,30,30,PYGCMS,
+SID0287-G02,SID0287,ccRCC tumor thrombus (inferior vena cava),HUMAN,CARDIOVASCULAR,case,1,1,PYGCMS,
+SID0287-G03,SID0287,Normal kidney tissue (py-GC/MS),HUMAN,ORGAN,control,8,8,PYGCMS,
+SID0287-G04,SID0287,"ccRCC tumor tissue, Gender: Male",HUMAN,ORGAN,stratum,22,22,PYGCMS,
+SID0287-G05,SID0287,"ccRCC tumor tissue, Gender: Female",HUMAN,ORGAN,stratum,8,8,PYGCMS,
+SID0287-G06,SID0287,"ccRCC tumor tissue, Age (years): ≤58",HUMAN,ORGAN,stratum,14,14,PYGCMS,
+SID0287-G07,SID0287,"ccRCC tumor tissue, Age (years): > 58",HUMAN,ORGAN,stratum,16,16,PYGCMS,
+SID0287-G08,SID0287,"ccRCC tumor tissue, Tumor size (cm3): ≤ 44.47",HUMAN,ORGAN,stratum,15,15,PYGCMS,
+SID0287-G09,SID0287,"ccRCC tumor tissue, Tumor size (cm3): > 44.47",HUMAN,ORGAN,stratum,15,15,PYGCMS,
+SID0287-G10,SID0287,"ccRCC tumor tissue, BMI (kg/m2): ≤26.84",HUMAN,ORGAN,stratum,15,15,PYGCMS,
+SID0287-G11,SID0287,"ccRCC tumor tissue, BMI (kg/m2): > 26.84",HUMAN,ORGAN,stratum,15,15,PYGCMS,
+SID0287-G12,SID0287,"ccRCC tumor tissue, Grade: Low (G1/G2)",HUMAN,ORGAN,stratum,23,23,PYGCMS,
+SID0287-G13,SID0287,"ccRCC tumor tissue, Grade: High (G3/G4)",HUMAN,ORGAN,stratum,7,7,PYGCMS,
+SID0287-G14,SID0287,"ccRCC tumor tissue, Smoking: Yes",HUMAN,ORGAN,stratum,16,16,PYGCMS,
+SID0287-G15,SID0287,"ccRCC tumor tissue, Smoking: No",HUMAN,ORGAN,stratum,14,14,PYGCMS,
+SID0287-G16,SID0287,"ccRCC tumor tissue, Drinking: Yes",HUMAN,ORGAN,stratum,5,5,PYGCMS,
+SID0287-G17,SID0287,"ccRCC tumor tissue, Drinking: No",HUMAN,ORGAN,stratum,25,25,PYGCMS,
+SID0287-G18,SID0287,"ccRCC tumor tissue, Hypertension: Yes",HUMAN,ORGAN,stratum,17,17,PYGCMS,
+SID0287-G19,SID0287,"ccRCC tumor tissue, Hypertension: No",HUMAN,ORGAN,stratum,13,13,PYGCMS,
+SID0287-G20,SID0287,"ccRCC tumor tissue, Diabetes: Yes",HUMAN,ORGAN,stratum,8,8,PYGCMS,
+SID0287-G21,SID0287,"ccRCC tumor tissue, Diabetes: No",HUMAN,ORGAN,stratum,22,22,PYGCMS,
+SID0287-G22,SID0287,"ccRCC tumor tissue, Position: Left",HUMAN,ORGAN,stratum,19,19,PYGCMS,
+SID0287-G23,SID0287,"ccRCC tumor tissue, Position: Right",HUMAN,ORGAN,stratum,11,11,PYGCMS,
+SID0287-G24,SID0287,"ccRCC tumor tissue, Working place: Indoor",HUMAN,ORGAN,stratum,,,PYGCMS,
+SID0287-G25,SID0287,"ccRCC tumor tissue, Working place: Outdoor",HUMAN,ORGAN,stratum,,,PYGCMS,
+SID0287-G26,SID0287,"ccRCC tumor tissue, Residential area: Rural",HUMAN,ORGAN,stratum,15,15,PYGCMS,
+SID0287-G27,SID0287,"ccRCC tumor tissue, Residential area: Urban",HUMAN,ORGAN,stratum,15,15,PYGCMS,
+SID0287-G28,SID0287,"ccRCC tumor tissue, Cosmetics: Yes",HUMAN,ORGAN,stratum,29,29,PYGCMS,
+SID0287-G29,SID0287,"ccRCC tumor tissue, Skin care products: Yes",HUMAN,ORGAN,stratum,25,25,PYGCMS,
+SID0287-G30,SID0287,"ccRCC tumor tissue, Skin care products: No",HUMAN,ORGAN,stratum,5,5,PYGCMS,
+SID0287-G31,SID0287,"ccRCC tumor tissue, Factory near residence: Yes",HUMAN,ORGAN,stratum,27,27,PYGCMS,
+SID0287-G32,SID0287,"ccRCC tumor tissue, Takeout or packing food: Never",HUMAN,ORGAN,stratum,28,28,PYGCMS,
+SID0287-G33,SID0287,"ccRCC tumor tissue, Bottled water or plastic containers: Never",HUMAN,ORGAN,stratum,23,23,PYGCMS,
+SID0287-G34,SID0287,"ccRCC tumor tissue, Bottled water or plastic containers: ≥1 days/week",HUMAN,ORGAN,stratum,7,7,PYGCMS,
+SID0287-G35,SID0287,"ccRCC tumor tissue, Daily eating habits: Vegetarian",HUMAN,ORGAN,stratum,5,5,PYGCMS,
+SID0287-G36,SID0287,"ccRCC tumor tissue, Daily eating habits: Meat eaters",HUMAN,ORGAN,stratum,7,7,PYGCMS,
+SID0287-G37,SID0287,"ccRCC tumor tissue, Daily eating habits: Omnivore",HUMAN,ORGAN,stratum,18,18,PYGCMS,
+SID0287-G38,SID0287,"ccRCC tumor tissue, Tattoo: No",HUMAN,ORGAN,stratum,30,30,PYGCMS,
+SID0287-G39,SID0287,"ccRCC tumor tissue, Plastic toys: Never",HUMAN,ORGAN,stratum,20,20,PYGCMS,
+SID0287-G40,SID0287,"ccRCC tumor tissue, Plastic toys: ≥1 days/week",HUMAN,ORGAN,stratum,10,10,PYGCMS,
+SID0287-G41,SID0287,"ccRCC tumor tissue, Decorate house: Yes",HUMAN,ORGAN,stratum,4,4,PYGCMS,
+SID0287-G42,SID0287,"ccRCC tumor tissue, Decorate house: No",HUMAN,ORGAN,stratum,26,26,PYGCMS,
+SID0287-G43,SID0287,"ccRCC tumor tissue, Eating seafood: Never",HUMAN,ORGAN,stratum,20,20,PYGCMS,
+SID0287-G44,SID0287,"ccRCC tumor tissue, Eating seafood: ≥1 times/week",HUMAN,ORGAN,stratum,10,10,PYGCMS,
+SID0287-G45,SID0287,"ccRCC tumor tissue, Mask wearing: Never",HUMAN,ORGAN,stratum,24,24,PYGCMS,
+SID0287-G46,SID0287,"ccRCC tumor tissue, Mask wearing: Wear",HUMAN,ORGAN,stratum,6,6,PYGCMS,
+SID0287-G47,SID0287,"ccRCC tumor tissue, Use plastic bags: 1-3 times/day",HUMAN,ORGAN,stratum,14,14,PYGCMS,
+SID0287-G48,SID0287,"ccRCC tumor tissue, Use plastic bags: ≥4 times/day",HUMAN,ORGAN,stratum,16,16,PYGCMS,
+SID0287-G49,SID0287,"ccRCC tumor tissue, Water source: Water with purification",HUMAN,ORGAN,stratum,12,12,PYGCMS,
+SID0287-G50,SID0287,"ccRCC tumor tissue, Water source: Water without purification",HUMAN,ORGAN,stratum,18,18,PYGCMS,
+SID0288-G01,SID0288,"Follicular fluid, controls (tubal-factor infertility)",HUMAN,BODY_FLUID,control,20,20,PYGCMS,
+SID0288-G02,SID0288,"Follicular fluid, diminished ovarian reserve (DOR)",HUMAN,BODY_FLUID,case,25,25,PYGCMS,
+SID0288-G03,SID0288,"Follicular fluid, Control-1 patient (LDIR)",HUMAN,BODY_FLUID,control,1,1,LDIR;SEM,
+SID0288-G04,SID0288,"Follicular fluid, Control-2 patient (LDIR)",HUMAN,BODY_FLUID,control,1,1,LDIR;SEM,
+SID0288-G05,SID0288,"Follicular fluid, DOR-1 patient (LDIR)",HUMAN,BODY_FLUID,case,1,1,LDIR;SEM,
+SID0288-G06,SID0288,"Follicular fluid, DOR-2 patient (LDIR)",HUMAN,BODY_FLUID,case,1,1,LDIR;SEM,
+SID0289-G01,SID0289,"Human stool, Phase 1 baseline",HUMAN,FECES,all,10,10,OPTICAL;UFTIR;SEM,
+SID0290-G01,SID0290,"Colon tumoral tissue, colorectal adenocarcinoma patients",HUMAN,ORGAN,case,16,16,,
+SID0290-G02,SID0290,"Colon non-tumoral tissue, colorectal adenocarcinoma patients",HUMAN,ORGAN,other,16,16,,
+SID0290-G03,SID0290,"Colon tissue, controls without colorectal cancer",HUMAN,ORGAN,control,15,15,,
+SID0291-G01,SID0291,Gastric tumor tissue (py-GC-MS),HUMAN,ORGAN,case,24,24,,
+SID0291-G02,SID0291,Gastric para-tumor tissue (py-GC-MS),HUMAN,ORGAN,other,24,24,,
+SID0291-G03,SID0291,Normal gastric tissue (py-GC-MS),HUMAN,ORGAN,control,4,4,,
+SID0291-G04,SID0291,"Gastric tumor tissue, LDIR subset",HUMAN,ORGAN,case,3,3,LDIR;SEM,
+SID0291-G05,SID0291,"Gastric para-tumor tissue, LDIR subset",HUMAN,ORGAN,other,3,3,LDIR;SEM,
+SID0292-G01,SID0292,"Human urine, adults in Shenyang",HUMAN,BODY_FLUID,all,420,420,,
+SID0294-G01,SID0294,"Colon/ileum, non-inflammatory (adjacent non-erosive)",HUMAN,ORGAN,control,6,6,,
+SID0294-G02,SID0294,"Colon/ileum, inflammatory (erosive)",HUMAN,ORGAN,case,6,6,,
+SID0295-G01,SID0295,Brain (frontal cortex),HUMAN,ORGAN,all,5,5,,
+SID0295-G02,SID0295,Kidney (cortex + medulla),HUMAN,ORGAN,all,5,5,,
+SID0295-G03,SID0295,Liver (right central parenchyma),HUMAN,ORGAN,all,5,5,,
+SID0296-G01,SID0296,"CSF, intracranial aneurysm patients",HUMAN,BODY_FLUID,case,48,48,,
+SID0296-G02,SID0296,"CSF, leptomeningeal metastasis patients (comparison)",HUMAN,BODY_FLUID,control,108,108,,
+SID0297-G01,SID0297,"Bone marrow, Py-GC/MS cohort (C1-C16)",HUMAN,ORGAN,all,16,16,PYGCMS,
+SID0297-G02,SID0297,"Bone marrow, LD-IR cohort (C17-C21)",HUMAN,ORGAN,all,5,5,LDIR;SEM,
+SID0298-G01,SID0298,"Blood pellet, patients (various conditions)",HUMAN,BLOOD,other,170,,OPTICAL;ATR_FTIR,
+SID0298-G02,SID0298,"Blood pellet, healthy controls",HUMAN,BLOOD,control,2,,OPTICAL;ATR_FTIR,
+SID0298-G03,SID0298,"Breast cancer tissue, bulk (digested)",HUMAN,TISSUE,all,10,,OPTICAL;ATR_FTIR,
+SID0298-G04,SID0298,"Colon cancer tissue, bulk (digested)",HUMAN,TISSUE,all,23,,OPTICAL;ATR_FTIR,
+SID0298-G05,SID0298,"Breast cancer, histological slices",HUMAN,SECTION,all,5,,OPTICAL,
+SID0298-G06,SID0298,"Colon cancer, histological slices",HUMAN,SECTION,all,5,,OPTICAL,
+SID0298-G07,SID0298,"Rectal cancer, histological slices",HUMAN,SECTION,all,5,,OPTICAL,
+SID0299-G01,SID0299,"Placenta tissue, Newfoundland cohort",HUMAN,REPRODUCTIVE,all,92,46,,
+SID0300-G01,SID0300,"CSF, Cohort 1 (all)",HUMAN,BODY_FLUID,all,32,32,,
+SID0300-G02,SID0300,"CSF, Cohort 1 amyloid-positive",HUMAN,BODY_FLUID,stratum,17,17,,
+SID0300-G03,SID0300,"CSF, Cohort 1 amyloid-negative",HUMAN,BODY_FLUID,stratum,15,15,,
+SID0300-G04,SID0300,"CSF, Cohort 2 (amyloid-positive)",HUMAN,BODY_FLUID,all,11,11,,
+SID0301-G01,SID0301,"Blood, acute ischemic stroke patients",HUMAN,BLOOD,case,20,20,,
+SID0301-G02,SID0301,"Blood, healthy controls",HUMAN,BLOOD,control,15,15,,
+SID0302-G01,SID0302,"Testis, dog (neuter surgeries)",MAMMAL,ORGAN,all,47,47,,
+SID0302-G02,SID0302,"Testis, human (2016 specimens)",HUMAN,REPRODUCTIVE,all,23,23,,
+SID0303-G01,SID0303,"Blood, university students (Guangzhou)",HUMAN,BLOOD,all,36,36,,
+SID0304-G01,SID0304,Breast tumor tissue,HUMAN,ORGAN,case,7,7,LDIR;SEM,
+SID0304-G02,SID0304,Breast para-tumor tissue,HUMAN,ORGAN,control,7,7,LDIR;SEM,
+SID0305-G01,SID0305,"CRC tumour tissue, LDIR",HUMAN,ORGAN,case,6,6,LDIR,
+SID0305-G02,SID0305,"CRC patient blood, LDIR",HUMAN,BLOOD,case,6,6,LDIR,
+SID0305-G03,SID0305,"CRC tumour tissue, Py-GC/MS",HUMAN,ORGAN,case,2,2,PYGCMS,
+SID0306-G01,SID0306,"Follicular fluid, IVF women",HUMAN,BODY_FLUID,all,51,51,PYGCMS,
+SID0306-G02,SID0306,"Seminal plasma, IVF men",HUMAN,BODY_FLUID,all,51,51,PYGCMS,
+SID0307-G01,SID0307,"Blood, MPs (Raman)",HUMAN,BLOOD,all,21,21,RAMAN,
+SID0307-G02,SID0307,"Bone, MPs (Raman)",HUMAN,SKELETAL,all,21,21,RAMAN,
+SID0307-G03,SID0307,"Intervertebral disc, MPs (Raman)",HUMAN,ORGAN,all,21,21,RAMAN,
+SID0307-G04,SID0307,"Blood, NPs (Py-GC/MS)",HUMAN,BLOOD,all,5,5,PYGCMS,
+SID0307-G05,SID0307,"Bone, NPs (Py-GC/MS)",HUMAN,SKELETAL,all,5,5,PYGCMS,
+SID0307-G06,SID0307,"Intervertebral disc, NPs (Py-GC/MS)",HUMAN,ORGAN,all,5,5,PYGCMS,
+SID0308-G01,SID0308,Placenta,HUMAN,REPRODUCTIVE,all,18,18,LDIR,
+SID0308-G02,SID0308,Meconium,HUMAN,FECES,all,12,12,LDIR,
+SID0308-G03,SID0308,"Infant feces, 6 months",HUMAN,FECES,all,12,12,LDIR,
+SID0308-G04,SID0308,"Breast milk, 6 months",HUMAN,MILK,all,7,7,LDIR,
+SID0309-G01,SID0309,"Blood, pre-PCI patients",HUMAN,BLOOD,all,23,23,LDIR,
+SID0310-G01,SID0310,"BALF, all children with MPP",HUMAN,BODY_FLUID,all,195,195,PYGCMS,
+SID0310-G02,SID0310,"BALF, macrolide-resistant MPP",HUMAN,BODY_FLUID,stratum,66,66,PYGCMS,
+SID0310-G03,SID0310,"BALF, macrolide-sensitive MPP",HUMAN,BODY_FLUID,stratum,129,129,PYGCMS,
+SID0311-G01,SID0311,"Lung, deceased 1991",HUMAN,ORGAN,stratum,42,42,LDIR,
+SID0311-G02,SID0311,"Lung, deceased 2024",HUMAN,ORGAN,stratum,57,57,LDIR,
+SID0312-G01,SID0312,Femoral atherosclerotic plaque,HUMAN,CARDIOVASCULAR,case,10,8,PYGCMS,
+SID0312-G02,SID0312,"Carotid artery, age-matched controls",HUMAN,CARDIOVASCULAR,control,7,7,PYGCMS,
+SID0312-G03,SID0312,"Carotid artery, all decedent controls",HUMAN,CARDIOVASCULAR,control,30,30,PYGCMS,
+SID0313-G01,SID0313,Sputum,HUMAN,BODY_FLUID,all,13,13,RAMAN,
+SID0313-G02,SID0313,BALF,HUMAN,BODY_FLUID,all,11,11,RAMAN,
+SID0313-G03,SID0313,Pleural fluid,HUMAN,BODY_FLUID,all,10,10,RAMAN,
+SID0315-G01,SID0315,"Whole blood, PIAMA cohort",HUMAN,BLOOD,all,102,102,,
+SID0316-G01,SID0316,"Endometrium, women with RSA/infertility",HUMAN,REPRODUCTIVE,all,22,22,RAMAN;LDIR,
+SID0317-G01,SID0317,"BALF, never-smokers",HUMAN,BODY_FLUID,all,18,18,LDIR;SEM,
+SID0319-G01,SID0319,"Blood, exposed community Oaxaca",HUMAN,BLOOD,all,78,78,PYGCMS,
+SID0319-G02,SID0319,"Urine, exposed community Oaxaca",HUMAN,BODY_FLUID,all,91,91,PYGCMS,
+SID0320-G01,SID0320,"Urine, healthy donors",HUMAN,BODY_FLUID,control,19,19,,
+SID0320-G02,SID0320,"Urine, endometriosis participants",HUMAN,BODY_FLUID,case,19,19,,
+SID0321-G01,SID0321,"Nasal lavage, pre-shift, all workers",HUMAN,BODY_FLUID,all,23,23,,
+SID0321-G02,SID0321,"Nasal lavage, post-shift, all workers",HUMAN,BODY_FLUID,all,23,23,,
+SID0321-G03,SID0321,"Sputum, pre-shift, all workers",HUMAN,BODY_FLUID,all,23,23,,
+SID0321-G04,SID0321,"Sputum, post-shift, all workers",HUMAN,BODY_FLUID,all,23,23,,
+SID0321-G05,SID0321,"Nasal lavage, pre-shift, office staff",HUMAN,BODY_FLUID,stratum,7,7,,
+SID0321-G06,SID0321,"Nasal lavage, post-shift, office staff",HUMAN,BODY_FLUID,stratum,7,7,,
+SID0321-G07,SID0321,"Sputum, pre-shift, office staff",HUMAN,BODY_FLUID,stratum,7,7,,
+SID0321-G08,SID0321,"Sputum, post-shift, office staff",HUMAN,BODY_FLUID,stratum,7,7,,
+SID0321-G09,SID0321,"Nasal lavage, pre-shift, field staff",HUMAN,BODY_FLUID,stratum,12,12,,
+SID0321-G10,SID0321,"Nasal lavage, post-shift, field staff",HUMAN,BODY_FLUID,stratum,12,12,,
+SID0321-G11,SID0321,"Sputum, pre-shift, field staff",HUMAN,BODY_FLUID,stratum,12,12,,
+SID0321-G12,SID0321,"Sputum, post-shift, field staff",HUMAN,BODY_FLUID,stratum,12,12,,
+SID0321-G13,SID0321,"Nasal lavage, pre-shift, recycling factory workers",HUMAN,BODY_FLUID,stratum,4,4,,
+SID0321-G14,SID0321,"Nasal lavage, post-shift, recycling factory workers",HUMAN,BODY_FLUID,stratum,4,4,,
+SID0321-G15,SID0321,"Sputum, pre-shift, recycling factory workers",HUMAN,BODY_FLUID,stratum,4,4,,
+SID0321-G16,SID0321,"Sputum, post-shift, recycling factory workers",HUMAN,BODY_FLUID,stratum,4,4,,
+SID0322-G01,SID0322,"Placenta, all newborns",HUMAN,REPRODUCTIVE,all,1750,1750,,
+SID0322-G02,SID0322,"Placenta, girls",HUMAN,REPRODUCTIVE,stratum,911,911,,
+SID0322-G03,SID0322,"Placenta, boys",HUMAN,REPRODUCTIVE,stratum,839,839,,
+SID0323-G01,SID0323,Amniotic fluid,HUMAN,BODY_FLUID,all,12,12,,
+SID0323-G02,SID0323,Fetal membrane,HUMAN,REPRODUCTIVE,all,12,12,,
+SID0323-G03,SID0323,Maternal venous blood,HUMAN,BLOOD,all,12,12,,
+SID0323-G04,SID0323,Placenta (maternal surface near cord attachment),HUMAN,REPRODUCTIVE,all,12,12,,
+SID0323-G05,SID0323,Umbilical vein blood,HUMAN,BLOOD,all,12,12,,
+SID0323-G06,SID0323,Umbilical cord,HUMAN,REPRODUCTIVE,all,12,12,,
+SID0324-G01,SID0324,"Placenta, all participants",HUMAN,REPRODUCTIVE,all,2738,2738,,
+SID0325-G01,SID0325,"Whole blood, all participants",HUMAN,BLOOD,all,229,229,,
+SID0325-G02,SID0325,"Feces, all participants",HUMAN,FECES,all,227,227,,
+SID0326-G01,SID0326,"Lung tissue, all patients",HUMAN,ORGAN,all,12,12,LDIR;SEM,
+SID0326-G02,SID0326,"Lung tissue, males",HUMAN,ORGAN,stratum,7,7,,
+SID0326-G03,SID0326,"Lung tissue, females",HUMAN,ORGAN,stratum,5,5,,
+SID0327-G01,SID0327,"Gallbladder tissue, 23 patients",HUMAN,ORGAN,all,23,23,PYGCMS;LDIR;SEM,
+SID0327-G02,SID0327,"Bile, 23 patients",HUMAN,BODY_FLUID,all,23,23,PYGCMS;LDIR;SEM,
+SID0328-G01,SID0328,"Placenta, pregnant women Shenyang",HUMAN,REPRODUCTIVE,all,1057,1057,LDIR,
+SID0329-G01,SID0329,"Tear fluid, DED patients (pooled)",HUMAN,BODY_FLUID,case,9,45,PYGCMS;LDIR;SEM,
+SID0329-G02,SID0329,"Meibum, DED patients (pooled)",HUMAN,BODY_FLUID,case,9,45,PYGCMS;LDIR;SEM,
+SID0330-G01,SID0330,CSF Control group,HUMAN,BODY_FLUID,control,6,6,PYGCMS,
+SID0330-G02,SID0330,CSF Neuroimmune group,HUMAN,BODY_FLUID,case,7,7,PYGCMS,
+SID0330-G03,SID0330,CSF Neuroinfection group,HUMAN,BODY_FLUID,case,7,7,PYGCMS,
+SID0330-G04,SID0330,blood Control group,HUMAN,BLOOD,control,6,6,PYGCMS,
+SID0330-G05,SID0330,blood Neuroimmune group,HUMAN,BLOOD,case,7,7,PYGCMS,
+SID0330-G06,SID0330,blood Neuroinfection group,HUMAN,BLOOD,case,7,7,PYGCMS,
+SID0332-G01,SID0332,"CSF, all patients (n=28)",HUMAN,BODY_FLUID,all,28,28,,
+SID0333-G01,SID0333,"Uterine fibroid tissue, cohort A (n=8)",HUMAN,REPRODUCTIVE,case,8,8,,
+SID0333-G02,SID0333,"Myometrium, healthy volunteers (n=8)",HUMAN,REPRODUCTIVE,control,8,8,,
+SID0333-G03,SID0333,"Diseased (UFs) tissue, case-control (n=40)",HUMAN,REPRODUCTIVE,case,40,40,,
+SID0333-G04,SID0333,"Normal myometrium, case-control (n=40)",HUMAN,REPRODUCTIVE,control,40,40,,
+SID0334-G01,SID0334,UFs diseased tissue (n=40),HUMAN,REPRODUCTIVE,case,40,40,,
+SID0334-G02,SID0334,Normal myometrium of UFs patients (n=40),HUMAN,REPRODUCTIVE,control,40,40,,
+SID0334-G03,SID0334,Blood of UFs patients (n=40),HUMAN,BLOOD,case,40,40,,
+SID0334-G04,SID0334,Myometrium of healthy women (n=40),HUMAN,REPRODUCTIVE,control,40,40,,
+SID0335-G01,SID0335,"Amniotic fluid, cesarean deliveries (n=40)",HUMAN,BODY_FLUID,all,40,40,,
+SID0336-G01,SID0336,"Pericardium, cardiac surgery patients",HUMAN,ORGAN,all,6,6,,
+SID0336-G02,SID0336,"Epicardial adipose tissue, cardiac surgery patients",HUMAN,ADIPOSE,all,6,6,,
+SID0336-G03,SID0336,"Pericardial adipose tissue, cardiac surgery patients",HUMAN,ADIPOSE,all,11,11,,
+SID0336-G04,SID0336,"Myocardium, cardiac surgery patients",HUMAN,ORGAN,all,3,3,,
+SID0336-G05,SID0336,"Left atrial appendage, cardiac surgery patients",HUMAN,ORGAN,all,5,5,,
+SID0336-G06,SID0336,"Venous blood, pre-surgery",HUMAN,BLOOD,all,7,7,,
+SID0337-G01,SID0337,Human testis (azoospermia biopsy),HUMAN,ORGAN,case,18,18,,
+SID0337-G02,SID0337,Human semen,HUMAN,BODY_FLUID,all,15,15,,
+SID0337-G03,SID0337,Human epididymal cyst puncture fluid,HUMAN,BODY_FLUID,case,1,1,,
+SID0337-G04,SID0337,Mouse testis,MAMMAL,ORGAN,all,4,4,,
+SID0337-G05,SID0337,Mouse epididymis,MAMMAL,ORGAN,all,4,4,,
+SID0337-G06,SID0337,Mouse seminal vesicles,MAMMAL,ORGAN,all,4,4,,
+SID0337-G07,SID0337,Mouse prostate,MAMMAL,ORGAN,all,4,4,,
+SID0338-G01,SID0338,"Placenta, birth cohort Shenyang",HUMAN,REPRODUCTIVE,all,1350,1350,,
+SID0339-G01,SID0339,"Blood, ECAS patients (Py-GC/MS)",HUMAN,BLOOD,case,20,20,PYGCMS,
+SID0339-G02,SID0339,"Blood, control patients (Py-GC/MS)",HUMAN,BLOOD,control,10,10,PYGCMS,
+SID0339-G03,SID0339,"Blood, ECAS patients subset (LDIR/SEM)",HUMAN,BLOOD,case,5,5,LDIR;SEM,
+SID0340-G01,SID0340,"Bile, non-gallstone controls (CB)",HUMAN,BODY_FLUID,control,5,5,PYGCMS,
+SID0340-G02,SID0340,"Bile, gallstone patients (GB)",HUMAN,BODY_FLUID,case,9,9,PYGCMS,
+SID0340-G03,SID0340,"Bile, LDIR/SEM characterization",HUMAN,BODY_FLUID,all,,,LDIR;SEM,
+SID0349-G01,SID0349,"BALF, all children",HUMAN,BODY_FLUID,all,77,77,,
+SID0349-G02,SID0349,"BALF, CAP",HUMAN,BODY_FLUID,stratum,66,66,,
+SID0349-G03,SID0349,"BALF, asthma",HUMAN,BODY_FLUID,stratum,11,11,,
+SID0349-G04,SID0349,"BALF, severe CAP",HUMAN,BODY_FLUID,stratum,43,43,,
+SID0349-G05,SID0349,"BALF, nonsevere CAP",HUMAN,BODY_FLUID,stratum,23,23,,
+SID0350-G01,SID0350,"Prostate para-tumor, py-GC/MS",HUMAN,TISSUE,stratum,20,20,PYGCMS,
+SID0350-G02,SID0350,"Prostate tumor, py-GC/MS",HUMAN,TISSUE,stratum,20,20,PYGCMS,
+SID0350-G03,SID0350,"Prostate para-tumor, LDIR",HUMAN,TISSUE,stratum,2,2,LDIR;SEM,
+SID0350-G04,SID0350,"Prostate tumor, LDIR",HUMAN,TISSUE,stratum,2,2,LDIR;SEM,
+SID0351-G01,SID0351,Lung biopsies,HUMAN,ORGAN,stratum,20,20,,
+SID0351-G02,SID0351,Pleura biopsies,HUMAN,TISSUE,stratum,17,17,,
+SID0351-G03,SID0351,Mediastinal lymph node biopsies,HUMAN,TISSUE,stratum,13,13,,
+SID0352-G01,SID0352,"Stool, adults with endocrine disorders",HUMAN,FECES,all,30,30,,
+SID0353-G01,SID0353,Whole blood,HUMAN,BLOOD,all,8,8,,
+SID0353-G02,SID0353,Cerebrospinal fluid,HUMAN,BODY_FLUID,all,8,8,,
+SID0353-G03,SID0353,Pleural effusion,HUMAN,BODY_FLUID,all,8,8,,
+SID0353-G04,SID0353,Pericardial effusion,HUMAN,BODY_FLUID,all,8,8,,
+SID0353-G05,SID0353,Peritoneal effusion,HUMAN,BODY_FLUID,all,8,8,,
+SID0353-G06,SID0353,Testicular effusion,HUMAN,BODY_FLUID,all,8,8,,
+SID0353-G07,SID0353,Intrauterine effusion,HUMAN,BODY_FLUID,all,8,8,,
+SID0353-G08,SID0353,Joint effusion,HUMAN,BODY_FLUID,all,8,8,,
+SID0353-G09,SID0353,Renal cyst fluid,HUMAN,BODY_FLUID,all,8,8,,
+SID0353-G10,SID0353,Hepatic cyst fluid,HUMAN,BODY_FLUID,all,8,8,,
+SID0353-G11,SID0353,Pelvic cyst fluid,HUMAN,BODY_FLUID,all,8,8,,
+SID0353-G12,SID0353,Thyroid cyst fluid,HUMAN,BODY_FLUID,all,8,8,,
+SID0353-G13,SID0353,Gallbladder cyst fluid,HUMAN,BODY_FLUID,all,8,8,,
+SID0355-G01,SID0355,"Sputum, respiratory patients",HUMAN,BODY_FLUID,case,22,22,,
+SID0356-G01,SID0356,"Follicular fluid, IVF patients",HUMAN,BODY_FLUID,all,27,27,,
+SID0357-G01,SID0357,"Synovium, all patients",HUMAN,TISSUE,all,45,45,,
+SID0357-G02,SID0357,"Synovium, hip joint",HUMAN,TISSUE,stratum,13,13,,
+SID0357-G03,SID0357,"Synovium, knee joint",HUMAN,TISSUE,stratum,32,32,,
+SID0357-G04,SID0357,"Synovium, knee osteoarthritis",HUMAN,TISSUE,stratum,28,28,,
+SID0357-G05,SID0357,"Synovium, knee rheumatoid arthritis",HUMAN,TISSUE,stratum,4,4,,
+SID0357-G06,SID0357,"Synovium, hip osteoarthritis",HUMAN,TISSUE,stratum,8,8,,
+SID0357-G07,SID0357,"Synovium, osteonecrosis of femoral head",HUMAN,TISSUE,stratum,5,5,,
+SID0358-G01,SID0358,"Placenta, Shanghai mother-infant pairs",HUMAN,REPRODUCTIVE,all,18,18,,
+SID0358-G02,SID0358,"Meconium, Shanghai infants",HUMAN,FECES,all,12,12,,
+SID0359-G01,SID0359,LUAD tumor tissue,HUMAN,ORGAN,case,15,15,LDIR;PYGCMS,
+SID0359-G02,SID0359,Paired adjacent normal lung tissue,HUMAN,ORGAN,control,14,14,LDIR;PYGCMS,
+SID0360-G01,SID0360,"Urine, 10-year-old children, Ma'anshan Birth Cohort",HUMAN,BODY_FLUID,all,1308,1308,,
+SID0361-G01,SID0361,"Saphenous vein, CABG patients, Hull",HUMAN,CARDIOVASCULAR,all,5,5,,
+SID0362-G01,SID0362,"Amniotic fluid, vaginal deliveries",HUMAN,BODY_FLUID,all,5,5,,
+SID0362-G02,SID0362,Menstrual blood,HUMAN,BLOOD,all,3,3,,
+SID0363-G01,SID0363,"Follicular fluid, DOR women",HUMAN,BODY_FLUID,case,110,110,PYGCMS,
+SID0363-G02,SID0363,"Follicular fluid, control women",HUMAN,BODY_FLUID,control,110,110,PYGCMS,
+SID0363-G03,SID0363,"Follicular fluid, all participants (detection rates)",HUMAN,BODY_FLUID,all,220,220,PYGCMS,
+SID0363-G04,SID0363,"Follicular fluid, LD-IR subset",HUMAN,BODY_FLUID,all,10,10,LDIR,
+SID0363-G05,SID0363,"Mouse ovary, untreated control (pooled)",MAMMAL,ORGAN,control,1,6,PYGCMS,
+SID0364-G01,SID0364,Breast tumor tissue,HUMAN,ORGAN,case,8,8,LDIR;SEM,
+SID0364-G02,SID0364,Breast para-tumor tissue,HUMAN,ORGAN,other,8,8,LDIR;SEM,
+SID0365-G01,SID0365,Uninvolved ileum (uIleum),HUMAN,GI_TRACT,other,6,6,LDIR,
+SID0365-G02,SID0365,"Involved ileum (iIleum, stricture)",HUMAN,GI_TRACT,case,10,10,LDIR,
+SID0365-G03,SID0365,Uninvolved mesenteric adipose (CD-MAT),HUMAN,ADIPOSE,other,6,6,LDIR,
+SID0365-G04,SID0365,Creeping fat (CF),HUMAN,ADIPOSE,case,10,10,LDIR,
+SID0366-G01,SID0366,"Feces, healthy participants",HUMAN,FECES,control,50,50,RAMAN,
+SID0366-G02,SID0366,"Feces, IBD patients",HUMAN,FECES,case,52,52,RAMAN,
+SID0341-G01,SID0341,"Infant feces (1 yr), NYC",HUMAN,FECES,stratum,6,6,,
+SID0341-G02,SID0341,"Meconium, NYC newborns",HUMAN,FECES,stratum,3,3,,
+SID0341-G03,SID0341,"Adult feces, Albany NY",HUMAN,FECES,stratum,10,10,,
+SID0367-G01,SID0367,"Intestinal secretions, high-exposure (IHM)",HUMAN,FECES,case,20,20,LDIR,
+SID0367-G02,SID0367,"Intestinal secretions, low-exposure (ILM)",HUMAN,FECES,control,20,20,LDIR,
+SID0342-G01,SID0342,"Aqueous humor, children",HUMAN,BODY_FLUID,stratum,6,30,,
+SID0342-G02,SID0342,"Aqueous humor, adults",HUMAN,BODY_FLUID,stratum,6,30,,
+SID0342-G03,SID0342,"Aqueous humor, elders",HUMAN,BODY_FLUID,stratum,6,30,,
+SID0343-G01,SID0343,"Testis, NOA patients (LD-IR)",HUMAN,REPRODUCTIVE,case,6,6,LDIR,
+SID0343-G02,SID0343,"Semen, volunteers (LD-IR)",HUMAN,BODY_FLUID,all,25,25,LDIR,
+SID0343-G03,SID0343,"Semen, volunteers (Py-GC/MS)",HUMAN,BODY_FLUID,all,5,5,PYGCMS,
+SID0344-G01,SID0344,"Lung tumor, Nanfang Hospital",HUMAN,TISSUE,case,10,10,,
+SID0344-G02,SID0344,"Cervical tumor, Nanfang Hospital",HUMAN,TISSUE,case,12,12,,
+SID0344-G03,SID0344,"Gastric tumor, Nanfang Hospital",HUMAN,TISSUE,case,10,10,,
+SID0344-G04,SID0344,"Colorectal tumor, Nanfang Hospital",HUMAN,TISSUE,case,10,10,,
+SID0344-G05,SID0344,"Esophageal tumor, Nanfang Hospital",HUMAN,TISSUE,case,9,9,,
+SID0344-G06,SID0344,"Pancreatic tumor, Nanfang Hospital",HUMAN,TISSUE,case,10,10,,
+SID0345-G01,SID0345,"Vitreous humor, composite (LD-IR)",HUMAN,BODY_FLUID,all,1,49,LDIR;SEM,
+SID0345-G02,SID0345,"Vitreous humor, all patients (Py-GC/MS)",HUMAN,BODY_FLUID,all,49,49,PYGCMS,
+SID0345-G03,SID0345,"Vitreous humor, Macular hole",HUMAN,BODY_FLUID,stratum,12,12,PYGCMS,
+SID0345-G04,SID0345,"Vitreous humor, Macular epiretinal membrane",HUMAN,BODY_FLUID,stratum,13,13,PYGCMS,
+SID0345-G05,SID0345,"Vitreous humor, Retinopathy",HUMAN,BODY_FLUID,stratum,12,12,PYGCMS,
+SID0345-G06,SID0345,"Vitreous humor, Rhegmatogenous retinal detachment",HUMAN,BODY_FLUID,stratum,12,12,PYGCMS,
+SID0345-G07,SID0345,"Vitreous humor, female patients",HUMAN,BODY_FLUID,stratum,22,22,PYGCMS,
+SID0345-G08,SID0345,"Vitreous humor, male patients",HUMAN,BODY_FLUID,stratum,27,27,PYGCMS,
+SID0346-G01,SID0346,"Feces, LD-IR (>20 µm)",HUMAN,FECES,all,86,86,LDIR;ATR_FTIR,
+SID0346-G02,SID0346,"Urine, LD-IR (>20 µm)",HUMAN,BODY_FLUID,all,60,60,LDIR;ATR_FTIR,
+SID0346-G03,SID0346,"Feces, TD-GC/MS (>0.22 µm)",HUMAN,FECES,all,6,6,TEDGCMS,
+SID0346-G04,SID0346,"Urine, TD-GC/MS (>0.22 µm)",HUMAN,BODY_FLUID,all,12,12,TEDGCMS,
+SID0346-G05,SID0346,"Feces, Suburban residents, LD-IR",HUMAN,FECES,stratum,28,28,LDIR;ATR_FTIR,
+SID0346-G06,SID0346,"Feces, Rural residents, LD-IR",HUMAN,FECES,stratum,30,30,LDIR;ATR_FTIR,
+SID0346-G07,SID0346,"Feces, Urban residents, LD-IR",HUMAN,FECES,stratum,28,28,LDIR;ATR_FTIR,
+SID0346-G08,SID0346,"Urine, Suburban residents, LD-IR",HUMAN,BODY_FLUID,stratum,15,15,LDIR;ATR_FTIR,
+SID0346-G09,SID0346,"Urine, Rural residents, LD-IR",HUMAN,BODY_FLUID,stratum,30,30,LDIR;ATR_FTIR,
+SID0346-G10,SID0346,"Urine, Urban residents, LD-IR",HUMAN,BODY_FLUID,stratum,15,15,LDIR;ATR_FTIR,
+SID0347-G01,SID0347,"Lung tissue MP extract, all patients",HUMAN,ORGAN,all,81,81,,
+SID0347-G02,SID0347,"Lung MP extract, Male",HUMAN,ORGAN,stratum,,46,,
+SID0347-G03,SID0347,"Lung MP extract, Female",HUMAN,ORGAN,stratum,,35,,
+SID0347-G04,SID0347,"Lung MP extract, Age <60",HUMAN,ORGAN,stratum,,,,
+SID0347-G05,SID0347,"Lung MP extract, Age >60",HUMAN,ORGAN,stratum,,,,
+SID0347-G06,SID0347,"Lung MP extract, Smoker",HUMAN,ORGAN,stratum,,,,
+SID0347-G07,SID0347,"Lung MP extract, Non-smoker",HUMAN,ORGAN,stratum,,,,
+SID0370-G01,SID0370,"Whole blood, adult cohort (T/C County, Zhejiang)",HUMAN,BLOOD,all,39,39,PYGCMS,
+SID0371-G01,SID0371,"Stool, all samples (intervention cohort, all scenarios pooled)",HUMAN,FECES,all,60,15,UFTIR;ATR_FTIR,
+SID0371-G02,SID0371,"Stool, normal diet (ND) scenario",HUMAN,FECES,stratum,15,15,,
+SID0372-G01,SID0372,"Kidney, autopsy controls (no liver disease)",HUMAN,ORGAN,control,3,3,FLUOR;RAMAN,
+SID0372-G02,SID0372,"Spleen, autopsy controls (no liver disease)",HUMAN,ORGAN,control,3,3,FLUOR;RAMAN,
+SID0372-G03,SID0372,"Liver, individuals without underlying liver disease",HUMAN,ORGAN,control,5,5,FLUOR;RAMAN,
+SID0372-G04,SID0372,"Liver, patients with cirrhosis",HUMAN,ORGAN,case,6,6,FLUOR;RAMAN,
+SID0373-G01,SID0373,"Placental tissue, birth cohort",HUMAN,REPRODUCTIVE,all,1324,1324,LDIR,
+SID0375-G01,SID0375,Nasal hair (NH),HUMAN,TISSUE,all,,10,,
+SID0375-G02,SID0375,Inferior turbinate (IT) tissue,HUMAN,TISSUE,all,,10,,
+SID0375-G03,SID0375,Middle turbinate (MT) tissue,HUMAN,TISSUE,all,,10,,
+SID0375-G04,SID0375,Nasopharyngeal fluid (NF),HUMAN,BODY_FLUID,all,,10,,
+SID0375-G05,SID0375,Middle nasal cavity fluid (MNCF),HUMAN,BODY_FLUID,all,,10,,
+SID0375-G06,SID0375,All nasal sites combined (pooled),HUMAN,TISSUE,all,,10,,
+SID0377-G01,SID0377,"Healthy Liver Donors (HLD), baseline",HUMAN,FECES,control,,6,,
+SID0377-G02,SID0377,"Obese subjects, normal liver (NLO), baseline",HUMAN,FECES,other,,6,,
+SID0377-G03,SID0377,"Obese subjects with MASH, baseline",HUMAN,FECES,case,,11,,
+SID0377-G04,SID0377,"MASH subjects, 12-months post-bariatric surgery (total)",HUMAN,FECES,case,,11,,
+SID0377-G05,SID0377,MASH 12-mo follow-up: resolved MASLD subset,HUMAN,FECES,stratum,,7,,
+SID0377-G06,SID0377,MASH 12-mo follow-up: persistent MASLD subset,HUMAN,FECES,stratum,,4,,
+SID0377-G07,SID0377,All baseline subjects pooled (cross-sectional),HUMAN,FECES,all,,23,,
+SID0378-G01,SID0378,"Hair, before work shift",HUMAN,TISSUE,all,,19,,
+SID0378-G02,SID0378,"Hair, after work shift",HUMAN,TISSUE,all,,19,,
+SID0378-G03,SID0378,"Saliva, before work shift",HUMAN,BODY_FLUID,all,,19,,
+SID0378-G04,SID0378,"Saliva, after work shift",HUMAN,BODY_FLUID,all,,19,,
+SID0378-G05,SID0378,"Hand skin, before work shift",HUMAN,BODY_FLUID,all,,19,,
+SID0378-G06,SID0378,"Hand skin, after work shift",HUMAN,BODY_FLUID,all,,19,,
+SID0378-G07,SID0378,"Facial skin, before work shift",HUMAN,BODY_FLUID,all,,19,,
+SID0378-G08,SID0378,"Facial skin, after work shift",HUMAN,BODY_FLUID,all,,19,,
+SID0378-G09,SID0378,"Raman-confirmed subsample, all matrices pooled",HUMAN,TISSUE,all,40,,RAMAN,
+SID0379-G01,SID0379,All participants,HUMAN,FECES,all,22,22,FTIR,
+SID0379-G02,SID0379,Male subset,HUMAN,FECES,stratum,10,10,,
+SID0379-G03,SID0379,Female subset,HUMAN,FECES,stratum,12,12,,
+SID0380-G01,SID0380,"Follicular fluid, infertile women (IVF/ICSI)",HUMAN,BODY_FLUID,all,44,44,,
+SID0380-G02,SID0380,"Ovary, mouse, corn-oil vehicle control",MAMMAL,REPRODUCTIVE,control,1,6,,
+SID0381-G01,SID0381,"Whole blood, cervical cancer patients",HUMAN,BLOOD,all,15,15,,
+SID0381-G02,SID0381,Cervical cancerous tissue,HUMAN,REPRODUCTIVE,all,15,15,,
+SID0381-G03,SID0381,Cervical paracancerous (adjacent) tissue,HUMAN,REPRODUCTIVE,all,15,15,,
+SID0382-G01,SID0382,"Feces, healthy controls",HUMAN,FECES,control,493,493,,
+SID0382-G02,SID0382,"Feces, colorectal cancer (CRC) cases",HUMAN,FECES,case,258,258,,
+SID0383-G01,SID0383,"Intervertebral disc, disc-herniation patients",HUMAN,TISSUE,all,8,8,,
+SID0383-G02,SID0383,"Bone, knee-arthroplasty patients",HUMAN,SKELETAL,all,8,8,,
+SID0383-G03,SID0383,"Articular cartilage, knee-arthroplasty patients",HUMAN,TISSUE,all,8,8,,
+SID0384-G01,SID0384,"Umbilical cord blood, parturients",HUMAN,BLOOD,all,10,10,,
+SID0385-G01,SID0385,"Nucleus pulposus tissue, LDH surgery patients",HUMAN,TISSUE,all,51,51,,
+SID0386-G01,SID0386,"Gallstones, cholecystectomy patients",HUMAN,SKELETAL,all,16,16,,
+SID0368-G01,SID0368,"Nasal lavage fluid, natural exposure (NE)",HUMAN,BODY_FLUID,stratum,54,54,OPTICAL;LDIR,
+SID0368-G02,SID0368,"Nasal lavage fluid, surgical mask intervention (SM)",HUMAN,BODY_FLUID,stratum,30,30,OPTICAL;LDIR,
+SID0368-G03,SID0368,"Nasal lavage fluid, cotton mask intervention (CM)",HUMAN,BODY_FLUID,stratum,29,29,OPTICAL;LDIR,
+SID0387-G01,SID0387,"Urine, parturient women",HUMAN,BODY_FLUID,all,48,48,,
+SID0387-G02,SID0387,"Endometrial tissue, parturient women",HUMAN,REPRODUCTIVE,all,48,48,,
+SID0388-G01,SID0388,"Coronary blood, MI patients (main cohort)",HUMAN,BLOOD,all,110,110,,
+SID0388-G02,SID0388,"Coronary artery thrombi, additional MI patients",HUMAN,CARDIOVASCULAR,all,21,21,,
+SID0389-G01,SID0389,"Placenta, birth cohort",HUMAN,REPRODUCTIVE,all,1250,1250,,
+SID0369-G01,SID0369,"Placental tissue, birth cohort",HUMAN,REPRODUCTIVE,all,1121,1121,LDIR,
+SID0390-G01,SID0390,"Placenta, maternal surface (MS)",HUMAN,REPRODUCTIVE,all,6,6,,
+SID0390-G02,SID0390,"Placenta, fetal surface (FS)",HUMAN,REPRODUCTIVE,all,6,6,,
+SID0390-G03,SID0390,Cerebrum,HUMAN,ORGAN,all,6,6,,
+SID0390-G04,SID0390,Heart,HUMAN,ORGAN,all,6,6,,
+SID0390-G05,SID0390,Lung,HUMAN,ORGAN,all,6,6,,
+SID0390-G06,SID0390,Liver,HUMAN,ORGAN,all,6,6,,
+SID0390-G07,SID0390,Kidney,HUMAN,ORGAN,all,6,6,,
+SID0390-G08,SID0390,Intestine,HUMAN,ORGAN,all,6,6,,
+SID0391-G01,SID0391,"Urine, primary school children",HUMAN,BODY_FLUID,all,5670,5670,,
+SID0392-G01,SID0392,Lung,HUMAN,ORGAN,all,14,14,,
+SID0392-G02,SID0392,Small intestine (ileum/dodecadactylon/ileocecum),HUMAN,ORGAN,all,6,6,,
+SID0392-G03,SID0392,Large intestine (rectum/colon),HUMAN,ORGAN,all,10,10,,
+SID0392-G04,SID0392,Tonsil and adenoid,HUMAN,ORGAN,all,11,11,,
+SID0393-G01,SID0393,"Placenta (all regions: basal plate, chorionic villous, chorionic plate)",HUMAN,REPRODUCTIVE,all,10,10,,
+SID0394-G01,SID0394,"BAL, ILD-suspected (case)",HUMAN,BODY_FLUID,case,18,18,,
+SID0394-G02,SID0394,"BAL, control",HUMAN,BODY_FLUID,control,7,7,,
+SID0394-G03,SID0394,"Blood, ILD-suspected (case)",HUMAN,BLOOD,case,18,18,,
+SID0394-G04,SID0394,"Blood, control",HUMAN,BLOOD,control,7,7,,
+SID0395-G01,SID0395,"Hair, male (all regions)",HUMAN,TISSUE,stratum,1000,1000,,
+SID0395-G02,SID0395,"Hair, female (all regions)",HUMAN,TISSUE,stratum,1000,1000,,
+SID0395-G03,SID0395,"Face skin, male (all regions)",HUMAN,TISSUE,stratum,1000,1000,,
+SID0395-G04,SID0395,"Face skin, female (all regions)",HUMAN,TISSUE,stratum,1000,1000,,
+SID0395-G05,SID0395,"Hand skin, male (all regions)",HUMAN,TISSUE,stratum,1000,1000,,
+SID0395-G06,SID0395,"Hand skin, female (all regions)",HUMAN,TISSUE,stratum,1000,1000,,
+SID0395-G07,SID0395,"Saliva, male (all regions)",HUMAN,BODY_FLUID,stratum,1000,1000,,
+SID0395-G08,SID0395,"Saliva, female (all regions)",HUMAN,BODY_FLUID,stratum,1000,1000,,
+SID0395-G09,SID0395,Raman-characterised particle subsample (all receptors/regions pooled),HUMAN,TISSUE,other,76,,,
+SID0396-G01,SID0396,Placenta (maternal decidua),HUMAN,REPRODUCTIVE,all,20,20,,
+SID0397-G01,SID0397,Hand (before kindergarten entry),HUMAN,TISSUE,stratum,100,100,,
+SID0397-G02,SID0397,Hand (after time in kindergarten),HUMAN,TISSUE,stratum,100,100,,
+SID0397-G03,SID0397,Saliva (before kindergarten entry),HUMAN,BODY_FLUID,stratum,100,100,,
+SID0397-G04,SID0397,Saliva (after time in kindergarten),HUMAN,BODY_FLUID,stratum,100,100,,
+SID0397-G05,SID0397,All hand+saliva samples combined (before+after),HUMAN,TISSUE,all,400,100,,
+SID0397-G06,SID0397,Raman-characterised fiber subsample,HUMAN,TISSUE,other,6,,,
+SID0399-G01,SID0399,"Placenta (patient 1, phase 1, peripheral+central)",HUMAN,REPRODUCTIVE,all,2,1,,
+SID0399-G02,SID0399,"Meconium (patient 1, phase 1)",HUMAN,FECES,all,1,1,,
+SID0399-G03,SID0399,"Placenta (patient 2, phase 2: washed vs core)",HUMAN,REPRODUCTIVE,all,2,1,,
+SID0399-G04,SID0399,"Meconium (patient 2, phase 2)",HUMAN,FECES,all,1,1,,
+SID0399-G05,SID0399,"Maternal stool (patient 1, post partum)",HUMAN,FECES,all,1,1,,
+SID0400-G01,SID0400,Heart,HUMAN,ORGAN,all,8,8,,
+SID0400-G02,SID0400,Liver,HUMAN,ORGAN,all,8,8,,
+SID0400-G03,SID0400,Kidneys,HUMAN,ORGAN,all,8,8,,
+SID0400-G04,SID0400,Spleen,HUMAN,ORGAN,all,8,8,,
+SID0400-G05,SID0400,Small intestine,HUMAN,GI_TRACT,all,8,8,,
+SID0400-G06,SID0400,Brain,HUMAN,ORGAN,all,8,8,,
+SID0400-G07,SID0400,Lungs,HUMAN,ORGAN,all,8,8,,
+SID0400-G08,SID0400,All organs combined (pooled),HUMAN,ORGAN,all,56,8,,
+SID0401-G01,SID0401,Penile corpus tissue (contamination-minimized protocol),HUMAN,REPRODUCTIVE,all,5,5,,
+SID0401-G02,SID0401,"Penile corpus tissue (control, standard collection protocol)",HUMAN,REPRODUCTIVE,control,1,1,,
+SID0402-G01,SID0402,Liver,HUMAN,ORGAN,all,1,1,,
+SID0402-G02,SID0402,Lung,HUMAN,ORGAN,all,1,1,,
+SID0402-G03,SID0402,Kidney,HUMAN,ORGAN,all,1,1,,
+SID0402-G04,SID0402,Chest muscle,HUMAN,MUSCLE,all,1,1,,
+SID0402-G05,SID0402,Heart,HUMAN,ORGAN,all,1,1,,
+SID0402-G06,SID0402,Thyroid,HUMAN,ORGAN,all,1,1,,
+SID0402-G07,SID0402,Brain,HUMAN,ORGAN,all,1,1,,
+SID0403-G01,SID0403,Bronchial lavage fluid (BLF),HUMAN,BODY_FLUID,all,37,37,,
+SID0403-G02,SID0403,Bronchoalveolar lavage fluid (BALF),HUMAN,BODY_FLUID,all,37,37,,
+SID0404-G01,SID0404,"Lung tissue, cancer",HUMAN,ORGAN,case,10,10,,
+SID0404-G02,SID0404,"Lung tissue, non-cancer control",HUMAN,ORGAN,control,10,10,,
+SID0405-G01,SID0405,"Colon FFPE section, sample 1",HUMAN,SECTION,all,1,1,,
+SID0405-G02,SID0405,"Colon FFPE section, sample 2",HUMAN,SECTION,all,1,1,,
+SID0405-G03,SID0405,"Colon FFPE section, sample 3",HUMAN,SECTION,all,1,1,,
+SID0406-G01,SID0406,"Placenta, PPROM patients",HUMAN,REPRODUCTIVE,all,10,10,FTIR,
+SID0406-G02,SID0406,"Amniotic fluid, PPROM patients",HUMAN,BODY_FLUID,all,10,10,FTIR,
+SID0407-G01,SID0407,"Endometrium, normal (control)",HUMAN,REPRODUCTIVE,control,14,14,PYGCMS,
+SID0407-G02,SID0407,Endometrial polyp,HUMAN,REPRODUCTIVE,case,16,16,PYGCMS;LDIR,
+SID0408-G01,SID0408,"Faeces, Hong Kong healthy cohort",HUMAN,FECES,all,8,8,RAMAN,
+SID0409-G01,SID0409,"Colon tissue, colectomy specimens",HUMAN,ORGAN,all,11,11,FTIR;SEM,
+SID0411-G01,SID0411,Urine,HUMAN,BODY_FLUID,all,30,30,OPTICAL;RAMAN,
+SID0411-G02,SID0411,Sputum,HUMAN,BODY_FLUID,all,30,30,OPTICAL;RAMAN,
+SID0411-G03,SID0411,Bronchoalveolar lavage fluid (BALF),HUMAN,BODY_FLUID,all,30,30,OPTICAL;RAMAN,
+SID0413-G01,SID0413,"Urine, healthy donors",HUMAN,BODY_FLUID,all,10,10,,
+SID0413-G02,SID0413,"Kidney (renal) tissue, nephrectomy donors",HUMAN,ORGAN,all,10,10,,
+SID0415-G01,SID0415,"BALF, adult bronchoscopy patients",HUMAN,BODY_FLUID,all,60,60,,
+SID0416-G01,SID0416,"BAL fluid, adult bronchoscopy patients",HUMAN,BODY_FLUID,all,60,60,,
+SID0418-G01,SID0418,"Placenta, fetal side portion",HUMAN,REPRODUCTIVE,all,6,6,,
+SID0418-G02,SID0418,"Placenta, maternal side portion",HUMAN,REPRODUCTIVE,all,6,6,,
+SID0418-G03,SID0418,"Placenta, chorioamniotic membrane portion",HUMAN,REPRODUCTIVE,all,6,6,,
+SID0420-G01,SID0420,"Colorectal cancer tissue, United States (Seattle)",HUMAN,GI_TRACT,all,25,,,
+SID0420-G02,SID0420,"Colorectal cancer tissue, Malaysia (Kota Bharu)",HUMAN,GI_TRACT,all,25,,,
+SID0421-G01,SID0421,"Nasal lavage fluid, chronic rhinosinusitis without nasal polyps",HUMAN,BODY_FLUID,case,50,50,,
+SID0421-G02,SID0421,"Nasal lavage fluid, healthy controls",HUMAN,BODY_FLUID,control,30,30,,
+SID0423-G01,SID0423,"Nasal lavage, acute rhinitis",HUMAN,BODY_FLUID,stratum,30,30,,
+SID0423-G02,SID0423,"Nasal lavage, chronic rhinitis",HUMAN,BODY_FLUID,stratum,30,30,,
+SID0423-G03,SID0423,"Nasal lavage, all rhinitis patients (pooled acute+chronic)",HUMAN,BODY_FLUID,all,60,60,,
+SID0425-G01,SID0425,"Trabecular meshwork, pooled composite (LD-IR/SEM screening)",HUMAN,ORGAN,all,1,20,LDIR;SEM,
+SID0425-G02,SID0425,"Trabecular meshwork, individual samples (Py-GC/MS quantification)",HUMAN,ORGAN,all,20,20,PYGCMS,
+SID0426-G01,SID0426,"Cancerous tissue (CT), penile cancer patients",HUMAN,ORGAN,case,17,17,,
+SID0426-G02,SID0426,"Adjacent normal tissue (ANT), penile cancer patients",HUMAN,ORGAN,control,17,17,,
+SID0426-G03,SID0426,All penile tissue samples pooled (CT+ANT),HUMAN,ORGAN,all,34,17,,
+SID0428-G01,SID0428,"Nasal lavage fluid, allergic rhinitis (AR) group",HUMAN,BODY_FLUID,case,33,33,,
+SID0428-G02,SID0428,"Nasal lavage fluid, healthy control group",HUMAN,BODY_FLUID,control,22,22,,
+SID0431-G01,SID0431,"Feces, young healthy men",HUMAN,FECES,all,24,24,UFTIR,
+SID0432-G01,SID0432,"Stomach content, forensic autopsy cadavers",HUMAN,GI_CONTENTS,all,26,26,,
+SID0273-G01,SID0273,"Blood, controls without lung disease",HUMAN,BLOOD,control,10,10,,
+SID0273-G02,SID0273,"Blood, combined COPD + IPF",HUMAN,BLOOD,case,19,19,,
+SID0293-G01,SID0293,"Urine, primary school children, Shenyang",HUMAN,BODY_FLUID,all,1000,1000,OPTICAL;SEM,
+SID0314-G01,SID0314,"Follicular fluid, women undergoing IVF",HUMAN,BODY_FLUID,all,18,18,SEM,
+SID0318-G01,SID0318,"Liver, post-mortem, Sibiu",HUMAN,ORGAN,all,55,55,FLUOR,
+SID0331-G01,SID0331,"Placenta, ENVIRONAGE cohort (n=10)",HUMAN,REPRODUCTIVE,all,10,10,,
+SID0354-G01,SID0354,Human lung tissue sections (ILD),HUMAN,SECTION,case,2,2,OTHER_MS,
+SID0354-G02,SID0354,Human testis tissue section (SI),HUMAN,SECTION,control,1,1,OTHER_MS;FTIR,
+SID0374-G01,SID0374,"Maternal urine, GDM-screening cohort",HUMAN,BODY_FLUID,all,3775,3775,OPTICAL;SEM,
+SID0376-G01,SID0376,Human blood (voluntary donors),HUMAN,BLOOD,all,3,3,RAMAN,
+SID0398-G01,SID0398,Cerumen (ear wax),HUMAN,BODY_FLUID,all,23,12,,
+SID0410-G01,SID0410,"Semen, varicocele patients",HUMAN,BODY_FLUID,case,50,50,,
+SID0410-G02,SID0410,"Semen, controls",HUMAN,BODY_FLUID,control,48,48,,
+SID0412-G01,SID0412,"BAL fluid, respiratory-symptom respondents",HUMAN,BODY_FLUID,all,92,92,,
+SID0417-G01,SID0417,"Nonneoplastic (adjacent) lung tissue, lung cancer patients",HUMAN,ORGAN,all,81,,,
+SID0417-G02,SID0417,"Malignant (tumor) lung tissue, lung cancer patients",HUMAN,ORGAN,all,33,,,
+SID0419-G01,SID0419,"Placenta villous tissue, term deliveries",HUMAN,REPRODUCTIVE,all,10,10,SEM,
+SID0422-G01,SID0422,"Nasal lavage fluid, adenoid hypertrophy (AH)",HUMAN,BODY_FLUID,case,23,23,,
+SID0422-G02,SID0422,"Nasal lavage fluid, adenoid hypertrophy with otitis media with effusion (AH/OME)",HUMAN,BODY_FLUID,case,19,19,,
+SID0422-G03,SID0422,"Nasal lavage fluid, healthy control children",HUMAN,BODY_FLUID,control,19,19,,
+SID0424-G01,SID0424,"Urine, pediatric patients",HUMAN,BODY_FLUID,all,11,11,RAMAN;FLUOR,
+SID0427-G01,SID0427,"Whole blood, TPE patients, pre-TPE (baseline)",HUMAN,BLOOD,all,174,114,FLUOR,
+SID0429-G01,SID0429,"Urine (bladder wash), bladder cancer group",HUMAN,BODY_FLUID,case,40,40,,
+SID0429-G02,SID0429,"Urine (bladder wash), control group",HUMAN,BODY_FLUID,control,36,36,,
+SID0429-G03,SID0429,"Urine (bladder wash), low-grade bladder cancer stratum",HUMAN,BODY_FLUID,stratum,22,22,,
+SID0429-G04,SID0429,"Urine (bladder wash), high-grade bladder cancer stratum",HUMAN,BODY_FLUID,stratum,18,18,,
+SID0430-G01,SID0430,"Bronchoalveolar lavage fluid, diagnostic bronchoscopy patients",HUMAN,BODY_FLUID,all,8,8,,
+SID0289-G901,SID0289,Pasta,FOOD_PRODUCT,FOOD,,3,,,group
+SID0289-G902,SID0289,Tomato sauce,FOOD_PRODUCT,FOOD,,3,,,group
+SID0289-G903,SID0289,Olive oil,FOOD_PRODUCT,FOOD,,3,,,group
+SID0289-G904,SID0289,Cheese,FOOD_PRODUCT,FOOD,,3,,,group
+SID0289-G905,SID0289,Integral bread,FOOD_PRODUCT,FOOD,,3,,,group
+SID0289-G906,SID0289,Tuna,FOOD_PRODUCT,FOOD,,3,,,group
+SID0289-G907,SID0289,Potato chips,FOOD_PRODUCT,FOOD,,3,,,group
+SID0289-G908,SID0289,Banana,FOOD_PRODUCT,FOOD,,3,,,group
+SID0308-G901,SID0308,Infant formula,FOOD_PRODUCT,FOOD,,5,,,group
+SID0261-G901,SID0261,Shark whole-blood versus plasma method comparison,ELASMO,BLOOD,,,,,group

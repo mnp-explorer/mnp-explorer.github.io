@@ -31,6 +31,10 @@ export const RECOVERY_REMOVAL = {
   enzyme_perchlorate: ['ENZYME', 'ACID'], acid_alkali_enzyme: ['ACID', 'ALKALI', 'ENZYME'],
   enzyme_KOH: ['ENZYME', 'ALKALI'], alkali_oxidation_acid: ['ALKALI', 'OXIDATION', 'ACID'], none: ['NONE'],
 };
+const REMOVAL_CODES = new Set(['ALKALI', 'OXIDATION', 'ACID', 'ENZYME', 'NONE']);
+// Removal categories of a recovery point: v1 reagent labels, or V2 code combinations ("ACID+OXIDATION").
+export const recoveryRemoval = v => RECOVERY_REMOVAL[v]
+  || (v && v.split('+').every(c => REMOVAL_CODES.has(c)) ? v.split('+') : null);
 // Recovery-point analysis labels → technique families they can validate.
 const RECOVERY_ANALYSIS = {
   pygcms: ['THERMAL'], pygcmsms: ['THERMAL'], lcms_depoly: ['LCMS'], raman: ['RAMAN'], fluorescence: ['FLUOR'],
@@ -93,7 +97,7 @@ function recoveryFor(D, s, removal, technique, q) {
   const fam = D.vocab.technique_property[technique].family;
   const rem = new Set(removal.split('+'));
   return (D.recoveryBy.get(s.study_id) || []).filter(p => {
-    const pr = RECOVERY_REMOVAL[p.removal];
+    const pr = recoveryRemoval(p.removal);
     const pa = RECOVERY_ANALYSIS[p.analysis];
     if (pr && !pr.some(x => rem.has(x))) return false;
     if (pa && !pa.includes(fam)) return false;

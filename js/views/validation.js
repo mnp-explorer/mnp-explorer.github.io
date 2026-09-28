@@ -2,7 +2,7 @@
 // each summary row opens a reference popover with every value behind it.
 import { countBy, split, label, stepLabel, quantiles, fmt, num } from '../../script/summaries.js';
 import { facetOptions, crossFilter } from '../../script/facets.js';
-import { RECOVERY_REMOVAL } from '../../script/finder.js';
+import { recoveryRemoval } from '../../script/finder.js';
 import { esc, h, ranges, kpis } from '../ui.js';
 import { showPopover, closePopover, smallScreen } from '../popover.js';
 
@@ -18,7 +18,7 @@ export default function validation(root, D, params) {
     const s = D.study[r.study_id];
     return { r, s, value: num(r.value_pct),
       groups: new Set(split(s.finder_groups)), chars: new Set(split(s.matrix_characters)),
-      digestion: [...(RECOVERY_REMOVAL[r.removal] || ['UNRESOLVED'])].sort().join('+'),
+      digestion: [...(recoveryRemoval(r.removal) || ['UNRESOLVED'])].sort().join('+'),
       polymer: r.polymer_code || 'POOLED', analysis: r.analysis, endpoint: r.endpoint, scope: r.scope };
   });
   const q = { endpoint: params.get('endpoint') || '', scope: params.get('scope') || 'digestion_to_end', group: params.get('group') || '',

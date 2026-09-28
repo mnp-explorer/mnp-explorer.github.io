@@ -89,7 +89,7 @@ export default function overview(root, D) {
     { note: 'Used by the finder to carry evidence between similar matrices.', finder: 'character' });
   card('des', 'Study design', S, s => s.study_design, v => v.replace(/_/g, ' '), 'Analysis', techs);
   card('pol', 'Polymers detected in samples', field, f => f.polymer_code, c => `${c} – ${label(D, 'polymer', c)}`, 'Analysis', techs,
-    { note: 'Field detections and extraction-level reports; excludes spikes, exposure materials and blanks.', limit: 14, finder: 'polymer' });
+    { note: 'Polymers detected in study samples; excludes spikes, exposure materials and blanks.', limit: 14, finder: 'polymer' });
   card('tec', 'Analysis techniques', D.runs, r => r.technique, c => short(D, 'method_step', c), 'Matrix removal',
     s => list(s.removal_steps, c => stepLabel(D, 'removal', c)), { limit: 14 });
   card('rem', 'Matrix removal', S, s => split(s.removal_steps), c => stepLabel(D, 'removal', c), 'Digestion conditions', digestion);

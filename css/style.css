@@ -173,8 +173,8 @@ td.heat[data-ref]:hover { outline: 2px solid var(--accent); outline-offset: -2px
 .attr { font-size: .75rem; padding: 0 6px; border-radius: 99px; background: var(--accent-soft); white-space: nowrap; }
 .attr.shared, .attr.derived { background: var(--warn-soft); }
 .phone-note { display: none; }
-@media (max-width: 760px) { .phone-note { display: block; } }
-@media (max-width: 760px) {
+@media (max-width: 760px) and (pointer: coarse) { .phone-note { display: block; } }
+@media (max-width: 760px) and (pointer: coarse) {
   [data-ref] { cursor: default; }
   .range.clickable:hover .lab, .bar.clickable:hover .lab, tr[data-ref]:hover td:first-child { text-decoration: none; }
   td.heat[data-ref]:hover { outline: none; }
@@ -210,3 +210,56 @@ table.dict td:first-child { white-space: nowrap; width: 1%; }
 code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .85em; background: var(--accent-soft); padding: 0 4px; border-radius: 4px; }
 ul.reading { margin: 0; padding-left: 18px; display: grid; gap: 8px; font-size: .92rem; }
 tr.clickable.open td { background: var(--accent-soft); }
+
+/* ---------------------------------------------------------------- V2: home */
+.home .hero { margin-bottom: 20px; }
+.home .lead { font-size: 1.05rem; line-height: 1.55; margin: 0 0 12px; }
+.disclaimer { background: var(--warn-soft); border-left: 3px solid var(--warn); padding: 10px 12px; border-radius: 6px;
+  font-size: .9rem; margin: 0; }
+.home h3 { margin-top: 22px; }
+.pages { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.page-card { display: grid; gap: 4px; text-decoration: none; color: var(--ink); }
+.page-card:hover { border-color: var(--accent); }
+.page-card b { color: var(--accent); }
+.page-card .q { font-weight: 600; font-size: .92rem; }
+.about { margin-top: 22px; }
+.about h3 { margin-top: 0; }
+.about p { margin: 0 0 8px; }
+.versions { margin: 0; padding-left: 18px; }
+
+/* badges and tags */
+.badge { display: inline-block; font-size: .75rem; font-weight: 700; padding: 1px 8px; border-radius: 99px;
+  background: var(--warn-soft); color: var(--warn); border: 1px solid var(--warn); white-space: nowrap; }
+.tag { display: inline-block; font-size: .72rem; padding: 0 6px; border-radius: 99px; border: 1px solid var(--line);
+  color: var(--muted); white-space: nowrap; }
+.chip.qa-nr, .chip.qa-no, .chip.qa-none { background: transparent; border: 1px solid var(--line); color: var(--muted); }
+
+/* study panel: groups */
+details.grp { border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+details.grp > summary { cursor: pointer; color: var(--ink); font-size: .9rem; }
+details.grp table { margin-top: 6px; }
+
+/* QA/QC stacked bars */
+.qa-row { display: grid; grid-template-columns: minmax(150px, 230px) 1fr; gap: 2px 12px; align-items: center; padding: 6px 0;
+  border-bottom: 1px solid var(--line); }
+.qa-row:last-child { border-bottom: 0; }
+.qa-row .lab { font-size: .9rem; }
+.qa-row .legend { grid-column: 2; font-size: .75rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 2px 10px; }
+.qa-row .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; vertical-align: -1px; }
+.stackbar { display: flex; height: 20px; border-radius: 4px; overflow: hidden; background: var(--line); }
+.stackbar .seg { display: flex; align-items: center; justify-content: center; font-size: .72rem; color: var(--panel);
+  cursor: pointer; min-width: 2px; }
+.stackbar .seg:hover { filter: brightness(1.12); }
+.r1 { background: var(--accent); }
+.r2 { background: color-mix(in srgb, var(--accent) 60%, var(--panel)); }
+.r3 { background: color-mix(in srgb, var(--accent) 30%, var(--panel)); color: var(--ink) !important; }
+.r4 { background: color-mix(in srgb, var(--warn) 70%, var(--panel)); }
+.r5 { background: var(--line); color: var(--muted) !important; }
+table.trend th:first-child, table.trend td:first-child { width: 230px; }
+@media (max-width: 760px) {
+  .qa-row { grid-template-columns: 1fr; }
+  .qa-row .legend { grid-column: 1; }
+  table.trend th:first-child, table.trend td:first-child { width: 140px; }
+}
+.team { margin: 0; padding-left: 18px; }
+.cite { font-family: ui-serif, Georgia, serif; }

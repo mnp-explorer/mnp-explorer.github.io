@@ -1,177 +1,791 @@
-point_id,study_id,value_pct,endpoint,polymer_code,polymer_raw,matrix,size_lo_um,size_hi_um,shape,spike_mass,spike_count,sd,n,variability_metric,scope,physical,removal,separation,analysis,assignment_known
-cov8-R01,cov8,93.9,mass,PA66,PA66,human-thrombus,,,unknown,,,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
-cov8-R02,cov8,102.3,mass,PE,PE,human-thrombus,,,unknown,,,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
-cov8-R03,cov8,109.4,mass,PVC,PVC,human-thrombus,,,unknown,,,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
-cov8-R04,cov8,82.9,mass,PS,PS,human-thrombus,,,unknown,,,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
-cov8-R05,cov8,107.8,mass,PET,PET,human-thrombus,,,unknown,,,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
-cov8-R06,cov8,80.8,mass,PMMA,PMMA,human-thrombus,,,unknown,,,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
-cov8-R07,cov8,91.5,mass,PC,PC,human-thrombus,,,unknown,,,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
-cov8-R08,cov8,91.1,mass,PA6,PA6,human-thrombus,,,unknown,,,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
-cov8-R09,cov8,90.4,mass,PP,PP,human-thrombus,,,unknown,,,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
-cov98-R01,cov98,90.08,mass,PS,PS,lettuce-shoot,0.05,0.05,unknown,,,,5,SD,digestion_to_end,unreported,TMAH,solvent_extraction,pygcms,True
-cov98-R02,cov98,91.23,mass,PS,PS,lettuce-shoot,0.08,0.08,unknown,,,,5,SD,digestion_to_end,unreported,TMAH,solvent_extraction,pygcms,True
-cov98-R03,cov98,91.98,mass,PS,PS,lettuce-root,0.05,0.05,unknown,,,,5,SD,digestion_to_end,unreported,TMAH,solvent_extraction,pygcms,True
-cov98-R04,cov98,91.68,mass,PS,PS,lettuce-root,0.08,0.08,unknown,,,,5,SD,digestion_to_end,unreported,TMAH,solvent_extraction,pygcms,True
-cov139-R01,cov139,77,count,,pooled,mixed-tissue-and-blank,100,300,unknown,,,,11,SD,digestion_to_end,none,trypsin,density_filtration,counting,True
-cov139-R02,cov139,85,count,,pooled,mixed-tissue-and-blank,300,500,unknown,,,,11,SD,digestion_to_end,none,trypsin,density_filtration,counting,True
-cov139-R03,cov139,92,count,,pooled,mixed-tissue-and-blank,500,1000,unknown,,,,11,SD,digestion_to_end,none,trypsin,density_filtration,counting,True
-cov146-R01,cov146,62,mass,PMMA,PMMA,reagent-control,,,unknown,,,9,,SD,digestion_to_end,filter_grinding,KOH,filtration,pygcmsms,True
-cov146-R02,cov146,65,mass,PP,PP,reagent-control,,,unknown,,,10,,SD,digestion_to_end,filter_grinding,KOH,filtration,pygcmsms,True
-cov146-R03,cov146,110,mass,PE,PE,reagent-control,,,unknown,,,16,,SD,digestion_to_end,filter_grinding,KOH,filtration,pygcmsms,True
-cov146-R04,cov146,76,mass,PS,PS,reagent-control,,,unknown,,,11,,SD,digestion_to_end,filter_grinding,KOH,filtration,pygcmsms,True
-cov146-R05,cov146,76,mass,PET,PET,reagent-control,,,unknown,,,11,,SD,digestion_to_end,filter_grinding,KOH,filtration,pygcmsms,True
-cov195-R01,cov195,57,mass,PE,PE,human-blood,,,unknown,"[10, 30]",,,4,SD,physical_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
-cov195-R02,cov195,81,mass,PP,PP,human-blood,,,unknown,"[10, 30]",,,4,SD,physical_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
-cov195-R03,cov195,14,mass,PMMA,PMMA,human-blood,,,unknown,"[10, 30]",,,4,SD,physical_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
-cov195-R04,cov195,7,mass,PC,PC,human-blood,,,unknown,"[10, 30]",,,4,SD,physical_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
-cov195-R05,cov195,109,mass,PA6,PA6,human-blood,,,unknown,"[10, 30]",,,4,SD,physical_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
-cov195-R06,cov195,32,mass,PA66,PA66,human-blood,,,unknown,"[10, 30]",,,4,SD,physical_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
-cov195-R07,cov195,52,mass,PS,PS,human-blood,0.75,0.75,sphere,"[5, 5]",,,,SD,physical_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
-cov213-R01,cov213,99,mass,PS,PS,pure-polymer,,,unknown,,,1,5,SD,partial,none,not_covered,solvent_extraction,pygcms,True
-cov213-R02,cov213,94,mass,PP,PP,pure-polymer,,,unknown,,,3,5,SD,partial,none,not_covered,solvent_extraction,pygcms,True
-cov213-R03,cov213,93,mass,PE,PE,pure-polymer,,,unknown,,,4,5,SD,partial,none,not_covered,solvent_extraction,pygcms,True
-cov213-R04,cov213,93,mass,PVC,PVC,pure-polymer,,,unknown,,,1,5,SD,partial,none,not_covered,solvent_extraction,pygcms,True
-cov213-R05,cov213,94.7,mass,,pooled,sponge-digestate,50,250,unknown,"[25000, 25000]",,5.4,6,SD,partial,none,not_covered,solvent_extraction,pygcms,True
-cov213-R06,cov213,94.1,mass,,pooled,sponge-digestate,,,unknown,"[25000, 25000]",,9.5,6,SD,partial,none,not_covered,solvent_extraction,pygcms,True
-cov261-R01,cov261,107,mass,PMMA,PMMA,reagent-control,,,unknown,,,,,SD,digestion_to_end,unreported,KOH,filtration,pygcms,False
-cov261-R02,cov261,82,mass,PP,PP,reagent-control,,,unknown,,,,,SD,digestion_to_end,unreported,KOH,filtration,pygcms,False
-cov261-R03,cov261,111,mass,PE,PE,reagent-control,,,unknown,,,,,SD,digestion_to_end,unreported,KOH,filtration,pygcms,False
-cov261-R04,cov261,129,mass,PET,PET,reagent-control,,,unknown,,,,,SD,digestion_to_end,unreported,KOH,filtration,pygcms,False
-cov261-R05,cov261,122,mass,PS,PS,reagent-control,,,unknown,,,,,SD,digestion_to_end,unreported,KOH,filtration,pygcms,False
-cov261-R06,cov261,116,mass,PC,PC,reagent-control,,,unknown,,,,,SD,digestion_to_end,unreported,KOH,filtration,pygcms,False
-cov302-R01,cov302,54,count,PS,PS,water-control,15,15,sphere,,"[50, 50]",,2,SD,digestion_to_end,none,HNO3,filtration,counting,True
-cov429-R01,cov429,95,mass,PA66,PA66,mixed-muscle,,,unknown,,,17,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
-cov429-R02,cov429,111,mass,PE,PE,mixed-muscle,,,unknown,,,11,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
-cov429-R03,cov429,102,mass,PP,PP,mixed-muscle,,,unknown,,,5,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
-cov429-R04,cov429,94,mass,PVC,PVC,mixed-muscle,,,unknown,,,7,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
-cov429-R05,cov429,143,mass,ABS,ABS,mixed-muscle,,,unknown,,,8,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
-cov429-R06,cov429,98,mass,PA6,PA6,mixed-muscle,,,unknown,,,8,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
-cov429-R07,cov429,174,mass,PC,PC,mixed-muscle,,,unknown,,,13,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
-cov429-R08,cov429,213,mass,PET,PET,mixed-muscle,,,unknown,,,43,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
-cov429-R09,cov429,104,mass,PMMA,PMMA,mixed-muscle,,,unknown,,,7,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
-cov429-R10,cov429,122,mass,PS,PS,mixed-muscle,,,unknown,,,26,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
-cov429-R11,cov429,20,mass,PU,PUR,mixed-muscle,,,unknown,,,16,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
-cov429-R12,cov429,274,mass,SBR,SBR,mixed-muscle,,,unknown,,,60,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
-cov693-R01,cov693,100.2,mass,PE,PE,pure-polymer,2000,2000,unknown,,,0.4,3,SEM,stability,none,acid_oxidation,filtration,gravimetry,True
-cov693-R02,cov693,99,mass,PP,PP,pure-polymer,2000,2000,unknown,,,0.5,3,SEM,stability,none,acid_oxidation,filtration,gravimetry,True
-cov693-R03,cov693,99.3,mass,PS,PS,pure-polymer,3500,3500,unknown,,,0.7,3,SEM,stability,none,acid_oxidation,filtration,gravimetry,True
-cov693-R04,cov693,96.8,mass,PET,PET,pure-polymer,3000,5000,unknown,,,2.8,,SEM,stability,none,acid_oxidation,filtration,gravimetry,True
-cov1082-R01,cov1082,90,count,PS,PS,ethanol-control,45,53,sphere,,"[30, 30]",,2,SD,partial,none,not_covered,filtration,counting,True
-cov1118-R01,cov1118,102.8,mass,PC,PC,human-feces,,,unknown,"[30, 50]",,10.6,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
-cov1118-R02,cov1118,97.7,mass,PE,PE,human-feces,,,unknown,"[50, 500]",,0.6,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
-cov1118-R03,cov1118,80.8,mass,PP,PP,human-feces,,,unknown,"[10, 200]",,22.2,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
-cov1118-R04,cov1118,76.5,mass,PS,PS,human-feces,,,unknown,"[3, 100]",,3.4,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
-cov1118-R05,cov1118,86.3,mass,PA6,PA6,human-feces,,,unknown,"[25, 300]",,2.9,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
-cov1118-R06,cov1118,99.7,mass,PET,PET,human-feces,,,unknown,"[30, 350]",,2.4,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
-cov1118-R07,cov1118,100.5,mass,PLA,PLA,human-feces,,,unknown,"[25, 250]",,9.4,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
-cov1118-R08,cov1118,113.5,mass,PVC,PVC,human-feces,,,unknown,"[20, 160]",,12.3,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
-cov1118-R09,cov1118,105.8,mass,PA66,PA66,human-feces,,,unknown,"[15, 350]",,6.3,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
-cov1118-R10,cov1118,106.6,mass,PBAT,PBAT,human-feces,,,unknown,"[4, 30]",,2.8,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
-cov1118-R11,cov1118,88.7,mass,PMMA,PMMA,human-feces,,,unknown,"[6, 200]",,5.2,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
-cov1133-R01,cov1133,100,count,PE,PE,mussel,1000,5000,unknown,,"[8, 8]",,3,SD,digestion_to_end,none,KOH_oxidation,filtration,counting,True
-cov1133-R02,cov1133,100,count,PP,PP,mussel,1000,5000,unknown,,"[8, 8]",,3,SD,digestion_to_end,none,KOH_oxidation,filtration,counting,True
-cov1133-R03,cov1133,100,count,PA,PA-unspecified,mussel,1000,5000,unknown,,"[8, 8]",,3,SD,digestion_to_end,none,KOH_oxidation,filtration,counting,True
-cov1133-R04,cov1133,100,count,PS,PS,mussel,1000,5000,unknown,,"[8, 8]",,3,SD,digestion_to_end,none,KOH_oxidation,filtration,counting,True
-cov1273-R01,cov1273,89,count,PE,PE,water-control,2,110,fragment,,"[25, 134]",12,4,SD,digestion_to_end,none,H2O2,filtration,raman,True
-cov1273-R02,cov1273,86,count,PE,PE,water-control,2,110,fragment,,"[25, 593]",12,5,SD,digestion_to_end,none,H2O2,filtration,fluorescence,True
-cov1376-R01,cov1376,95.56,count,PE,PE,water-control,100,500,unknown,,"[20, 20]",2.42,3,SE,digestion_to_end,none,KOH,filtration,counting,True
-cov1376-R02,cov1376,91.67,count,PE,PE,water-control,100,500,unknown,,"[20, 20]",1.67,3,SE,digestion_to_end,none,KOH,filtration,counting,True
-cov1376-R03,cov1376,93.33,count,PE,PE,water-control,100,500,unknown,,"[20, 20]",3.33,3,SE,digestion_to_end,none,KOH,filtration,counting,True
-cov1376-R04,cov1376,91.67,count,PP,PP,water-control,100,500,unknown,,"[20, 20]",3.33,3,SE,digestion_to_end,none,KOH,filtration,counting,True
-cov1376-R05,cov1376,98.33,count,PP,PP,water-control,100,500,unknown,,"[20, 20]",1.67,3,SE,digestion_to_end,none,KOH,filtration,counting,True
-cov1376-R06,cov1376,91.67,count,PP,PP,water-control,100,500,unknown,,"[20, 20]",1.67,3,SE,digestion_to_end,none,KOH,filtration,counting,True
-cov1484-R01,cov1484,92.6,mass,PA66,PA66,rat-feces,,,unknown,,,3.1,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
-cov1484-R02,cov1484,104.8,mass,PA66,PA66,rat-feces,,,unknown,,,5.7,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
-cov1484-R03,cov1484,89.7,mass,PA66,PA66,rat-feces,,,unknown,,,4.8,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
-cov1484-R04,cov1484,81.5,mass,PA66,PA66,rat-feces,,,unknown,,,6.7,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
-cov1484-R05,cov1484,86.1,mass,PA66,PA66,rat-feces,,,unknown,,,3.5,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
-cov1484-R06,cov1484,85.6,mass,PA66,PA66,rat-feces,,,unknown,,,7.2,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
-cov1484-R07,cov1484,103.5,mass,PA66,PA66,rat-serum,,,unknown,,,10.5,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
-cov1484-R08,cov1484,95.2,mass,PA66,PA66,rat-serum,,,unknown,,,2.6,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
-cov1484-R09,cov1484,96.8,mass,PA66,PA66,rat-serum,,,unknown,,,3.7,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
-cov1849-R01,cov1849,73,mass,PMMA,PMMA,human-blood,,,unknown,,,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
-cov1849-R02,cov1849,27,mass,PMMA,PMMA,human-blood,,,unknown,,,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
-cov1849-R03,cov1849,100,mass,PP,PP,human-blood,,,unknown,,,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
-cov1849-R04,cov1849,60,mass,PP,PP,human-blood,,,unknown,,,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
-cov1849-R05,cov1849,79,mass,PS,PS,human-blood,,,unknown,,,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
-cov1849-R06,cov1849,41,mass,PS,PS,human-blood,,,unknown,,,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
-cov1849-R07,cov1849,79,mass,PET,PET,human-blood,,,unknown,,,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
-cov1849-R08,cov1849,40,mass,PET,PET,human-blood,,,unknown,,,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
-cov1849-R09,cov1849,108,mass,PE,PE,human-blood,,,unknown,,,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
-cov1849-R10,cov1849,164,mass,PE,PE,human-blood,,,unknown,,,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
-cov1851-R01,cov1851,88,mass,PE,PE,marsupial-feces,500,500,unknown,"[2000, 2000]",,8,3,SD,digestion_to_end,none,enzyme_cleanup,solvent_extraction,pygcms,True
-cov1851-R02,cov1851,78,mass,PP,PP,marsupial-feces,20,120,unknown,"[2000, 2000]",,7,3,SD,digestion_to_end,none,none,solvent_extraction,pygcms,True
-cov1851-R03,cov1851,82,mass,PET,PET,marsupial-feces,,,unknown,"[2000, 2000]",,4,3,SD,digestion_to_end,none,none,solvent_extraction,pygcms,True
-cov1851-R04,cov1851,84,mass,PS,PS,marsupial-feces,,,unknown,"[2000, 2000]",,6,3,SD,digestion_to_end,none,none,solvent_extraction,pygcms,True
-cov1851-R05,cov1851,83,mass,PVC,PVC,marsupial-feces,,,unknown,"[2000, 2000]",,10,3,SD,digestion_to_end,none,none,solvent_extraction,pygcms,True
-cov1851-R06,cov1851,103,mass,PC,PC,marsupial-feces,,,unknown,"[2000, 2000]",,9,3,SD,digestion_to_end,none,none,solvent_extraction,pygcms,True
-cov2016-R01,cov2016,56.5,mass,PMMA,PMMA,tilapia-fillet,4,4,unknown,"[0.4, 4]",,,3,SD,physical_to_end,sonication,KOH_oxidation,solvent_filtration,pygcms,True
-cov2016-R02,cov2016,71.6,mass,PS,PS,tilapia-fillet,1,1,unknown,"[0.4, 4]",,,3,SD,physical_to_end,sonication,KOH_oxidation,solvent_filtration,pygcms,True
-cov2016-R03,cov2016,89,mass,PP,PP,tilapia-fillet,5,5,unknown,"[0.4, 4]",,,3,SD,physical_to_end,sonication,KOH_oxidation,solvent_filtration,pygcms,True
-cov2016-R04,cov2016,87.2,mass,PE,PE,tilapia-fillet,5,6,unknown,"[0.4, 4]",,,3,SD,physical_to_end,sonication,KOH_oxidation,solvent_filtration,pygcms,True
-cov2016-R05,cov2016,76.9,mass,PVC,PVC,tilapia-fillet,5,5.5,unknown,"[0.4, 4]",,,3,SD,physical_to_end,sonication,KOH_oxidation,solvent_filtration,pygcms,True
-cov2016-R06,cov2016,10.9,mass,PET,PET,tilapia-fillet,,,unknown,"[0.4, 4]",,,3,SD,physical_to_end,sonication,KOH_oxidation,solvent_filtration,pygcms,True
-cov2029-R01,cov2029,47,mass,PS,PS,rodent-spleen,0.05,0.05,unknown,"[70.2, 70.2]",,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
-cov2029-R02,cov2029,51.2,mass,PS,PS,rodent-spleen,0.5,0.5,unknown,"[54, 54]",,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
-cov2029-R03,cov2029,24.3,mass,PS,PS,rodent-kidney,0.05,0.05,unknown,"[70.2, 70.2]",,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
-cov2029-R04,cov2029,40.9,mass,PS,PS,rodent-kidney,0.5,0.5,unknown,"[54, 54]",,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
-cov2029-R05,cov2029,34.9,mass,PS,PS,rodent-intestine,0.05,0.05,unknown,"[70.2, 70.2]",,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
-cov2029-R06,cov2029,69.6,mass,PS,PS,rodent-intestine,0.5,0.5,unknown,"[54, 54]",,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
-cov2029-R07,cov2029,30.2,mass,PS,PS,rodent-liver,0.05,0.05,unknown,"[70.2, 70.2]",,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
-cov2029-R08,cov2029,55.1,mass,PS,PS,rodent-liver,0.5,0.5,unknown,"[54, 54]",,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
-cov2081-R01,cov2081,100,mass,PE,PE,pure-polymer,,,unknown,"[50000, 50000]",,,10,SD,stability,none,KOH,filtration,gravimetry,True
-cov2139-R01,cov2139,93.57,count,,unspecified,fish-larvae,38,38,sphere,,,3.09,3,SD,digestion_to_end,none,KOH,filtration,counting,True
-cov2139-R02,cov2139,92.17,count,,unspecified,chaetognath-euphausiid,38,38,sphere,,,7.13,3,SD,digestion_to_end,none,enzyme_KOH,filtration,counting,True
-cov2139-R03,cov2139,91.82,count,,unspecified,copepod,38,38,sphere,,,8.98,3,SD,digestion_to_end,none,enzyme_KOH,filtration,counting,True
-cov2162-R01,cov2162,80,count,,pooled,mussel,250,300,unknown,,,,,SD,digestion_to_end,none,KOH,filtration,fluorescence,True
-cov2166-R01,cov2166,96.8,count,PS,PS,mixed-invertebrate,6,6,sphere,,,0.5,,SD,digestion_to_end,none,alkali_oxidation_acid,filtration,counting,True
-cov2208-R01,cov2208,98.2,mass,PE-LD,PE-LD,reagent-control,,,unknown,"[2000, 2000]",,,,SD,stability,none,H2O2,filtration,gravimetry,True
-cov2208-R02,cov2208,96.9,mass,PET,PET,reagent-control,,,unknown,"[2000, 2000]",,,,SD,stability,none,H2O2,filtration,gravimetry,True
-cov2208-R03,cov2208,97.5,mass,PE,PE,reagent-control,,,unknown,"[2000, 2000]",,,,SD,stability,none,H2O2,filtration,gravimetry,True
-cov2208-R04,cov2208,102,mass,ACR,acrylic-unspecified,reagent-control,,,unknown,"[2000, 2000]",,,,SD,stability,none,H2O2,filtration,gravimetry,True
-cov2208-R05,cov2208,95.9,mass,PS,PS,reagent-control,,,unknown,"[2000, 2000]",,,,SD,stability,none,H2O2,filtration,gravimetry,True
-cov2208-R06,cov2208,89,mass,OTHER,lycra-unspecified,reagent-control,,,unknown,"[2000, 2000]",,,,SD,stability,none,H2O2,filtration,gravimetry,True
-cov2265-R01,cov2265,99,count,PE,PE,sediment,,,unknown,,,,,SD,digestion_to_end,none,unresolved,ZnCl2_filtration,counting,False
-cov2265-R02,cov2265,100,count,PP,PP,sediment,,,unknown,,,,,SD,digestion_to_end,none,unresolved,ZnCl2_filtration,counting,False
-cov2265-R03,cov2265,96,count,PS,PS,sediment,,,unknown,,,,,SD,digestion_to_end,none,unresolved,ZnCl2_filtration,counting,False
-cov2338-R01,cov2338,84.69,count,PS,PS,reagent-control,50,50,sphere,,"[255, 726]",12.38,3,SD,partial,none,acid_oxidation,filtration,counting,True
-cov2338-R02,cov2338,66.8,count,PS,PS,reagent-control,200,200,sphere,,"[34, 87]",15.26,3,SD,partial,none,acid_oxidation,filtration,counting,True
-cov2368-R01,cov2368,100,count,PE,PE,mussel,32,38,sphere,,"[25, 25]",0,5,SD,digestion_to_end,none,enzyme_oxidation,NaI_filtration,fluorescence,True
-cov2368-R02,cov2368,98.4,count,PE,PE,mussel,53,63,sphere,,"[25, 25]",2.2,5,SD,digestion_to_end,none,enzyme_oxidation,NaI_filtration,fluorescence,True
-cov2368-R03,cov2368,99.2,count,PE,PE,mussel,106,125,sphere,,"[25, 25]",1.8,5,SD,digestion_to_end,none,enzyme_oxidation,NaI_filtration,fluorescence,True
-cov2375-R01,cov2375,73,count,,unspecified,fish-batch-control,,,foam,,,,,SD,digestion_to_end,none,KOH,filtration,counting,True
-cov2375-R02,cov2375,90,count,,unspecified,fish-batch-control,,,film,,,,,SD,digestion_to_end,none,KOH,filtration,counting,True
-cov2375-R03,cov2375,97,count,,unspecified,fish-batch-control,,,fiber,,,,,SD,digestion_to_end,none,KOH,filtration,counting,True
-cov2375-R04,cov2375,87,count,,unspecified,dolphin-batch-control,,,foam,,,,,SD,digestion_to_end,none,KOH,filtration,counting,True
-cov2375-R05,cov2375,90,count,,unspecified,dolphin-batch-control,,,film,,,,,SD,digestion_to_end,none,KOH,filtration,counting,True
-cov2375-R06,cov2375,90,count,,unspecified,dolphin-batch-control,,,fiber,,,,,SD,digestion_to_end,none,KOH,filtration,counting,True
-cov2706-R01,cov2706,90,count,PE,PE,oyster,,,fragment,,,,,SD,digestion_to_end,none,enzyme_perchlorate,filtration,counting,True
-cov2706-R02,cov2706,85,count,PVC,PVC,oyster,,,fragment,,,,,SD,digestion_to_end,none,enzyme_perchlorate,filtration,counting,True
-cov2706-R03,cov2706,80,count,PET,PET,oyster,,,fragment,,,,,SD,digestion_to_end,none,enzyme_perchlorate,filtration,counting,True
-cov2706-R04,cov2706,100,count,PS,PS,oyster,,,fragment,,,,,SD,digestion_to_end,none,enzyme_perchlorate,filtration,counting,True
-cov2806-R01,cov2806,60,count,PE,PE,reagent-control,,,film,,,,,SD,digestion_to_end,none,KOH,filtration,counting,True
-cov2806-R02,cov2806,83,count,PS,PS,reagent-control,,,foam,,,,,SD,digestion_to_end,none,KOH,filtration,counting,True
-cov2806-R03,cov2806,85,count,PEST,polyester-unspecified,reagent-control,,,fiber,,,,,SD,digestion_to_end,none,KOH,filtration,counting,True
-cov2939-R01,cov2939,95,count,PS,PS,donax-clam,106,500,fragment,,"[20, 20]",,3,SD,digestion_to_end,none,KOH,NaCl_filtration,counting,True
-cov3867-R01,cov3867,79.4,mass,PS,PS,culture-medium,,,unknown,"[530, 530]",,7.5,3,SD,digestion_to_end,none,none,centrifugation,gravimetry,True
-cov4610-R01,cov4610,100,count,PA6,PA6,cod-fillet,500,500,fiber,,"[10, 10]",,3,SD,digestion_to_end,none,KOH,filtration,counting,True
-cov4610-R02,cov4610,100,count,PA6,PA6,saithe-gut,500,500,fiber,,"[10, 10]",,3,SD,digestion_to_end,none,KOH,filtration,counting,True
-cov4610-R03,cov4610,100,count,PA6,PA6,mussel,500,500,fiber,,"[10, 10]",,3,SD,digestion_to_end,none,KOH,filtration,counting,True
-cov4623-R01,cov4623,103.8,mass,PE,PE,mussel,30,80,unknown,"[200000, 200000]",,0.7,6,SD,stability,none,KOH,filtration,gravimetry,True
-cov4623-R02,cov4623,102,mass,PP,PP,mussel,30,80,unknown,"[200000, 200000]",,0.2,6,SD,stability,none,KOH,filtration,gravimetry,True
-cov4623-R03,cov4623,97.3,mass,PVC,PVC,mussel,30,80,unknown,"[200000, 200000]",,0.4,6,SD,stability,none,KOH,filtration,gravimetry,True
-cov4623-R04,cov4623,101.3,mass,PS,PS,mussel,30,80,unknown,"[200000, 200000]",,0.1,6,SD,stability,none,KOH,filtration,gravimetry,True
-cov4646-R01,cov4646,86.2,count,,pooled,oyster,,,unknown,,,7.9,4,SD,digestion_to_end,none,KOH_neutralized,filtration,counting,True
-cov4648-R01,cov4648,88,mass,PA6,PA6,rat-feces,5,50,unknown,,,14,3,SEM,digestion_to_end,none,acid_alkali_enzyme,filtration,pygcms,True
-cov4648-R02,cov4648,82,mass,PE,PE,rat-feces,40,48,unknown,,,28,3,SEM,digestion_to_end,none,acid_alkali_enzyme,filtration,pygcms,True
-cov4648-R03,cov4648,105,mass,PA6,PA6,rat-feed,5,50,unknown,,,31,3,SEM,digestion_to_end,none,acid_alkali_enzyme,filtration,pygcms,True
-cov4648-R04,cov4648,121,mass,PE,PE,rat-feed,40,48,unknown,,,66,3,SEM,digestion_to_end,none,acid_alkali_enzyme,filtration,pygcms,True
-cov4649-R01,cov4649,76.67,count,PP,PP,water-control,200,200,fiber,,"[30, 30]",14.533333333333335,3,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,counting,True
-cov4649-R02,cov4649,51.67,count,PP,PP,water-control,200,200,fiber,,"[60, 60]",7.633333333333334,3,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,counting,True
-cov4649-R03,cov4649,84.44,count,PVC,PVC,water-control,200,200,fragment,,"[30, 30]",16.76666666666667,3,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,counting,True
-cov4649-R04,cov4649,64.44,count,PVC,PVC,water-control,200,200,fragment,,"[60, 60]",5.1000000000000005,3,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,counting,True
-cov4652-R01,cov4652,92.8,count,PE,PE,icefish,63,90,unknown,,"[20, 20]",,9,SD,digestion_to_end,none,KOH,filtration,counting,True
-cov4647-R01,cov4647,8,count,,pooled,salmon,3,20,unknown,,,3,3,SE,physical_to_end,freeze_drying,KOH_detergent,filtration,counting,True
-cov4647-R02,cov4647,45,count,,pooled,salmon,20,212,unknown,,,11,6,SE,physical_to_end,freeze_drying,KOH_detergent,filtration,counting,True
-cov4647-R03,cov4647,75,count,,pooled,salmon,212,500,unknown,,,18,6,SE,physical_to_end,freeze_drying,KOH_detergent,filtration,counting,True
-cov4647-R04,cov4647,79,count,,pooled,salmon,500,2000,unknown,,,17,6,SE,physical_to_end,freeze_drying,KOH_detergent,filtration,counting,True
+point_id,study_id,value_pct,endpoint,polymer_code,matrix,size_lo_um,size_hi_um,shape,sd,n,variability_metric,scope,physical,removal,separation,analysis,assignment_known
+SID0003-R01,SID0003,93.9,mass,PA66,human-thrombus,,,unknown,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+SID0003-R02,SID0003,102.3,mass,PE,human-thrombus,,,unknown,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+SID0003-R03,SID0003,109.4,mass,PVC,human-thrombus,,,unknown,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+SID0003-R04,SID0003,82.9,mass,PS,human-thrombus,,,unknown,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+SID0003-R05,SID0003,107.8,mass,PET,human-thrombus,,,unknown,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+SID0003-R06,SID0003,80.8,mass,PMMA,human-thrombus,,,unknown,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+SID0003-R07,SID0003,91.5,mass,PC,human-thrombus,,,unknown,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+SID0003-R08,SID0003,91.1,mass,PA6,human-thrombus,,,unknown,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+SID0003-R09,SID0003,90.4,mass,PP,human-thrombus,,,unknown,,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+SID0014-R01,SID0014,77,count,,mixed-tissue-and-blank,100,300,unknown,,11,SD,digestion_to_end,none,trypsin,density_filtration,counting,True
+SID0014-R02,SID0014,85,count,,mixed-tissue-and-blank,300,500,unknown,,11,SD,digestion_to_end,none,trypsin,density_filtration,counting,True
+SID0014-R03,SID0014,92,count,,mixed-tissue-and-blank,500,1000,unknown,,11,SD,digestion_to_end,none,trypsin,density_filtration,counting,True
+SID0015-R01,SID0015,62,mass,PMMA,reagent-control,,,unknown,9,,SD,digestion_to_end,filter_grinding,KOH,filtration,pygcmsms,True
+SID0015-R02,SID0015,65,mass,PP,reagent-control,,,unknown,10,,SD,digestion_to_end,filter_grinding,KOH,filtration,pygcmsms,True
+SID0015-R03,SID0015,110,mass,PE,reagent-control,,,unknown,16,,SD,digestion_to_end,filter_grinding,KOH,filtration,pygcmsms,True
+SID0015-R04,SID0015,76,mass,PS,reagent-control,,,unknown,11,,SD,digestion_to_end,filter_grinding,KOH,filtration,pygcmsms,True
+SID0015-R05,SID0015,76,mass,PET,reagent-control,,,unknown,11,,SD,digestion_to_end,filter_grinding,KOH,filtration,pygcmsms,True
+SID0018-R01,SID0018,57,mass,PE,human-blood,,,unknown,,4,SD,physical_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+SID0018-R02,SID0018,81,mass,PP,human-blood,,,unknown,,4,SD,physical_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+SID0018-R03,SID0018,14,mass,PMMA,human-blood,,,unknown,,4,SD,physical_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+SID0018-R04,SID0018,7,mass,PC,human-blood,,,unknown,,4,SD,physical_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+SID0018-R05,SID0018,109,mass,PA6,human-blood,,,unknown,,4,SD,physical_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+SID0018-R06,SID0018,32,mass,PA66,human-blood,,,unknown,,4,SD,physical_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+SID0018-R07,SID0018,52,mass,PS,human-blood,0.75,0.75,sphere,,,SD,physical_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+SID0019-R01,SID0019,99,mass,PS,pure-polymer,,,unknown,1,5,SD,partial,none,not_covered,solvent_extraction,pygcms,True
+SID0019-R02,SID0019,94,mass,PP,pure-polymer,,,unknown,3,5,SD,partial,none,not_covered,solvent_extraction,pygcms,True
+SID0019-R03,SID0019,93,mass,PE,pure-polymer,,,unknown,4,5,SD,partial,none,not_covered,solvent_extraction,pygcms,True
+SID0019-R04,SID0019,93,mass,PVC,pure-polymer,,,unknown,1,5,SD,partial,none,not_covered,solvent_extraction,pygcms,True
+SID0019-R05,SID0019,94.7,mass,,sponge-digestate,50,250,unknown,5.4,6,SD,partial,none,not_covered,solvent_extraction,pygcms,True
+SID0019-R06,SID0019,94.1,mass,,sponge-digestate,,,unknown,9.5,6,SD,partial,none,not_covered,solvent_extraction,pygcms,True
+SID0022-R01,SID0022,107,mass,PMMA,reagent-control,,,unknown,,,SD,digestion_to_end,unreported,KOH,filtration,pygcms,False
+SID0022-R02,SID0022,82,mass,PP,reagent-control,,,unknown,,,SD,digestion_to_end,unreported,KOH,filtration,pygcms,False
+SID0022-R03,SID0022,111,mass,PE,reagent-control,,,unknown,,,SD,digestion_to_end,unreported,KOH,filtration,pygcms,False
+SID0022-R04,SID0022,129,mass,PET,reagent-control,,,unknown,,,SD,digestion_to_end,unreported,KOH,filtration,pygcms,False
+SID0022-R05,SID0022,122,mass,PS,reagent-control,,,unknown,,,SD,digestion_to_end,unreported,KOH,filtration,pygcms,False
+SID0022-R06,SID0022,116,mass,PC,reagent-control,,,unknown,,,SD,digestion_to_end,unreported,KOH,filtration,pygcms,False
+SID0026-R01,SID0026,54,count,PS,water-control,15,15,sphere,,2,SD,digestion_to_end,none,HNO3,filtration,counting,True
+SID0032-R01,SID0032,95,mass,PA66,mixed-muscle,,,unknown,17,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+SID0032-R02,SID0032,111,mass,PE,mixed-muscle,,,unknown,11,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+SID0032-R03,SID0032,102,mass,PP,mixed-muscle,,,unknown,5,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+SID0032-R04,SID0032,94,mass,PVC,mixed-muscle,,,unknown,7,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+SID0032-R05,SID0032,143,mass,ABS,mixed-muscle,,,unknown,8,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+SID0032-R06,SID0032,98,mass,PA6,mixed-muscle,,,unknown,8,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+SID0032-R07,SID0032,174,mass,PC,mixed-muscle,,,unknown,13,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+SID0032-R08,SID0032,213,mass,PET,mixed-muscle,,,unknown,43,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+SID0032-R09,SID0032,104,mass,PMMA,mixed-muscle,,,unknown,7,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+SID0032-R10,SID0032,122,mass,PS,mixed-muscle,,,unknown,26,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+SID0032-R11,SID0032,20,mass,PU,mixed-muscle,,,unknown,16,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+SID0032-R12,SID0032,274,mass,SBR,mixed-muscle,,,unknown,60,,SD,digestion_to_end,unreported,pancreatin,filtration,pygcms,True
+SID0051-R01,SID0051,100.2,mass,PE,pure-polymer,2000,2000,unknown,0.4,3,SEM,stability,none,acid_oxidation,filtration,gravimetry,True
+SID0051-R02,SID0051,99,mass,PP,pure-polymer,2000,2000,unknown,0.5,3,SEM,stability,none,acid_oxidation,filtration,gravimetry,True
+SID0051-R03,SID0051,99.3,mass,PS,pure-polymer,3500,3500,unknown,0.7,3,SEM,stability,none,acid_oxidation,filtration,gravimetry,True
+SID0051-R04,SID0051,96.8,mass,PET,pure-polymer,3000,5000,unknown,2.8,,SEM,stability,none,acid_oxidation,filtration,gravimetry,True
+SID0072-R01,SID0072,90,count,PS,ethanol-control,45,53,sphere,,2,SD,partial,none,not_covered,filtration,counting,True
+SID0074-R01,SID0074,102.8,mass,PC,human-feces,,,unknown,10.6,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+SID0074-R02,SID0074,97.7,mass,PE,human-feces,,,unknown,0.6,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+SID0074-R03,SID0074,80.8,mass,PP,human-feces,,,unknown,22.2,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+SID0074-R04,SID0074,76.5,mass,PS,human-feces,,,unknown,3.4,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+SID0074-R05,SID0074,86.3,mass,PA6,human-feces,,,unknown,2.9,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+SID0074-R06,SID0074,99.7,mass,PET,human-feces,,,unknown,2.4,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+SID0074-R07,SID0074,100.5,mass,PLA,human-feces,,,unknown,9.4,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+SID0074-R08,SID0074,113.5,mass,PVC,human-feces,,,unknown,12.3,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+SID0074-R09,SID0074,105.8,mass,PA66,human-feces,,,unknown,6.3,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+SID0074-R10,SID0074,106.6,mass,PBAT,human-feces,,,unknown,2.8,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+SID0074-R11,SID0074,88.7,mass,PMMA,human-feces,,,unknown,5.2,3,SD,digestion_to_end,unreported,HNO3,filtration,pygcms,True
+SID0077-R01,SID0077,100,count,PE,mussel,1000,5000,unknown,,3,SD,digestion_to_end,none,KOH_oxidation,filtration,counting,True
+SID0077-R02,SID0077,100,count,PP,mussel,1000,5000,unknown,,3,SD,digestion_to_end,none,KOH_oxidation,filtration,counting,True
+SID0077-R03,SID0077,100,count,PA,mussel,1000,5000,unknown,,3,SD,digestion_to_end,none,KOH_oxidation,filtration,counting,True
+SID0077-R04,SID0077,100,count,PS,mussel,1000,5000,unknown,,3,SD,digestion_to_end,none,KOH_oxidation,filtration,counting,True
+SID0085-R01,SID0085,89,count,PE,water-control,2,110,fragment,12,4,SD,digestion_to_end,none,H2O2,filtration,raman,True
+SID0085-R02,SID0085,86,count,PE,water-control,2,110,fragment,12,5,SD,digestion_to_end,none,H2O2,filtration,fluorescence,True
+SID0092-R01,SID0092,95.56,count,PE,water-control,100,500,unknown,2.42,3,SE,digestion_to_end,none,KOH,filtration,counting,True
+SID0092-R02,SID0092,91.67,count,PE,water-control,100,500,unknown,1.67,3,SE,digestion_to_end,none,KOH,filtration,counting,True
+SID0092-R03,SID0092,93.33,count,PE,water-control,100,500,unknown,3.33,3,SE,digestion_to_end,none,KOH,filtration,counting,True
+SID0092-R04,SID0092,91.67,count,PP,water-control,100,500,unknown,3.33,3,SE,digestion_to_end,none,KOH,filtration,counting,True
+SID0092-R05,SID0092,98.33,count,PP,water-control,100,500,unknown,1.67,3,SE,digestion_to_end,none,KOH,filtration,counting,True
+SID0092-R06,SID0092,91.67,count,PP,water-control,100,500,unknown,1.67,3,SE,digestion_to_end,none,KOH,filtration,counting,True
+SID0112-R01,SID0112,73,mass,PMMA,human-blood,,,unknown,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+SID0112-R02,SID0112,27,mass,PMMA,human-blood,,,unknown,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+SID0112-R03,SID0112,100,mass,PP,human-blood,,,unknown,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+SID0112-R04,SID0112,60,mass,PP,human-blood,,,unknown,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+SID0112-R05,SID0112,79,mass,PS,human-blood,,,unknown,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+SID0112-R06,SID0112,41,mass,PS,human-blood,,,unknown,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+SID0112-R07,SID0112,79,mass,PET,human-blood,,,unknown,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+SID0112-R08,SID0112,40,mass,PET,human-blood,,,unknown,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+SID0112-R09,SID0112,108,mass,PE,human-blood,,,unknown,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+SID0112-R10,SID0112,164,mass,PE,human-blood,,,unknown,,8,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,pygcms,True
+SID0113-R01,SID0113,88,mass,PE,marsupial-feces,500,500,unknown,8,3,SD,digestion_to_end,none,enzyme_cleanup,solvent_extraction,pygcms,True
+SID0113-R02,SID0113,78,mass,PP,marsupial-feces,20,120,unknown,7,3,SD,digestion_to_end,none,none,solvent_extraction,pygcms,True
+SID0113-R03,SID0113,82,mass,PET,marsupial-feces,,,unknown,4,3,SD,digestion_to_end,none,none,solvent_extraction,pygcms,True
+SID0113-R04,SID0113,84,mass,PS,marsupial-feces,,,unknown,6,3,SD,digestion_to_end,none,none,solvent_extraction,pygcms,True
+SID0113-R05,SID0113,83,mass,PVC,marsupial-feces,,,unknown,10,3,SD,digestion_to_end,none,none,solvent_extraction,pygcms,True
+SID0113-R06,SID0113,103,mass,PC,marsupial-feces,,,unknown,9,3,SD,digestion_to_end,none,none,solvent_extraction,pygcms,True
+SID0116-R01,SID0116,56.5,mass,PMMA,tilapia-fillet,4,4,unknown,,3,SD,physical_to_end,sonication,KOH_oxidation,solvent_filtration,pygcms,True
+SID0116-R02,SID0116,71.6,mass,PS,tilapia-fillet,1,1,unknown,,3,SD,physical_to_end,sonication,KOH_oxidation,solvent_filtration,pygcms,True
+SID0116-R03,SID0116,89,mass,PP,tilapia-fillet,5,5,unknown,,3,SD,physical_to_end,sonication,KOH_oxidation,solvent_filtration,pygcms,True
+SID0116-R04,SID0116,87.2,mass,PE,tilapia-fillet,5,6,unknown,,3,SD,physical_to_end,sonication,KOH_oxidation,solvent_filtration,pygcms,True
+SID0116-R05,SID0116,76.9,mass,PVC,tilapia-fillet,5,5.5,unknown,,3,SD,physical_to_end,sonication,KOH_oxidation,solvent_filtration,pygcms,True
+SID0116-R06,SID0116,10.9,mass,PET,tilapia-fillet,,,unknown,,3,SD,physical_to_end,sonication,KOH_oxidation,solvent_filtration,pygcms,True
+SID0118-R01,SID0118,47,mass,PS,rodent-spleen,0.05,0.05,unknown,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
+SID0118-R02,SID0118,51.2,mass,PS,rodent-spleen,0.5,0.5,unknown,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
+SID0118-R03,SID0118,24.3,mass,PS,rodent-kidney,0.05,0.05,unknown,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
+SID0118-R04,SID0118,40.9,mass,PS,rodent-kidney,0.5,0.5,unknown,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
+SID0118-R05,SID0118,34.9,mass,PS,rodent-intestine,0.05,0.05,unknown,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
+SID0118-R06,SID0118,69.6,mass,PS,rodent-intestine,0.5,0.5,unknown,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
+SID0118-R07,SID0118,30.2,mass,PS,rodent-liver,0.05,0.05,unknown,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
+SID0118-R08,SID0118,55.1,mass,PS,rodent-liver,0.5,0.5,unknown,,,SD,digestion_to_end,unreported,unresolved,concentration,pygcms,False
+SID0121-R01,SID0121,100,mass,PE,pure-polymer,,,unknown,,10,SD,stability,none,KOH,filtration,gravimetry,True
+SID0124-R01,SID0124,93.57,count,,fish-larvae,38,38,sphere,3.09,3,SD,digestion_to_end,none,KOH,filtration,counting,True
+SID0124-R02,SID0124,92.17,count,,chaetognath-euphausiid,38,38,sphere,7.13,3,SD,digestion_to_end,none,enzyme_KOH,filtration,counting,True
+SID0124-R03,SID0124,91.82,count,,copepod,38,38,sphere,8.98,3,SD,digestion_to_end,none,enzyme_KOH,filtration,counting,True
+SID0126-R01,SID0126,80,count,,mussel,250,300,unknown,,,SD,digestion_to_end,none,KOH,filtration,fluorescence,True
+SID0127-R01,SID0127,96.8,count,PS,mixed-invertebrate,6,6,sphere,0.5,,SD,digestion_to_end,none,alkali_oxidation_acid,filtration,counting,True
+SID0132-R01,SID0132,98.2,mass,PE-LD,reagent-control,,,unknown,,,SD,stability,none,H2O2,filtration,gravimetry,True
+SID0132-R02,SID0132,96.9,mass,PET,reagent-control,,,unknown,,,SD,stability,none,H2O2,filtration,gravimetry,True
+SID0132-R03,SID0132,97.5,mass,PE,reagent-control,,,unknown,,,SD,stability,none,H2O2,filtration,gravimetry,True
+SID0132-R04,SID0132,102,mass,ACR,reagent-control,,,unknown,,,SD,stability,none,H2O2,filtration,gravimetry,True
+SID0132-R05,SID0132,95.9,mass,PS,reagent-control,,,unknown,,,SD,stability,none,H2O2,filtration,gravimetry,True
+SID0132-R06,SID0132,89,mass,OTHER,reagent-control,,,unknown,,,SD,stability,none,H2O2,filtration,gravimetry,True
+SID0136-R01,SID0136,99,count,PE,sediment,,,unknown,,,SD,digestion_to_end,none,unresolved,ZnCl2_filtration,counting,False
+SID0136-R02,SID0136,100,count,PP,sediment,,,unknown,,,SD,digestion_to_end,none,unresolved,ZnCl2_filtration,counting,False
+SID0136-R03,SID0136,96,count,PS,sediment,,,unknown,,,SD,digestion_to_end,none,unresolved,ZnCl2_filtration,counting,False
+SID0143-R01,SID0143,84.69,count,PS,reagent-control,50,50,sphere,12.38,3,SD,partial,none,acid_oxidation,filtration,counting,True
+SID0143-R02,SID0143,66.8,count,PS,reagent-control,200,200,sphere,15.26,3,SD,partial,none,acid_oxidation,filtration,counting,True
+SID0148-R01,SID0148,100,count,PE,mussel,32,38,sphere,0,5,SD,digestion_to_end,none,enzyme_oxidation,NaI_filtration,fluorescence,True
+SID0148-R02,SID0148,98.4,count,PE,mussel,53,63,sphere,2.2,5,SD,digestion_to_end,none,enzyme_oxidation,NaI_filtration,fluorescence,True
+SID0148-R03,SID0148,99.2,count,PE,mussel,106,125,sphere,1.8,5,SD,digestion_to_end,none,enzyme_oxidation,NaI_filtration,fluorescence,True
+SID0149-R01,SID0149,73,count,,fish-batch-control,,,foam,,,SD,digestion_to_end,none,KOH,filtration,counting,True
+SID0149-R02,SID0149,90,count,,fish-batch-control,,,film,,,SD,digestion_to_end,none,KOH,filtration,counting,True
+SID0149-R03,SID0149,97,count,,fish-batch-control,,,fiber,,,SD,digestion_to_end,none,KOH,filtration,counting,True
+SID0149-R04,SID0149,87,count,,dolphin-batch-control,,,foam,,,SD,digestion_to_end,none,KOH,filtration,counting,True
+SID0149-R05,SID0149,90,count,,dolphin-batch-control,,,film,,,SD,digestion_to_end,none,KOH,filtration,counting,True
+SID0149-R06,SID0149,90,count,,dolphin-batch-control,,,fiber,,,SD,digestion_to_end,none,KOH,filtration,counting,True
+SID0171-R01,SID0171,90,count,PE,oyster,,,fragment,,,SD,digestion_to_end,none,enzyme_perchlorate,filtration,counting,True
+SID0171-R02,SID0171,85,count,PVC,oyster,,,fragment,,,SD,digestion_to_end,none,enzyme_perchlorate,filtration,counting,True
+SID0171-R03,SID0171,80,count,PET,oyster,,,fragment,,,SD,digestion_to_end,none,enzyme_perchlorate,filtration,counting,True
+SID0171-R04,SID0171,100,count,PS,oyster,,,fragment,,,SD,digestion_to_end,none,enzyme_perchlorate,filtration,counting,True
+SID0176-R01,SID0176,60,count,PE,reagent-control,,,film,,,SD,digestion_to_end,none,KOH,filtration,counting,True
+SID0176-R02,SID0176,83,count,PS,reagent-control,,,foam,,,SD,digestion_to_end,none,KOH,filtration,counting,True
+SID0176-R03,SID0176,85,count,PEST,reagent-control,,,fiber,,,SD,digestion_to_end,none,KOH,filtration,counting,True
+SID0183-R01,SID0183,95,count,PS,donax-clam,106,500,fragment,,3,SD,digestion_to_end,none,KOH,NaCl_filtration,counting,True
+SID0209-R01,SID0209,79.4,mass,PS,culture-medium,,,unknown,7.5,3,SD,digestion_to_end,none,none,centrifugation,gravimetry,True
+SID0234-R01,SID0234,103.8,mass,PE,mussel,30,80,unknown,0.7,6,SD,stability,none,KOH,filtration,gravimetry,True
+SID0234-R02,SID0234,102,mass,PP,mussel,30,80,unknown,0.2,6,SD,stability,none,KOH,filtration,gravimetry,True
+SID0234-R03,SID0234,97.3,mass,PVC,mussel,30,80,unknown,0.4,6,SD,stability,none,KOH,filtration,gravimetry,True
+SID0234-R04,SID0234,101.3,mass,PS,mussel,30,80,unknown,0.1,6,SD,stability,none,KOH,filtration,gravimetry,True
+SID0247-R01,SID0247,86.2,count,,oyster,,,unknown,7.9,4,SD,digestion_to_end,none,KOH_neutralized,filtration,counting,True
+SID0248-R01,SID0248,88,mass,PA6,rat-feces,5,50,unknown,14,3,SEM,digestion_to_end,none,acid_alkali_enzyme,filtration,pygcms,True
+SID0248-R02,SID0248,82,mass,PE,rat-feces,40,48,unknown,28,3,SEM,digestion_to_end,none,acid_alkali_enzyme,filtration,pygcms,True
+SID0248-R03,SID0248,105,mass,PA6,rat-feed,5,50,unknown,31,3,SEM,digestion_to_end,none,acid_alkali_enzyme,filtration,pygcms,True
+SID0248-R04,SID0248,121,mass,PE,rat-feed,40,48,unknown,66,3,SEM,digestion_to_end,none,acid_alkali_enzyme,filtration,pygcms,True
+SID0249-R01,SID0249,76.67,count,PP,water-control,200,200,fiber,14.533333333333335,3,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,counting,True
+SID0249-R02,SID0249,51.67,count,PP,water-control,200,200,fiber,7.633333333333334,3,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,counting,True
+SID0249-R03,SID0249,84.44,count,PVC,water-control,200,200,fragment,16.76666666666667,3,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,counting,True
+SID0249-R04,SID0249,64.44,count,PVC,water-control,200,200,fragment,5.1000000000000005,3,SD,digestion_to_end,thermal_denaturation,enzyme_oxidation,filtration,counting,True
+SID0251-R01,SID0251,92.8,count,PE,icefish,63,90,unknown,,9,SD,digestion_to_end,none,KOH,filtration,counting,True
+SID0259-RP01,SID0259,90.0,mass,PS,blood,,,,11.0,6.0,SE,digestion_to_end,,ALKALI,,pygcms,
+SID0259-RP02,SID0259,93.0,mass,PE,blood,,,,16.0,6.0,SE,digestion_to_end,,ALKALI,,pygcms,
+SID0259-RP03,SID0259,53.0,mass,PP,blood,,,,18.0,6.0,SE,digestion_to_end,,ALKALI,,pygcms,
+SID0259-RP04,SID0259,82.0,mass,PS,blood,,,,3.0,6.0,SE,digestion_to_end,,ALKALI,,pygcms,
+SID0259-RP05,SID0259,56.0,mass,PE,blood,,,,14.0,6.0,SE,digestion_to_end,,ALKALI,,pygcms,
+SID0259-RP06,SID0259,58.0,mass,PP,blood,,,,24.0,6.0,SE,digestion_to_end,,ALKALI,,pygcms,
+SID0259-RP07,SID0259,78.0,mass,PS,control (water or reagent),,,,16.0,4.0,SE,digestion_to_end,,ALKALI,,pygcms,
+SID0259-RP08,SID0259,60.0,mass,PE,control (water or reagent),,,,12.0,4.0,SE,digestion_to_end,,ALKALI,,pygcms,
+SID0259-RP09,SID0259,62.0,mass,PP,control (water or reagent),,,,16.0,4.0,SE,digestion_to_end,,ALKALI,,pygcms,
+SID0259-RP10,SID0259,9.0,mass,PMMA,blood,,,,,,NR,digestion_to_end,,ALKALI,,pygcms,
+SID0259-RP11,SID0259,15.0,mass,PET,blood,,,,,,NR,digestion_to_end,,ALKALI,,pygcms,
+SID0259-RP12,SID0259,9.0,mass,PMMA,control (water or reagent),,,,,,NR,digestion_to_end,,ALKALI,,pygcms,
+SID0259-RP13,SID0259,4.0,mass,PET,control (water or reagent),,,,,,NR,digestion_to_end,,ALKALI,,pygcms,
+SID0261-RP01,SID0261,13.5,mass,PP,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP02,SID0261,34.2,mass,PP,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP03,SID0261,82.3,mass,PVC,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP04,SID0261,96.9,mass,PVC,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP05,SID0261,14.0,mass,PMMA,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP06,SID0261,38.2,mass,PMMA,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP07,SID0261,50.6,mass,PC,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP08,SID0261,139.0,mass,PC,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP09,SID0261,25.8,mass,PET,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP10,SID0261,73.4,mass,PET,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP11,SID0261,30.8,mass,PS,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP12,SID0261,96.8,mass,PS,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP13,SID0261,43.1,mass,PE,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP14,SID0261,78.3,mass,PE,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP15,SID0261,41.9,mass,PP,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP16,SID0261,107.0,mass,PP,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP17,SID0261,73.3,mass,PVC,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP18,SID0261,125.0,mass,PVC,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP19,SID0261,34.3,mass,PMMA,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP20,SID0261,85.5,mass,PMMA,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP21,SID0261,54.2,mass,PC,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP22,SID0261,121.0,mass,PC,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP23,SID0261,59.5,mass,PET,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP24,SID0261,68.5,mass,PET,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP25,SID0261,59.5,mass,PS,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP26,SID0261,121.0,mass,PS,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP27,SID0261,38.1,mass,PE,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0261-RP28,SID0261,52.5,mass,PE,blood;body fluid,,,,,4.0,range,digestion_to_end,,ACID+ENZYME+OXIDATION,,pygcms,
+SID0263-RP01,SID0263,83.92,mass,PMMA,feces,,,,11.03,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP02,SID0263,88.93,mass,PMMA,feces,,,,5.26,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP03,SID0263,114.27,mass,PMMA,feces,,,,9.49,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP04,SID0263,79.21,mass,PP,feces,,,,9.52,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP05,SID0263,87.0,mass,PP,feces,,,,10.87,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP06,SID0263,88.79,mass,PP,feces,,,,3.94,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP07,SID0263,95.72,mass,PE,feces,,,,10.29,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP08,SID0263,100.7,mass,PE,feces,,,,14.55,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP09,SID0263,97.81,mass,PE,feces,,,,10.25,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP10,SID0263,95.15,mass,PVC,feces,,,,15.37,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP11,SID0263,106.1,mass,PVC,feces,,,,16.47,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP12,SID0263,91.31,mass,PVC,feces,,,,5.48,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP13,SID0263,28.54,mass,PET,feces,,,,7.15,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP14,SID0263,31.77,mass,PET,feces,,,,6.27,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP15,SID0263,32.06,mass,PET,feces,,,,5.23,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP16,SID0263,65.24,mass,PC,feces,,,,5.89,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP17,SID0263,78.4,mass,PC,feces,,,,5.45,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP18,SID0263,77.58,mass,PC,feces,,,,2.61,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP19,SID0263,100.22,mass,ABS,feces,,,,12.59,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP20,SID0263,104.71,mass,ABS,feces,,,,14.68,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP21,SID0263,107.03,mass,ABS,feces,,,,10.19,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP22,SID0263,79.53,mass,PS,feces,,,,8.79,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP23,SID0263,102.29,mass,PS,feces,,,,11.88,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP24,SID0263,109.7,mass,PS,feces,,,,14.85,6.0,RSD,digestion_to_end,,ACID,,pygcms,
+SID0263-RP25,SID0263,4.24,mass,PMMA,feces,,,,0.58,,RSD,partial,,ACID,,pygcms,
+SID0263-RP26,SID0263,0.94,mass,PC,feces,,,,5.04,,RSD,partial,,ACID,,pygcms,
+SID0263-RP27,SID0263,6.54,mass,PVC,feces,,,,5.17,,RSD,partial,,ACID,,pygcms,
+SID0263-RP28,SID0263,0.3,mass,PET,feces,,,,5.8,,RSD,partial,,ACID,,pygcms,
+SID0263-RP29,SID0263,7.0,mass,PE,feces,,,,0.45,,RSD,partial,,ACID,,pygcms,
+SID0263-RP30,SID0263,0.41,mass,ABS,feces,,,,0.28,,RSD,partial,,ACID,,pygcms,
+SID0263-RP31,SID0263,2.79,mass,PS,feces,,,,1.97,,RSD,partial,,ACID,,pygcms,
+SID0263-RP32,SID0263,4.08,mass,PP,feces,,,,4.77,,RSD,partial,,ACID,,pygcms,
+SID0263-RP33,SID0263,23.28,mass,PMMA,feces,,,,6.37,,RSD,partial,,ACID,,pygcms,
+SID0263-RP34,SID0263,7.78,mass,PC,feces,,,,8.01,,RSD,partial,,ACID,,pygcms,
+SID0263-RP35,SID0263,13.37,mass,PVC,feces,,,,12.88,,RSD,partial,,ACID,,pygcms,
+SID0263-RP36,SID0263,0.025,mass,PET,feces,,,,0.036,,RSD,partial,,ACID,,pygcms,
+SID0263-RP37,SID0263,17.45,mass,PE,feces,,,,9.55,,RSD,partial,,ACID,,pygcms,
+SID0263-RP38,SID0263,20.56,mass,ABS,feces,,,,13.32,,RSD,partial,,ACID,,pygcms,
+SID0263-RP39,SID0263,28.51,mass,PS,feces,,,,17.42,,RSD,partial,,ACID,,pygcms,
+SID0263-RP40,SID0263,5.36,mass,PP,feces,,,,2.92,,RSD,partial,,ACID,,pygcms,
+SID0263-RP41,SID0263,45.96,mass,PMMA,feces,,,,28.76,,RSD,partial,,ACID,,pygcms,
+SID0263-RP42,SID0263,68.51,mass,PC,feces,,,,23.21,,RSD,partial,,ACID,,pygcms,
+SID0263-RP43,SID0263,73.01,mass,PVC,feces,,,,34.87,,RSD,partial,,ACID,,pygcms,
+SID0263-RP44,SID0263,18.37,mass,PET,feces,,,,16.06,,RSD,partial,,ACID,,pygcms,
+SID0263-RP45,SID0263,78.41,mass,PE,feces,,,,31.49,,RSD,partial,,ACID,,pygcms,
+SID0263-RP46,SID0263,19.44,mass,ABS,feces,,,,27.41,,RSD,partial,,ACID,,pygcms,
+SID0263-RP47,SID0263,64.34,mass,PS,feces,,,,29.16,,RSD,partial,,ACID,,pygcms,
+SID0263-RP48,SID0263,47.89,mass,PP,feces,,,,34.21,,RSD,partial,,ACID,,pygcms,
+SID0265-RP01,SID0265,71.1,count,PE,feces;gi tract,53.0,63.0,sphere,,3.0,RSD,digestion_to_end,,ACID+ALKALI+ENZYME+OXIDATION,,counting,
+SID0265-RP02,SID0265,93.7,count,PE,feces;gi tract,425.0,500.0,sphere,,3.0,RSD,digestion_to_end,,ACID+ALKALI+ENZYME+OXIDATION,,counting,
+SID0265-RP03,SID0265,61.3,count,PE,feces;gi tract,53.0,63.0,sphere,,3.0,RSD,digestion_to_end,,ACID+ALKALI+ENZYME+OXIDATION,,counting,
+SID0265-RP04,SID0265,83.5,count,PE,feces;gi tract,425.0,500.0,sphere,,3.0,RSD,digestion_to_end,,ACID+ALKALI+ENZYME+OXIDATION,,counting,
+SID0269-RP01,SID0269,98.48,mass,PS,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP02,SID0269,107.83,mass,PE,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP03,SID0269,103.11,mass,PP,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP04,SID0269,80.29,mass,PMMA,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP05,SID0269,100.12,mass,PVC,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP06,SID0269,96.68,mass,PC,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP07,SID0269,83.54,mass,PET,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP08,SID0269,95.6,mass,PA6,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP09,SID0269,106.62,mass,PA66,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP10,SID0269,98.74,mass,PLA,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP11,SID0269,91.41,mass,PBAT,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP12,SID0269,96.55,mass,PS,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP13,SID0269,94.31,mass,PE,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP14,SID0269,99.7,mass,PP,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP15,SID0269,99.49,mass,PMMA,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP16,SID0269,95.4,mass,PVC,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP17,SID0269,101.89,mass,PC,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP18,SID0269,97.35,mass,PET,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP19,SID0269,109.26,mass,PA6,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP20,SID0269,85.33,mass,PA66,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP21,SID0269,104.57,mass,PLA,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP22,SID0269,113.87,mass,PBAT,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP23,SID0269,97.39,mass,PS,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP24,SID0269,87.64,mass,PE,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP25,SID0269,107.09,mass,PP,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP26,SID0269,107.23,mass,PMMA,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP27,SID0269,104.29,mass,PVC,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP28,SID0269,105.99,mass,PC,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP29,SID0269,11.33,mass,PET,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP30,SID0269,101.11,mass,PA6,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP31,SID0269,83.6,mass,PA66,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP32,SID0269,99.42,mass,PLA,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0269-RP33,SID0269,112.15,mass,PBAT,blood;body fluid;organ,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0274-RP01,SID0274,117.64,mass,PET,control (water or reagent),,,,6.64,3.0,SD,partial,,ACID+ENZYME,,pygcms,
+SID0274-RP02,SID0274,85.95,mass,PET,control (water or reagent),,,,13.43,3.0,SD,partial,,ACID+ENZYME,,pygcms,
+SID0274-RP03,SID0274,59.84,mass,PP,control (water or reagent),,,,3.09,3.0,SD,partial,,ACID+ENZYME,,pygcms,
+SID0274-RP04,SID0274,56.73,mass,PP,control (water or reagent),,,,17.64,3.0,SD,partial,,ACID+ENZYME,,pygcms,
+SID0274-RP05,SID0274,96.16,mass,PE-LD,control (water or reagent),,,,11.38,3.0,SD,partial,,ACID+ENZYME,,pygcms,
+SID0274-RP06,SID0274,78.81,mass,PE-LD,control (water or reagent),,,,0.68,3.0,SD,partial,,ACID+ENZYME,,pygcms,
+SID0274-RP07,SID0274,63.24,mass,PS,control (water or reagent),,,,9.91,3.0,SD,partial,,ACID+ENZYME,,pygcms,
+SID0274-RP08,SID0274,69.51,mass,PS,control (water or reagent),,,,7.89,3.0,SD,partial,,ACID+ENZYME,,pygcms,
+SID0276-RP01,SID0276,76.5,mass,PS,body fluid,,,,,3.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0276-RP02,SID0276,97.7,mass,PE,body fluid,,,,,3.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0276-RP03,SID0276,80.8,mass,PP,body fluid,,,,,3.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0276-RP04,SID0276,88.7,mass,PMMA,body fluid,,,,,3.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0276-RP05,SID0276,113.5,mass,PVC,body fluid,,,,,3.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0276-RP06,SID0276,102.8,mass,PC,body fluid,,,,,3.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0276-RP07,SID0276,99.7,mass,PET,body fluid,,,,,3.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0276-RP08,SID0276,86.3,mass,PA6,body fluid,,,,,3.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0276-RP09,SID0276,105.8,mass,PA66,body fluid,,,,,3.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0276-RP10,SID0276,100.5,mass,PLA,body fluid,,,,,3.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0276-RP11,SID0276,106.6,mass,PBAT,body fluid,,,,,3.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0280-RP01,SID0280,100.0,count,PET,milk,800.0,1300.0,,,3.0,NR,digestion_to_end,,ENZYME+OXIDATION,,counting,
+SID0280-RP02,SID0280,100.0,count,PA66,milk,800.0,1300.0,,,3.0,NR,digestion_to_end,,ENZYME+OXIDATION,,counting,
+SID0280-RP03,SID0280,88.9,count,PP,milk,800.0,1300.0,,,2.0,NR,digestion_to_end,,ENZYME+OXIDATION,,counting,
+SID0281-RP01,SID0281,60.93,mass,PP,feces,,,,8.6,3.0,RSD,digestion_to_end,,ACID+OXIDATION,,unresolved,
+SID0281-RP02,SID0281,65.75,mass,PE,feces,,,,7.8,3.0,RSD,digestion_to_end,,ACID+OXIDATION,,unresolved,
+SID0281-RP03,SID0281,59.2,mass,PP,feces,,,,10.2,3.0,RSD,digestion_to_end,,ACID+OXIDATION,,unresolved,
+SID0281-RP04,SID0281,54.68,mass,PE,feces,,,,24.7,3.0,RSD,digestion_to_end,,ACID+OXIDATION,,unresolved,
+SID0281-RP05,SID0281,61.1,mass,PP,feces,,,,20.1,3.0,RSD,digestion_to_end,,ACID+OXIDATION,,unresolved,
+SID0281-RP06,SID0281,55.34,mass,PE,feces,,,,10.1,3.0,RSD,digestion_to_end,,ACID+OXIDATION,,unresolved,
+SID0282-RP01,SID0282,97.76,mass,PE,control (water or reagent),,,,,,NR,digestion_to_end,,ACID+ENZYME,,pygcms,
+SID0282-RP02,SID0282,95.81,mass,PP,control (water or reagent),,,,,,NR,digestion_to_end,,ACID+ENZYME,,pygcms,
+SID0282-RP03,SID0282,93.24,mass,PMMA,control (water or reagent),,,,,,NR,digestion_to_end,,ACID+ENZYME,,pygcms,
+SID0282-RP04,SID0282,99.61,mass,PVC,control (water or reagent),,,,,,NR,digestion_to_end,,ACID+ENZYME,,pygcms,
+SID0282-RP05,SID0282,95.73,mass,PA66,control (water or reagent),,,,,,NR,digestion_to_end,,ACID+ENZYME,,pygcms,
+SID0284-RP01,SID0284,104.72,mass,PS,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0284-RP02,SID0284,98.57,mass,PS,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0284-RP03,SID0284,93.86,mass,PE,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0284-RP04,SID0284,92.36,mass,PE,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0284-RP05,SID0284,95.04,mass,PP,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0284-RP06,SID0284,90.71,mass,PP,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0284-RP07,SID0284,95.69,mass,PMMA,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0284-RP08,SID0284,89.56,mass,PMMA,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0284-RP09,SID0284,91.64,mass,PVC,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0284-RP10,SID0284,109.85,mass,PVC,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0284-RP11,SID0284,90.14,mass,PC,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0284-RP12,SID0284,87.32,mass,PC,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0284-RP13,SID0284,86.69,mass,PET,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0284-RP14,SID0284,92.11,mass,PET,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0284-RP15,SID0284,94.28,mass,PA6,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0284-RP16,SID0284,93.66,mass,PA6,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0284-RP17,SID0284,84.92,mass,PA66,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0284-RP18,SID0284,101.25,mass,PA66,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0284-RP19,SID0284,88.25,mass,PLA,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0284-RP20,SID0284,90.95,mass,PLA,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0284-RP21,SID0284,92.71,mass,PBAT,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0284-RP22,SID0284,89.73,mass,PBAT,blood,,,,,1.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0285-RP01,SID0285,92.67,mass,PS,blood,,,,,,,partial,,ACID+ALKALI,,pygcms,
+SID0285-RP02,SID0285,95.81,mass,PE,blood,,,,,,,partial,,ACID+ALKALI,,pygcms,
+SID0285-RP03,SID0285,100.92,mass,PP,blood,,,,,,,partial,,ACID+ALKALI,,pygcms,
+SID0285-RP04,SID0285,98.73,mass,PMMA,blood,,,,,,,partial,,ACID+ALKALI,,pygcms,
+SID0285-RP05,SID0285,98.54,mass,PVC,blood,,,,,,,partial,,ACID+ALKALI,,pygcms,
+SID0285-RP06,SID0285,94.91,mass,PC,blood,,,,,,,partial,,ACID+ALKALI,,pygcms,
+SID0285-RP07,SID0285,97.33,mass,PET,blood,,,,,,,partial,,ACID+ALKALI,,pygcms,
+SID0285-RP08,SID0285,106.1,mass,PA6,blood,,,,,,,partial,,ACID+ALKALI,,pygcms,
+SID0285-RP09,SID0285,109.82,mass,PA66,blood,,,,,,,partial,,ACID+ALKALI,,pygcms,
+SID0288-RP01,SID0288,107.16,mass,PS,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0288-RP02,SID0288,96.69,mass,PE,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0288-RP03,SID0288,102.21,mass,PP,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0288-RP04,SID0288,86.59,mass,PMMA,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0288-RP05,SID0288,103.68,mass,PVC,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0288-RP06,SID0288,92.94,mass,PC,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0288-RP07,SID0288,91.46,mass,PET,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0288-RP08,SID0288,86.89,mass,PA6,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0288-RP09,SID0288,89.52,mass,PA66,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0288-RP10,SID0288,87.33,mass,PLA,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0288-RP11,SID0288,82.24,mass,PBAT,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0291-RP01,SID0291,105.02,mass,PS,organ,,,,,,NR,digestion_to_end,,unresolved,,pygcms,
+SID0291-RP02,SID0291,96.66,mass,PE,organ,,,,,,NR,digestion_to_end,,unresolved,,pygcms,
+SID0291-RP03,SID0291,103.05,mass,PP,organ,,,,,,NR,digestion_to_end,,unresolved,,pygcms,
+SID0291-RP04,SID0291,96.13,mass,PMMA,organ,,,,,,NR,digestion_to_end,,unresolved,,pygcms,
+SID0291-RP05,SID0291,109.39,mass,PVC,organ,,,,,,NR,digestion_to_end,,unresolved,,pygcms,
+SID0291-RP06,SID0291,97.15,mass,PC,organ,,,,,,NR,digestion_to_end,,unresolved,,pygcms,
+SID0291-RP07,SID0291,102.96,mass,PET,organ,,,,,,NR,digestion_to_end,,unresolved,,pygcms,
+SID0291-RP08,SID0291,98.95,mass,PA6,organ,,,,,,NR,digestion_to_end,,unresolved,,pygcms,
+SID0291-RP09,SID0291,104.85,mass,PA66,organ,,,,,,NR,digestion_to_end,,unresolved,,pygcms,
+SID0291-RP10,SID0291,95.41,mass,PLA,organ,,,,,,NR,digestion_to_end,,unresolved,,pygcms,
+SID0291-RP11,SID0291,92.17,mass,PBAT,organ,,,,,,NR,digestion_to_end,,unresolved,,pygcms,
+SID0296-RP01,SID0296,99.0,mass,PS,body fluid,,,,11.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0296-RP02,SID0296,81.0,mass,PS,body fluid,,,,7.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0296-RP03,SID0296,77.0,mass,PE,body fluid,,,,7.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0296-RP04,SID0296,98.0,mass,PE,body fluid,,,,4.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0296-RP05,SID0296,74.0,mass,PP,body fluid,,,,11.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0296-RP06,SID0296,75.0,mass,PP,body fluid,,,,8.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0296-RP07,SID0296,104.0,mass,PVC,body fluid,,,,7.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0296-RP08,SID0296,76.0,mass,PVC,body fluid,,,,11.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0296-RP09,SID0296,87.0,mass,PET,body fluid,,,,8.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0296-RP10,SID0296,110.0,mass,PET,body fluid,,,,6.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0296-RP11,SID0296,77.0,mass,PC,body fluid,,,,4.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0296-RP12,SID0296,90.0,mass,PC,body fluid,,,,3.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0296-RP13,SID0296,103.0,mass,PA6,body fluid,,,,7.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0296-RP14,SID0296,96.0,mass,PA6,body fluid,,,,11.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0296-RP15,SID0296,91.0,mass,PA66,body fluid,,,,7.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0296-RP16,SID0296,104.0,mass,PA66,body fluid,,,,11.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0296-RP17,SID0296,97.0,mass,PLA,body fluid,,,,10.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0296-RP18,SID0296,96.0,mass,PLA,body fluid,,,,3.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0296-RP19,SID0296,104.0,mass,PMMA,body fluid,,,,4.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0296-RP20,SID0296,101.0,mass,PMMA,body fluid,,,,5.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0296-RP21,SID0296,97.0,mass,PBAT,body fluid,,,,8.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0296-RP22,SID0296,77.0,mass,PBAT,body fluid,,,,5.0,5.0,SD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0297-RP01,SID0297,81.58,mass,PS,organ,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0297-RP02,SID0297,95.14,mass,PE,organ,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0297-RP03,SID0297,86.08,mass,PP,organ,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0297-RP04,SID0297,83.69,mass,PMMA,organ,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0297-RP05,SID0297,103.2,mass,PVC,organ,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0297-RP06,SID0297,117.38,mass,PC,organ,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0297-RP07,SID0297,90.06,mass,PET,organ,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0297-RP08,SID0297,111.32,mass,PA6,organ,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0297-RP09,SID0297,108.21,mass,PA66,organ,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0299-RP01,SID0299,91.0,mass,PE,reproductive,,,,24.0,3.0,NR,digestion_to_end,,ALKALI,,pygcms,
+SID0299-RP02,SID0299,68.0,mass,PP,reproductive,,,,29.0,3.0,NR,digestion_to_end,,ALKALI,,pygcms,
+SID0299-RP03,SID0299,96.0,mass,PS,reproductive,,,,17.0,3.0,NR,digestion_to_end,,ALKALI,,pygcms,
+SID0300-RP01,SID0300,96.5,mass,PS,body fluid,,,,,3.0,NR,digestion_to_end,,unresolved,,pygcms,
+SID0300-RP02,SID0300,92.7,mass,PE,body fluid,,,,,3.0,NR,digestion_to_end,,unresolved,,pygcms,
+SID0300-RP03,SID0300,95.6,mass,PP,body fluid,,,,,3.0,NR,digestion_to_end,,unresolved,,pygcms,
+SID0300-RP04,SID0300,89.5,mass,PMMA,body fluid,,,,,3.0,NR,digestion_to_end,,unresolved,,pygcms,
+SID0300-RP05,SID0300,110.1,mass,PVC,body fluid,,,,,3.0,NR,digestion_to_end,,unresolved,,pygcms,
+SID0300-RP06,SID0300,88.8,mass,PC,body fluid,,,,,3.0,NR,digestion_to_end,,unresolved,,pygcms,
+SID0300-RP07,SID0300,90.2,mass,PET,body fluid,,,,,3.0,NR,digestion_to_end,,unresolved,,pygcms,
+SID0300-RP08,SID0300,93.2,mass,PA6,body fluid,,,,,3.0,NR,digestion_to_end,,unresolved,,pygcms,
+SID0300-RP09,SID0300,91.4,mass,PA66,body fluid,,,,,3.0,NR,digestion_to_end,,unresolved,,pygcms,
+SID0300-RP10,SID0300,89.5,mass,PLA,body fluid,,,,,3.0,NR,digestion_to_end,,unresolved,,pygcms,
+SID0300-RP11,SID0300,87.4,mass,PBAT,body fluid,,,,,3.0,NR,digestion_to_end,,unresolved,,pygcms,
+SID0303-RP01,SID0303,62.0,mass,PE,control (water or reagent),,,,22.0,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0303-RP02,SID0303,92.0,mass,PE,blood,,,,7.7,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0303-RP03,SID0303,57.0,mass,PE,control (water or reagent),,,,15.0,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0303-RP04,SID0303,125.0,mass,PE,blood,,,,29.0,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0303-RP05,SID0303,97.0,mass,PET,control (water or reagent),,,,11.0,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0303-RP06,SID0303,69.0,mass,PET,blood,,,,7.6,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0303-RP07,SID0303,130.0,mass,PS,control (water or reagent),,,,28.0,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0303-RP08,SID0303,150.0,mass,PS,blood,,,,19.0,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0303-RP09,SID0303,170.0,mass,PS,control (water or reagent),,,,16.0,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0303-RP10,SID0303,110.0,mass,PS,blood,,,,6.6,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0303-RP11,SID0303,66.0,mass,PMMA,control (water or reagent),,,,24.0,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0303-RP12,SID0303,150.0,mass,PMMA,blood,,,,13.0,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0303-RP13,SID0303,89.0,mass,PVC,control (water or reagent),,,,8.2,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0303-RP14,SID0303,110.0,mass,PVC,blood,,,,19.0,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0303-RP15,SID0303,86.0,mass,PVC,control (water or reagent),,,,6.0,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0303-RP16,SID0303,110.0,mass,PVC,blood,,,,7.7,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0303-RP17,SID0303,49.0,mass,PP,control (water or reagent),,,,8.1,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0303-RP18,SID0303,120.0,mass,PP,blood,,,,11.0,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0303-RP19,SID0303,51.0,mass,PP,control (water or reagent),,,,12.0,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0303-RP20,SID0303,130.0,mass,PP,blood,,,,22.0,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0303-RP21,SID0303,73.0,mass,PC,control (water or reagent),,,,11.0,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0303-RP22,SID0303,150.0,mass,PC,blood,,,,27.0,,SD,partial,,ACID+OXIDATION,,pygcms,
+SID0306-RP01,SID0306,118.5,mass,PE,body fluid,,,,,,NR,physical_to_end,,ENZYME,,pygcms,
+SID0306-RP02,SID0306,81.7,mass,PE,body fluid,,,,,,NR,physical_to_end,,ENZYME,,pygcms,
+SID0306-RP03,SID0306,109.8,mass,PVC,body fluid,,,,,,NR,physical_to_end,,ENZYME,,pygcms,
+SID0306-RP04,SID0306,94.0,mass,PVC,body fluid,,,,,,NR,physical_to_end,,ENZYME,,pygcms,
+SID0306-RP05,SID0306,89.6,mass,PVC,body fluid,0.1,0.1,,,,NR,physical_to_end,,ENZYME,,pygcms,
+SID0306-RP06,SID0306,96.0,mass,PVC,body fluid,0.1,0.1,,,,NR,physical_to_end,,ENZYME,,pygcms,
+SID0306-RP07,SID0306,97.5,mass,PS,body fluid,0.1,0.1,,,,NR,physical_to_end,,ENZYME,,pygcms,
+SID0306-RP08,SID0306,86.2,mass,PS,body fluid,0.1,0.1,,,,NR,physical_to_end,,ENZYME,,pygcms,
+SID0306-RP09,SID0306,96.8,mass,PMMA,body fluid,0.1,0.1,,,,NR,physical_to_end,,ENZYME,,pygcms,
+SID0306-RP10,SID0306,80.0,mass,PMMA,body fluid,0.1,0.1,,,,NR,physical_to_end,,ENZYME,,pygcms,
+SID0308-RP01,SID0308,96.0,count,PP,feces;milk;reproductive,,333.0,,,3.0,NR,digestion_to_end,,ACID,,counting,
+SID0308-RP02,SID0308,97.0,count,PE,feces;milk;reproductive,,333.0,,,3.0,NR,digestion_to_end,,ACID,,counting,
+SID0308-RP03,SID0308,96.0,count,PS,feces;milk;reproductive,,333.0,,,3.0,NR,digestion_to_end,,ACID,,counting,
+SID0308-RP04,SID0308,91.0,count,PET,feces;milk;reproductive,,333.0,,,3.0,NR,digestion_to_end,,ACID,,counting,
+SID0308-RP05,SID0308,87.0,count,PVC,feces;milk;reproductive,,333.0,,,3.0,NR,digestion_to_end,,ACID,,counting,
+SID0308-RP06,SID0308,84.0,count,PU,feces;milk;reproductive,,333.0,,,3.0,NR,digestion_to_end,,ACID,,counting,
+SID0309-RP01,SID0309,80.4,count,PA,blood,,,,3.4,3.0,RSD,digestion_to_end,,ACID,,counting,
+SID0309-RP02,SID0309,91.8,count,PC,blood,,,,4.1,3.0,RSD,digestion_to_end,,ACID,,counting,
+SID0309-RP03,SID0309,95.5,count,PE,blood,,,,2.7,3.0,RSD,digestion_to_end,,ACID,,counting,
+SID0309-RP04,SID0309,88.4,count,PET,blood,,,,8.1,3.0,RSD,digestion_to_end,,ACID,,counting,
+SID0309-RP05,SID0309,90.3,count,PMMA,blood,,,,4.5,3.0,RSD,digestion_to_end,,ACID,,counting,
+SID0309-RP06,SID0309,93.0,count,PP,blood,,,,4.8,3.0,RSD,digestion_to_end,,ACID,,counting,
+SID0309-RP07,SID0309,95.1,count,PS,blood,,,,2.0,3.0,RSD,digestion_to_end,,ACID,,counting,
+SID0309-RP08,SID0309,96.2,count,PTFE,blood,,,,3.8,3.0,RSD,digestion_to_end,,ACID,,counting,
+SID0309-RP09,SID0309,89.4,count,PU,blood,,,,6.8,3.0,RSD,digestion_to_end,,ACID,,counting,
+SID0309-RP10,SID0309,87.9,count,PVC,blood,,,,7.6,3.0,RSD,digestion_to_end,,ACID,,counting,
+SID0310-RP01,SID0310,102.03,mass,PA6,body fluid,,,,,3.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0310-RP02,SID0310,107.33,mass,PA66,body fluid,,,,,3.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0310-RP03,SID0310,105.2,mass,PE,body fluid,,,,,3.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0310-RP04,SID0310,83.99,mass,PVC,body fluid,,,,,3.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0310-RP05,SID0310,93.8,mass,PS,body fluid,,,,,3.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0310-RP06,SID0310,106.47,mass,PP,body fluid,,,,,3.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0310-RP07,SID0310,91.75,mass,PMMA,body fluid,,,,,3.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0310-RP08,SID0310,81.99,mass,PET,body fluid,,,,,3.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0310-RP09,SID0310,98.87,mass,PC,body fluid,,,,,3.0,NR,digestion_to_end,,ACID,,pygcms,
+SID0311-RP01,SID0311,76.3,mass,PE,organ,,,,11.2,5.0,SD,digestion_to_end,,ALKALI+ENZYME+OXIDATION,,pygcms,
+SID0311-RP02,SID0311,85.1,mass,PS,organ,,,,9.4,5.0,SD,digestion_to_end,,ALKALI+ENZYME+OXIDATION,,pygcms,
+SID0311-RP03,SID0311,81.4,mass,PVC,organ,,,,10.7,5.0,SD,digestion_to_end,,ALKALI+ENZYME+OXIDATION,,pygcms,
+SID0311-RP04,SID0311,79.9,mass,PVC,organ,,,,9.8,5.0,SD,digestion_to_end,,ALKALI+ENZYME+OXIDATION,,pygcms,
+SID0311-RP05,SID0311,87.2,mass,PP,organ,,,,10.5,5.0,SD,digestion_to_end,,ALKALI+ENZYME+OXIDATION,,pygcms,
+SID0311-RP06,SID0311,81.6,mass,PA6,organ,,,,14.2,5.0,SD,digestion_to_end,,ALKALI+ENZYME+OXIDATION,,pygcms,
+SID0311-RP07,SID0311,83.4,mass,PA66,organ,,,,11.8,5.0,SD,digestion_to_end,,ALKALI+ENZYME+OXIDATION,,pygcms,
+SID0311-RP08,SID0311,79.8,mass,PMMA,organ,,,,9.1,5.0,SD,digestion_to_end,,ALKALI+ENZYME+OXIDATION,,pygcms,
+SID0311-RP09,SID0311,82.7,mass,PET,organ,,,,12.3,5.0,SD,digestion_to_end,,ALKALI+ENZYME+OXIDATION,,pygcms,
+SID0311-RP10,SID0311,78.3,mass,PC,organ,,,,8.9,5.0,SD,digestion_to_end,,ALKALI+ENZYME+OXIDATION,,pygcms,
+SID0311-RP11,SID0311,83.9,mass,ABS,organ,,,,9.7,5.0,SD,digestion_to_end,,ALKALI+ENZYME+OXIDATION,,pygcms,
+SID0311-RP12,SID0311,80.5,mass,SBR,organ,,,,12.1,5.0,SD,digestion_to_end,,ALKALI+ENZYME+OXIDATION,,pygcms,
+SID0311-RP13,SID0311,80.5,count,PE,organ,60.0,250.0,,9.0,5.0,SD,digestion_to_end,,ALKALI+ENZYME+OXIDATION,,counting,
+SID0311-RP14,SID0311,85.5,count,PP,organ,60.0,250.0,,7.3,5.0,SD,digestion_to_end,,ALKALI+ENZYME+OXIDATION,,counting,
+SID0311-RP15,SID0311,83.1,count,PET,organ,60.0,250.0,,8.7,5.0,SD,digestion_to_end,,ALKALI+ENZYME+OXIDATION,,counting,
+SID0311-RP16,SID0311,81.3,count,PS,organ,60.0,250.0,,9.1,5.0,SD,digestion_to_end,,ALKALI+ENZYME+OXIDATION,,counting,
+SID0311-RP17,SID0311,78.7,count,PVC,organ,60.0,250.0,,11.2,5.0,SD,digestion_to_end,,ALKALI+ENZYME+OXIDATION,,counting,
+SID0311-RP18,SID0311,93.0,count,PA,organ,60.0,250.0,,8.5,5.0,SD,digestion_to_end,,ALKALI+ENZYME+OXIDATION,,counting,
+SID0315-RP01,SID0315,82.0,mass,PMMA,blood,,,,19.0,15.0,RSD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0315-RP02,SID0315,57.0,mass,PP,blood,,,,14.0,15.0,RSD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0315-RP03,SID0315,102.0,mass,PS,blood,,,,44.0,15.0,RSD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0315-RP04,SID0315,86.0,mass,PE,blood,,,,30.0,15.0,RSD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0315-RP05,SID0315,82.0,mass,PVC,blood,,,,28.0,15.0,RSD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0315-RP06,SID0315,91.0,mass,PET,blood,,,,28.0,15.0,RSD,digestion_to_end,,ENZYME+OXIDATION,,pygcms,
+SID0317-RP01,SID0317,92.0,count,PS,body fluid,,,,,,,digestion_to_end,,ACID,,counting,
+SID0317-RP02,SID0317,89.0,count,PP,body fluid,,,,,,,digestion_to_end,,ACID,,counting,
+SID0317-RP03,SID0317,78.0,count,PE,body fluid,,,,,,,digestion_to_end,,ACID,,counting,
+SID0322-RP01,SID0322,91.0,count,PS,reproductive,50.0,330.0,,9.2,,SD,digestion_to_end,,ALKALI,,counting,
+SID0325-RP01,SID0325,98.33,mass,PS,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0325-RP02,SID0325,88.67,mass,PE,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0325-RP03,SID0325,73.33,mass,PP,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0325-RP04,SID0325,90.0,mass,PMMA,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0325-RP05,SID0325,105.0,mass,PVC,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0325-RP06,SID0325,85.0,mass,PC,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0325-RP07,SID0325,76.77,mass,PET,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0325-RP08,SID0325,71.94,mass,PA6,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0325-RP09,SID0325,73.55,mass,PA66,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0325-RP10,SID0325,79.51,mass,PLA,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0325-RP11,SID0325,95.0,mass,PBAT,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0325-RP12,SID0325,96.25,mass,PS,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0325-RP13,SID0325,72.8,mass,PE,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0325-RP14,SID0325,72.5,mass,PP,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0325-RP15,SID0325,105.0,mass,PMMA,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0325-RP16,SID0325,77.5,mass,PVC,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0325-RP17,SID0325,78.73,mass,PC,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0325-RP18,SID0325,93.54,mass,PET,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0325-RP19,SID0325,87.39,mass,PA6,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0325-RP20,SID0325,102.2,mass,PA66,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0325-RP21,SID0325,85.65,mass,PLA,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0325-RP22,SID0325,93.54,mass,PBAT,blood;feces,,,,,,NR,physical_to_end,,unresolved,,pygcms,
+SID0326-RP01,SID0326,92.0,count,PS,organ,,,,,3.0,,partial,,ACID,,counting,
+SID0326-RP02,SID0326,89.0,count,PP,organ,,,,,3.0,,partial,,ACID,,counting,
+SID0326-RP03,SID0326,78.0,count,PE,organ,,,,,3.0,,partial,,ACID,,counting,
+SID0327-RP01,SID0327,96.74,mass,PP,body fluid;organ,,,,,,,stability,,ACID+ENZYME,,pygcms,
+SID0327-RP02,SID0327,95.36,mass,PVC,body fluid;organ,,,,,,,stability,,ACID+ENZYME,,pygcms,
+SID0327-RP03,SID0327,93.31,mass,PE,body fluid;organ,,,,,,,stability,,ACID+ENZYME,,pygcms,
+SID0327-RP04,SID0327,97.81,mass,PA66,body fluid;organ,,,,,,,stability,,ACID+ENZYME,,pygcms,
+SID0328-RP01,SID0328,95.0,count,PP,reproductive,,,,,3.0,,partial,,ALKALI,,counting,
+SID0328-RP02,SID0328,95.0,count,PE,reproductive,,,,,3.0,,partial,,ALKALI,,counting,
+SID0328-RP03,SID0328,97.0,count,OTHER,reproductive,,,,,3.0,,partial,,ALKALI,,counting,
+SID0328-RP04,SID0328,92.0,count,PET,reproductive,,,,,3.0,,partial,,ALKALI,,counting,
+SID0328-RP05,SID0328,91.0,count,OTHER,reproductive,,,,,3.0,,partial,,ALKALI,,counting,
+SID0328-RP06,SID0328,88.0,count,PVC,reproductive,,,,,3.0,,partial,,ALKALI,,counting,
+SID0328-RP07,SID0328,84.0,count,PU,reproductive,,,,,3.0,,partial,,ALKALI,,counting,
+SID0328-RP08,SID0328,10.0,count,PA6,reproductive,,,,,3.0,,partial,,ALKALI,,counting,
+SID0329-RP01,SID0329,81.97,mass,PS,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0329-RP02,SID0329,87.31,mass,PE,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0329-RP03,SID0329,103.55,mass,PP,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0329-RP04,SID0329,104.6,mass,PMMA,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0329-RP05,SID0329,97.26,mass,PVC,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0329-RP06,SID0329,85.49,mass,PC,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0329-RP07,SID0329,97.74,mass,PET,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0329-RP08,SID0329,89.04,mass,PA6,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0329-RP09,SID0329,91.64,mass,PA66,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0329-RP10,SID0329,98.16,mass,PLA,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0329-RP11,SID0329,85.86,mass,PBAT,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0329-RP12,SID0329,89.1,mass,PS,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0329-RP13,SID0329,94.33,mass,PE,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0329-RP14,SID0329,86.27,mass,PP,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0329-RP15,SID0329,89.32,mass,PMMA,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0329-RP16,SID0329,89.87,mass,PVC,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0329-RP17,SID0329,83.08,mass,PC,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0329-RP18,SID0329,92.91,mass,PET,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0329-RP19,SID0329,104.84,mass,PA6,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0329-RP20,SID0329,102.11,mass,PA66,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0329-RP21,SID0329,96.39,mass,PLA,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0329-RP22,SID0329,86.83,mass,PBAT,body fluid,,,,,,,partial,,ACID,,pygcms,
+SID0330-RP01,SID0330,76.0,mass,PS,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP02,SID0330,78.0,mass,PS,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP03,SID0330,82.0,mass,PS,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP04,SID0330,78.0,mass,PS,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP05,SID0330,92.0,mass,PS,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP06,SID0330,99.4,mass,PS,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP07,SID0330,82.7,mass,PE,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP08,SID0330,91.0,mass,PE,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP09,SID0330,96.3,mass,PE,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP10,SID0330,77.7,mass,PE,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP11,SID0330,84.6,mass,PE,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP12,SID0330,79.9,mass,PE,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP13,SID0330,90.7,mass,PP,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP14,SID0330,80.0,mass,PP,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP15,SID0330,90.4,mass,PP,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP16,SID0330,70.0,mass,PP,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP17,SID0330,81.8,mass,PP,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP18,SID0330,85.9,mass,PP,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP19,SID0330,78.0,mass,PMMA,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP20,SID0330,83.0,mass,PMMA,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP21,SID0330,103.3,mass,PMMA,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP22,SID0330,82.4,mass,PMMA,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP23,SID0330,83.0,mass,PMMA,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP24,SID0330,92.7,mass,PMMA,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP25,SID0330,77.0,mass,PVC,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP26,SID0330,92.7,mass,PVC,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP27,SID0330,99.5,mass,PVC,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP28,SID0330,69.2,mass,PVC,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP29,SID0330,82.4,mass,PVC,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP30,SID0330,84.3,mass,PVC,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP31,SID0330,70.5,mass,PC,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP32,SID0330,87.8,mass,PC,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP33,SID0330,97.5,mass,PC,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP34,SID0330,77.4,mass,PC,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP35,SID0330,80.9,mass,PC,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP36,SID0330,83.8,mass,PC,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP37,SID0330,86.7,mass,PET,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP38,SID0330,90.0,mass,PET,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP39,SID0330,98.0,mass,PET,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP40,SID0330,81.3,mass,PET,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP41,SID0330,92.9,mass,PET,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP42,SID0330,92.0,mass,PET,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP43,SID0330,94.4,mass,PA6,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP44,SID0330,87.0,mass,PA6,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP45,SID0330,100.7,mass,PA6,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP46,SID0330,86.5,mass,PA6,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP47,SID0330,95.8,mass,PA6,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP48,SID0330,95.4,mass,PA6,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP49,SID0330,97.0,mass,PA66,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP50,SID0330,78.0,mass,PA66,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP51,SID0330,94.1,mass,PA66,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP52,SID0330,64.0,mass,PA66,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP53,SID0330,86.2,mass,PA66,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP54,SID0330,81.0,mass,PA66,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP55,SID0330,94.7,mass,PLA,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP56,SID0330,93.0,mass,PLA,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP57,SID0330,101.7,mass,PLA,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP58,SID0330,73.0,mass,PLA,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP59,SID0330,76.4,mass,PLA,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP60,SID0330,78.3,mass,PLA,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP61,SID0330,92.0,mass,PBAT,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP62,SID0330,90.5,mass,PBAT,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP63,SID0330,94.0,mass,PBAT,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP64,SID0330,92.8,mass,PBAT,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0330-RP65,SID0330,87.0,mass,PBAT,blood;body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0332-RP01,SID0332,98.5,mass,PS,body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0332-RP02,SID0332,107.9,mass,PE,body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0332-RP03,SID0332,103.1,mass,PP,body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0332-RP04,SID0332,80.3,mass,PMMA,body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0332-RP05,SID0332,100.1,mass,PVC,body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0332-RP06,SID0332,96.7,mass,PC,body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0332-RP07,SID0332,83.5,mass,PET,body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0332-RP08,SID0332,95.6,mass,PA6,body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0332-RP09,SID0332,106.6,mass,PA66,body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0332-RP10,SID0332,98.7,mass,PLA,body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0332-RP11,SID0332,91.4,mass,PBAT,body fluid,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0333-RP01,SID0333,91.76,mass,PE,reproductive,1.0,1.0,,3.07,3.0,SD,digestion_to_end,,ALKALI+OXIDATION,,unresolved,
+SID0333-RP02,SID0333,93.69,mass,PE,reproductive,10.0,10.0,,2.9,3.0,SD,digestion_to_end,,ALKALI+OXIDATION,,unresolved,
+SID0333-RP03,SID0333,100.32,mass,PE,reproductive,1.0,1.0,,4.15,3.0,SD,digestion_to_end,,ALKALI+OXIDATION,,unresolved,
+SID0333-RP04,SID0333,100.61,mass,PE,reproductive,10.0,10.0,,2.82,3.0,SD,digestion_to_end,,ALKALI+OXIDATION,,unresolved,
+SID0337-RP01,SID0337,105.52,mass,PVC,body fluid;organ,,,,24.08,3.0,SD,partial,,ACID,,pygcms,
+SID0337-RP02,SID0337,88.57,mass,PMMA,body fluid;organ,,,,6.56,3.0,SD,partial,,ACID,,pygcms,
+SID0337-RP03,SID0337,79.31,mass,PS,body fluid;organ,,,,4.76,3.0,SD,partial,,ACID,,pygcms,
+SID0337-RP04,SID0337,97.69,mass,PE,body fluid;organ,,,,0.69,3.0,SD,partial,,ACID,,pygcms,
+SID0337-RP05,SID0337,105.23,mass,PA66,body fluid;organ,,,,8.65,3.0,SD,partial,,ACID,,pygcms,
+SID0337-RP06,SID0337,99.21,mass,PET,body fluid;organ,,,,2.3,3.0,SD,partial,,ACID,,pygcms,
+SID0337-RP07,SID0337,102.43,mass,PC,body fluid;organ,,,,12.44,3.0,SD,partial,,ACID,,pygcms,
+SID0337-RP08,SID0337,86.26,mass,PA6,body fluid;organ,,,,3.6,3.0,SD,partial,,ACID,,pygcms,
+SID0337-RP09,SID0337,85.73,mass,PP,body fluid;organ,,,,24.13,3.0,SD,partial,,ACID,,pygcms,
+SID0337-RP10,SID0337,99.85,mass,PLA,body fluid;organ,,,,11.45,3.0,SD,partial,,ACID,,pygcms,
+SID0337-RP11,SID0337,100.89,mass,PBAT,body fluid;organ,,,,12.16,3.0,SD,partial,,ACID,,pygcms,
+SID0338-RP01,SID0338,96.0,count,PP,reproductive,,,,,3.0,NR,digestion_to_end,,ALKALI,,counting,
+SID0338-RP02,SID0338,96.0,count,PE,reproductive,,,,,3.0,NR,digestion_to_end,,ALKALI,,counting,
+SID0338-RP03,SID0338,96.0,count,OTHER,reproductive,,,,,3.0,NR,digestion_to_end,,ALKALI,,counting,
+SID0338-RP04,SID0338,90.0,count,PET,reproductive,,,,,3.0,NR,digestion_to_end,,ALKALI,,counting,
+SID0338-RP05,SID0338,92.0,count,OTHER,reproductive,,,,,3.0,NR,digestion_to_end,,ALKALI,,counting,
+SID0338-RP06,SID0338,89.0,count,PVC,reproductive,,,,,3.0,NR,digestion_to_end,,ALKALI,,counting,
+SID0338-RP07,SID0338,82.0,count,PU,reproductive,,,,,3.0,NR,digestion_to_end,,ALKALI,,counting,
+SID0338-RP08,SID0338,11.0,count,PA6,reproductive,,,,,3.0,NR,digestion_to_end,,ALKALI,,counting,
+SID0339-RP01,SID0339,97.73,mass,PA66,blood,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0339-RP02,SID0339,92.51,mass,PE,blood,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0339-RP03,SID0339,97.76,mass,PVC,blood,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0339-RP04,SID0339,105.11,mass,PS,blood,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0339-RP05,SID0339,91.31,mass,PET,blood,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0339-RP06,SID0339,97.51,mass,PMMA,blood,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0339-RP07,SID0339,85.29,mass,PC,blood,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0339-RP08,SID0339,93.95,mass,PA6,blood,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0339-RP09,SID0339,106.25,mass,PP,blood,,,,,,NR,digestion_to_end,,ACID,,pygcms,
+SID0355-RP01,SID0355,96.0,count,PP,body fluid,,,,,3.0,NR,partial,,ACID+ALKALI,,counting,
+SID0355-RP02,SID0355,97.0,count,PE,body fluid,,,,,3.0,NR,partial,,ACID+ALKALI,,counting,
+SID0355-RP03,SID0355,96.0,count,PS,body fluid,,,,,3.0,NR,partial,,ACID+ALKALI,,counting,
+SID0355-RP04,SID0355,91.0,count,PET,body fluid,,,,,3.0,NR,partial,,ACID+ALKALI,,counting,
+SID0355-RP05,SID0355,93.0,count,OTHER,body fluid,,,,,3.0,NR,partial,,ACID+ALKALI,,counting,
+SID0355-RP06,SID0355,87.0,count,PVC,body fluid,,,,,3.0,NR,partial,,ACID+ALKALI,,counting,
+SID0355-RP07,SID0355,84.0,count,PU,body fluid,,,,,3.0,NR,partial,,ACID+ALKALI,,counting,
+SID0355-RP08,SID0355,6.0,count,PA6,body fluid,,,,,3.0,NR,partial,,ACID+ALKALI,,counting,
+SID0358-RP01,SID0358,96.0,count,PP,feces;reproductive,,,,,,NR,partial,,ACID,,counting,
+SID0358-RP02,SID0358,97.0,count,PE,feces;reproductive,,,,,,NR,partial,,ACID,,counting,
+SID0358-RP03,SID0358,96.0,count,PS,feces;reproductive,,,,,,NR,partial,,ACID,,counting,
+SID0358-RP04,SID0358,91.0,count,PET,feces;reproductive,,,,,,NR,partial,,ACID,,counting,
+SID0358-RP05,SID0358,87.0,count,PVC,feces;reproductive,,,,,,NR,partial,,ACID,,counting,
+SID0358-RP06,SID0358,84.0,count,PU,feces;reproductive,,,,,,NR,partial,,ACID,,counting,
+SID0341-RP01,SID0341,80.3,mass,PET,feces,,,,2.0,,SD,partial,,ALKALI,,unresolved,
+SID0341-RP02,SID0341,71.2,mass,PC,feces,,,,5.9,,SD,partial,,ALKALI,,unresolved,
+SID0342-RP01,SID0342,93.57,mass,PE,body fluid,,,,,1.0,,physical_to_end,,unresolved,,pygcms,
+SID0342-RP02,SID0342,100.53,mass,PVC,body fluid,,,,,1.0,,physical_to_end,,unresolved,,pygcms,
+SID0342-RP03,SID0342,100.96,mass,PP,body fluid,,,,,1.0,,physical_to_end,,unresolved,,pygcms,
+SID0342-RP04,SID0342,91.12,mass,PA66,body fluid,,,,,1.0,,physical_to_end,,unresolved,,pygcms,
+SID0342-RP05,SID0342,81.47,mass,PS,body fluid,,,,,1.0,,physical_to_end,,unresolved,,pygcms,
+SID0342-RP06,SID0342,103.15,mass,PMMA,body fluid,,,,,1.0,,physical_to_end,,unresolved,,pygcms,
+SID0342-RP07,SID0342,93.91,mass,PET,body fluid,,,,,1.0,,physical_to_end,,unresolved,,pygcms,
+SID0342-RP08,SID0342,84.01,mass,PC,body fluid,,,,,1.0,,physical_to_end,,unresolved,,pygcms,
+SID0342-RP09,SID0342,90.05,mass,PA6,body fluid,,,,,1.0,,physical_to_end,,unresolved,,pygcms,
+SID0342-RP10,SID0342,88.85,mass,PLA,body fluid,,,,,1.0,,physical_to_end,,unresolved,,pygcms,
+SID0342-RP11,SID0342,85.38,mass,PBAT,body fluid,,,,,1.0,,physical_to_end,,unresolved,,pygcms,
+SID0345-RP01,SID0345,69.09,mass,PS,body fluid,,,,,,,digestion_to_end,,ACID+ALKALI+OXIDATION,,pygcms,
+SID0345-RP02,SID0345,84.38,mass,PE,body fluid,,,,,,,digestion_to_end,,ACID+ALKALI+OXIDATION,,pygcms,
+SID0345-RP03,SID0345,98.88,mass,PP,body fluid,,,,,,,digestion_to_end,,ACID+ALKALI+OXIDATION,,pygcms,
+SID0345-RP04,SID0345,96.56,mass,PMMA,body fluid,,,,,,,digestion_to_end,,ACID+ALKALI+OXIDATION,,pygcms,
+SID0345-RP05,SID0345,90.36,mass,PVC,body fluid,,,,,,,digestion_to_end,,ACID+ALKALI+OXIDATION,,pygcms,
+SID0345-RP06,SID0345,116.29,mass,PA6,body fluid,,,,,,,digestion_to_end,,ACID+ALKALI+OXIDATION,,pygcms,
+SID0345-RP07,SID0345,112.67,mass,PA66,body fluid,,,,,,,digestion_to_end,,ACID+ALKALI+OXIDATION,,pygcms,
+SID0346-RP01,SID0346,108.78,mass,PVC,body fluid;feces,,,,8.17,6.0,SD,digestion_to_end,,OXIDATION,,pygcms,
+SID0346-RP02,SID0346,105.92,mass,PE,body fluid;feces,,,,5.18,6.0,SD,digestion_to_end,,OXIDATION,,pygcms,
+SID0346-RP03,SID0346,95.66,mass,PS,body fluid;feces,,,,3.11,6.0,SD,digestion_to_end,,OXIDATION,,pygcms,
+SID0346-RP04,SID0346,96.69,mass,PP,body fluid;feces,,,,3.52,6.0,SD,digestion_to_end,,OXIDATION,,pygcms,
+SID0346-RP05,SID0346,109.04,mass,PET,body fluid;feces,,,,1.82,6.0,SD,digestion_to_end,,OXIDATION,,pygcms,
+SID0346-RP06,SID0346,108.85,mass,PVC,body fluid;feces,,,,3.34,6.0,SD,digestion_to_end,,OXIDATION,,pygcms,
+SID0346-RP07,SID0346,108.35,mass,PE,body fluid;feces,,,,4.34,6.0,SD,digestion_to_end,,OXIDATION,,pygcms,
+SID0346-RP08,SID0346,104.21,mass,PS,body fluid;feces,,,,3.89,6.0,SD,digestion_to_end,,OXIDATION,,pygcms,
+SID0346-RP09,SID0346,100.33,mass,PP,body fluid;feces,,,,10.14,6.0,SD,digestion_to_end,,OXIDATION,,pygcms,
+SID0346-RP10,SID0346,108.02,mass,PET,body fluid;feces,,,,4.7,6.0,SD,digestion_to_end,,OXIDATION,,pygcms,
+SID0346-RP11,SID0346,74.67,count,PET,body fluid;feces,100.0,200.0,,22.03,3.0,SD,digestion_to_end,,OXIDATION,,counting,
+SID0346-RP12,SID0346,96.0,count,PVC,body fluid;feces,100.0,200.0,,2.83,3.0,SD,digestion_to_end,,OXIDATION,,counting,
+SID0373-RP01,SID0373,91.0,count,OTHER,reproductive,50.0,330.0,,9.23,,SD,digestion_to_end,,ALKALI,,counting,
+SID0373-RP02,SID0373,95.0,count,PP,reproductive,,,,,3.0,,digestion_to_end,,ALKALI,,counting,
+SID0373-RP03,SID0373,95.0,count,PE,reproductive,,,,,3.0,,digestion_to_end,,ALKALI,,counting,
+SID0373-RP04,SID0373,97.0,count,OTHER,reproductive,,,,,3.0,,digestion_to_end,,ALKALI,,counting,
+SID0373-RP05,SID0373,92.0,count,PET,reproductive,,,,,3.0,,digestion_to_end,,ALKALI,,counting,
+SID0373-RP06,SID0373,91.0,count,OTHER,reproductive,,,,,3.0,,digestion_to_end,,ALKALI,,counting,
+SID0373-RP07,SID0373,88.0,count,PVC,reproductive,,,,,3.0,,digestion_to_end,,ALKALI,,counting,
+SID0373-RP08,SID0373,84.0,count,PU,reproductive,,,,,3.0,,digestion_to_end,,ALKALI,,counting,
+SID0373-RP09,SID0373,10.0,count,PA6,reproductive,,,,,3.0,,digestion_to_end,,ALKALI,,counting,
+SID0369-RP01,SID0369,91.0,count,OTHER,reproductive,50.0,330.0,,9.23,,SD,digestion_to_end,,ALKALI,,counting,
+SID0369-RP02,SID0369,95.0,count,PP,reproductive,,,,,3.0,,digestion_to_end,,ALKALI,,counting,
+SID0369-RP03,SID0369,95.0,count,PE,reproductive,,,,,3.0,,digestion_to_end,,ALKALI,,counting,
+SID0369-RP04,SID0369,97.0,count,OTHER,reproductive,,,,,3.0,,digestion_to_end,,ALKALI,,counting,
+SID0369-RP05,SID0369,92.0,count,PET,reproductive,,,,,3.0,,digestion_to_end,,ALKALI,,counting,
+SID0369-RP06,SID0369,91.0,count,OTHER,reproductive,,,,,3.0,,digestion_to_end,,ALKALI,,counting,
+SID0369-RP07,SID0369,88.0,count,PVC,reproductive,,,,,3.0,,digestion_to_end,,ALKALI,,counting,
+SID0369-RP08,SID0369,84.0,count,PU,reproductive,,,,,3.0,,digestion_to_end,,ALKALI,,counting,
+SID0369-RP09,SID0369,10.0,count,PA6,reproductive,,,,,3.0,,digestion_to_end,,ALKALI,,counting,
+SID0390-RP01,SID0390,87.7,count,PS,organ;reproductive,20.0,20.0,,,,,digestion_to_end,,ACID,,raman,
+SID0392-RP01,SID0392,74.67,count,PET,organ,50.0,380.0,,22.03,50.0,SD,digestion_to_end,,ALKALI,,counting,
+SID0392-RP02,SID0392,96.0,count,PVC,organ,50.0,380.0,,2.83,50.0,SD,digestion_to_end,,ALKALI,,counting,
+SID0425-RP01,SID0425,102.3,mass,PS,organ,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0425-RP02,SID0425,91.9,mass,PE,organ,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0425-RP03,SID0425,107.7,mass,PP,organ,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0425-RP04,SID0425,110.6,mass,PMMA,organ,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0425-RP05,SID0425,106.0,mass,PVC,organ,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0425-RP06,SID0425,98.5,mass,PC,organ,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0425-RP07,SID0425,97.6,mass,PET,organ,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0425-RP08,SID0425,104.0,mass,PA6,organ,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0425-RP09,SID0425,106.4,mass,PA66,organ,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0425-RP10,SID0425,100.9,mass,PLA,organ,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0425-RP11,SID0425,91.3,mass,PBAT,organ,,,,,,,digestion_to_end,,ACID,,pygcms,
+SID0314-RP01,SID0314,83.0,count,PS,body fluid,3.0,3.0,,,,,digestion_to_end,,unresolved,,counting,
+SID0318-RP01,SID0318,80.0,count,ABS,organ,112.74,863.65,,,1.0,,digestion_to_end,,OXIDATION,,fluorescence,
+SID0318-RP02,SID0318,90.0,count,ABS,organ,112.74,863.65,,,1.0,,digestion_to_end,,OXIDATION,,fluorescence,
+SID0318-RP03,SID0318,110.0,count,ABS,organ,112.74,863.65,,,1.0,,digestion_to_end,,OXIDATION,,fluorescence,
+SID0012-R01,SID0012,90.08,mass,PS,lettuce-shoot,0.05,0.05,unknown,,5,SD,digestion_to_end,unreported,TMAH,solvent_extraction,pygcms,True
+SID0012-R02,SID0012,91.23,mass,PS,lettuce-shoot,0.08,0.08,unknown,,5,SD,digestion_to_end,unreported,TMAH,solvent_extraction,pygcms,True
+SID0012-R03,SID0012,91.98,mass,PS,lettuce-root,0.05,0.05,unknown,,5,SD,digestion_to_end,unreported,TMAH,solvent_extraction,pygcms,True
+SID0012-R04,SID0012,91.68,mass,PS,lettuce-root,0.08,0.08,unknown,,5,SD,digestion_to_end,unreported,TMAH,solvent_extraction,pygcms,True
+SID0098-R01,SID0098,92.6,mass,PA66,rat-feces,,,unknown,3.1,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
+SID0098-R02,SID0098,104.8,mass,PA66,rat-feces,,,unknown,5.7,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
+SID0098-R03,SID0098,89.7,mass,PA66,rat-feces,,,unknown,4.8,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
+SID0098-R04,SID0098,81.5,mass,PA66,rat-feces,,,unknown,6.7,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
+SID0098-R05,SID0098,86.1,mass,PA66,rat-feces,,,unknown,3.5,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
+SID0098-R06,SID0098,85.6,mass,PA66,rat-feces,,,unknown,7.2,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
+SID0098-R07,SID0098,103.5,mass,PA66,rat-serum,,,unknown,10.5,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
+SID0098-R08,SID0098,95.2,mass,PA66,rat-serum,,,unknown,2.6,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
+SID0098-R09,SID0098,96.8,mass,PA66,rat-serum,,,unknown,3.7,3,SD,digestion_to_end,unreported,depolymerization,solvent_extraction,lcms_depoly,True
+SID0226-R01,SID0226,100,count,PA6,cod-fillet,500,500,fiber,,3,SD,digestion_to_end,none,KOH,filtration,counting,True
+SID0226-R02,SID0226,100,count,PA6,saithe-gut,500,500,fiber,,3,SD,digestion_to_end,none,KOH,filtration,counting,True
+SID0226-R03,SID0226,100,count,PA6,mussel,500,500,fiber,,3,SD,digestion_to_end,none,KOH,filtration,counting,True
+SID0257-R01,SID0257,8,count,,salmon,3,20,unknown,3,3,SE,physical_to_end,freeze_drying,KOH_detergent,filtration,counting,True
+SID0257-R02,SID0257,45,count,,salmon,20,212,unknown,11,6,SE,physical_to_end,freeze_drying,KOH_detergent,filtration,counting,True
+SID0257-R03,SID0257,75,count,,salmon,212,500,unknown,18,6,SE,physical_to_end,freeze_drying,KOH_detergent,filtration,counting,True
+SID0257-R04,SID0257,79,count,,salmon,500,2000,unknown,17,6,SE,physical_to_end,freeze_drying,KOH_detergent,filtration,counting,True
+SID0348-RP01,SID0348,98.0,count,PS,reproductive,0.2,0.25,sphere,6.0,3.0,SD,digestion_to_end,,ACID+ENZYME,,counting,
+SID0348-RP02,SID0348,148.0,count,PS,reproductive,0.5,0.5,sphere,8.0,15.0,SD,digestion_to_end,,ACID+ENZYME,,counting,
+SID0348-RP03,SID0348,147.0,count,PS,reproductive,1.0,1.0,sphere,8.0,3.0,SD,digestion_to_end,,ACID+ENZYME,,counting,
+SID0348-RP04,SID0348,81.0,count,PS,reproductive,10.2,10.2,sphere,8.0,3.0,SD,digestion_to_end,,ACID+ENZYME,,counting,
+SID0348-RP05,SID0348,78.0,count,PS,reproductive,0.2,0.25,sphere,6.0,3.0,SD,digestion_to_end,,ACID+ENZYME,,counting,
+SID0348-RP06,SID0348,92.0,count,PS,reproductive,0.5,0.5,sphere,4.0,15.0,SD,digestion_to_end,,ACID+ENZYME,,counting,
+SID0348-RP07,SID0348,58.0,count,PS,reproductive,1.0,1.0,sphere,9.0,3.0,SD,digestion_to_end,,ACID+ENZYME,,counting,
+SID0348-RP08,SID0348,94.0,count,PS,reproductive,10.2,10.2,sphere,19.0,3.0,SD,digestion_to_end,,ACID+ENZYME,,counting,
+SID0348-RP09,SID0348,79.0,count,PS,reproductive,0.5,0.5,sphere,6.0,15.0,SD,partial,,ACID+ENZYME,,counting,
+SID0414-RP01,SID0414,99.32,mass,PA,control (water or reagent),,,,0.03,2.0,SD,stability,,ACID+ALKALI,,unresolved,
+SID0414-RP02,SID0414,100.91,mass,ABS,control (water or reagent),,,,0.28,2.0,SD,stability,,ACID+ALKALI,,unresolved,
+SID0414-RP03,SID0414,100.0,mass,PP,control (water or reagent),,,,0.0,2.0,SD,stability,,ACID+ALKALI,,unresolved,
+SID0414-RP04,SID0414,100.47,mass,PE,control (water or reagent),,,,0.47,2.0,SD,stability,,ACID+ALKALI,,unresolved,
+SID0414-RP05,SID0414,99.47,mass,PC,control (water or reagent),,,,0.13,2.0,SD,stability,,ACID+ALKALI,,unresolved,
+SID0414-RP06,SID0414,100.0,mass,PVC,control (water or reagent),,,,0.0,2.0,SD,stability,,ACID+ALKALI,,unresolved,
+SID0414-RP07,SID0414,97.84,mass,PS,control (water or reagent),,,,1.6,2.0,SD,stability,,ACID+ALKALI,,unresolved,
+SID0414-RP08,SID0414,98.26,mass,PA,blood,,,,0.75,3.0,SD,stability,,ACID+ALKALI,,unresolved,
+SID0414-RP09,SID0414,100.2,mass,ABS,blood,,,,0.28,3.0,SD,stability,,ACID+ALKALI,,unresolved,
+SID0414-RP10,SID0414,101.04,mass,PP,blood,,,,1.9,3.0,SD,stability,,ACID+ALKALI,,unresolved,
+SID0414-RP11,SID0414,99.31,mass,PE,blood,,,,0.22,3.0,SD,stability,,ACID+ALKALI,,unresolved,
+SID0414-RP12,SID0414,100.13,mass,PC,blood,,,,0.19,3.0,SD,stability,,ACID+ALKALI,,unresolved,
+SID0414-RP13,SID0414,98.96,mass,PVC,blood,,,,0.44,3.0,SD,stability,,ACID+ALKALI,,unresolved,
+SID0414-RP14,SID0414,100.5,mass,PS,blood,,,,0.71,3.0,SD,stability,,ACID+ALKALI,,unresolved,
