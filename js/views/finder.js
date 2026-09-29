@@ -163,7 +163,7 @@ function render(out, D, q) {
   const top = pipelines.slice(0, 25);
   out.replaceChildren(h(`<div>
     <p class="small muted" style="margin-top:14px">${pipelines.length} pipeline families ·
-      ${tiers.map(([t, n]) => `<span class="tier ${t}">${t}</span> ${n}`).join(' · ')}
+      ${tiers.sort(([a], [b]) => a.localeCompare(b)).map(([t, n]) => `<span class="tier ${t}">${t}</span> ${n}`).join(' · ')}
       ${excluded.length ? ` · excluded techniques: ${excluded.map(([c, why]) => `${esc(short(D, 'method_step', c))} (${esc(why)})`).join('; ')}` : ''}</p>
     ${!q.group && !q.character ? '<p class="note">No matrix selected: every study counts as relevant. Choose a matrix group or character for a meaningful ranking.</p>' : ''}
     <div class="pipes">${top.map((p, i) => card(D, p, i)).join('') || '<p class="muted">No pipeline fits these requirements.</p>'}</div>

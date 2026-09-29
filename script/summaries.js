@@ -56,6 +56,7 @@ export function indexData(db) {
     groups: db.groups, occ: db.results, qaqc: db.qaqc, performance: db.performance,
     group: Object.fromEntries(db.groups.map(g => [g.group_id, g])),
     groupsBy: byStudy('groups'), resultsBy: byStudy('results'), qaqcBy: byStudy('qaqc'),
+    refmat: db.reference_materials, ortho: db.orthogonal, refmatBy: byStudy('reference_materials'), orthoBy: byStudy('orthogonal'),
   };
 }
 

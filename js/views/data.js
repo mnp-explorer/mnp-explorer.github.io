@@ -15,6 +15,8 @@ const TABLES = [
   ['recovery_points', 'recovery_points.csv', 'One row per recovery value', 'Spike-recovery values with polymer, size, spike matrix, scope and pipeline steps.'],
   ['spans', 'spans.csv', 'One row per reported range', 'Size, mass and mass-recovery ranges as reported by each study.'],
   ['qaqc', 'qaqc.csv', 'Study × QA/QC item', 'Blanks, contamination control, recovery and limits, identification checks and data availability, coded per study.'],
+  ['reference_materials', 'reference_materials.csv', 'Study × facet × code', 'Kind of reference material a study used (facet = type) and what it was used for (facet = use).'],
+  ['orthogonal', 'orthogonal.csv', 'Study × relation', 'How a study\'s several analysis methods related: complementary, confirmatory, agreement, disagreement, size split …'],
   ['performance', 'performance.csv', 'Study × method-performance metric', 'Which method-performance measures a study reports (spike recovery, precision, digestion efficiency …).'],
 ];
 
@@ -28,6 +30,7 @@ const COLUMNS = {
   n_groups: 'Number of sample groups in groups.csv.', n_results: 'Number of rows in results.csv.',
   group_id: 'Sample group ID. Joins groups and results.', group_label: 'Short description of the group.',
   organism_code: 'Organism code of the group (see "Organisms").', sample_type_code: 'Sample type code of the group (see "Sample types").',
+  site_code: 'Organ or site of the group, coded from its label and sample type (see "Organs and sites"); OTHER = pooled, mixed or unspecified.',
   cohort_role: 'all, stratum, case, control or other.', n_samples: 'Number of samples in the group.', n_subjects: 'Number of individuals, when different from samples.',
   technique_codes: 'Techniques that produced the group results.',
   group_scope: 'group, or study_aggregate (a study total that overlaps its subgroups).',
@@ -77,7 +80,7 @@ const COLUMNS = {
   finding_id: 'Finding ID.', polymer_code: 'Polymer code (see "Polymers").', polymer_parent: 'Parent code in the polymer hierarchy (e.g. PA66 → PA).',
   polymer_family: 'Polymer family.', is_plastic: 'yes, semi (semi-synthetic cellulose) or no (natural).',
   id_status: 'Evidence status (see "Evidence status").',
-  facet: 'organism, sample_type or environment_sample.', character: 'Matrix character of the sample type.', finder_group: 'Finder group of the organism.',
+  facet: 'matrix: organism, sample_type or environment_sample; reference_materials: type or use.', character: 'Matrix character of the sample type.', finder_group: 'Finder group of the organism.',
   review_status: 'Curation status of the matrix assignment: reviewed or draft.',
   point_id: 'Recovery value ID.', value_pct: 'Recovery (%).', endpoint: 'mass or count.',
   matrix: 'Material the spike was added to (controls such as water or reagent are named).',
@@ -114,6 +117,10 @@ const CODE_LISTS = [
   ['source_type', 'Value sources', ['code', 'label_en']],
   ['qaqc_item', 'QA/QC items', ['code', 'group', 'label_en', 'values', 'definition']],
   ['qaqc_value', 'QA/QC answers', ['code', 'label_en']],
+  ['refmat_type', 'Reference material types', ['code', 'label_en', 'definition']],
+  ['refmat_use', 'Reference material uses', ['code', 'label_en', 'definition']],
+  ['ortho_relation', 'Orthogonal-method relations', ['code', 'label_en', 'definition']],
+  ['organ_site', 'Organs and sites', ['code', 'label_en']],
 ];
 const HEAD = { code: 'Code', label_en: 'Label', parent: 'Parent', family: 'Family', is_plastic: 'Plastic', sdn_h05_id: 'SeaDataNet H05',
   finder_group: 'Finder group', ncbi_taxid: 'NCBI taxon', default_character: 'Matrix character', definition: 'Definition', stage: 'Stage',

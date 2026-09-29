@@ -8,9 +8,14 @@ export const PHONE = '(max-width: 760px) and (pointer: coarse)';
 export const smallScreen = () => matchMedia(PHONE).matches;
 
 let current = null;
+let opener = null;
 
 export function closePopover() {
-  if (current) current.remove();
+  if (current) {
+    const hadFocus = current.contains(document.activeElement);
+    current.remove();
+    if (hadFocus && opener && document.contains(opener)) opener.focus({ preventScroll: true });
+  }
   current = null;
 }
 
@@ -37,6 +42,7 @@ export function showPopover(anchor, spec, onStudy) {
     ${spec.note ? `<p class="pop-note">${spec.note}</p>` : ''}`;
   document.body.append(pop);
   current = pop;
+  opener = anchor;
 
   // place next to the anchor, inside the viewport
   const a = anchor.getBoundingClientRect(), p = pop.getBoundingClientRect();
